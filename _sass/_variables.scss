@@ -1,0 +1,78 @@
+// Typography
+///////////////////////////////////////////////////////////////////////////////
+
+$sans-serif: "Effra","Arial", sans-serif;
+$sans-light: "EffraLight-Regular","Arial", sans-serif;
+$sans-medium: "EffraMedium-Regular","Arial", sans-serif;
+$sans-bold: "EffraHeavy-Regular","Arial", sans-serif;
+$serif: "Born", "Comic Sans";
+$mono: "Aften Trio";
+
+$base-font-family: $sans-serif;
+$head: $sans-serif;
+$body: $sans-serif;
+
+// Sizes
+///////////////////////////////////////////////////////////////////////////////
+$base-font-size: 1em;
+$base-font-size-small: .75em;
+$line-height: $base-font-size * 1.5;
+
+
+// Border Radii
+///////////////////////////////////////////////////////////////////////////////
+$border-radius: 2px;
+
+
+// Type Scale - I always need a type-scale
+///////////////////////////////////////////////////////////////////////////////
+
+/** * 16 as roots then powers of two. */
+
+$fs1: 3em; // 48px
+$fs2: 2.25em; // 36px
+$fs3: 1.5em; // 24px
+$fs4: 1.3125em; // 21px
+$fs5: 1.125em; // 18px
+$fs6: 1em;
+
+// Line Height
+
+$line-height: 24px;
+$line-height-small: 16px;
+
+// Colors
+///////////////////////////////////////////////////////////////////////////////
+
+// Cool
+
+$purple: #6F4993;
+$aqua:  #7FDBFF;
+$blue:  #0074D9;
+$navy:  #001F3F;
+$blue-black: #282e42;
+$teal:  #39CCCC;
+
+// Warm
+
+$yellow:  #FFDC00;
+$orange:  #FF851B;
+$fuchsia: #F012BE;
+$maroon:  #85144B;
+$red: #FB5C5C;
+
+// Ebony and Ivory
+$black:  #453939;
+$white: #fefefe;
+
+// Bitters
+$real-black: #232830;
+$dark-gray: lighten($black, 20%);
+$medium-gray: lighten($black, 40%);
+$light-gray: lighten($black, 60%);
+$light-red: #FBE3E4;
+$light-yellow: #FFF6BF;
+$light-green: #E6EFC2;
+
+/* Neutrals */
+$off-white: darken(#ffffff, 1%);

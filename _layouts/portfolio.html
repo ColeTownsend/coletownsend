@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  {% include _head.html %}
+  <body class="post">
+    {% include _navigation_main.html %}
+    
+    {% if page.image.feature %}
+    <header class="full bg-img" style="background-image: url({{ site.url }}/images/posts/{{ page.image.feature }})">
+    </header>
+    <section class="wrap">
+      <article>
+        <header >
+          <h1>{{ page.title }}</h1>
+          <div class="description">
+            <div><span class="label">Role: </span><span>{{page.role}}</span></div>
+            <div><span class="label">Responsibility: </span><span>{% for tag in page.tags%}<span class="tag">{{tag}}</span>  {% endfor %}</span></div>
+          </div>
+        </header>
+        {{ content }}
+      </article>
+    </section>
+          
+    {% else %}
+    <section class="wrap">
+      <article>
+        <header >
+          <h1>{{ page.title }}</h1>
+          <div class="description">
+            <div class="description">
+            <div><span class="label">Role: </span><span>{{page.role}}</span></div>
+            <div><span class="label">Media: </span><span class="tag">{% for tag in page.tags%}{{tag}}, {% endfor %}</span></div>
+          </div>
+          </div>
+        </header>
+        {{ content }}
+      </article>
+    </section>
+    {% endif %}
+    {% include _footer.html %}
+  </body>
+</html>

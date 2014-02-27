@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  {% include _head.html %}
+  <body>
+    <div class="page-wrap">
+      {% include _navigation_main.html %}
+      <section class="full block-1">
+        <article>
+          <img src="{{site.url}}/images/assets/avatar.gif" alt="" class="src">
+          <h1>Hi, I'm Cole, <br> a web and visual designer.</h1>
+        </article>
+      </section>
+      <section class="full block-2">
+        <article class="hide-code">
+          <h2>I design the web,<br> among other things.</h2>
+          <img src="{{site.url}}/images/assets/big-code.svg" alt="">
+          <a data-no-instant id="arrow" href="#work"></a>
+        </article>
+      </section>
+      <section id="work" class="full block-3">
+        <article class="full">
+          {% for post in site.posts %}
+            {% if post.categories contains 'work' %}
+                <li class="work-block" style="background:{% if post.brand-color %}{{ post.brand-color}}{% else %}#EFEFEF{% endif %};">
+                  <a href="{{ site.url }}{{ post.url }}">
+                    <h1 {% if post.title-color %} style="color: {{ post.title-color }};"{% endif %}>{{ post.title }}</h1>
+                  </a>
+                </li>
+            {% endif %}
+          {% endfor %}
+        </article>
+      </section>
+    </div>
+    {% include _footer.html %}
+  </body>
+</html>

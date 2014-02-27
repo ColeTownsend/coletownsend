@@ -1,0 +1,36 @@
+<script data-no-instant src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="{{ site.url }}/javascripts/responsive-nav.js"></script>
+<script data-no-instant src="{{ site.url }}/javascripts/scripts.js"></script>
+<script data-no-instant src="{{ site.url }}/javascripts/data-img.js"></script>
+<script data-no-instant type="text/javascript" src="//use.typekit.net/tke7dvp.js"></script>
+<script data-no-instant type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+
+<script src="{{ site.url }}/javascripts/instantclick.js" data-no-instant></script>
+<script data-no-instant>InstantClick.init();</script>
+
+<script data-no-instant>
+$('.data-img').dataImg({
+  sml: 480,
+  med: 768,
+  lrg: 960,
+  resize: true
+});
+</script>
+
+<script data-no-instant>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>

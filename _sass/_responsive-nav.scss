@@ -1,0 +1,86 @@
+/*! responsive-nav.js 1.0.25 by @viljamis */
+
+@import "variables";
+@import "bourbon/bourbon";
+
+@media screen and (max-width: 640px) {
+
+header[role="main-header"] #toggle {
+  padding: .1em;
+  margin-bottom: .375em;
+  font-size: $fs1;
+  font-weight: bold;
+  text-align: right;
+  width: 100%;
+  display: block;
+  color: $maroon;
+  &.open {
+    a {
+      color: $maroon;
+    }
+  }
+  &.closed {
+    a {
+      color: $teal;
+    }
+  }
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+header[role="main-header"] .nav-collapse {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: white;
+  ul {
+    width: 100%;
+  }
+  ul li {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    margin-left: 0;
+    text-align: center;
+    padding-bottom: 1em;
+    width: 100%;
+    a {
+      width: 100%;
+      padding: 0 40%;
+    }
+  }
+}
+
+.nav-collapse.disable-pointer-events {
+  pointer-events: none !important;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.nav-collapse hgroup {
+  display: none;
+}
+
+}

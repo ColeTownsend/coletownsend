@@ -1,0 +1,15 @@
+<header role="main-header">
+  <a href="#" id="toggle">+</a>
+  
+  <nav class="nav-collapse">
+    <hgroup>
+      <a href="{{ site.url }}">{{site.name}}</a>
+    </hgroup>
+    
+    <ul>      
+      {% for link in site.links %}
+          <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

@@ -1,0 +1,126 @@
+// Typography
+///////////////////////////////////////////////////////////////////////////////
+
+// Headers
+   ///////////////////////////////////////////////////////////////////////////////
+
+h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5 {
+  font-family: $head;
+}
+
+h1,.h1 { 
+  font-size: $fs1;
+  line-height: 1.125em;
+  margin-bottom: .375em;
+}
+
+h2,.h2 {      
+  font-size: $fs2; 
+  line-height: 1.333333333333em;
+  margin-bottom: .666666666em;
+} 
+
+h3,.h3 {      
+  font-size: $fs3; 
+  line-height: 1em;
+  margin-bottom: 1em;
+}
+
+h4,.h4 {      
+  font-size: $fs4; 
+  line-height: 1.142857142857143em;
+  margin-bottom: 1.142857142857143em;
+} 
+
+h5,.h5 {      
+  font-size: $fs5; 
+  line-height: 1.3333333333333em;
+  margin-bottom: 1.333333333333333em;
+}
+
+h6,.h6 {      
+  font-size: $fs6; 
+  line-height: $line-height;
+} 
+
+p {
+  font-size: 21px;
+  line-height: 32px;
+}
+
+small {
+  font-size: .75rem;
+  line-height: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Copy
+   ========================================================================== */
+
+%intro {  font-size: $fs3; }
+%copy {   font-size: $fs4; }
+
+// article p:first-of-type {
+//   @extend %intro;
+// }
+
+
+
+/* Casing
+   ========================================================================== */
+
+%caps-lock  { text-transform:uppercase; }
+%title-casing { text-transform:capitalize; }
+
+
+
+/* Tracking
+   ========================================================================== */
+
+%title      {
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+}
+
+/* Alignment
+   ========================================================================== */
+
+%ar         { text-align: right;  }
+%al         { text-align: left;   }
+%ac,
+%ct         { text-align: center; }
+
+
+
+/* Wrapping
+   ========================================================================== */
+
+%nw    { white-space:nowrap; }
+
+
+
+/* Leading
+   ========================================================================== */
+
+%lh-1       { line-height:1; }
+%lh-2       { line-height:2; }
+%lh-title   { line-height:1.3; }
+%lh-copy    { line-height:1.6; }
+
+p + p {
+  margin-top: $line-height;
+}
+
+article {
+  p ~ h2, p ~ h3, p ~ h4, p ~ h5 {
+    margin-top: $line-height*2;
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+  
+}
+
+/* Headings
+   ========================================================================== */
