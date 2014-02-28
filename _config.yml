@@ -43,12 +43,8 @@ links:
     url: /
   - title: Portfolio
     url: /portfolio/
-  - title: Donate
-    url: http://gtat.me/balzac/donate
-    external: true
-  - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
-    external: true
+  - title: Journal
+    url: /journal/
 
 # Style of permalinks
 # ============================================================
