@@ -6,21 +6,16 @@
 <script data-no-instant type="text/javascript" src="//use.typekit.net/tke7dvp.js"></script>
 <script data-no-instant type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-<script data-no-instant>
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 600);
-        return false;
-      }
-    }
+<!-- Smooth Scroll -->
+<script src="{{ site.url }}/javascripts/smooth-scroll.js"></script>
+<script>
+  smoothScroll.init({
+    speed: 400,
+    easing: 'easeInOutCubic',
+    updateURL: false,
+    callbackBefore: function () {},
+    callbackAfter: function () {}
   });
-});
 </script>
 
 

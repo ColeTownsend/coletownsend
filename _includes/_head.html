@@ -21,22 +21,4 @@
   <link data-no-instant rel="apple-touch-icon" sizes="72x72"   href="favicon-76.png">
   <link data-no-instant rel="apple-touch-icon" sizes="114x114" href="favicon-128.png">
   <link data-no-instant rel="apple-touch-icon" sizes="144x144" href="favicon-256.png">
-  
-  <script data-no-instant>
-    $(function() {
-      $('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-          if (target.length) {
-            $('html,body').animate({
-              scrollTop: target.offset().top
-            }, 1000);
-            return false;
-          }
-        }
-      });
-    });
-  </script>
-  
 </head>
