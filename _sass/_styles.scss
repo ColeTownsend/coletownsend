@@ -353,10 +353,17 @@ section[class*="block-"] {
         display: block;
         margin: 0;
         font-size: $fs3;
-        font-family: $sans-medium;
+        font-family: $sans-serif;
+        font-weight: heavy;
         @extend %vertical-align;
       } 
     }
+  }
+}
+// Default Page
+.wrap {
+  article > header {
+    margin-top: 4em;
   }
 }
 
@@ -418,7 +425,6 @@ section[class*="block-"] {
       font-family: $sans-serif;
       font-size: $fs1;
       font-weight: bold;
-      font-variant: small-caps;
     }
     h2,h3,h4,h5 {
       font-family: $sans-serif;

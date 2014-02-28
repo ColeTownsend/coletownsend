@@ -43,8 +43,9 @@
   
 </head>
 
-  <body class="post">
-    <header role="main-header">
+  <body>
+    <div class="page-wrap">
+      <header role="main-header">
   <a href="#" id="toggle">+</a>
   
   <nav class="nav-collapse">
@@ -65,45 +66,27 @@
     </ul>
   </nav>
 </header>
-    
-    
-    <header class="full bg-img" style="background-image: url(http://localhost:4000/images/posts/typistry.svg)">
-    </header>
-    <section class="wrap">
-      <article>
-        <header >
-          <h1>Typistry</h1>
-          <div class="description">
-            <div><span class="label">Role: </span><span>Design Lead</span></div>
-            <div><span class="label">Responsibility: </span><span><span class="tag">Branding</span>  <span class="tag">Logo Design</span>  </span></div>
-          </div>
-        </header>
-        <p>Typistry is a single column, reading-centric theme for Tumblr. I wanted to create an environment around the blog post, to coddle long form for a great reading experience. The end result was a theme that looked similar to what one might see on a kindle, on the NYT redesign, or on A List Apart.</p>
+      <section class="wrap">
+        <article>
+            <header>
+             <h1>404</h1>
+             
+           </header>
+           
+           ## Sorry, this page doesn't exist.
 
-<h2 id="reader-friendly">Reader Friendly</h2>
-<p>The goal of this design was to optimize legibility. I focused on the reading experience. I started by choosing a font, and establishing the font size, line height and paragraph width. When I sought out to choose a font, I looked for humanist serifs that I enjoyed reading. I visited the informationArchitects blog, A List Apart, took a look at my kindle, and typed a bit on ByWord. I found that I enjoyed the heavier weighted serifs on my Kindle and A List Apart. I dug through free font catalogs and searched in the Google Web Fonts repo. I stumbled across Lora. Lora has moderate contrast and a tall x-height — perfect for long form reading.</p>
+<p>I really wish I could help you out. Why not head back to the <a href="http://localhost:4000/archive">Archive</a>?</p>
 
-<p>I then established a typographic rhythm. I used the Pearsonified typographic golden ratio calculator formula with the compute capabilities of SCSS. I established a body width of 620px and a large body font size. The end result was a good balance of line length, font size, and white space. </p>
-
-<h2 id="using-sass">Using Sass</h2>
-<p>I utilized SCSS to style the theme. It was incredible how quickly and easily I could make vast style changes to the blog. Using @mixins was both faster for coding and better for visual consistency. As I made this theme responsive, as opposed to fluid, I changed elements as needed, which lead to less code. I ended up with cleaner CSS, and ultimately fewer changes to the formatting of the blog. Visually, it is consistent and it scales down gracefully to smartphone.</p>
-
-<p><a href="http://the.typistry.net/">You can get a feel for Typistry here</a>.  </p>
-
-<p><a href="http://gum.co/yMIA" class="gumroad-button">Buy on Gumroad</a><script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script></p>
-
-<div id="buyoncm3813"></div>
-<script>
-var __creativemarket__ = {url:'https://creativemarket.com/ColeTownsend/3813-Typistry?utm_source=cmembed&utm_medium=button&utm_campaign=3813',text:'Buy on Creative Market',productID:3813};
-</script>
-
-<script type="text/javascript" src="https://d3ui957tjb5bqd.cloudfront.net/js/embed/1/button.js"></script>
-
-
-      </article>
-    </section>
-          
-    
+<div id="search" class="search-form">
+  <form action="/search" method="get">
+    <p>
+      <input type="text" id="search-query" name="q" placeholder="Search…" autocomplete="off">
+    </p>
+  </form>
+</div>
+        </article>
+      </section>
+    </div>
     <footer>
   <script data-no-instant src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="http://localhost:4000/javascripts/responsive-nav.js"></script>

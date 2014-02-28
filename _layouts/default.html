@@ -3,6 +3,7 @@
   {% include _head.html %}
   <body>
     <div class="page-wrap">
+      {% include _navigation_main.html %}
       <section class="wrap">
         <article>
             <header>
@@ -11,6 +12,7 @@
               <h2>{{ page.subtitle }}</h2>
              {% endif %}
            </header>
+           
            {{ content }}
         </article>
       </section>

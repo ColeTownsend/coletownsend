@@ -349,7 +349,7 @@ header[role="main-header"] {
         display: none; } }
   header[role="main-header"] hgroup {
     font-size: .75rem;
-    font-family: "EffraMedium-Regular", "Arial", sans-serif;
+    font-family: "Effra", "Arial", sans-serif;
     letter-spacing: 2px;
     float: left;
     position: relative;
@@ -382,7 +382,7 @@ header[role="main-header"] {
       margin-top: 0; }
     header[role="main-header"] nav ul li {
       font-size: .75rem;
-      font-family: "EffraMedium-Regular", "Arial", sans-serif;
+      font-family: "Effra", "Arial", sans-serif;
       letter-spacing: 2px;
       text-align: right;
       text-transform: uppercase;
@@ -613,7 +613,11 @@ section[class*="block-"] {
       display: block;
       margin: 0;
       font-size: 1.5em;
-      font-family: "EffraMedium-Regular", "Arial", sans-serif; }
+      font-family: "Effra", "Arial", sans-serif;
+      font-weight: heavy; }
+
+.wrap article > header {
+  margin-top: 4em; }
 
 .post header.bg-img {
   vertical-align: middle;
@@ -635,7 +639,7 @@ section[class*="block-"] {
   .post .description div {
     margin-bottom: 1rem; }
   .post .description .label {
-    font-family: "EffraMedium-Regular", "Arial", sans-serif;
+    font-family: "Effra", "Arial", sans-serif;
     font-size: 1rem;
     color: #dcd4d4;
     letter-spacing: 2px; }
@@ -664,8 +668,7 @@ section[class*="block-"] {
   .post article h1 {
     font-family: "Effra", "Arial", sans-serif;
     font-size: 3em;
-    font-weight: bold;
-    font-variant: small-caps; }
+    font-weight: bold; }
   .post article h2, .post article h3, .post article h4, .post article h5 {
     font-family: "Effra", "Arial", sans-serif; }
   .post article header {
@@ -700,7 +703,7 @@ section[class*="block-"] {
       text-transform: capitalize; }
   .listing .work-listing h1 {
     font-size: 3em;
-    font-family: "EffraHeavy-Regular", "Arial", sans-serif;
+    font-family: "Effra", "Arial", sans-serif;
     font-weight: bold;
     font-variant: normal;
     display: block;
