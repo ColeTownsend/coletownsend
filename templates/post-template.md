@@ -1,8 +1,11 @@
-
 ---
 layout: post
+
 title: %%TITLE%%
 date: unpublished
-categories: journal
+category: journal
+accent-color: ""
 tags: []
+image:
+  feature: 
 ---

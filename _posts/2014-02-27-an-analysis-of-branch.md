@@ -1,12 +1,12 @@
-
 ---
 layout: post
+
 title: An Analysis of Branch
 date: "2014-02-27 12:06:34"
-categories: journal
-tags: []
+category: journal
+accent_color: "#FF4B00"
 image:
-	feature: branch-app-logo.svg
+  feature: branch-app-logo.svg
 ---
 Branch is a new website that organizes discussions. It allows users to easily register and gather others in conversation, or branch, about a topic of their choice.
 

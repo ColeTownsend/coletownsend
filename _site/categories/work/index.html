@@ -65,15 +65,27 @@
               </a>
             </li>
           
+            <li class="work-rectangle" style="background:#EFEFEF;">
+              <a href="http://beta.twnsnd.co/journal/quick-guide-to-anchor-cms">
+                <h1 >A Quick Guide to Anchor CMS</h1>
+              </a>
+            </li>
+          
             <li class="work-rectangle" style="background:#BC5B4C;">
               <a href="http://beta.twnsnd.co/work/peck">
                 <h1  style="color: ;">Peck</h1>
               </a>
             </li>
           
-            <li class="work-rectangle" style="background:#048BCD;">
-              <a href="http://beta.twnsnd.co/work/box-redesign">
-                <h1  style="color: #;">Box Redesign</h1>
+            <li class="work-rectangle" style="background:#EFEFEF;">
+              <a href="http://beta.twnsnd.co/journal/box-redesign">
+                <h1 >Box Redesign</h1>
+              </a>
+            </li>
+          
+            <li class="work-rectangle" style="background:#EFEFEF;">
+              <a href="http://beta.twnsnd.co/journal/an-analysis-of-branch">
+                <h1 >An Analysis of Branch</h1>
               </a>
             </li>
           
@@ -84,20 +96,8 @@
             </li>
           
             <li class="work-rectangle" style="background:#EFEFEF;">
-              <a href="http://beta.twnsnd.co/quick-guide-to-anchor-cms">
-                <h1 >Quick Guide To Anchor Cms</h1>
-              </a>
-            </li>
-          
-            <li class="work-rectangle" style="background:#EFEFEF;">
               <a href="http://beta.twnsnd.co/mach-2000">
                 <h1 >Mach 2000</h1>
-              </a>
-            </li>
-          
-            <li class="work-rectangle" style="background:#EFEFEF;">
-              <a href="http://beta.twnsnd.co/an-analysis-of-branch">
-                <h1 >An Analysis Of Branch</h1>
               </a>
             </li>
           
@@ -140,21 +140,19 @@
 <script data-no-instant type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 <!-- Smooth Scroll -->
-<script src="http://beta.twnsnd.co/javascripts/smooth-scroll.js"></script>
-<script>
-  smoothScroll.init({
-    speed: 400,
-    easing: 'easeInOutCubic',
-    updateURL: false,
-    callbackBefore: function () {},
-    callbackAfter: function () {}
-  });
-</script>
+<script data-no-instant src="http://beta.twnsnd.co/javascripts/smooth-scroll.js"></script>
 
 
 <!-- Instant -->
 <script src="http://beta.twnsnd.co/javascripts/instantclick.js" data-no-instant></script>
-<script data-no-instant>InstantClick.init(65);</script>
+<script data-no-instant>
+
+InstantClick.on('change', function() {
+  smoothScroll.init();
+ 
+InstantClick.init(65);
+</script>
+
   <small>© 2014 Cole Townsend</small>
 </footer>
   </body>

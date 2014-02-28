@@ -9,7 +9,8 @@ future: true
 # I normally exclude _sass, README*, and .gitignore
 # Directories that start with an underscore _ are not copied over by default. Still like to include _sass anyways.
 # ============================================================
-exclude: [README.md, Rakefile, .gitignore, _sass, templates, .sublime-workspace, .sublime-project]
+exclude: ['README.md', 'Rakefile', '.gitignore', '_sass', 'templates', '.sublime-workspace', '.sublime-project']
+include:  ['.htaccess']
 
 # Pagination variable for how many posts to show in a list
 # ============================================================
@@ -45,6 +46,8 @@ links:
     url: /portfolio/
   - title: Journal
     url: /journal/
+
+
 
 # Style of permalinks
 # ============================================================

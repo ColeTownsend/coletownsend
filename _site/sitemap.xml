@@ -20,6 +20,15 @@
   </url>
   
   <url>
+    <loc>//journal/quick-guide-to-anchor-cms</loc>
+    
+    <lastmod>2014-02-27T12:06:34-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>//work/peck</loc>
     
     <lastmod>2014-02-27T12:06:34-05:00</lastmod>
@@ -29,7 +38,16 @@
   </url>
   
   <url>
-    <loc>//work/box-redesign</loc>
+    <loc>//journal/box-redesign</loc>
+    
+    <lastmod>2014-02-27T12:06:34-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>//journal/an-analysis-of-branch</loc>
     
     <lastmod>2014-02-27T12:06:34-05:00</lastmod>
     
@@ -47,25 +65,7 @@
   </url>
   
   <url>
-    <loc>//quick-guide-to-anchor-cms</loc>
-    
-    <lastmod>2014-02-27T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
     <loc>//mach-2000</loc>
-    
-    <lastmod>2014-02-27T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>//an-analysis-of-branch</loc>
     
     <lastmod>2014-02-27T00:00:00-05:00</lastmod>
     
@@ -108,6 +108,10 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  
+  
+  
+  
   
   
   

@@ -81,21 +81,19 @@
 <script data-no-instant type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 <!-- Smooth Scroll -->
-<script src="http://beta.twnsnd.co/javascripts/smooth-scroll.js"></script>
-<script>
-  smoothScroll.init({
-    speed: 400,
-    easing: 'easeInOutCubic',
-    updateURL: false,
-    callbackBefore: function () {},
-    callbackAfter: function () {}
-  });
-</script>
+<script data-no-instant src="http://beta.twnsnd.co/javascripts/smooth-scroll.js"></script>
 
 
 <!-- Instant -->
 <script src="http://beta.twnsnd.co/javascripts/instantclick.js" data-no-instant></script>
-<script data-no-instant>InstantClick.init(65);</script>
+<script data-no-instant>
+
+InstantClick.on('change', function() {
+  smoothScroll.init();
+ 
+InstantClick.init(65);
+</script>
+
   <small>© 2014 Cole Townsend</small>
 </footer>
   </body>

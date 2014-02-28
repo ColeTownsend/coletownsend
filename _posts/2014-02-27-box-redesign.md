@@ -1,13 +1,10 @@
 ---
-layout: portfolio
+layout: post
 
 title: Box Redesign
 date: "2014-02-27 12:06:34"
-category: work
-brand-color: "#048BCD"
-title-color: "#"
-role: "Design Lead"
-tags: [Web Design]
+category: journal
+accent_color: "#048BCD"
 image:
   feature: box-app.svg
 ---

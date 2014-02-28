@@ -107,6 +107,7 @@ header[role="main-header"] {
   width: 100%;
   z-index: 5000;
   color: $black;
+  font-weight: 500;
   position: relative;
   -moz-box-shadow:    0px 1px 0px 0px rgba(243,243,243,0.5);
   -webkit-box-shadow: 0px 1px 0px 0px rgba(243,243,243,0.5);
@@ -120,7 +121,7 @@ header[role="main-header"] {
   // Logo
   hgroup {
     font-size: .75rem;
-    font-family: $sans-medium;
+    font-family: $sans-serif;
     letter-spacing: 2px;
     @extend %caps-lock;
     float: left;
@@ -157,7 +158,7 @@ header[role="main-header"] {
     }
     ul li {
       font-size: .75rem;
-      font-family: $sans-medium;
+      font-family: $sans-serif;
       letter-spacing: 2px;
       text-align: right;
       text-transform: uppercase;
@@ -382,7 +383,9 @@ section[class*="block-"] {
     -moz-background-size: cover;
     -o-background-size: cover;
     position: relative;
-    height: em(384)
+    height: em(384);
+    -webkit-box-shadow: inset 0 2px 0 rgba(0,0,0,.08), inset 0 -2px 0 rgba(0,0,0,.08);
+            box-shadow: inset 0 2px 0 rgba(0,0,0,.08), inset 0 -2px 0 rgba(0,0,0,.08);
   }
   .description {
     font-size: $fs5;
