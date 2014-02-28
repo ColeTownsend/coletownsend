@@ -4,23 +4,26 @@
 	<meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title> Twnsnd Co.  </title>
+  <title> Twnsnd Co. </title>
   <meta name="author" content="Twnsnd Co">
   <meta name="description" content="Insouciant describes me well.">
+    <link type="application/atom+xml" rel="self" href="http://localhost:4000/sitemap.xml"/>
+
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="http://localhost:4000/css/i.css">
+	<link data-no-instant rel="stylesheet" href="http://localhost:4000/css/i.css">
+  <link data-no-instant rel="stylesheet" href="http://localhost:4000/fonts/font.css">
 
   <script data-no-instant src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
   
   <!-- Favicons and Touch Device Icons -->
   <link rel="shortcut icon" href="favicon.ico">
-  <link data-no-instant rel="apple-touch-icon" href="touch-icon-iphone-precomposed.png">
-  <link data-no-instant rel="apple-touch-icon" sizes="72x72"   href="touch-icon-ipad-precomposed.png">
-  <link data-no-instant rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone-retina-precomposed.png">
-  <link data-no-instant rel="apple-touch-icon" sizes="144x144" href="touch-icon-ipad-retina-precomposed.png">
+  <link data-no-instant rel="apple-touch-icon" href="favicon-128.png">
+  <link data-no-instant rel="apple-touch-icon" sizes="72x72"   href="favicon-76.png">
+  <link data-no-instant rel="apple-touch-icon" sizes="114x114" href="favicon-128.png">
+  <link data-no-instant rel="apple-touch-icon" sizes="144x144" href="favicon-256.png">
 
 <script data-no-instant>
 $(function() {
@@ -31,13 +34,14 @@ $(function() {
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
-        }, 400);
+        }, 1000);
         return false;
       }
     }
   });
 });
 </script>
+
 </head>
 
   <body class="post">
@@ -46,16 +50,18 @@ $(function() {
   
   <nav class="nav-collapse">
     <hgroup>
-      <a href="http://localhost:4000">Twnsnd Co. </a>
+      <a href="http://localhost:4000">Twnsnd Co.</a>
     </hgroup>
     
     <ul>      
       
-          <li><a href="http://localhost:4000/work" >Work</a></li>
+          <li><a href="http://localhost:4000/" >Home</a></li>
       
-          <li><a href="http://gtat.me/balzac/donate" target="_blank">Donate</a></li>
+          <li><a href="http://localhost:4000/portfolio/" >Portfolio</a></li>
       
-          <li><a href="https://github.com/ColeTownsend/Balzac-for-Jekyll" target="_blank">Github</a></li>
+          <li><a href="http://gtat.me/balzac/donate"  data-no-instant target="_blank">Donate</a></li>
+      
+          <li><a href="https://github.com/ColeTownsend/Balzac-for-Jekyll"  data-no-instant target="_blank">Github</a></li>
       
     </ul>
   </nav>
@@ -97,23 +103,11 @@ $(function() {
     <footer>
   <script data-no-instant src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="http://localhost:4000/javascripts/responsive-nav.js"></script>
-<script data-no-instant src="http://localhost:4000/javascripts/scripts.js"></script>
+<!-- Data Image -->
 <script data-no-instant src="http://localhost:4000/javascripts/data-img.js"></script>
+<!-- Typekit -->
 <script data-no-instant type="text/javascript" src="//use.typekit.net/tke7dvp.js"></script>
 <script data-no-instant type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-
-<script src="http://localhost:4000/javascripts/instantclick.js" data-no-instant></script>
-<script data-no-instant>InstantClick.init();</script>
-
-<script data-no-instant>
-$('.data-img').dataImg({
-  sml: 480,
-  med: 768,
-  lrg: 960,
-  resize: true
-});
-</script>
 
 <script data-no-instant>
 $(function() {
@@ -122,15 +116,20 @@ $(function() {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
-        $('html,body').animate({
+        $('html, body').animate({
           scrollTop: target.offset().top
-        }, 1000);
+        }, 600);
         return false;
       }
     }
   });
 });
 </script>
+
+
+<!-- Instant -->
+<script src="http://localhost:4000/javascripts/instantclick.js" data-no-instant></script>
+<script data-no-instant>InstantClick.init();</script>
   <small>© 2014 Cole Townsend</small>
 </footer>
   </body>

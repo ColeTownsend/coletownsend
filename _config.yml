@@ -1,30 +1,8 @@
-#=====================================
-#
-# NKD - A simple Jekyll boilerplate
-#
-# More on Jekyll: http://jekyllrb.com/
-#
-#=====================================
-
-# This will be the first part of the title tag for your site 
-# <title> {{site.name}} </title>
-# ============================================================
-name: "Twnsnd Co. "
-
-# Populates the meta description for the site. Should be under 150 characters for best SEO results.
-# ============================================================
+name: "Twnsnd Co."
 description: "Insouciant describes me well."
-
-# Owner (organization or individual) of site content - You'll want to change this from mrmrs :)
-# ============================================================
 author: "Twnsnd Co"
-
-# Change this to your production URL
-# ============================================================
 url: "http://twnsnd.co"
 
-# Publish future posts or not option. 
-# ============================================================
 future: true
 
 # "A list of directories (including trailing slash) and files to exclude from the conversion"
@@ -61,8 +39,10 @@ kramdown:
 # For external links add external: true
 # ============================================================
 links:
-  - title: Work
-    url: /work
+  - title: Home
+    url: /
+  - title: Portfolio
+    url: /portfolio/
   - title: Donate
     url: http://gtat.me/balzac/donate
     external: true
@@ -83,3 +63,14 @@ permalink: /:categories/:title
 # Uncomment if you have pygments installed. Used for code syntax highlighting. 
 # If you're not doing syntax highlighting you can delete this.
 pygments: true
+
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"

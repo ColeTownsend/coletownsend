@@ -5,20 +5,23 @@
   <title> {{site.name}} </title>
   <meta name="author" content="{{site.author}}">
   <meta name="description" content="{{site.description}}">
+    <link type="application/atom+xml" rel="self" href="{{ site.url }}/sitemap.xml"/>
+
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="{{ site.url }}/css/i.css">
+	<link data-no-instant rel="stylesheet" href="{{ site.url }}/css/i.css">
+  <link data-no-instant rel="stylesheet" href="{{ site.url }}/fonts/font.css">
 
   <script data-no-instant src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
   
   <!-- Favicons and Touch Device Icons -->
   <link rel="shortcut icon" href="favicon.ico">
-  <link data-no-instant rel="apple-touch-icon" href="touch-icon-iphone-precomposed.png">
-  <link data-no-instant rel="apple-touch-icon" sizes="72x72"   href="touch-icon-ipad-precomposed.png">
-  <link data-no-instant rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone-retina-precomposed.png">
-  <link data-no-instant rel="apple-touch-icon" sizes="144x144" href="touch-icon-ipad-retina-precomposed.png">
+  <link data-no-instant rel="apple-touch-icon" href="favicon-128.png">
+  <link data-no-instant rel="apple-touch-icon" sizes="72x72"   href="favicon-76.png">
+  <link data-no-instant rel="apple-touch-icon" sizes="114x114" href="favicon-128.png">
+  <link data-no-instant rel="apple-touch-icon" sizes="144x144" href="favicon-256.png">
 
 <script data-no-instant>
 $(function() {
@@ -29,11 +32,12 @@ $(function() {
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
-        }, 400);
+        }, 1000);
         return false;
       }
     }
   });
 });
 </script>
+
 </head>

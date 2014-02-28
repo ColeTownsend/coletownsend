@@ -2,14 +2,19 @@
 <html lang="en"> 
   {% include _head.html %}
   <body>
-    <section class="wrap">
-      <article>
-          <header>
-           <h1>{{ page.title }}</h1>
-           <h2>{{ page.subtitle }}</h2>
-         </header>
-         {{ content }}
-      </article>
-    </section>
+    <div class="page-wrap">
+      <section class="wrap">
+        <article>
+            <header>
+             <h1>{{ page.title }}</h1>
+             {% if page.subtitle %}
+              <h2>{{ page.subtitle }}</h2>
+             {% endif %}
+           </header>
+           {{ content }}
+        </article>
+      </section>
+    </div>
+    {% include _footer.html %}
   </body>
 </html>

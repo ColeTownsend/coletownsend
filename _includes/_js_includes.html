@@ -1,22 +1,10 @@
 <script data-no-instant src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="{{ site.url }}/javascripts/responsive-nav.js"></script>
-<script data-no-instant src="{{ site.url }}/javascripts/scripts.js"></script>
+<!-- Data Image -->
 <script data-no-instant src="{{ site.url }}/javascripts/data-img.js"></script>
+<!-- Typekit -->
 <script data-no-instant type="text/javascript" src="//use.typekit.net/tke7dvp.js"></script>
 <script data-no-instant type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-
-<script src="{{ site.url }}/javascripts/instantclick.js" data-no-instant></script>
-<script data-no-instant>InstantClick.init();</script>
-
-<script data-no-instant>
-$('.data-img').dataImg({
-  sml: 480,
-  med: 768,
-  lrg: 960,
-  resize: true
-});
-</script>
 
 <script data-no-instant>
 $(function() {
@@ -25,12 +13,17 @@ $(function() {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
-        $('html,body').animate({
+        $('html, body').animate({
           scrollTop: target.offset().top
-        }, 1000);
+        }, 600);
         return false;
       }
     }
   });
 });
 </script>
+
+
+<!-- Instant -->
+<script src="{{ site.url }}/javascripts/instantclick.js" data-no-instant></script>
+<script data-no-instant>InstantClick.init();</script>

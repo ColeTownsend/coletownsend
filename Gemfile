@@ -10,5 +10,5 @@ gem 'bourbon'
 gem 'neat'
 
 gem 'json'
-
-gem 'mini_magick'
+gem 'nokogiri'
+gem 'fileutils'
