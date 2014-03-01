@@ -465,6 +465,7 @@ section[class*="block-"] {
     width: 74.46809%;
     z-index: 100;
     text-align: left;
+    font-weight: 400;
     color: #fefefe;
     margin-top: 4em; }
     .block-2 h2:last-child {
@@ -618,7 +619,7 @@ section[class*="block-"] {
       margin: 0;
       font-size: 1.5em;
       font-family: "Effra", "Arial", sans-serif;
-      font-weight: heavy; }
+      font-weight: 600; }
 
 .wrap article > header {
   margin-top: 4em; }

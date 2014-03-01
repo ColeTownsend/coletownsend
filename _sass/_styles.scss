@@ -236,6 +236,7 @@ section[class*="block-"] {
     z-index: 100;
     text-align: left;
     @extend .h2;
+    font-weight: 400;
     color: $white;
     margin-top: em(16*4);
     @include media($small) {
@@ -355,7 +356,7 @@ section[class*="block-"] {
         margin: 0;
         font-size: $fs3;
         font-family: $sans-serif;
-        font-weight: heavy;
+        font-weight: 600;
         @extend %vertical-align;
       } 
     }
