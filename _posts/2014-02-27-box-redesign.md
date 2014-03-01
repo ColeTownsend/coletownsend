@@ -20,21 +20,21 @@ I wanted to mimic the functions of Google Doc Viewer and Preview. The current fu
 
 Specifically for the visuals, I aimed to minimize what was going on in the document viewer. I feel that it's better to directly be able to influence specifically which page is viewed, rather than clicking through each one individually. 
 
-<img src="http://coletownsend.com/content/box-post/box-doc.png">
+<img src="{{ site.url }}/images/inline/box-box-doc.png">
 
-<img src="http://coletownsend.com/content/box-post/my-doc.png">
+<img src="{{ site.url }}/images/inline/box-my-doc.png">
 
 ###Video Viewer
 I wish I could show an example of the video viewer. Unfortunately it was not included in the free version, a download was necessary for free users. Paid users were allowed a previewer. With the video player, I aimed to keep it consistent with other video players common to cloud viewers. Users are familiar with the layout. 
 
-<img stye="width: auto;" src="http://coletownsend.com/content/box-post/video.png">
+<img stye="max-width: 100%; height: auto;" src="{{ site.url }}/images/inline/box-video.png">
 
 ##Nav
 The nav I found to be a bit inconsistent and congested. I had a hard time discerning which icon did what, and was a bit overwhelmed with the amount of icons. I shifted the upgrade feature farthest right, so it remains unobtrusive to the user. I also separated the tasks and messages drop down into two separate features. They aren't peas and carrots or PB&J. Tasks and messages should be separated. Instead of wondering whether it is a message form a coworker or a task from the project manager, the user will know immediately. Simplification is sometimes confused with subtracting. In this case it means simplification meant adding an extra icon to eliminate a step for the user.
 
-<img src="http://coletownsend.com/content/box-post/box-nav.png">
+<img src="{{ site.url }}/images/inline/box-box-nav.png">
 
-<img src="http://coletownsend.com/content/box-post/my%20nav.png">
+<img src="{{ site.url }}/images/inline/box-my-nav.png">
 
 ###Sub Nav
 I cleared the sub nav up by using a bit more padding and dropping the font- size. There is already a contrasting color for the sub nav and the visual hierarchy is established without using that big of a font. Slightly smaller font will work just as well and will create a bit more breathing room for the title of the document. I also eliminated the text next to the icons. I feel that icons should already communicate the function of the button. Granted this is highly dependent on the users, and some sort of A/B testing would be helpful to make the decision.
@@ -42,8 +42,6 @@ I cleared the sub nav up by using a bit more padding and dropping the font- size
 ##Comments
 The comment area was cluttered with links for various types of comments. The comment area shouldn't be intimidating or hard to read! It should be helpful and fun. At Box, the commenting area is also used to assign tasks, perhaps on a document or a TPS report. 
 
-<img src="http://coletownsend.com/content/box-post/box-comment.png">
+<img src="{{ site.url }}/images/inline/box-box-comment.png">
 
-<img src="http://coletownsend.com/content/box-post/my-comment.png">
-
-<blockquote>Ummm...I'm gonna need you to go ahead and come in tomorrow.</blockquote>
+<img src="{{ site.url }}/images/inline/box-my-comment.png">
