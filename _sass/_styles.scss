@@ -391,15 +391,16 @@ section[class*="block-"] {
   .description {
     font-size: $fs5;
     color: $medium-gray;
+    font-family: $sans-serif;
     div {
       margin-bottom: 1rem;
     }
     .label {
-      font-family: $sans-medium;
       @extend %caps-lock;
       font-size: 1rem;
       color: $light-gray;
       letter-spacing: 2px;
+      font-weight: 500;
     }
     .tag {
       color: $medium-gray;
@@ -425,6 +426,7 @@ section[class*="block-"] {
     margin-bottom: 8em;
     @include span-columns(7);
     @include shift(.5);
+    font-family: $serif;
     h1 {
       font-family: $sans-serif;
       font-size: $fs1;
@@ -436,13 +438,52 @@ section[class*="block-"] {
     header {
       margin: 4em 0;
     }
-    p {
-      font-family: $serif;
-    }
     img {
-      margin: 0 auto;
-      width: 100%;
+      display: block;
+      margin: 1em auto;
+      width: auto;
+      max-width: 100%;
       height: auto;
+    }
+    blockquote {
+      margin: $line-height 2em;
+      margin-left: 4em;
+      line-height: em(26);
+      position: relative;
+      &:after {
+        content: '';
+        position: absolute;
+        @include transform(rotate(-45deg));
+        width: 2em;
+        top: 50%;
+        left: -48px;
+        height: 1px;
+        background: $light-gray;
+      }
+      &:before {
+        content: '';
+        position: absolute;
+        @include transform(rotate(45deg));
+        width: 2em;
+        top: 50%;
+        left: -48px;
+        height: 1px;
+        background: $light-gray;
+      }
+    }
+    ul {
+      list-style-type: disc;
+      list-style: disc;
+      padding-left: 2em;
+      margin-left: 1em;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      li {
+        font-size: em(20);
+        line-height: em(24);
+        padding-left: .25em;
+        margin-top: .5em;
+      }
     }
   }
 }

@@ -5,6 +5,10 @@ url: "http://beta.twnsnd.co"
 
 future: true
 
+images_url: /images/inline/
+image:
+  source: images/inline
+
 # "A list of directories (including trailing slash) and files to exclude from the conversion"
 # I normally exclude _sass, README*, and .gitignore
 # Directories that start with an underscore _ are not copied over by default. Still like to include _sass anyways.
