@@ -2,10 +2,9 @@
 layout: portfolio
 
 title: Vined.co
-date: "2014-02-27 12:06:34"
+date: unpublished
 category: work
 brand-color: "#41A274"
-title-color: "#"
 role: "Design Lead"
 tags: [Branding, Logo Design]
 image:

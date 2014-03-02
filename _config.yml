@@ -16,10 +16,6 @@ image:
 exclude: ['README.md', 'Rakefile', '.gitignore', '_sass', 'templates', '.sublime-workspace', '.sublime-project']
 include:  ['.htaccess']
 
-# Pagination variable for how many posts to show in a list
-# ============================================================
-paginate: 6
-
 timezone:    America/New_York
 future:      true
 pygments:    true
@@ -33,7 +29,7 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
@@ -46,8 +42,8 @@ kramdown:
 links:
   - title: Home
     url: /
-  - title: Portfolio
-    url: /portfolio/
+  - title: Work
+    url: /work/
   - title: Journal
     url: /journal/
 
@@ -63,7 +59,7 @@ permalink: /:categories/:title
 # /:month-:day-:year/:title.html/                 => 04-29-2009/slap-chop.html
 # /blog/:year/:month/:day/:title                  => /blog/2009/04/29/slap-chop/index.html
 
-# Uncomment if you have pygments installed. Used for code syntax highlighting. 
+# Uncomment if you have pygments installed. Used for code syntax highlighting.
 # If you're not doing syntax highlighting you can delete this.
 pygments: true
 

@@ -657,7 +657,8 @@ section[class*="block-"] {
   .post .description .tag {
     color: #ae9c9c;
     padding-left: 10px;
-    position: relative; }
+    position: relative;
+    text-transform: capitalize; }
     .post .description .tag:after {
       content: ",";
       position: absolute;

@@ -406,6 +406,7 @@ section[class*="block-"] {
       color: $medium-gray;
       padding-left: 10px;
       position: relative;
+      text-transform: capitalize;
       &:after {
         content: ",";
         position: absolute;
