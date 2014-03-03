@@ -7,7 +7,7 @@
   <title> Twnsnd Co. </title>
   <meta name="author" content="Twnsnd Co">
   <meta name="description" content="Insouciant describes me well.">
-    <link type="application/atom+xml" rel="self" href="http://beta.twnsnd.co/sitemap.xml"/>
+  <link type="application/atom+xml" rel="self" href="http://beta.twnsnd.co/sitemap.xml"/>
 
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,10 +19,10 @@
   
   <!-- Favicons and Touch Device Icons -->
   <link rel="shortcut icon" href="favicon.ico">
-  <link data-no-instant rel="apple-touch-icon" href="favicon-128.png">
-  <link data-no-instant rel="apple-touch-icon" sizes="72x72"   href="favicon-76.png">
-  <link data-no-instant rel="apple-touch-icon" sizes="114x114" href="favicon-128.png">
-  <link data-no-instant rel="apple-touch-icon" sizes="144x144" href="favicon-256.png">
+  <link data-no-instant rel="apple-touch-icon" href="http://beta.twnsnd.co/assets/favicon-128.png">
+  <link data-no-instant rel="apple-touch-icon" sizes="72x72"   href="http://beta.twnsnd.co/assets/favicon-76.png">
+  <link data-no-instant rel="apple-touch-icon" sizes="114x114" href="http://beta.twnsnd.co/assets/favicon-128.png">
+  <link data-no-instant rel="apple-touch-icon" sizes="144x144" href="http://beta.twnsnd.co/assets/favicon-256.png">
 </head>
 
   <body class="listing">
@@ -39,7 +39,7 @@
       
           <li><a href="http://beta.twnsnd.co/" >Home</a></li>
       
-          <li><a href="http://beta.twnsnd.co/portfolio/" >Portfolio</a></li>
+          <li><a href="http://beta.twnsnd.co/work/" >Work</a></li>
       
           <li><a href="http://beta.twnsnd.co/journal/" >Journal</a></li>
       
@@ -53,6 +53,12 @@
                 <h1>Selected Works</h1>
               </li>
             
+              
+                <li class="work-rectangle" style="background:I;">
+                  <a href="http://beta.twnsnd.co/journal/test">
+                    <h1>Test</h1>
+                  </a>
+                </li>
               
             
               
@@ -111,16 +117,17 @@
 
 <!-- Smooth Scroll -->
 <script data-no-instant src="http://beta.twnsnd.co/javascripts/smooth-scroll.js"></script>
+<script>smoothScroll.init();</script>
 
 
 <!-- Instant -->
 <script src="http://beta.twnsnd.co/javascripts/instantclick.js" data-no-instant></script>
-<script data-no-instant>
 
-InstantClick.on('change', function() {
-  smoothScroll.init();
- 
-InstantClick.init(55);
+<script data-no-instant>
+  InstantClick.on('change', function() {
+    smoothScroll.init();
+   
+  InstantClick.init(55);
 </script>
 
   <small>© 2014 Cole Townsend</small>

@@ -8,14 +8,15 @@
 
 <!-- Smooth Scroll -->
 <script data-no-instant src="{{ site.url }}/javascripts/smooth-scroll.js"></script>
+<script>smoothScroll.init();</script>
 
 
 <!-- Instant -->
 <script src="{{ site.url }}/javascripts/instantclick.js" data-no-instant></script>
-<script data-no-instant>
 
-InstantClick.on('change', function() {
-  smoothScroll.init();
- 
-InstantClick.init(55);
+<script data-no-instant>
+  InstantClick.on('change', function() {
+    smoothScroll.init();
+   
+  InstantClick.init(55);
 </script>

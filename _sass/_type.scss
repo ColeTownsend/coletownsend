@@ -44,8 +44,12 @@ h6,.h6 {
 } 
 
 p {
-  font-size: 21px;
-  line-height: 32px;
+  font-size: $fs4;
+  line-height: em(24);
+}
+
+blockquote {
+  font-style: italic;
 }
 
 small {
