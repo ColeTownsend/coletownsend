@@ -669,7 +669,7 @@ section[class*="block-"] {
     .post .description .tag:last-of-type:after {
       content: ""; }
 .post article {
-  margin-bottom: 8em;
+  margin-bottom: 4em;
   float: left;
   display: block;
   margin-right: 2.12766%;
@@ -692,6 +692,21 @@ section[class*="block-"] {
     width: auto;
     max-width: 100%;
     height: auto; }
+  .post article figure {
+    margin: 2em auto;
+    margin-top: 4em;
+    border: 1px solid #dcd4d4;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    height: 30em;
+    overflow-y: scroll;
+    position: relative;
+    -webkit-box-shadow: 0 -2em 0 #dcd4d4;
+    box-shadow: 0 -2em 0 #dcd4d4; }
+    .post article figure img {
+      margin: 0 auto; }
   .post article blockquote {
     margin: 24px 2em;
     margin-left: 4em;

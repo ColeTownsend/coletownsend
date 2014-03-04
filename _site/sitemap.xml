@@ -2,6 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>//work/thenews</loc>
+    
+    <lastmod>2014-03-03T22:51:01-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>//journal/test</loc>
     
     <lastmod>2014-03-01T14:43:31-05:00</lastmod>
@@ -86,15 +95,6 @@
     <loc>//work/tuchuang</loc>
     
     <lastmod>2014-02-26T17:01:50-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>//work/thenews</loc>
-    
-    <lastmod>2014-02-25T22:51:01-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
