@@ -424,7 +424,7 @@ section[class*="block-"] {
     }
   }
   article {
-    margin-bottom: 8em;
+    margin-bottom: 4em;
     @include span-columns(7);
     @include shift(.5);
     font-family: $serif;
@@ -445,6 +445,21 @@ section[class*="block-"] {
       width: auto;
       max-width: 100%;
       height: auto;
+    }
+    figure {
+      margin: 2em auto;
+      margin-top: 4em;
+      border: 1px solid $light-gray;
+      @include border-top-radius($border-radius);
+      @include border-bottom-radius($border-radius);
+      height: 30em;
+      overflow-y: scroll;
+      position: relative;
+      -webkit-box-shadow: 0 -2em 0 $light-gray;
+              box-shadow: 0 -2em 0 $light-gray;
+      img {
+        margin: 0 auto;
+      }
     }
     blockquote {
       margin: $line-height 2em;
