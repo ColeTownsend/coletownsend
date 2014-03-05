@@ -448,6 +448,7 @@ section[class*="block-"] {
     }
     figure {
       margin: 2em auto;
+      &.web {
       margin-top: 4em;
       border: 1px solid $light-gray;
       @include border-top-radius($border-radius);
@@ -457,6 +458,33 @@ section[class*="block-"] {
       position: relative;
       -webkit-box-shadow: 0 -2em 0 $light-gray;
               box-shadow: 0 -2em 0 $light-gray;
+      }
+      &.iphone {
+        width: 328px;
+        height: em(584px) + 6em;
+        border: 1px solid $light-gray;
+        @include border-top-radius(2em);
+        @include border-bottom-radius(2em);
+        padding: 4em 1em;
+        padding-bottom: 6em;
+        position: relative;
+        &:after {
+          content: '';
+          position: absolute;
+          width: 3em;
+          height: 3em;
+          -webkit-border-radius: 1.5em;
+                  border-radius: 1.5em;
+          border: 1px solid $light-gray;
+          left: (em(328px)/2) - 1.5em;
+          bottom: 1.5em;
+        }
+        img {
+          border: 1px solid $light-gray;
+          @include border-top-radius(4px);
+          @include border-bottom-radius(4px);
+        }
+      }
       img {
         margin: 0 auto;
       }
