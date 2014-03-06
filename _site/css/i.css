@@ -157,15 +157,15 @@ a {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-h1, .h1, h2, .h2, .block-1 h1, .block-2 h2, h3, .h3, h4, .h4, h5, .h5 {
-  font-family: "Effra", "Arial", sans-serif; }
+h1, .h1, h2, .h2, .block-1 h1, .block-2 h2, .block-3 article .work-grid h1, h3, .h3, h4, .h4, h5, .h5 {
+  font-family: "futura-pt", "Proxima Nova", "Helvetica Neue", sans-serif; }
 
 h1, .h1 {
   font-size: 3em;
   line-height: 1.125em;
   margin-bottom: .375em; }
 
-h2, .h2, .block-1 h1, .block-2 h2 {
+h2, .h2, .block-1 h1, .block-2 h2, .block-3 article .work-grid h1 {
   font-size: 2.25em;
   line-height: 1.333333333333em;
   margin-bottom: .666666666em; }
@@ -227,7 +227,7 @@ article p ~ h2, article p ~ h3, article p ~ h4, article p ~ h5 {
 
 /* Article Headings
    ========================================================================== */
-.post article h1, .post article .h1, .post article h2, .post article .h2, .post article .block-1 h1, .block-1 .post article h1, .post article .block-2 h2, .block-2 .post article h2, .post article h3, .post article .h3, .post article h4, .post article .h4, .post article h5, .post article .h5 {
+.post article h1, .post article .h1, .post article h2, .post article .h2, .post article .block-1 h1, .block-1 .post article h1, .post article .block-2 h2, .block-2 .post article h2, .post .block-3 article .work-grid h1, .block-3 .post article .work-grid h1, .post article h3, .post article .h3, .post article h4, .post article .h4, .post article h5, .post article .h5 {
   font-weight: bold; }
 
 #tooltip {
@@ -279,7 +279,7 @@ body {
   height: 100%;
   min-height: 100%;
   background: #fefefe;
-  font-family: "Effra", "Arial", sans-serif;
+  font-family: "futura-pt", "Proxima Nova", "Helvetica Neue", sans-serif;
   color: #453939;
   text-size-adjust: 100%;
   overflow-x: hidden !important; }
@@ -297,7 +297,14 @@ hr {
   background: #dcd4d4;
   margin-bottom: 2em; }
 
-.block-3 article .work-block h1, footer small {
+.block-3 article .work-grid h1 {
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga", "dlig";
+  -webkit-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig"; }
+
+.block-3 article .work-grid h1, footer small {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -340,11 +347,11 @@ hr {
 
 header[role="main-header"] {
   padding: 1em 0;
-  font-family: "Effra", "Arial", sans-serif;
+  font-family: "futura-pt", "Proxima Nova", "Helvetica Neue", sans-serif;
   width: 100%;
   z-index: 5000;
   color: #453939;
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
   -moz-box-shadow: 0px 1px 0px 0px rgba(243, 243, 243, 0.5);
   -webkit-box-shadow: 0px 1px 0px 0px rgba(243, 243, 243, 0.5);
@@ -356,7 +363,7 @@ header[role="main-header"] {
         display: none; } }
   header[role="main-header"] hgroup {
     font-size: .75rem;
-    font-family: "Effra", "Arial", sans-serif;
+    font-family: "futura-pt", "Proxima Nova", "Helvetica Neue", sans-serif;
     letter-spacing: 2px;
     float: left;
     position: relative;
@@ -389,7 +396,7 @@ header[role="main-header"] {
       margin-top: 0; }
     header[role="main-header"] nav ul li {
       font-size: .75rem;
-      font-family: "Effra", "Arial", sans-serif;
+      font-family: "futura-pt", "Proxima Nova", "Helvetica Neue", sans-serif;
       letter-spacing: 2px;
       text-align: right;
       text-transform: uppercase;
@@ -420,7 +427,8 @@ section[class*="block-"] {
     float: none;
     padding: 4em 0;
     position: relative;
-    height: 100%; }
+    height: 100%;
+    font-weight: 500; }
   .block-1 img {
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
@@ -560,7 +568,7 @@ section[class*="block-"] {
   .block-3 article ul {
     list-style: none;
     list-style-type: none; }
-  .block-3 article .work-block {
+  .block-3 article .work-grid {
     margin-bottom: 2em;
     background: #dcd4d4;
     position: relative;
@@ -570,39 +578,39 @@ section[class*="block-"] {
     margin-right: 2.12766%;
     width: 31.91489%;
     height: 16em; }
-    .block-3 article .work-block:last-child {
+    .block-3 article .work-grid:last-child {
       margin-right: 0; }
-    .block-3 article .work-block:nth-child(3n) {
+    .block-3 article .work-grid:nth-child(3n) {
       margin-right: 0; }
-    .block-3 article .work-block:nth-child(3n+1) {
+    .block-3 article .work-grid:nth-child(3n+1) {
       clear: left; }
     @media screen and (max-width: 767px) {
-      .block-3 article .work-block {
+      .block-3 article .work-grid {
         height: 12em; } }
     @media screen and (max-width: 480px) {
-      .block-3 article .work-block {
+      .block-3 article .work-grid {
         height: 12em;
         float: left;
         display: block;
         margin-right: 4.34783%;
         width: 100%;
         margin-bottom: 0; }
-        .block-3 article .work-block:last-child {
+        .block-3 article .work-grid:last-child {
           margin-right: 0; } }
     @media screen and (min-width: 960px) {
-      .block-3 article .work-block {
+      .block-3 article .work-grid {
         float: left;
         display: block;
         margin-right: 2.12766%;
         width: 31.91404%;
         height: 24em; }
-        .block-3 article .work-block:last-child {
+        .block-3 article .work-grid:last-child {
           margin-right: 0; }
-        .block-3 article .work-block:nth-child(3n) {
+        .block-3 article .work-grid:nth-child(3n) {
           margin-right: 0; }
-        .block-3 article .work-block:nth-child(3n+1) {
+        .block-3 article .work-grid:nth-child(3n+1) {
           clear: left; } }
-    .block-3 article .work-block a {
+    .block-3 article .work-grid a {
       width: 100%;
       height: 100%;
       display: block;
@@ -611,18 +619,16 @@ section[class*="block-"] {
       -webkit-transition: all 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -moz-transition: all 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       transition: all 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-      .block-3 article .work-block a:hover {
+      .block-3 article .work-grid a:hover {
         background: #fefefe;
         color: #453939;
         -webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         -moz-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-    .block-3 article .work-block h1 {
+    .block-3 article .work-grid h1 {
       display: block;
       margin: 0;
-      font-size: 1.5em;
-      font-family: "Effra", "Arial", sans-serif;
-      font-weight: 600; }
+      font-weight: bold; }
 
 .wrap article > header {
   margin-top: 4em; }
@@ -646,7 +652,7 @@ section[class*="block-"] {
 .post .description {
   font-size: 1.125em;
   color: #ae9c9c;
-  font-family: "Effra", "Arial", sans-serif; }
+  font-family: "futura-pt", "Proxima Nova", "Helvetica Neue", sans-serif; }
   .post .description div {
     margin-bottom: 1rem; }
   .post .description .label {
@@ -675,15 +681,15 @@ section[class*="block-"] {
   margin-right: 2.12766%;
   width: 87.23404%;
   margin-left: 6.38298%;
-  font-family: "Born", "Comic Sans"; }
+  font-family: "Born", "Georgia"; }
   .post article:last-child {
     margin-right: 0; }
   .post article h1 {
-    font-family: "Effra", "Arial", sans-serif;
+    font-family: "futura-pt", "Proxima Nova", "Helvetica Neue", sans-serif;
     font-size: 3em;
     font-weight: bold; }
   .post article h2, .post article h3, .post article h4, .post article h5 {
-    font-family: "Effra", "Arial", sans-serif; }
+    font-family: "futura-pt", "Proxima Nova", "Helvetica Neue", sans-serif; }
   .post article header {
     margin: 4em 0; }
   .post article img {
@@ -802,7 +808,7 @@ section[class*="block-"] {
       text-transform: capitalize; }
   .listing .work-listing h1 {
     font-size: 3em;
-    font-family: "Effra", "Arial", sans-serif;
+    font-family: "futura-pt", "Proxima Nova", "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-variant: normal;
     display: block;
