@@ -1,11 +1,12 @@
 // Typography
 ///////////////////////////////////////////////////////////////////////////////
 
-$sans-serif: "Effra","Arial", sans-serif;
-$sans-light: "Effra","Arial", sans-serif;
-$sans-medium: "Effra","Arial", sans-serif;
-$sans-bold: "Effra","Arial", sans-serif;
-$serif: "Born", "Comic Sans";
+$sans-serif: "futura-pt", "Proxima Nova", "Helvetica Neue", sans-serif;
+$sans-light: $sans-serif;
+$sans-medium: $sans-serif;
+$sans-bold: $sans-serif;
+$serif: "Born", "Georgia";
+$serif-alt: "adobe-caslon-pro", "Garamond";
 $mono: "Aften Trio";
 
 $base-font-family: $sans-serif;

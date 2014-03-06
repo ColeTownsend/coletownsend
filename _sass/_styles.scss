@@ -44,7 +44,6 @@ hr {
 // Modular Bits to Extend
 
 %liga {
-  font-style: italic;
   -moz-font-feature-settings: "liga=1, dlig=1";
   -ms-font-feature-settings: "liga", "dlig";
   -webkit-font-feature-settings: "liga", "dlig";
@@ -107,7 +106,7 @@ header[role="main-header"] {
   width: 100%;
   z-index: 5000;
   color: $black;
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
   -moz-box-shadow:    0px 1px 0px 0px rgba(243,243,243,0.5);
   -webkit-box-shadow: 0px 1px 0px 0px rgba(243,243,243,0.5);
@@ -194,6 +193,7 @@ section[class*="block-"] {
     padding: 4em 0;
     position: relative;
     height: 100%;
+    font-weight: 500;
   }
   margin-top: em(96);
   background: $white;
@@ -316,7 +316,7 @@ section[class*="block-"] {
       list-style: none;
       list-style-type: none;
     }
-    .work-block {
+    .work-grid {
       margin-bottom: 2em;
       background: $light-gray;
       position: relative;
@@ -354,9 +354,9 @@ section[class*="block-"] {
       h1 {
         display: block;
         margin: 0;
-        font-size: $fs3;
-        font-family: $sans-serif;
-        font-weight: 600;
+        @extend .h2;
+        @extend %liga;
+        font-weight: bold;
         @extend %vertical-align;
       } 
     }

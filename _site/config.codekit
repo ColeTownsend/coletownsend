@@ -2,272 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "16828",
 "files": {
-	"\/404\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/404\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_drafts\/new.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_drafts\/new.md",
-		"outputAbbreviatedPath": "\/_drafts\/new.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_drafts\/vined-co.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_drafts\/vined-co.md",
-		"outputAbbreviatedPath": "\/_drafts\/vined-co.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_includes\/_footer.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/_footer.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_includes\/_head.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/_head.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_includes\/_js_includes.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/_js_includes.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_includes\/_navigation_main.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/_navigation_main.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_includes\/_search-form.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/_search-form.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_layouts\/category_index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_layouts\/category_index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_layouts\/default.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_layouts\/default.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_layouts\/home.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_layouts\/home.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_layouts\/journal-listing.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_layouts\/journal-listing.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_layouts\/portfolio.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_layouts\/portfolio.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_layouts\/post.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_layouts\/post.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_layouts\/search.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_layouts\/search.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_layouts\/work-listing.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_layouts\/work-listing.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_posts\/2014-02-25-thenews.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2014-02-25-thenews.md",
-		"outputAbbreviatedPath": "\/_posts\/2014-02-25-thenews.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_posts\/2014-02-25-williams-outing-club.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2014-02-25-williams-outing-club.md",
-		"outputAbbreviatedPath": "\/_posts\/2014-02-25-williams-outing-club.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_posts\/2014-02-26-illustrations.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2014-02-26-illustrations.md",
-		"outputAbbreviatedPath": "\/_posts\/2014-02-26-illustrations.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_posts\/2014-02-26-tuchuang.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2014-02-26-tuchuang.md",
-		"outputAbbreviatedPath": "\/_posts\/2014-02-26-tuchuang.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_posts\/2014-02-27-an-analysis-of-branch.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2014-02-27-an-analysis-of-branch.md",
-		"outputAbbreviatedPath": "\/_posts\/2014-02-27-an-analysis-of-branch.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_posts\/2014-02-27-box-redesign.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2014-02-27-box-redesign.md",
-		"outputAbbreviatedPath": "\/_posts\/2014-02-27-box-redesign.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_posts\/2014-02-27-mach-2000.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2014-02-27-mach-2000.md",
-		"outputAbbreviatedPath": "\/_posts\/2014-02-27-mach-2000.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_posts\/2014-02-27-peck.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2014-02-27-peck.md",
-		"outputAbbreviatedPath": "\/_posts\/2014-02-27-peck.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_posts\/2014-02-27-quick-guide-to-anchor-cms.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2014-02-27-quick-guide-to-anchor-cms.md",
-		"outputAbbreviatedPath": "\/_posts\/2014-02-27-quick-guide-to-anchor-cms.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_posts\/2014-02-27-sketch-app.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2014-02-27-sketch-app.md",
-		"outputAbbreviatedPath": "\/_posts\/2014-02-27-sketch-app.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_posts\/2014-02-27-typistry.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2014-02-27-typistry.md",
-		"outputAbbreviatedPath": "\/_posts\/2014-02-27-typistry.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_posts\/2014-03-01-test.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2014-03-01-test.md",
-		"outputAbbreviatedPath": "\/_posts\/2014-03-01-test.html",
-		"outputPathIsSetByUser": 0
-		},
 	"\/_sass\/_animations.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1620,7 +1354,7 @@
 		"inputAbbreviatedPath": "\/images\/assets\/avatar.PNG",
 		"outputAbbreviatedPath": "\/images\/assets\/avatar.PNG",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/favicon-128.png": {
 		"fileType": 32768,
@@ -1630,7 +1364,7 @@
 		"inputAbbreviatedPath": "\/images\/assets\/favicon-128.png",
 		"outputAbbreviatedPath": "\/images\/assets\/favicon-128.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/favicon-16.png": {
 		"fileType": 32768,
@@ -1640,7 +1374,7 @@
 		"inputAbbreviatedPath": "\/images\/assets\/favicon-16.png",
 		"outputAbbreviatedPath": "\/images\/assets\/favicon-16.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/favicon-256.png": {
 		"fileType": 32768,
@@ -1650,7 +1384,7 @@
 		"inputAbbreviatedPath": "\/images\/assets\/favicon-256.png",
 		"outputAbbreviatedPath": "\/images\/assets\/favicon-256.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/favicon-29.png": {
 		"fileType": 32768,
@@ -1660,7 +1394,7 @@
 		"inputAbbreviatedPath": "\/images\/assets\/favicon-29.png",
 		"outputAbbreviatedPath": "\/images\/assets\/favicon-29.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/favicon-32.png": {
 		"fileType": 32768,
@@ -1670,7 +1404,7 @@
 		"inputAbbreviatedPath": "\/images\/assets\/favicon-32.png",
 		"outputAbbreviatedPath": "\/images\/assets\/favicon-32.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/favicon-40.png": {
 		"fileType": 32768,
@@ -1680,7 +1414,7 @@
 		"inputAbbreviatedPath": "\/images\/assets\/favicon-40.png",
 		"outputAbbreviatedPath": "\/images\/assets\/favicon-40.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/favicon-48.png": {
 		"fileType": 32768,
@@ -1690,7 +1424,7 @@
 		"inputAbbreviatedPath": "\/images\/assets\/favicon-48.png",
 		"outputAbbreviatedPath": "\/images\/assets\/favicon-48.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/favicon-512.png": {
 		"fileType": 32768,
@@ -1700,7 +1434,7 @@
 		"inputAbbreviatedPath": "\/images\/assets\/favicon-512.png",
 		"outputAbbreviatedPath": "\/images\/assets\/favicon-512.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/favicon-60.png": {
 		"fileType": 32768,
@@ -1710,7 +1444,7 @@
 		"inputAbbreviatedPath": "\/images\/assets\/favicon-60.png",
 		"outputAbbreviatedPath": "\/images\/assets\/favicon-60.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/favicon-76.png": {
 		"fileType": 32768,
@@ -1720,7 +1454,7 @@
 		"inputAbbreviatedPath": "\/images\/assets\/favicon-76.png",
 		"outputAbbreviatedPath": "\/images\/assets\/favicon-76.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/2014\/03\/box-video.png": {
 		"fileType": 32768,
@@ -1730,7 +1464,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/2014\/03\/box-video.png",
 		"outputAbbreviatedPath": "\/images\/inline\/2014\/03\/box-video.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/2014\/03\/peck-menu.png": {
 		"fileType": 32768,
@@ -1740,7 +1474,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/2014\/03\/peck-menu.png",
 		"outputAbbreviatedPath": "\/images\/inline\/2014\/03\/peck-menu.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/box-box-comment.png": {
 		"fileType": 32768,
@@ -1750,7 +1484,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/box-box-comment.png",
 		"outputAbbreviatedPath": "\/images\/inline\/box-box-comment.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/box-box-doc.png": {
 		"fileType": 32768,
@@ -1760,7 +1494,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/box-box-doc.png",
 		"outputAbbreviatedPath": "\/images\/inline\/box-box-doc.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/box-box-nav.png": {
 		"fileType": 32768,
@@ -1770,7 +1504,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/box-box-nav.png",
 		"outputAbbreviatedPath": "\/images\/inline\/box-box-nav.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/box-my-comment.png": {
 		"fileType": 32768,
@@ -1780,7 +1514,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/box-my-comment.png",
 		"outputAbbreviatedPath": "\/images\/inline\/box-my-comment.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/box-my-doc.png": {
 		"fileType": 32768,
@@ -1790,7 +1524,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/box-my-doc.png",
 		"outputAbbreviatedPath": "\/images\/inline\/box-my-doc.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/box-my-nav.png": {
 		"fileType": 32768,
@@ -1800,7 +1534,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/box-my-nav.png",
 		"outputAbbreviatedPath": "\/images\/inline\/box-my-nav.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/box-video.png": {
 		"fileType": 32768,
@@ -1810,7 +1544,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/box-video.png",
 		"outputAbbreviatedPath": "\/images\/inline\/box-video.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/ill-braun.png": {
 		"fileType": 32768,
@@ -1820,7 +1554,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/ill-braun.png",
 		"outputAbbreviatedPath": "\/images\/inline\/ill-braun.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/ill-brew.png": {
 		"fileType": 32768,
@@ -1830,7 +1564,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/ill-brew.png",
 		"outputAbbreviatedPath": "\/images\/inline\/ill-brew.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/ill-keyboard.png": {
 		"fileType": 32768,
@@ -1840,7 +1574,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/ill-keyboard.png",
 		"outputAbbreviatedPath": "\/images\/inline\/ill-keyboard.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/ill-macfam.jpg": {
 		"fileType": 16384,
@@ -1850,7 +1584,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/ill-macfam.jpg",
 		"outputAbbreviatedPath": "\/images\/inline\/ill-macfam.jpg",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/ill-pencil.png": {
 		"fileType": 32768,
@@ -1860,7 +1594,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/ill-pencil.png",
 		"outputAbbreviatedPath": "\/images\/inline\/ill-pencil.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/ill-test.png": {
 		"fileType": 32768,
@@ -1870,7 +1604,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/ill-test.png",
 		"outputAbbreviatedPath": "\/images\/inline\/ill-test.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/thenews-app-comment.jpg": {
 		"fileType": 16384,
@@ -1880,7 +1614,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/thenews-app-comment.jpg",
 		"outputAbbreviatedPath": "\/images\/inline\/thenews-app-comment.jpg",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/thenews-home.png": {
 		"fileType": 32768,
@@ -1890,7 +1624,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/thenews-home.png",
 		"outputAbbreviatedPath": "\/images\/inline\/thenews-home.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/tuch-biz-back.png": {
 		"fileType": 32768,
@@ -1900,7 +1634,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/tuch-biz-back.png",
 		"outputAbbreviatedPath": "\/images\/inline\/tuch-biz-back.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/tuch-biz-front.png": {
 		"fileType": 32768,
@@ -1910,7 +1644,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/tuch-biz-front.png",
 		"outputAbbreviatedPath": "\/images\/inline\/tuch-biz-front.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/tuch-illust.png": {
 		"fileType": 32768,
@@ -1920,7 +1654,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/tuch-illust.png",
 		"outputAbbreviatedPath": "\/images\/inline\/tuch-illust.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inline\/tuch-small-land.jpg": {
 		"fileType": 16384,
@@ -1930,7 +1664,7 @@
 		"inputAbbreviatedPath": "\/images\/inline\/tuch-small-land.jpg",
 		"outputAbbreviatedPath": "\/images\/inline\/tuch-small-land.jpg",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/posts\/line-goose.png": {
 		"fileType": 32768,
@@ -1940,7 +1674,7 @@
 		"inputAbbreviatedPath": "\/images\/posts\/line-goose.png",
 		"outputAbbreviatedPath": "\/images\/posts\/line-goose.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -2050,14 +1784,6 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
-	"\/journal\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/journal\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -2068,58 +1794,18 @@
 		"inputAbbreviatedPath": "\/README.md",
 		"outputAbbreviatedPath": "\/README.html",
 		"outputPathIsSetByUser": 0
-		},
-	"\/search\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/search\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/templates\/link-template.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/link-template.md",
-		"outputAbbreviatedPath": "\/templates\/link-template.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/templates\/portfolio-template.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/portfolio-template.md",
-		"outputAbbreviatedPath": "\/templates\/portfolio-template.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/templates\/post-template.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/post-template.md",
-		"outputAbbreviatedPath": "\/templates\/post-template.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/work\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/work\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
+	{
+		"enabled": 1,
+		"hookType": 1,
+		"name": "Foreman",
+		"predicateDataBase64Encoded": "YnBsaXN0MDDUAQIDBAUGbW5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMjY7PEFFS1BRVlxhZmhVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy8wMV8QEE5TU2VsZkV4cHJlc3Npb25cTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMzWhNIAJgAzTCx83ODk6WU5TS2V5UGF0aIALEAqACl1pbnB1dEZ1bGxQYXRo0issPT5fEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uoz9AMV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb25cTlNFeHByZXNzaW9u0issQkNeTlNNdXRhYmxlQXJyYXmjQkQxV05TQXJyYXnSKyxGR18QE05TS2V5UGF0aEV4cHJlc3Npb26kSElKMV8QE05TS2V5UGF0aEV4cHJlc3Npb25fEBROU0Z1bmN0aW9uRXhwcmVzc2lvblxOU0V4cHJlc3Npb27TTB8LTU5PXxAPTlNDb25zdGFudFZhbHVlgA8QAIAQWXBvcnRmb2xpb9IrLFJTXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNUVTFfEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uXE5TRXhwcmVzc2lvbtQLV1hZWk4oW1pOU01vZGlmaWVyV05TRmxhZ3NeTlNPcGVyYXRvclR5cGWAEhBj0issXV5fEBVOU0luUHJlZGljYXRlT3BlcmF0b3KjX2AxXxAVTlNJblByZWRpY2F0ZU9wZXJhdG9yXxATTlNQcmVkaWNhdGVPcGVyYXRvctIrLGJjXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo2RlMV8QFU5TQ29tcGFyaXNvblByZWRpY2F0ZVtOU1ByZWRpY2F0ZdIrLERnokQx0issaWpfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2tsMV8QE05TQ29tcG91bmRQcmVkaWNhdGVbTlNQcmVkaWNhdGVfEA9OU0tleWVkQXJjaGl2ZXLRb3BUcm9vdIABAAgAEQAaACMALQAyADcAUABWAF0AdwCJAJAAkgCUAJYAmwCmAKgAqgCsALUAyQDcAPIA9AD2APgA+gEFAQ8BHgExAT0BPwFBAUMBRQFHAVQBWQFbAV0BYgFtAXYBiQGNAaABrQG2AbsBvQG\/AcEByAHSAdQB1gHYAeYB6wIKAg4CLQI6Aj8CTgJSAloCXwJ1AnoCkAKnArQCuwLNAs8C0QLTAt0C4gL+AwIDHgMrAzQDPwNHA1YDWANaA18DdwN7A5MDqQOuA8YDygPiA+4D8wP2A\/sEEQQVBCsENwRJBEwEUQAAAAAAAAIBAAAAAAAAAHEAAAAAAAAAAAAAAAAAAART",
+		"runOrder": 0,
+		"scriptSourceString": "cd documents\/www\/sites\/portfolio\nforeman start\ncd",
+		"uuidString": "CC876346-6A50-4F4C-BBBB-8B2A04A87C03"
+		}
 	],
 "lastSavedByUser": "Cole Townsend",
 "manualImportLinks": {
@@ -2131,7 +1817,7 @@
 	"iconImageName": "compass_yellow"
 	},
 "projectSettings": {
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
@@ -2243,8 +1929,8 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/localhost:8888",
-	"externalServerPreviewPathAddition": "",
+	"externalServerAddress": "http:\/\/localhost:4000",
+	"externalServerPreviewPathAddition": "http:\/\/localhost:4000",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathRelativePath": "",
 	"hamlAutoOutputPathReplace1": "",
@@ -2700,7 +2386,7 @@
 	"sassUseLibsass": 0,
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,
-	"skippedItemsString": "_cache, logs, \/_site, _logs, cache, .git, log, .svn, .hg",
+	"skippedItemsString": "\/_posts, \/404, \/_site, _logs, .hg, _cache, log, \/work, \/_layouts, logs, cache, .svn, \/_resources, .git, \/templates, \/_includes, \/search, \/journal, \/_drafts",
 	"slimAutoOutputPathRelativePath": "",
 	"slimAutoOutputPathReplace1": "",
 	"slimAutoOutputPathReplace2": "",
