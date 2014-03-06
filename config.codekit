@@ -136,17 +136,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/_posts\/2014-02-25-thenews.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2014-02-25-thenews.md",
-		"outputAbbreviatedPath": "\/_posts\/2014-02-25-thenews.html",
-		"outputPathIsSetByUser": 0
-		},
 	"\/_posts\/2014-02-25-williams-outing-club.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
