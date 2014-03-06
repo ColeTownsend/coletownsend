@@ -11,6 +11,12 @@ html {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden !important;
+  @include media($small) {
+    font-size: 62.5%;
+  }
+  @include media($medium) {
+    font-size: 80%;
+  }
 }
 
 body {
@@ -204,6 +210,11 @@ section[class*="block-"] {
     @include border-right-radius(200px);
     @include span-columns(2);
     height: auto;
+    @include media($small) {
+      display: block;
+      float: none;
+      margin: 0 auto;
+    }
   }
   h1 {
     @extend .h2;
@@ -211,6 +222,13 @@ section[class*="block-"] {
     @include span-columns(5);
     @include omega();
     margin-top: em(16);
+    @include media($small) {
+      display: block;
+      text-align: center;
+      @include span-columns(3);
+      @include shift(.5);
+      @include omega();
+    }
   }
 }
 
@@ -242,6 +260,7 @@ section[class*="block-"] {
     @include media($small) {
       @include span-columns(3);
       @include shift(.5);
+      text-align: center;
     }
     a {
       color: $white;
@@ -320,7 +339,9 @@ section[class*="block-"] {
       margin-bottom: 2em;
       background: $light-gray;
       position: relative;
-      text-align: center;     
+      text-align: center; 
+      z-index: 1;
+      @include transition(all .2s $ease-in-out-quad);    
       @include span-columns(2.666666);
       @include omega(3n);
       // @include omega(2n);
@@ -338,22 +359,44 @@ section[class*="block-"] {
         @include omega(3n);
         height: em(384);
       }
+      &:hover {
+        @include transition(all .1s $ease-in-out-quad);
+      }
       a {
         width: 100%;
         height: 100%;
+        z-index: 10;
         display: block;
         position: relative;
-        color: $white;
-        @include transition(all .15s $ease-in-out-quad);
+        color: $light-gray;
+        background: $white;
+        // background: lighten($light-gray, 10%);
+        border: 2px solid lighten($light-gray, 8%);
+        @include transition(all .2s $ease-in-out-quad);
+        // Media
+        @include media($medium) {
+          background: none;
+          color: $white;
+          border: none;
+        }
+        @include media($small) {
+          background: none;
+          color: $white;
+          border: none;
+        }
         &:hover {
-          background: $white;
-          color: $black;
-          @include transition(all .3s $ease-in-out-quad);
+          color: $white;
+          background: none;
+          border: none;
+          @include transition(all .1s $ease-in-out-quad);
         }
       }
       h1 {
         display: block;
-        margin: 0;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        max-width: 90%;
         @extend .h2;
         @extend %liga;
         font-weight: bold;

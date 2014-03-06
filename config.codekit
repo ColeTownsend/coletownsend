@@ -1676,6 +1676,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/posts\/thenews-app.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22016,
+		"inputAbbreviatedPath": "\/images\/posts\/thenews-app.png",
+		"outputAbbreviatedPath": "\/images\/posts\/thenews-app.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
