@@ -6,16 +6,16 @@
 }
 
 html {
-  font-size: 112.5%;
+  font-size: 100%;
   height: 100%;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden !important;
   @include media($small) {
-    font-size: 75%;
+    font-size: 62.5%;
   }
   @include media($medium) {
-    font-size: 100%;
+    font-size: 80%;
   }
 }
 
@@ -24,7 +24,37 @@ body {
   height: 100%;
   min-height: 100%;
   background: $white;
+  font-family: $body;
+  color: $black;
+  text-size-adjust: 100%;
   overflow-x: hidden !important;
+}
+
+// Basic Elemental Styling
+
+a {
+  text-decoration: none;
+  color: $blue;
+}
+
+hr {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 4px;
+  border: none;
+  background: $light-gray;
+  margin-bottom: 2em;
+}
+
+// Modular Bits to Extend
+
+%liga {
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga", "dlig";
+  -webkit-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig";
 }
 
 // Extensions for Structure
@@ -45,7 +75,7 @@ body {
   // Tablet
   margin: 0 auto;
   @media screen and (max-width: 768px) {
-    padding: 0 1em; 
+    padding: 0 1rem; 
   }
 }
 
@@ -60,9 +90,9 @@ body {
   min-height: 100%;
   background: $white;
   @include clearfix();
-  margin-bottom: -$base-line-height*4; 
+  margin-bottom: -(em(64)); 
   &:after {
-    height: $base-line-height*4;
+    height: em(64);
   }
 }
 
@@ -76,11 +106,6 @@ body {
 // Main Navigation
 
 // Site Nav
-.listing header[role="main-header"] {
-  -moz-box-shadow: 0px 1px 0px 0px rgba(243, 243, 243, 0.5);
-  -webkit-box-shadow: 0px 1px 0px 0px rgba(243, 243, 243, 0.5);
-  box-shadow: 0px 1px 0px 0px rgba(243, 243, 243,0.5);
-}
 header[role="main-header"] {
   padding: 1em 0;
   font-family: $sans-serif;
@@ -89,6 +114,15 @@ header[role="main-header"] {
   color: $black;
   font-weight: 600;
   position: relative;
+  -moz-box-shadow:    0px 1px 0px 0px rgba(243,243,243,0.5);
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(243,243,243,0.5);
+  box-shadow:         0px 1px 0px 0px rgba(243,243,243,0.5);
+  #toggle {
+    display: none;
+    @media screen and (min-width: 641px) {
+      display: none;
+    }
+  }
   // Logo
   hgroup {
     font-size: .75rem;
@@ -97,12 +131,12 @@ header[role="main-header"] {
     @extend %caps-lock;
     float: left;
     position: relative;
-    top: 0;
+    top: 4px;
     a {
-      height: 2em;
+      height: 2rem;
       position: relative;
       img {
-        height: 2em;
+        height: 2rem;
         width: auto;
       }
     }
@@ -110,27 +144,7 @@ header[role="main-header"] {
   a {
     color: $black;
     @include transition(color .2s $ease-in-out-sine);
-    &:before {
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      color: transparent;
-      content: '•';
-      text-shadow: 0 0 transparent;
-      font-size: 1.2em;
-      -webkit-transition: text-shadow 0.3s, color 0.3s;
-      -moz-transition: text-shadow 0.3s, color 0.3s;
-      transition: text-shadow 0.3s, color 0.3s;
-      -webkit-transform: translateX(-50%);
-      -moz-transform: translateX(-50%);
-      transform: translateX(-50%);
-      pointer-events: none;
-    }
-    &:hover, &:focus {
-      &:before {
-        color: $red;
-        text-shadow: 10px 0 $red, -10px 0 $red;
-      }
+    &:hover {
       color: $red;
       @include transition(color .2s $ease-in-out-sine);
     }
@@ -203,11 +217,11 @@ section[class*="block-"] {
     }
   }
   h1 {
-    @extend .h3;
+    @extend .h2;
     @include shift(1);
     @include span-columns(5);
     @include omega();
-    margin-top: $base-line-height;
+    margin-top: em(16);
     @include media($small) {
       display: block;
       text-align: center;
@@ -242,7 +256,7 @@ section[class*="block-"] {
     @extend .h2;
     font-weight: 400;
     color: $white;
-    margin-top: $base-line-height*2;
+    margin-top: em(16*4);
     @include media($small) {
       @include span-columns(3);
       @include shift(.5);
@@ -289,7 +303,7 @@ section[class*="block-"] {
       @include animation(hovering 2s $ease-in-out-sine);
       @include animation-iteration-count(infinite);
     }
-    @include  media($small) {
+    @media only screen and (max-width: 640px) {
       display: none;
     }
   }
@@ -402,10 +416,10 @@ section[class*="block-"] {
 .post {
   header.bg-img {
     vertical-align: middle;
-    min-height: $base-line-height*8;
+    min-height: em(400);
     height: 50vh;
     width: 100%;
-    max-height: $base-line-height*30;
+    max-height: em(800);
     background-position: center center;
     background-size: cover;
     vertical-align: middle;
@@ -413,15 +427,20 @@ section[class*="block-"] {
     -moz-background-size: cover;
     -o-background-size: cover;
     position: relative;
+    height: em(384);
     -webkit-box-shadow: inset 0 2px 0 rgba(0,0,0,.08), inset 0 -2px 0 rgba(0,0,0,.08);
             box-shadow: inset 0 2px 0 rgba(0,0,0,.08), inset 0 -2px 0 rgba(0,0,0,.08);
   }
   .description {
-    font-size: 1em;
+    font-size: $fs5;
     color: $medium-gray;
     font-family: $sans-serif;
+    div {
+      margin-bottom: 1rem;
+    }
     .label {
       @extend %caps-lock;
+      font-size: 1rem;
       color: $light-gray;
       letter-spacing: 2px;
       font-weight: 500;
@@ -448,34 +467,36 @@ section[class*="block-"] {
     }
   }
   article {
-    margin-bottom: $base-line-height*2;
+    margin-bottom: 4em;
     @include span-columns(7);
     @include shift(.5);
     font-family: $serif;
     h1 {
       font-family: $sans-serif;
+      font-size: $fs1;
+      font-weight: bold;
     }
     h2,h3,h4,h5 {
       font-family: $sans-serif;
     }
     header {
-      margin: $base-line-height*2 0;
+      margin: 4em 0;
     }
     img {
       display: block;
-      margin: $base-line-height/2 auto;
+      margin: 1em auto;
       width: auto;
       max-width: 100%;
       height: auto;
     }
     figure {
-      margin: $base-line-height auto;
+      margin: 2em auto;
       &.web {
-      margin-top: $base-line-height*2;
+      margin-top: 4em;
       border: 1px solid $light-gray;
       @include border-top-radius($border-radius);
       @include border-bottom-radius($border-radius);
-      height: $base-line-height*20;
+      height: 30em;
       overflow-y: scroll;
       position: relative;
       -webkit-box-shadow: 0 -2em 0 $light-gray;
@@ -483,7 +504,7 @@ section[class*="block-"] {
       }
       &.iphone {
         width: 328px;
-        height: em(700, 20);
+        height: em(584px) + 6em;
         border: 1px solid $light-gray;
         @include border-top-radius(2em);
         @include border-bottom-radius(2em);
@@ -498,7 +519,7 @@ section[class*="block-"] {
           -webkit-border-radius: 1.5em;
                   border-radius: 1.5em;
           border: 1px solid $light-gray;
-          left: (em(328px,20)/2) - 1.5em;
+          left: (em(328px)/2) - 1.5em;
           bottom: 1.5em;
         }
         img {
@@ -512,14 +533,17 @@ section[class*="block-"] {
       }
     }
     blockquote {
+      margin: $line-height 2em;
+      margin-left: 4em;
+      line-height: em(26);
       position: relative;
       &:after {
         content: '';
         position: absolute;
         @include transform(rotate(-45deg));
-        width: $base-line-height;
+        width: 2em;
         top: 50%;
-        left: -$base-line-height;
+        left: -48px;
         height: 1px;
         background: $light-gray;
       }
@@ -527,22 +551,26 @@ section[class*="block-"] {
         content: '';
         position: absolute;
         @include transform(rotate(45deg));
-        width: $base-line-height;
+        width: 2em;
         top: 50%;
-        left: -$base-line-height;
+        left: -48px;
         height: 1px;
         background: $light-gray;
       }
     }
-    ol {
-      list-style-type: decimal;
-      margin-bottom: $base-line-height / 2;
-      padding-left: $base-line-height;
-    }
     ul {
       list-style-type: disc;
-      margin-bottom: $base-line-height / 2;
-      padding-left: $base-line-height;
+      list-style: disc;
+      padding-left: 2em;
+      margin-left: 1em;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      li {
+        font-size: em(20);
+        line-height: em(24);
+        padding-left: .25em;
+        margin-top: .5em;
+      }
     }
   }
 }
@@ -606,7 +634,7 @@ footer {
   text-align: center;
   padding: 1em 0; 
   width:100%;
-  height: $base-line-height*4;
+  height: em(64);
   background: $real-black;
   position: relative;
   color: $white;

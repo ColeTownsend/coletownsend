@@ -16,8 +16,8 @@ $body: $sans-serif;
 // Sizes
 ///////////////////////////////////////////////////////////////////////////////
 $base-font-size: 1em;
-$base-line-height: $base-font-size * 1.5;
-$line-height: $base-line-height;
+$base-font-size-small: .75em;
+$line-height: $base-font-size * 1.5;
 
 
 // Border Radii
@@ -30,15 +30,17 @@ $border-radius: 2px;
 
 /** * 16 as roots then powers of two. */
 
-$fs1: $base-font-size * 2.25; // 36px
-$fs2: $base-font-size * 2; // 32px
-$fs3: $base-font-size * 1.75; // 24px
-$fs4: $base-font-size * 1.5; // 24px
-$fs5: $base-font-size * 1.25; // 20px
-$fs6: $base-font-size; // 16px?
-$fs7: $base-font-size*.75;
+$fs1: 3em; // 48px
+$fs2: 2.25em; // 36px
+$fs3: 1.5em; // 24px
+$fs4: 1.3125em; // 20px
+$fs5: 1.125em; // 18px
+$fs6: 1em;
 
 // Line Height
+
+$line-height: 24px;
+$line-height-small: 16px;
 
 // Colors
 ///////////////////////////////////////////////////////////////////////////////
@@ -63,7 +65,6 @@ $red: #EC6F66;
 // Ebony and Ivory
 $black:  #453939;
 $white: #fefefe;
-$off-white: darken(#ffffff, 1%);
 
 // Bitters
 $real-black: #232830;
@@ -74,10 +75,5 @@ $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
-
-
-// Default Element Colors
-$base-font-color: $black;
-$base-border-color: $light-gray;
-$base-link-color: $red;
-$hover-link-color: darken($red, 10%)
+/* Neutrals */
+$off-white: darken(#ffffff, 1%);
