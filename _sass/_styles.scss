@@ -6,7 +6,7 @@
 }
 
 html {
-  font-size: 100%;
+  font-size: 112.5%;
   height: 100%;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
@@ -15,7 +15,7 @@ html {
     font-size: 75%;
   }
   @include media($medium) {
-    font-size: 87.5%;
+    font-size: 100%;
   }
 }
 
@@ -203,11 +203,11 @@ section[class*="block-"] {
     }
   }
   h1 {
-    @extend .h2;
+    @extend .h3;
     @include shift(1);
     @include span-columns(5);
     @include omega();
-    margin-top: em(16);
+    margin-top: $base-line-height;
     @include media($small) {
       display: block;
       text-align: center;
@@ -242,7 +242,7 @@ section[class*="block-"] {
     @extend .h2;
     font-weight: 400;
     color: $white;
-    margin-top: em(16*4);
+    margin-top: $base-line-height*2;
     @include media($small) {
       @include span-columns(3);
       @include shift(.5);
@@ -289,7 +289,7 @@ section[class*="block-"] {
       @include animation(hovering 2s $ease-in-out-sine);
       @include animation-iteration-count(infinite);
     }
-    @media only screen and (max-width: 640px) {
+    @include  media($small) {
       display: none;
     }
   }
@@ -417,12 +417,11 @@ section[class*="block-"] {
             box-shadow: inset 0 2px 0 rgba(0,0,0,.08), inset 0 -2px 0 rgba(0,0,0,.08);
   }
   .description {
-    @extend .h5;
+    font-size: 1em;
     color: $medium-gray;
     font-family: $sans-serif;
     .label {
       @extend %caps-lock;
-      font-size: 1em;
       color: $light-gray;
       letter-spacing: 2px;
       font-weight: 500;
@@ -484,7 +483,7 @@ section[class*="block-"] {
       }
       &.iphone {
         width: 328px;
-        height: em(584px) + 6em;
+        height: em(700, 20);
         border: 1px solid $light-gray;
         @include border-top-radius(2em);
         @include border-bottom-radius(2em);
@@ -499,7 +498,7 @@ section[class*="block-"] {
           -webkit-border-radius: 1.5em;
                   border-radius: 1.5em;
           border: 1px solid $light-gray;
-          left: (em(328px)/2) - 1.5em;
+          left: (em(328px,20)/2) - 1.5em;
           bottom: 1.5em;
         }
         img {
@@ -520,7 +519,7 @@ section[class*="block-"] {
         @include transform(rotate(-45deg));
         width: $base-line-height;
         top: 50%;
-        left: -$base-line-height*2;
+        left: -$base-line-height;
         height: 1px;
         background: $light-gray;
       }
@@ -530,7 +529,7 @@ section[class*="block-"] {
         @include transform(rotate(45deg));
         width: $base-line-height;
         top: 50%;
-        left: -$base-line-height*2;
+        left: -$base-line-height;
         height: 1px;
         background: $light-gray;
       }

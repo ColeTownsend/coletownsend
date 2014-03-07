@@ -160,45 +160,45 @@ a {
 body {
   color: #453939;
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
-  font-size: 1.125em;
+  font-size: 1em;
   -webkit-font-smoothing: antialiased;
-  line-height: 1.6875em; }
+  line-height: 1.5em; }
 
-h1, .h1, h2, .h2, .block-1 h1, .block-2 h2, .block-3 article .work-grid h1, h3, .h3, h4, .h4, h5, .h5, .post .description {
+h1, .h1, h2, .h2, .block-2 h2, .block-3 article .work-grid h1, h3, .h3, .block-1 h1, h4, .h4, h5, .h5 {
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility; }
 
 h1, .h1 {
-  font-size: 2.53125em;
+  font-size: 2.25em;
   line-height: 1.125em;
   margin-bottom: .375em; }
 
-h2, .h2, .block-1 h1, .block-2 h2, .block-3 article .work-grid h1 {
-  font-size: 2.25em;
+h2, .h2, .block-2 h2, .block-3 article .work-grid h1 {
+  font-size: 2em;
   line-height: 1.333333333333em;
   margin-bottom: .666666666em; }
 
-h3, .h3 {
-  font-size: 1.96875em;
+h3, .h3, .block-1 h1 {
+  font-size: 1.75em;
   line-height: 1em;
   margin-bottom: 1em; }
 
 h4, .h4 {
-  font-size: 1.6875em;
+  font-size: 1.5em;
   line-height: 1.142857142857143em;
   margin-bottom: 1.142857142857143em; }
 
-h5, .h5, .post .description {
-  font-size: 1.40625em;
+h5, .h5 {
+  font-size: 1.25em;
   line-height: 1.3333333333333em;
   margin-bottom: 1.333333333333333em; }
 
 h6, .h6 {
   font-size: 1em;
-  line-height: 1.6875em; }
+  line-height: 1.5em; }
 
 p {
-  margin: 0 0 0.84375em; }
+  margin: 0 0 0.75em; }
 
 blockquote {
   font-style: italic; }
@@ -216,7 +216,7 @@ hr {
   width: 100%;
   border-right: none;
   border-top: none;
-  margin: 1.6875em 0; }
+  margin: 1.5em 0; }
 
 img {
   margin: 0;
@@ -228,18 +228,18 @@ abbr, acronym {
 
 address {
   display: block;
-  margin: 0 0 0.84375em; }
+  margin: 0 0 0.75em; }
 
 hgroup {
-  margin-bottom: 0.84375em; }
+  margin-bottom: 0.75em; }
 
 del {
   color: #6f5c5c; }
 
 blockquote {
   color: #6f5c5c;
-  margin: 1.6875em 0;
-  padding-left: 0.84375em; }
+  margin: 1.5em 0;
+  padding-left: 1.5em; }
 
 cite {
   color: #8b7373;
@@ -257,7 +257,7 @@ cite {
 header[role="main-header"] hgroup, .post .description .label, footer small {
   text-transform: uppercase; }
 
-.post article h1, .post article .h1, .post article h2, .post article .h2, .post article .block-1 h1, .block-1 .post article h1, .post article .block-2 h2, .block-2 .post article h2, .post .block-3 article .work-grid h1, .block-3 .post article .work-grid h1, .post article h3, .post article .h3, .post article h4, .post article .h4, .post article h5, .post article .h5, .post article .description {
+.post article h1, .post article .h1, .post article h2, .post article .h2, .post article .block-2 h2, .block-2 .post article h2, .post .block-3 article .work-grid h1, .block-3 .post article .work-grid h1, .post article h3, .post article .h3, .post article .block-1 h1, .block-1 .post article h1, .post article h4, .post article .h4, .post article h5, .post article .h5 {
   font-weight: bold; }
 
 #tooltip {
@@ -298,17 +298,17 @@ header[role="main-header"] hgroup, .post .description .label, footer small {
   box-sizing: border-box; }
 
 html {
-  font-size: 100%;
+  font-size: 112.5%;
   height: 100%;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden !important; }
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 32.5em) {
     html {
       font-size: 75%; } }
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 47.4375em) {
     html {
-      font-size: 87.5%; } }
+      font-size: 100%; } }
 
 body {
   width: 100%;
@@ -350,13 +350,13 @@ body {
 .page-wrap {
   min-height: 100%;
   background: #fefefe;
-  margin-bottom: -6.75em; }
+  margin-bottom: -6em; }
   .page-wrap:after {
     content: "";
     display: table;
     clear: both; }
   .page-wrap:after {
-    height: 6.75em; }
+    height: 6em; }
 
 .listing header[role="main-header"] {
   -moz-box-shadow: 0px 1px 0px 0px rgba(243, 243, 243, 0.5);
@@ -473,7 +473,7 @@ section[class*="block-"] {
     height: auto; }
     .block-1 img:last-child {
       margin-right: 0; }
-    @media screen and (max-width: 30em) {
+    @media screen and (max-width: 32.5em) {
       .block-1 img {
         display: block;
         float: none;
@@ -485,10 +485,10 @@ section[class*="block-"] {
     margin-right: 2.12766%;
     width: 61.70213%;
     margin-right: 0;
-    margin-top: 1em; }
+    margin-top: 1.5em; }
     .block-1 h1:last-child {
       margin-right: 0; }
-    @media screen and (max-width: 30em) {
+    @media screen and (max-width: 32.5em) {
       .block-1 h1 {
         display: block;
         text-align: center;
@@ -523,10 +523,10 @@ section[class*="block-"] {
     text-align: left;
     font-weight: 400;
     color: #fefefe;
-    margin-top: 4em; }
+    margin-top: 3em; }
     .block-2 h2:last-child {
       margin-right: 0; }
-    @media screen and (max-width: 30em) {
+    @media screen and (max-width: 32.5em) {
       .block-2 h2 {
         float: left;
         display: block;
@@ -580,7 +580,7 @@ section[class*="block-"] {
       -webkit-animation-iteration-count: infinite;
       -moz-animation-iteration-count: infinite;
       animation-iteration-count: infinite; }
-    @media only screen and (max-width: 640px) {
+    @media screen and (max-width: 32.5em) {
       .block-2 article img {
         display: none; } }
 
@@ -600,7 +600,7 @@ section[class*="block-"] {
   -webkit-animation-iteration-count: 16;
   -moz-animation-iteration-count: 16;
   animation-iteration-count: 16; }
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 32.5em) {
     .hide-code #arrow {
       left: 48%; } }
 
@@ -634,10 +634,10 @@ section[class*="block-"] {
       margin-right: 0; }
     .block-3 article .work-grid:nth-child(3n+1) {
       clear: left; }
-    @media screen and (max-width: 47.9375em) {
+    @media screen and (max-width: 47.4375em) {
       .block-3 article .work-grid {
         height: 12em; } }
-    @media screen and (max-width: 30em) {
+    @media screen and (max-width: 32.5em) {
       .block-3 article .work-grid {
         height: 12em;
         float: left;
@@ -676,12 +676,12 @@ section[class*="block-"] {
       -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -moz-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-      @media screen and (max-width: 47.9375em) {
+      @media screen and (max-width: 47.4375em) {
         .block-3 article .work-grid a {
           background: none;
           color: #fefefe;
           border: none; } }
-      @media screen and (max-width: 30em) {
+      @media screen and (max-width: 32.5em) {
         .block-3 article .work-grid a {
           background: none;
           color: #fefefe;
@@ -706,10 +706,10 @@ section[class*="block-"] {
 
 .post header.bg-img {
   vertical-align: middle;
-  min-height: 13.5em;
+  min-height: 12em;
   height: 50vh;
   width: 100%;
-  max-height: 50.625em;
+  max-height: 45em;
   background-position: center center;
   background-size: cover;
   vertical-align: middle;
@@ -720,10 +720,10 @@ section[class*="block-"] {
   -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.08), inset 0 -2px 0 rgba(0, 0, 0, 0.08);
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.08), inset 0 -2px 0 rgba(0, 0, 0, 0.08); }
 .post .description {
+  font-size: 1em;
   color: #ae9c9c;
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif; }
   .post .description .label {
-    font-size: 1em;
     color: #dcd4d4;
     letter-spacing: 2px;
     font-weight: 500; }
@@ -742,7 +742,7 @@ section[class*="block-"] {
     .post .description .tag:last-of-type:after {
       content: ""; }
 .post article {
-  margin-bottom: 3.375em;
+  margin-bottom: 3em;
   float: left;
   display: block;
   margin-right: 2.12766%;
@@ -756,30 +756,30 @@ section[class*="block-"] {
   .post article h2, .post article h3, .post article h4, .post article h5 {
     font-family: "europa", "Futura", "Helvetica Neue", sans-serif; }
   .post article header {
-    margin: 3.375em 0; }
+    margin: 3em 0; }
   .post article img {
     display: block;
-    margin: 0.84375em auto;
+    margin: 0.75em auto;
     width: auto;
     max-width: 100%;
     height: auto; }
   .post article figure {
-    margin: 1.6875em auto; }
+    margin: 1.5em auto; }
     .post article figure.web {
-      margin-top: 3.375em;
+      margin-top: 3em;
       border: 1px solid #dcd4d4;
       border-top-left-radius: 2px;
       border-top-right-radius: 2px;
       border-bottom-left-radius: 2px;
       border-bottom-right-radius: 2px;
-      height: 33.75em;
+      height: 30em;
       overflow-y: scroll;
       position: relative;
       -webkit-box-shadow: 0 -2em 0 #dcd4d4;
       box-shadow: 0 -2em 0 #dcd4d4; }
     .post article figure.iphone {
       width: 328px;
-      height: 42.5em;
+      height: 35em;
       border: 1px solid #dcd4d4;
       border-top-left-radius: 2em;
       border-top-right-radius: 2em;
@@ -796,7 +796,7 @@ section[class*="block-"] {
         -webkit-border-radius: 1.5em;
         border-radius: 1.5em;
         border: 1px solid #dcd4d4;
-        left: 8.75em;
+        left: 6.7em;
         bottom: 1.5em; }
       .post article figure.iphone img {
         border: 1px solid #dcd4d4;
@@ -816,9 +816,9 @@ section[class*="block-"] {
       -ms-transform: rotate(-45deg);
       -o-transform: rotate(-45deg);
       transform: rotate(-45deg);
-      width: 1.6875em;
+      width: 1.5em;
       top: 50%;
-      left: -3.375em;
+      left: -1.5em;
       height: 1px;
       background: #dcd4d4; }
     .post article blockquote:before {
@@ -829,19 +829,19 @@ section[class*="block-"] {
       -ms-transform: rotate(45deg);
       -o-transform: rotate(45deg);
       transform: rotate(45deg);
-      width: 1.6875em;
+      width: 1.5em;
       top: 50%;
-      left: -3.375em;
+      left: -1.5em;
       height: 1px;
       background: #dcd4d4; }
   .post article ol {
     list-style-type: decimal;
-    margin-bottom: 0.84375em;
-    padding-left: 1.6875em; }
+    margin-bottom: 0.75em;
+    padding-left: 1.5em; }
   .post article ul {
     list-style-type: disc;
-    margin-bottom: 0.84375em;
-    padding-left: 1.6875em; }
+    margin-bottom: 0.75em;
+    padding-left: 1.5em; }
 
 .listing article {
   margin-bottom: 0; }
@@ -865,7 +865,7 @@ section[class*="block-"] {
       position: relative;
       text-transform: capitalize; }
   .listing .work-listing h1 {
-    font-size: 2.53125em;
+    font-size: 2.25em;
     font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-variant: normal;
@@ -893,7 +893,7 @@ footer {
   text-align: center;
   padding: 1em 0;
   width: 100%;
-  height: 6.75em;
+  height: 6em;
   background: #232830;
   position: relative;
   color: #fefefe; }

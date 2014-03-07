@@ -15,7 +15,7 @@ $body: $sans-serif;
 
 // Sizes
 ///////////////////////////////////////////////////////////////////////////////
-$base-font-size: 1.125em;
+$base-font-size: 1em;
 $base-line-height: $base-font-size * 1.5;
 $line-height: $base-line-height;
 
@@ -35,8 +35,8 @@ $fs2: $base-font-size * 2; // 32px
 $fs3: $base-font-size * 1.75; // 24px
 $fs4: $base-font-size * 1.5; // 24px
 $fs5: $base-font-size * 1.25; // 20px
-$fs6: 1em; // 16px?
-$fs7: .75em;
+$fs6: $base-font-size; // 16px?
+$fs7: $base-font-size*.75;
 
 // Line Height
 
