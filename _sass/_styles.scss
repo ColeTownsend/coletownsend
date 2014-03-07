@@ -12,10 +12,10 @@ html {
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden !important;
   @include media($small) {
-    font-size: 62.5%;
+    font-size: 75%;
   }
   @include media($medium) {
-    font-size: 80%;
+    font-size: 87.5%;
   }
 }
 
@@ -24,37 +24,7 @@ body {
   height: 100%;
   min-height: 100%;
   background: $white;
-  font-family: $body;
-  color: $black;
-  text-size-adjust: 100%;
   overflow-x: hidden !important;
-}
-
-// Basic Elemental Styling
-
-a {
-  text-decoration: none;
-  color: $blue;
-}
-
-hr {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  height: 4px;
-  border: none;
-  background: $light-gray;
-  margin-bottom: 2em;
-}
-
-// Modular Bits to Extend
-
-%liga {
-  -moz-font-feature-settings: "liga=1, dlig=1";
-  -ms-font-feature-settings: "liga", "dlig";
-  -webkit-font-feature-settings: "liga", "dlig";
-  -o-font-feature-settings: "liga", "dlig";
-  font-feature-settings: "liga", "dlig";
 }
 
 // Extensions for Structure
@@ -75,7 +45,7 @@ hr {
   // Tablet
   margin: 0 auto;
   @media screen and (max-width: 768px) {
-    padding: 0 1rem; 
+    padding: 0 1em; 
   }
 }
 
@@ -90,9 +60,9 @@ hr {
   min-height: 100%;
   background: $white;
   @include clearfix();
-  margin-bottom: -(em(64)); 
+  margin-bottom: -$base-line-height*4; 
   &:after {
-    height: em(64);
+    height: $base-line-height*4;
   }
 }
 
@@ -106,6 +76,11 @@ hr {
 // Main Navigation
 
 // Site Nav
+.listing header[role="main-header"] {
+  -moz-box-shadow: 0px 1px 0px 0px rgba(243, 243, 243, 0.5);
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(243, 243, 243, 0.5);
+  box-shadow: 0px 1px 0px 0px rgba(243, 243, 243,0.5);
+}
 header[role="main-header"] {
   padding: 1em 0;
   font-family: $sans-serif;
@@ -114,15 +89,6 @@ header[role="main-header"] {
   color: $black;
   font-weight: 600;
   position: relative;
-  -moz-box-shadow:    0px 1px 0px 0px rgba(243,243,243,0.5);
-  -webkit-box-shadow: 0px 1px 0px 0px rgba(243,243,243,0.5);
-  box-shadow:         0px 1px 0px 0px rgba(243,243,243,0.5);
-  #toggle {
-    display: none;
-    @media screen and (min-width: 641px) {
-      display: none;
-    }
-  }
   // Logo
   hgroup {
     font-size: .75rem;
@@ -131,12 +97,12 @@ header[role="main-header"] {
     @extend %caps-lock;
     float: left;
     position: relative;
-    top: 4px;
+    top: 0;
     a {
-      height: 2rem;
+      height: 2em;
       position: relative;
       img {
-        height: 2rem;
+        height: 2em;
         width: auto;
       }
     }
@@ -144,7 +110,27 @@ header[role="main-header"] {
   a {
     color: $black;
     @include transition(color .2s $ease-in-out-sine);
-    &:hover {
+    &:before {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      color: transparent;
+      content: '•';
+      text-shadow: 0 0 transparent;
+      font-size: 1.2em;
+      -webkit-transition: text-shadow 0.3s, color 0.3s;
+      -moz-transition: text-shadow 0.3s, color 0.3s;
+      transition: text-shadow 0.3s, color 0.3s;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      transform: translateX(-50%);
+      pointer-events: none;
+    }
+    &:hover, &:focus {
+      &:before {
+        color: $red;
+        text-shadow: 10px 0 $red, -10px 0 $red;
+      }
       color: $red;
       @include transition(color .2s $ease-in-out-sine);
     }
@@ -416,10 +402,10 @@ section[class*="block-"] {
 .post {
   header.bg-img {
     vertical-align: middle;
-    min-height: em(400);
+    min-height: $base-line-height*8;
     height: 50vh;
     width: 100%;
-    max-height: em(800);
+    max-height: $base-line-height*30;
     background-position: center center;
     background-size: cover;
     vertical-align: middle;
@@ -427,20 +413,16 @@ section[class*="block-"] {
     -moz-background-size: cover;
     -o-background-size: cover;
     position: relative;
-    height: em(384);
     -webkit-box-shadow: inset 0 2px 0 rgba(0,0,0,.08), inset 0 -2px 0 rgba(0,0,0,.08);
             box-shadow: inset 0 2px 0 rgba(0,0,0,.08), inset 0 -2px 0 rgba(0,0,0,.08);
   }
   .description {
-    font-size: $fs5;
+    @extend .h5;
     color: $medium-gray;
     font-family: $sans-serif;
-    div {
-      margin-bottom: 1rem;
-    }
     .label {
       @extend %caps-lock;
-      font-size: 1rem;
+      font-size: 1em;
       color: $light-gray;
       letter-spacing: 2px;
       font-weight: 500;
@@ -467,36 +449,34 @@ section[class*="block-"] {
     }
   }
   article {
-    margin-bottom: 4em;
+    margin-bottom: $base-line-height*2;
     @include span-columns(7);
     @include shift(.5);
     font-family: $serif;
     h1 {
       font-family: $sans-serif;
-      font-size: $fs1;
-      font-weight: bold;
     }
     h2,h3,h4,h5 {
       font-family: $sans-serif;
     }
     header {
-      margin: 4em 0;
+      margin: $base-line-height*2 0;
     }
     img {
       display: block;
-      margin: 1em auto;
+      margin: $base-line-height/2 auto;
       width: auto;
       max-width: 100%;
       height: auto;
     }
     figure {
-      margin: 2em auto;
+      margin: $base-line-height auto;
       &.web {
-      margin-top: 4em;
+      margin-top: $base-line-height*2;
       border: 1px solid $light-gray;
       @include border-top-radius($border-radius);
       @include border-bottom-radius($border-radius);
-      height: 30em;
+      height: $base-line-height*20;
       overflow-y: scroll;
       position: relative;
       -webkit-box-shadow: 0 -2em 0 $light-gray;
@@ -533,17 +513,14 @@ section[class*="block-"] {
       }
     }
     blockquote {
-      margin: $line-height 2em;
-      margin-left: 4em;
-      line-height: em(26);
       position: relative;
       &:after {
         content: '';
         position: absolute;
         @include transform(rotate(-45deg));
-        width: 2em;
+        width: $base-line-height;
         top: 50%;
-        left: -48px;
+        left: -$base-line-height*2;
         height: 1px;
         background: $light-gray;
       }
@@ -551,26 +528,22 @@ section[class*="block-"] {
         content: '';
         position: absolute;
         @include transform(rotate(45deg));
-        width: 2em;
+        width: $base-line-height;
         top: 50%;
-        left: -48px;
+        left: -$base-line-height*2;
         height: 1px;
         background: $light-gray;
       }
     }
+    ol {
+      list-style-type: decimal;
+      margin-bottom: $base-line-height / 2;
+      padding-left: $base-line-height;
+    }
     ul {
       list-style-type: disc;
-      list-style: disc;
-      padding-left: 2em;
-      margin-left: 1em;
-      margin-top: 1em;
-      margin-bottom: 1em;
-      li {
-        font-size: em(20);
-        line-height: em(24);
-        padding-left: .25em;
-        margin-top: .5em;
-      }
+      margin-bottom: $base-line-height / 2;
+      padding-left: $base-line-height;
     }
   }
 }
@@ -634,7 +607,7 @@ footer {
   text-align: center;
   padding: 1em 0; 
   width:100%;
-  height: em(64);
+  height: $base-line-height*4;
   background: $real-black;
   position: relative;
   color: $white;

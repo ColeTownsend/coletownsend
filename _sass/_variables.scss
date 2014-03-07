@@ -15,8 +15,7 @@ $body: $sans-serif;
 
 // Sizes
 ///////////////////////////////////////////////////////////////////////////////
-$base-font-size: 1em;
-$base-font-size-small: .75em;
+$base-font-size: 1.125em;
 $base-line-height: $base-font-size * 1.5;
 $line-height: $base-line-height;
 
@@ -37,11 +36,9 @@ $fs3: $base-font-size * 1.75; // 24px
 $fs4: $base-font-size * 1.5; // 24px
 $fs5: $base-font-size * 1.25; // 20px
 $fs6: 1em; // 16px?
+$fs7: .75em;
 
 // Line Height
-
-$line-height: 24px;
-$line-height-small: 16px;
 
 // Colors
 ///////////////////////////////////////////////////////////////////////////////
@@ -66,6 +63,7 @@ $red: #EC6F66;
 // Ebony and Ivory
 $black:  #453939;
 $white: #fefefe;
+$off-white: darken(#ffffff, 1%);
 
 // Bitters
 $real-black: #232830;
@@ -76,5 +74,10 @@ $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
-/* Neutrals */
-$off-white: darken(#ffffff, 1%);
+
+
+// Default Element Colors
+$base-font-color: $black;
+$base-border-color: $light-gray;
+$base-link-color: $red;
+$hover-link-color: darken($red, 10%)

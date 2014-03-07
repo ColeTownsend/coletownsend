@@ -1,11 +1,21 @@
 // Typography
 ///////////////////////////////////////////////////////////////////////////////
 
+body {
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  -webkit-font-smoothing: antialiased;
+  line-height: $base-line-height;
+}
+
+
 // Headers
    ///////////////////////////////////////////////////////////////////////////////
 
 h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5 {
   font-family: $head;
+  text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 
 h1,.h1 { 
@@ -58,24 +68,11 @@ small {
   text-transform: uppercase;
 }
 
-a {
-  color: $base-link-color;
-  text-decoration: none;
-  @include transition(color 0.1s linear);
-
-  &:hover {
-    color: $hover-link-color;
-  }
-
-  &:active, &:focus {
-    color: $hover-link-color;
-    outline: none;
-  }
-}
-
 hr {
   border-bottom: 1px solid $base-border-color;
+  display: block;
   border-left: none;
+  width: 100%;
   border-right: none;
   border-top: none;
   margin: $base-line-height 0;
@@ -129,6 +126,16 @@ cite {
 //   @extend %intro;
 // }
 
+// Modular Bits to Extend
+
+%liga {
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga", "dlig";
+  -webkit-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig";
+}
+
 
 
 // Casing
@@ -172,19 +179,6 @@ cite {
 %lh-title   { line-height:1.3; }
 %lh-copy    { line-height:1.6; }
 
-p + p {
-  margin-top: $line-height;
-}
-
-article {
-  p ~ h2, p ~ h3, p ~ h4, p ~ h5 {
-    margin-top: $line-height*2;
-    &:first-of-type {
-      margin-top: $line-height;
-    }
-  }
-  
-}
 
 // Article Headings
 ///////////////////////////////////////////////////////////////////////////////
