@@ -234,16 +234,19 @@ section[class*="block-"] {
 
 // Code Block
 .block-2 {
-    article {
+  @include media($small) {
+    display: none;
+  }
+  background: $red;
+  position: relative;
+  z-index: 1;
+  article {
     @extend %container;
     float: none;
     padding: 4em 0;
     position: relative;
     height: 100%;
   }
-  background: $red;
-  position: relative;
-  z-index: 1;
   .hide-code {
     position: relative;
     height: em(16*32);

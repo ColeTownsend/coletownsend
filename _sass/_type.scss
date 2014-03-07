@@ -40,16 +40,11 @@ h5,.h5 {
 
 h6,.h6 {      
   font-size: $fs6; 
-  line-height: $line-height;
-} 
-
-p {
-  font-size: $fs4;
-  line-height: em(24);
 }
 
 blockquote {
   font-style: italic;
+  padding-left: $line-height;
 }
 
 small {
