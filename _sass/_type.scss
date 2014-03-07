@@ -44,8 +44,7 @@ h6,.h6 {
 } 
 
 p {
-  font-size: $fs4;
-  line-height: em(24);
+  margin: 0 0 ($base-line-height * .5);
 }
 
 blockquote {
@@ -59,8 +58,69 @@ small {
   text-transform: uppercase;
 }
 
-/* Copy
-   ========================================================================== */
+a {
+  color: $base-link-color;
+  text-decoration: none;
+  @include transition(color 0.1s linear);
+
+  &:hover {
+    color: $hover-link-color;
+  }
+
+  &:active, &:focus {
+    color: $hover-link-color;
+    outline: none;
+  }
+}
+
+hr {
+  border-bottom: 1px solid $base-border-color;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: $base-line-height 0;
+}
+
+img {
+  margin: 0;
+  max-width: 100%;
+}
+
+abbr, acronym {
+  border-bottom: 1px dotted $base-border-color;
+  cursor: help;
+}
+
+address {
+  display: block;
+  margin: 0 0 ($base-line-height / 2);
+}
+
+hgroup {
+  margin-bottom: $base-line-height / 2;
+}
+
+del {
+  color: lighten($base-font-color, 15);
+}
+
+blockquote {
+  color: lighten($base-font-color, 15);
+  margin: $base-line-height 0;
+  padding-left: $base-line-height / 2;
+}
+
+cite {
+  color: lighten($base-font-color, 25);
+  font-style: italic;
+
+  &:before {
+    content: '\2014 \00A0';
+  }
+}
+
+// Copy
+///////////////////////////////////////////////////////////////////////////////
 
 %intro {  font-size: $fs3; }
 %copy {   font-size: $fs4; }
@@ -71,24 +131,24 @@ small {
 
 
 
-/* Casing
-   ========================================================================== */
+// Casing
+///////////////////////////////////////////////////////////////////////////////
 
 %caps-lock  { text-transform:uppercase; }
 %title-casing { text-transform:capitalize; }
 
 
 
-/* Tracking
-   ========================================================================== */
+// Tracking
+///////////////////////////////////////////////////////////////////////////////
 
 %title      {
   letter-spacing:0.1em;
   text-transform:uppercase;
 }
 
-/* Alignment
-   ========================================================================== */
+// Alignment
+///////////////////////////////////////////////////////////////////////////////
 
 %ar         { text-align: right;  }
 %al         { text-align: left;   }
@@ -97,15 +157,15 @@ small {
 
 
 
-/* Wrapping
-   ========================================================================== */
+// Wrapping
+///////////////////////////////////////////////////////////////////////////////
 
 %nw    { white-space:nowrap; }
 
 
 
-/* Leading
-   ========================================================================== */
+// Leading
+///////////////////////////////////////////////////////////////////////////////
 
 %lh-1       { line-height:1; }
 %lh-2       { line-height:2; }
@@ -126,8 +186,8 @@ article {
   
 }
 
-/* Article Headings
-   ========================================================================== */
+// Article Headings
+///////////////////////////////////////////////////////////////////////////////
    
 .post {
   article {

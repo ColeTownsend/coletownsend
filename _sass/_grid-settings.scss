@@ -7,6 +7,6 @@ $grid-columns: 8;
 $max-width: em(768);
 
 // Define your breakpoints
-$large: new-breakpoint(min-width 960px 8);
-$medium: new-breakpoint(max-width 767px 8);
-$small: new-breakpoint(max-width 480px 4);
+$large: new-breakpoint(min-width em(960) 8);
+$medium: new-breakpoint(max-width em(767) 8);
+$small: new-breakpoint(max-width em(480) 4);

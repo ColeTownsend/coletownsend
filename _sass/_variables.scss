@@ -17,7 +17,8 @@ $body: $sans-serif;
 ///////////////////////////////////////////////////////////////////////////////
 $base-font-size: 1em;
 $base-font-size-small: .75em;
-$line-height: $base-font-size * 1.5;
+$base-line-height: $base-font-size * 1.5;
+$line-height: $base-line-height;
 
 
 // Border Radii
@@ -30,12 +31,12 @@ $border-radius: 2px;
 
 /** * 16 as roots then powers of two. */
 
-$fs1: 3em; // 48px
-$fs2: 2.25em; // 36px
-$fs3: 1.5em; // 24px
-$fs4: 1.3125em; // 20px
-$fs5: 1.125em; // 18px
-$fs6: 1em;
+$fs1: $base-font-size * 2.25; // 36px
+$fs2: $base-font-size * 2; // 32px
+$fs3: $base-font-size * 1.75; // 24px
+$fs4: $base-font-size * 1.5; // 24px
+$fs5: $base-font-size * 1.25; // 20px
+$fs6: 1em; // 16px?
 
 // Line Height
 
