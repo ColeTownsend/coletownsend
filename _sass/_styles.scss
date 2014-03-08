@@ -172,7 +172,7 @@ section[class*="block-"] {
   position: relative;
   overflow: hidden;
   @include media($small) {
-    min-height: 18em;
+    min-height: 16em;
   }
 }
 // First Block
@@ -206,7 +206,7 @@ section[class*="block-"] {
   }
   h1 {
     font-size: $fs3;
-    margin-top: 1.25em;
+    margin-top: 1em;
     @include span-columns(5);
     @include shift(1);
     @include omega();
