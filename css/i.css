@@ -499,7 +499,7 @@ section[class*="block-"] {
   overflow: hidden; }
   @media screen and (max-width: 520px) {
     section[class*="block-"] {
-      min-height: 18em; } }
+      min-height: 16em; } }
 
 .block-1 {
   margin-top: 4.5em;
@@ -542,7 +542,7 @@ section[class*="block-"] {
         margin: 0 auto; } }
   .block-1 h1 {
     font-size: 1.75em;
-    margin-top: 1.25em;
+    margin-top: 1em;
     float: left;
     display: block;
     margin-right: 2.5641%;
