@@ -12,8 +12,11 @@
         <header >
           <h1>{{ page.title }}</h1>
           <div class="description">
-            <div><span class="label">Role: </span><span>{{page.role}}</span></div>
-            <div><span class="label">Responsibility: </span><span>{% for tag in page.tags%}<span class="tag">{{tag}}</span>  {% endfor %}</span></div>
+            <div><span class="label">Role&#58;</span><span class="tag">{{page.role}}</span></div>
+            <div>
+            <span class="label">Responsibility&#58;</span>
+            <span>{% for tag in page.tags%}<span class="tag">{{tag}}</span>{% endfor %}</span>
+          </div>
           </div>
         </header>
         {{ content }}
@@ -26,10 +29,10 @@
         <header >
           <h1>{{ page.title }}</h1>
           <div class="description">
-            <div class="description">
-            <div><span class="label">Role: </span><span>{{page.role}}</span></div>
-            <div><span class="label">Media: </span><span class="tag">{% for tag in page.tags%}{{tag}}, {% endfor %}</span></div>
-          </div>
+            <div><span class="label">Role&#58;</span><span class="tag">{{page.role}}</span></div>
+            <div>
+            <span class="label">Responsibility&#58;</span>
+            <span>{% for tag in page.tags%}<span class="tag">{{tag}}</span>{% endfor %}</span>
           </div>
         </header>
         {{ content }}

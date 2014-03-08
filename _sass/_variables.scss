@@ -9,20 +9,24 @@ $serif: "Born", "Georgia";
 $serif-alt: "adobe-caslon-pro", "Garamond";
 $mono: "Aften Trio";
 
-$base-font-family: $sans-serif;
 $head: $sans-serif;
 $body: $sans-serif;
+$base-font-family: $sans-serif;
+$header-font-family: $head;
+
 
 // Sizes
 ///////////////////////////////////////////////////////////////////////////////
 $base-font-size: 1em;
-$base-font-size-small: .75em;
-$line-height: $base-font-size * 1.5;
+$base-line-height: $base-font-size * 1.5;
+$line-height: $base-line-height;
 
 
 // Border Radii
 ///////////////////////////////////////////////////////////////////////////////
-$border-radius: 2px;
+$base-border-radius: em(2px);
+$border-radius: $base-border-radius;
+
 
 
 // Type Scale - I always need a type-scale
@@ -30,17 +34,14 @@ $border-radius: 2px;
 
 /** * 16 as roots then powers of two. */
 
-$fs1: 3em; // 48px
-$fs2: 2.25em; // 36px
-$fs3: 1.5em; // 24px
-$fs4: 1.3125em; // 20px
-$fs5: 1.125em; // 18px
-$fs6: 1em;
-
-// Line Height
-
-$line-height: 24px;
-$line-height-small: 16px;
+$fs1: 2.25em; // 45px
+$fs2: 2em; // 40px
+$fs3: 1.75em; // 35px
+$fs4: 1.5em; // 30px
+$fs5: 1.25em; // 25px
+$fs6: 1em; // 20px
+$fs7: .75em; // 15px
+$fs8: .6em; // 12px
 
 // Colors
 ///////////////////////////////////////////////////////////////////////////////
@@ -77,3 +78,17 @@ $light-green: #E6EFC2;
 
 /* Neutrals */
 $off-white: darken(#ffffff, 1%);
+
+// Body Color
+$base-body-color: $white;
+
+//  Font Colors
+$base-font-color: $black;
+$base-accent-color: $blue;
+
+//  Text Link Colors
+$base-link-color: $base-accent-color;
+$hover-link-color: darken($base-accent-color, 15);
+
+// Border color
+$base-border-color: $light-gray;

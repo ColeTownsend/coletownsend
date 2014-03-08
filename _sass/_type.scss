@@ -1,57 +1,106 @@
 // Typography
 ///////////////////////////////////////////////////////////////////////////////
 
-// Headers
-   ///////////////////////////////////////////////////////////////////////////////
-
-h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5 {
-  font-family: $head;
+body {
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  -webkit-font-smoothing: antialiased;
+  line-height: $base-line-height;
 }
 
-h1,.h1 { 
-  font-size: $fs1;
-  line-height: 1.125em;
-  margin-bottom: .375em;
+h1,.h1, h2, .h2, h3, .h3, h4, h5, h6 {
+  font-family: $header-font-family;
+  line-height: 1.25em;
+  margin: 0;
+  text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 
-h2,.h2 {      
-  font-size: $fs2; 
-  line-height: 1.333333333333em;
-  margin-bottom: .666666666em;
-} 
-
-h3,.h3 {      
-  font-size: $fs3; 
-  line-height: 1em;
-  margin-bottom: 1em;
+h1,.h1 {
+  font-size: $fs1; // 20 * 2.25 = 45px
+  line-height: 1.2em;
+  margin-bottom: .25em;
 }
 
-h4,.h4 {      
-  font-size: $fs4; 
-  line-height: 1.142857142857143em;
-  margin-bottom: 1.142857142857143em;
-} 
-
-h5,.h5 {      
-  font-size: $fs5; 
-  line-height: 1.3333333333333em;
-  margin-bottom: 1.333333333333333em;
+h2,.h2 {
+  font-size: $fs2; // 20 * 2 = 40px
+  line-height: 1.2em;
+  margin-bottom: .33em;
 }
 
-h6,.h6 {      
-  font-size: $fs6; 
+h3,.h3 {
+  font-size: $fs3; // 20 * 1.75 = 35px
+  line-height: 1.3em;
+  margin-bottom: .25em;
+}
+
+h4 {
+  font-size: $fs4; // 20 * 1.5 = 30px
+  line-height: 1.4em;
+  margin-bottom: em(8px);
+}
+
+h5 {
+  font-size: $fs5; // 20 * 1.25 = 25px
+  line-height: 1.4em;
+  margin-bottom: em(5px);
+}
+
+h6 {
+  font-size: $base-font-size;
+}
+
+p {
+  margin: 0 0 ($base-line-height * .5);
+}
+
+hr {
+  border-bottom: 1px solid $base-border-color;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: $base-line-height 0;
+}
+
+img {
+  margin: 0;
+  max-width: 100%;
+}
+
+abbr, acronym {
+  border-bottom: 1px dotted $base-border-color;
+  cursor: help;
+}
+
+address {
+  display: block;
+  margin: 0 0 ($base-line-height / 2);
+}
+
+del {
+  color: lighten($base-font-color, 15);
 }
 
 blockquote {
-  font-style: italic;
-  padding-left: $line-height;
+  color: lighten($base-font-color, 15);
+  margin: $base-line-height 0;
+  margin-left: $base-line-height;
+  padding-left: $base-line-height;
 }
 
 small {
-  font-size: .75rem;
-  line-height: 1rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  font-size: $fs8;
+  display: block;
+  @extend %caps-lock;
+}
+
+cite {
+  color: lighten($base-font-color, 25);
+  font-style: italic;
+
+  &:before {
+    content: '\2014 \00A0';
+  }
 }
 
 /* Copy
@@ -112,11 +161,8 @@ p + p {
 }
 
 article {
-  p ~ h2, p ~ h3, p ~ h4, p ~ h5 {
-    margin-top: $line-height*2;
-    &:first-of-type {
-      margin-top: $line-height;
-    }
+  p ~ h2, p~.h2, p ~ h3,.h3, p ~ h4, p ~ h5 {
+    margin-top: $line-height;
   }
   
 }
@@ -126,7 +172,7 @@ article {
    
 .post {
   article {
-    h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5 {
+    h1,.h1,h2,.h2,h3,.h3,,h4,h5 {
       font-weight: bold;
     }
   }
