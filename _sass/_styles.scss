@@ -200,7 +200,7 @@ section[class*="block-"] {
     }
     @include media($small) {
       display: block;
-      @include span-columns(2);
+      @include span-columns(1);
       @include shift(1);
       float: none;
       margin: 0 auto;
