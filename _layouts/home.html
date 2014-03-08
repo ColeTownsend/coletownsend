@@ -19,6 +19,7 @@
       </section>
       <section id="work" class="full block-3">
         <article class="full">
+          <ul>
           {% for post in site.posts %}
             {% if post.categories contains 'work' %}
                 <li class="work-grid" style="background:{% if post.brand-color %}{{ post.brand-color}}{% else %}#EFEFEF{% endif %};">
@@ -28,6 +29,7 @@
                 </li>
             {% endif %}
           {% endfor %}
+          </ul>
         </article>
       </section>
     </div>
