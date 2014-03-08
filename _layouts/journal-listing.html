@@ -12,7 +12,7 @@
               </li>
             {% for post in site.posts %}
               {% if post.categories contains 'journal' %}
-                <li class="work-rectangle" style="background:{% if post.accent_color %}{{ post.accent_color}}{% else %}I{% endif %};">
+                <li class="work-rectangle" style="background:{% if post.accent-color %}{{ post.accent-color}}{% else %}I{% endif %};">
                   <a href="{{ site.url }}{{ post.url }}">
                     <h1>{{ post.title }}</h1>
                   </a>

@@ -4,7 +4,7 @@ layout: post
 title: Box Redesign
 date: "2014-02-27 12:06:34"
 category: journal
-accent_color: "#048BCD"
+accent-color: "#048BCD"
 image:
   feature: box-app.svg
 ---

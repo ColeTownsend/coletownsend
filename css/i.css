@@ -338,12 +338,6 @@ small, header[role="main-header"] hgroup, .post .description .label {
    ========================================================================== */
 /* Leading
    ========================================================================== */
-p + p {
-  margin-top: 1.5em; }
-
-article p ~ h2, article p ~ .h2, .block-3 article .work-grid p ~ h1, article p ~ h3, article .h3, article p ~ h4, article p ~ h5 {
-  margin-top: 1.5em; }
-
 /* Article Headings
    ========================================================================== */
 .post article h1, .post article .h1, .post article h2, .post article .h2, .post .block-3 article .work-grid h1, .block-3 .post article .work-grid h1, .post article h3, .post article .h3, .post article h4, .post article h5 {
@@ -833,6 +827,9 @@ section[class*="block-"] {
     width: auto;
     max-width: 100%;
     height: auto; }
+  .post article a {
+    color: rgba(40, 46, 66, 0.75);
+    border-bottom: 1px dotted #282e42; }
   .post article figure {
     margin: 1.5em auto; }
     .post article figure.web {
