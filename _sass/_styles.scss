@@ -171,6 +171,9 @@ section[class*="block-"] {
   min-height: 21em;
   position: relative;
   overflow: hidden;
+  @include media($small) {
+    min-height: 18em;
+  }
 }
 // First Block
 .block-1 {
