@@ -462,6 +462,9 @@ section[class*="block-"] {
         text-transform: capitalize;
       }
     }
+    .no-bg-img {
+      margin-top: $base-line-height*4;
+    }
     img {
       display: block;
       margin: $base-line-height/2 auto;
@@ -472,19 +475,19 @@ section[class*="block-"] {
     figure {
       margin: $base-line-height auto;
       &.web {
-      margin-top: $base-line-height*2;
-      border: 1px solid $light-gray;
-      @include border-top-radius(4px);
-      @include border-bottom-radius(4px);
-      height: 30em;
-      overflow-y: scroll;
-      position: relative;
-      -webkit-box-shadow: 0 -2em 0 $light-gray;
-              box-shadow: 0 -2em 0 $light-gray;
-      img {
-        @include border-top-radius(0);
-        @include border-bottom-radius(0);
-      }
+        margin-top: $base-line-height*2;
+        border: 1px solid $light-gray;
+        @include border-top-radius(4px);
+        @include border-bottom-radius(4px);
+        height: 30em;
+        overflow-y: scroll;
+        position: relative;
+        -webkit-box-shadow: 0 -2em 0 $light-gray;
+                box-shadow: 0 -2em 0 $light-gray;
+        img {
+          @include border-top-radius(0);
+          @include border-bottom-radius(0);
+        }
       }
       &.iphone {
         width: 328px;
