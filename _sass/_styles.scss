@@ -174,7 +174,9 @@ section[class*="block-"] {
 }
 // First Block
 .block-1 {
-    article {
+  margin-top: $base-line-height*3;
+  background: $white;  
+  article {
     @extend %container;
     float: none;
     padding: 3em 0;
@@ -182,8 +184,6 @@ section[class*="block-"] {
     height: 100%;
     font-weight: 500;
   }
-  margin-top: em(96);
-  background: $white;
   img {
     @include border-top-radius(200px);
     @include border-bottom-radius(200px);
@@ -283,7 +283,9 @@ section[class*="block-"] {
     right: -50%;
     z-index: 2;
     top: 2em;
-    @include box-shadow(-10px 20px 0px rgba(0,0,0,0.10));
+    -webkit-box-shadow: -10px 20px 0px rgba(0,0,0,0.10);
+    -moz-box-shadow: -10px 20px 0px rgba(0,0,0,0.10);
+    box-shadow: -10px 20px 0px rgba(0,0,0,0.10);
     -webkit-border-radius: 6px;
             border-radius: 6px;
     @include transition(all .2s $ease-in-out-quad);
@@ -419,7 +421,7 @@ section[class*="block-"] {
   .description {
     color: $medium-gray;
     font-family: $sans-serif;
-    margin-bottom: em(6px);
+    margin-bottom: em(6);
     .label {
       @extend %caps-lock;
       color: $light-gray;
