@@ -75,8 +75,8 @@ hr {
   // Big Screens
   // Tablet
   margin: 0 auto;
-  @media screen and (max-width: 768px) {
-    padding: 0 1rem; 
+  @include media($medium) {
+    padding: 0 1em; 
   }
 }
 
@@ -191,6 +191,10 @@ section[class*="block-"] {
     @include border-right-radius(200px);
     @include span-columns(2);
     height: auto;
+    @include media($medium) {
+      @include span-columns(1.5);
+      @include shift(.25);
+    }
     @include media($small) {
       display: block;
       float: none;
@@ -207,6 +211,7 @@ section[class*="block-"] {
       @include span-columns(5.5);
       @include shift(.5);
       @include omega();
+      margin-top: 1em;
     }
     @include media($small) {
       display: block;
@@ -239,7 +244,8 @@ section[class*="block-"] {
   }
   h2 {
     position: relative;
-    @include span-columns(5);
+    @include span-columns(4.5);
+    @include shift(.5);
     z-index: 100;
     text-align: left;
     font-weight: 400;
@@ -328,6 +334,19 @@ section[class*="block-"] {
       list-style: none;
       list-style-type: none;
     }
+    .work-title {
+      display: none;
+      @include media($small) {
+        display: block;
+        margin-top: 0;
+        padding-bottom: 1em;
+        font-size: $fs5;
+        text-align: center;
+        @extend %caps-lock;
+        letter-spacing: 2px;
+        color: $light-gray;
+      }
+    }
     .work-grid {
       margin-bottom: $base-line-height;
       background: $light-gray;
@@ -337,17 +356,18 @@ section[class*="block-"] {
       @include transition(all .2s $ease-in-out-quad);    
       @include span-columns(2.666666);
       @include omega(3n);
-      // @include omega(2n);
       height: 31vw;
-      @include media($medium) {
-      }
       @include media($small) {
         @include span-columns(4);
         margin-bottom: 0;
+        h1 {
+          font-size: $fs5;
+        }
       }
-      @include media($large) {
-        @include span-columns(2.6666);
-        @include omega(3n);
+      @include media($medium) {
+        margin-right: 0;
+        width: 33.333%;
+        margin-bottom: 0;
       }
       &:hover {
         @include transition(all .1s $ease-in-out-quad);
