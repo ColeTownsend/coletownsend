@@ -3,7 +3,7 @@
   {% include _head.html %}
   <body class="post">
     {% include _navigation_main.html %}
-    
+    <div class="page-wrap" id="container">
     {% if page.image.feature %}
     <header class="full bg-img" style="background-image: url({{ site.url }}/images/posts/{{ page.image.feature }})">
     </header>
@@ -26,7 +26,7 @@
     {% else %}
     <section class="wrap">
       <article>
-        <header >
+        <header class="no-bg-img">
           <h1>{{ page.title }}</h1>
           <div class="description">
             <div><span class="label">Role&#58;</span><span class="tag">{{page.role}}</span></div>
@@ -39,6 +39,7 @@
       </article>
     </section>
     {% endif %}
+    </div>
     {% include _footer.html %}
   </body>
 </html>

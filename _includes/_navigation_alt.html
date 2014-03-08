@@ -1,0 +1,15 @@
+<nav role="alt-nav" id="nav"> 
+  <hgroup>
+    <a href="{{ site.url }}">{{site.name}}</a>
+    <span class="menu icon" title="Menu (Esc)" tabindex="0" data-icon="Menu"><span></span></span>    
+  </hgroup>
+
+    <div id="navigation">
+      <ul>      
+        {% for link in site.links %}
+          <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %} data-no-instant target="_blank"{% endif %}>{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</nav>

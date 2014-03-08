@@ -1,7 +1,9 @@
 <!DOCTYPE html> 
 <html lang="en"> 
   {% include _head.html %}
+
   <body class="post">
+    <div class="page-wrap">
     {% include _navigation_main.html %}
     
     {% if page.image.feature %}
@@ -27,6 +29,7 @@
       </article>
     </section>
     {% endif %}
+    </div>
     {% include _footer.html %}
   </body>
 </html>
