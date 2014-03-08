@@ -51,8 +51,11 @@ $fs8: .6em; // 12px
 $purple: #6F4993;
 $aqua:  #7FDBFF;
 $blue:  #0074D9;
+$soft-blue: desaturate($blue, 20%);
+$light-soft-blue: transparentize($soft-blue, .25);
 $navy:  #001F3F;
 $blue-black: #282e42;
+$light-blue-black: transparentize($blue-black, .25);
 $teal:  #39CCCC;
 
 // Warm

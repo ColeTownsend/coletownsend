@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: The Best Resources for Sketch App
@@ -24,10 +23,8 @@ I encourage you to give Sketch a try. The app is 10mb; neither slow download spe
 ## Workflow Resources
 * [Keyboard Shortcuts](http://sketchshortcuts.com/)
 * [Sketch Commands](https://github.com/bomberstudios/sketch-commands)
-* 
 
 ## File Resources
-User interface replicas, 
 * [Community Resources on Sketch.com](http://www.bohemiancoding.com/sketch/community/)
 * [SketchMine](http://sketchmine.co/)
 * [Simple Scripts](https://github.com/pieteromvlee/Sketch-Scripts/tree/master/Examples)

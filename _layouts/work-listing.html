@@ -12,7 +12,7 @@
               </li>
             {% for post in site.posts %}
               {% if post.categories contains 'work' %}
-                <li class="work-rectangle" style="background:{% if post.brand-color %}{{ post.brand-color}}{% else %}#EFEFEF{% endif %};">
+                <li class="work-rectangle" style="background:{% if post.brand-color %}{{ post.brand-color }}{% else %}#EFEFEF{% endif %};">
                   <a href="{{ site.url }}{{ post.url }}">
                     <h1 {% if post.title-color %} style="color: {{ post.title-color }};"{% endif %}>{{ post.title }}</h1>
                   </a>

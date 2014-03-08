@@ -11,15 +11,6 @@
   </url>
   
   <url>
-    <loc>//work/new</loc>
-    
-    <lastmod>2014-03-07T23:51:56-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
     <loc>//journal/typo-test</loc>
     
     <lastmod>2014-03-07T17:41:34-05:00</lastmod>
@@ -56,6 +47,15 @@
   </url>
   
   <url>
+    <loc>//journal/sketch-app</loc>
+    
+    <lastmod>2014-02-27T12:06:34-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>//journal/quick-guide-to-anchor-cms</loc>
     
     <lastmod>2014-02-27T12:06:34-05:00</lastmod>
@@ -66,6 +66,15 @@
   
   <url>
     <loc>//work/peck</loc>
+    
+    <lastmod>2014-02-27T12:06:34-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>//journal/mach-2000</loc>
     
     <lastmod>2014-02-27T12:06:34-05:00</lastmod>
     
@@ -86,24 +95,6 @@
     <loc>//journal/an-analysis-of-branch</loc>
     
     <lastmod>2014-02-27T12:06:34-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>//sketch-app</loc>
-    
-    <lastmod>2014-02-27T00:00:00-05:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>//mach-2000</loc>
-    
-    <lastmod>2014-02-27T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -135,10 +126,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  
-  
-  
-  
   
   
   
