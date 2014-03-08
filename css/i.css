@@ -497,6 +497,9 @@ section[class*="block-"] {
   min-height: 21em;
   position: relative;
   overflow: hidden; }
+  @media screen and (max-width: 520px) {
+    section[class*="block-"] {
+      min-height: 18em; } }
 
 .block-1 {
   margin-top: 4.5em;
