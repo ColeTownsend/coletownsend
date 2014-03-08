@@ -336,7 +336,7 @@ section[class*="block-"] {
       @include span-columns(2.666666);
       @include omega(3n);
       // @include omega(2n);
-      height: 33vw;
+      height: 31vw;
       @include media($medium) {
       }
       @include media($small) {
