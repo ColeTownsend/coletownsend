@@ -362,17 +362,15 @@ section[class*="block-"] {
       @include span-columns(2.666666);
       @include omega(3n);
       height: 31vw;
-      @include media($small) {
-        @include span-columns(4);
-        margin-bottom: 0;
-        h1 {
-          font-size: $fs5;
-        }
-      }
       @include media($medium) {
         margin-right: 0;
         width: 33.333%;
         margin-bottom: 0;
+      }
+      @include media($small) {
+        h1 {
+          font-size: $fs5;
+        }
       }
       &:hover {
         @include transition(all .1s $ease-in-out-quad);
@@ -382,7 +380,7 @@ section[class*="block-"] {
         height: 100%;
         z-index: 10;
         display: block;
-        position: relative;
+        position: absolute;
         color: $light-gray;
         background: $white;
         // background: lighten($light-gray, 10%);

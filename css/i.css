@@ -735,22 +735,14 @@ section[class*="block-"] {
       margin-right: 0; }
     .block-3 article .work-grid:nth-child(3n+1) {
       clear: left; }
-    @media screen and (max-width: 520px) {
-      .block-3 article .work-grid {
-        float: left;
-        display: block;
-        margin-right: 5.26316%;
-        width: 100%;
-        margin-bottom: 0; }
-        .block-3 article .work-grid:last-child {
-          margin-right: 0; }
-        .block-3 article .work-grid h1 {
-          font-size: 1.25em; } }
     @media screen and (max-width: 719px) {
       .block-3 article .work-grid {
         margin-right: 0;
         width: 33.333%;
         margin-bottom: 0; } }
+    @media screen and (max-width: 520px) {
+      .block-3 article .work-grid h1 {
+        font-size: 1.25em; } }
     .block-3 article .work-grid:hover {
       -webkit-transition: all 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -moz-transition: all 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -760,7 +752,7 @@ section[class*="block-"] {
       height: 100%;
       z-index: 10;
       display: block;
-      position: relative;
+      position: absolute;
       color: #dcd4d4;
       background: #fefefe;
       border: 2px solid #eeebeb;
