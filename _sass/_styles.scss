@@ -371,7 +371,7 @@ section[class*="block-"] {
         h1 {
           font-size: $fs5;
         }
-      }
+      }a
       &:hover {
         @include transition(all .1s $ease-in-out-quad);
       }

@@ -743,6 +743,7 @@ section[class*="block-"] {
     @media screen and (max-width: 520px) {
       .block-3 article .work-grid h1 {
         font-size: 1.25em; } }
+    a
     .block-3 article .work-grid:hover {
       -webkit-transition: all 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -moz-transition: all 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
