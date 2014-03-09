@@ -76,7 +76,7 @@ hr {
   // Tablet
   margin: 0 auto;
   @include media($medium) {
-    padding: 0 1em; 
+    padding: 0 .5em; 
   }
 }
 
@@ -364,12 +364,12 @@ section[class*="block-"] {
       height: 31vw;
       @include media($medium) {
         margin-right: 0;
-        width: 33.333%;
+        width: 33.333333333%;
         margin-bottom: 0;
       }
       @include media($small) {
         h1 {
-          font-size: $fs5;
+          font-size: $fs6;
         }
       }a
       &:hover {
@@ -535,6 +535,17 @@ section[class*="block-"] {
           border: 1px solid $light-gray;
           left: (328px/2) - 24px;
           bottom: 24px;
+        }
+        @include media($small) {
+          width: 100%;
+          height: auto;
+          padding: 0;
+          border: none;
+          
+          &:after {
+            display: none;
+            border: none;
+          }
         }
         img {
           border: 1px solid $light-gray;
