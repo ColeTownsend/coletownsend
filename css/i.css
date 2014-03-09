@@ -1002,3 +1002,7 @@ footer {
   footer small {
     color: #fefefe;
     opacity: .2; }
+
+#instantclick-bar {
+  background: #ec6f66;
+  height: 4px !important; }
