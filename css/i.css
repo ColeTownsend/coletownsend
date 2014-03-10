@@ -248,7 +248,7 @@ body {
   -webkit-font-smoothing: antialiased;
   line-height: 1.5em; }
 
-h1, .h1, h2, .h2, .block-3 article .work-grid h1, h3, .h3, h4, h5, h6 {
+h1, .h1, h2, .h2, h3, .h3, .block-3 article .work-grid h1, h4, h5, h6 {
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
   line-height: 1.25em;
   margin: 0;
@@ -259,12 +259,12 @@ h1, .h1 {
   line-height: 1.2em;
   margin-bottom: .25em; }
 
-h2, .h2, .block-3 article .work-grid h1 {
+h2, .h2 {
   font-size: 2em;
   line-height: 1.2em;
   margin-bottom: .33em; }
 
-h3, .h3 {
+h3, .h3, .block-3 article .work-grid h1 {
   font-size: 1.75em;
   line-height: 1.3em;
   margin-bottom: .25em; }
@@ -340,7 +340,7 @@ small, header[role="main-header"] hgroup, .post .description .label {
    ========================================================================== */
 /* Article Headings
    ========================================================================== */
-.post article h1, .post article .h1, .post article h2, .post article .h2, .post .block-3 article .work-grid h1, .block-3 .post article .work-grid h1, .post article h3, .post article .h3, .post article h4, .post article h5 {
+.post article h1, .post article .h1, .post article h2, .post article .h2, .post article h3, .post article .h3, .post .block-3 article .work-grid h1, .block-3 .post article .work-grid h1, .post article h4, .post article h5 {
   font-weight: bold; }
 
 * {
@@ -696,9 +696,9 @@ section[class*="block-"] {
 
 .block-3 {
   z-index: 100;
-  background: #fefefe; }
+  background: #fefefe;
+  padding: 1.5em; }
   .block-3 article {
-    padding-top: 1.5em;
     position: relative;
     height: 100%; }
   .block-3 article ul {
@@ -727,22 +727,23 @@ section[class*="block-"] {
     float: left;
     display: block;
     margin-right: 2.5641%;
-    width: 31.62392%;
-    height: 31vw; }
+    width: 31.62393%;
+    height: 28vw; }
     .block-3 article .work-grid:last-child {
       margin-right: 0; }
     .block-3 article .work-grid:nth-child(3n) {
       margin-right: 0; }
     .block-3 article .work-grid:nth-child(3n+1) {
       clear: left; }
-    @media screen and (max-width: 719px) {
-      .block-3 article .work-grid {
-        margin-right: 0;
-        width: 33.333333333%;
-        margin-bottom: 0; } }
     @media screen and (max-width: 520px) {
-      .block-3 article .work-grid h1 {
-        font-size: 1em; } }
+      .block-3 article .work-grid {
+        margin-bottom: .5em;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%; }
+        .block-3 article .work-grid h1 {
+          font-size: 1em; } }
     a
     .block-3 article .work-grid:hover {
       -webkit-transition: all 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);

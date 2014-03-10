@@ -328,8 +328,8 @@ section[class*="block-"] {
 .block-3 {
   z-index: 100;
   background: $white;
+  padding: $base-line-height;
   article {
-    padding-top: $base-line-height;
     position: relative;
     height: 100%;
   }
@@ -358,15 +358,15 @@ section[class*="block-"] {
       text-align: center; 
       z-index: 1;
       @include transition(all .2s $ease-in-out-quad);    
-      @include span-columns(2.666666);
+      @include span-columns(2.6666666);
       @include omega(3n);
-      height: 31vw;
+      height: 28vw;
       @include media($medium) {
-        margin-right: 0;
-        width: 33.333333333%;
-        margin-bottom: 0;
       }
       @include media($small) {
+        margin-bottom: .5em;
+        @include border-top-radius(50%);
+        @include border-bottom-radius(50%);
         h1 {
           font-size: $fs6;
         }
@@ -409,7 +409,7 @@ section[class*="block-"] {
         text-align: center;
         position: relative;
         max-width: 90%;
-        @extend .h2;
+        @extend .h3;
         @extend %liga;
         font-weight: bold;
         @extend %vertical-align;
