@@ -662,6 +662,10 @@ footer {
   background: $real-black;
   position: relative;
   color: $white;
+  a {
+    color: $white;
+    border-bottom: 1px solid transparentize($white, .4);
+  }
   small {
     color: $white;
     @extend %vertical-align;
