@@ -1022,6 +1022,9 @@ footer {
   background: #232830;
   position: relative;
   color: #fefefe; }
+  footer a {
+    color: #fefefe;
+    border-bottom: 1px solid rgba(254, 254, 254, 0.6); }
   footer small {
     color: #fefefe;
     opacity: .2; }
