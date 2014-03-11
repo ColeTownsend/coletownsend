@@ -6,18 +6,18 @@
 }
 
 html {
-  font-size: 112.5%;
+  font-size: 125%;
   height: 100%;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   @include media($small) {
     font-size: 87.5%;
   }
-  @include media($medium) {
-    font-size: 100%;
-  }
   @include media($large) {
     font-size: 125%;
+  }
+  @include media($huge) {
+    font-size: 150%;
   }
 }
 
@@ -110,7 +110,6 @@ header[role="main-header"] {
   font-family: $sans-serif;
   width: 100%;
   color: $black;
-  font-size: $base-font-size * .6;
   font-weight: 600;
   position: relative;
   padding: 1.5em;
@@ -120,6 +119,7 @@ header[role="main-header"] {
   // Logo
   hgroup {
     font-family: $sans-serif;
+    font-size: $base-font-size * .6;
     letter-spacing: 2px;
     @extend %caps-lock;
     float: left;
@@ -144,6 +144,7 @@ header[role="main-header"] {
       margin-top: 0;
     }
     ul li {
+      font-size: $base-font-size * .6;
       letter-spacing: 2px;
       text-align: right;
       text-transform: uppercase;
@@ -215,7 +216,8 @@ section[class*="block-"] {
       @include span-columns(5.5);
       @include shift(.5);
       @include omega();
-      margin-top: 1em;
+      margin-top: .5em;
+      font-size: $fs4;
     }
     @include media($small) {
       display: block;
@@ -248,8 +250,7 @@ section[class*="block-"] {
   }
   h2 {
     position: relative;
-    @include span-columns(4.5);
-    @include shift(.5);
+    @include span-columns(5);
     z-index: 100;
     text-align: left;
     font-weight: 400;
@@ -259,6 +260,11 @@ section[class*="block-"] {
       @include span-columns(3);
       @include shift(.5);
       text-align: center;
+    }
+    @include media($medium) {
+      @include span-columns(4.5);
+      @include shift(.5);
+      @extend %h5;
     }
     a {
       color: $white;
@@ -304,7 +310,7 @@ section[class*="block-"] {
       @include animation-iteration-count(infinite);
     }
     @include media($medium) {
-      right: -45%
+      right: -65%;
     }
     @include media($small) {
       display: none;
@@ -362,15 +368,15 @@ section[class*="block-"] {
       @include omega(3n);
       height: 28vw;
       @include media($medium) {
+        h1 {
+          font-size: $fs6;
+        }
       }
       @include media($small) {
         margin-bottom: .5em;
         @include border-top-radius(50%);
         @include border-bottom-radius(50%);
-        h1 {
-          font-size: $fs6;
-        }
-      }a
+      }
       &:hover {
         @include transition(all .1s $ease-in-out-quad);
       }
@@ -409,7 +415,7 @@ section[class*="block-"] {
         text-align: center;
         position: relative;
         max-width: 90%;
-        @extend .h3;
+        font-size: $fs5;
         @extend %liga;
         font-weight: bold;
         @extend %vertical-align;
@@ -477,7 +483,7 @@ section[class*="block-"] {
     margin-bottom: $base-line-height*2;
     @include span-columns(7);
     @include shift(.5);
-    font-family: $serif;
+    font-family: $longform;
     header {
       margin: $base-line-height*2 0;
       h1:first-of-type {

@@ -9,7 +9,7 @@
   <meta name="description" content="Insouciant describes me well.">
   <link type="application/atom+xml" rel="self" href="http://beta.twnsnd.co/sitemap.xml"/>
 
-
+  <meta name="viewport" content="minimal-ui">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link data-no-instant rel="stylesheet" href="http://beta.twnsnd.co/css/i.css">
@@ -51,43 +51,49 @@
         <header >
           <h1>Box Redesign</h1>
         </header>
-        <p><img src="http://f.cl.ly/items/3A1K280y3H2Z3j1I0N3Q/Screen%20Shot%202013-03-30%20at%201.04.jpg" /></p>
+        <p><img src="http://f.cl.ly/items/3A1K280y3H2Z3j1I0N3Q/Screen%20Shot%202013-03-30%20at%201.04.jpg"></p>
 
-<p>My first step was some minor UX tweaking. I didn’t want to radically change the site; it’s relatively intuitive to use as I am familiar with CloudApp, Dropbox, and numerous other cloud based services. One thing I noticed was that there were many different functions on the viewing page. When I was revising the viewing page, I wanted to clean it up. My goal was to make the primary function of each page very clear. </p>
+<p>My first step was some minor <span class="caps">UX</span> tweaking. I didn&#8217;t want to radically change the site; it&#8217;s relatively intuitive to use as I am familiar with CloudApp, Dropbox, and numerous other cloud based services. One thing I noticed was that there were many different functions on the viewing page. When I was revising the viewing page, I wanted to clean it up. My goal was to make the primary function of each page very&nbsp;clear.</p>
 
-<h2 id="viewer">Viewer</h2>
-<p>I started with the viewer itself. There was too much going on, as you can see in the crowded image above. I stripped it down to just navigation arrows and a full screen mode. As a user of many cloud apps, I know that I’ve never used many features from the viewer itself. The navbar provided me with what I needed in an unobtrusive way.</p>
+<h2>Viewer</h2>
 
-<h3 id="document-viewer">Document Viewer</h3>
-<p>I wanted to mimic the functions of Google Doc Viewer and Preview. The current functionality is fine, but it is not accessible. It requires flash and is a bit slow to respond. I found myself frustrated as I scrolled through a longer pdf. The scrolling isn’t smooth — it catches frequently. Additionally, the cursor hand moves at a slower speed in the doc viewer than it does out of it. This isn’t intuitive and can confuse users. Although I can’t reflect these changes in my visual representation, it is something I would address with the dev team. </p>
+<p>I started with the viewer itself. There was too much going on, as you can see in the crowded image above. I stripped it down to just navigation arrows and a full screen mode. As a user of many cloud apps, I know that I&#8217;ve never used many features from the viewer itself. The navbar provided me with what I needed in an unobtrusive&nbsp;way.</p>
 
-<p>Specifically for the visuals, I aimed to minimize what was going on in the document viewer. I feel that it’s better to directly be able to influence specifically which page is viewed, rather than clicking through each one individually. </p>
+<h3>Document&nbsp;Viewer</h3>
 
-<p><img src="http://beta.twnsnd.co/images/inline/box-box-doc.png" /></p>
+<p>I wanted to mimic the functions of Google Doc Viewer and Preview. The current functionality is fine, but it is not accessible. It requires flash and is a bit slow to respond. I found myself frustrated as I scrolled through a longer pdf. The scrolling isn&#8217;t smooth — it catches frequently. Additionally, the cursor hand moves at a slower speed in the doc viewer than it does out of it. This isn&#8217;t intuitive and can confuse users. Although I can&#8217;t reflect these changes in my visual representation, it is something I would address with the dev&nbsp;team.</p>
 
-<p><img src="http://beta.twnsnd.co/images/inline/box-my-doc.png" /></p>
+<p>Specifically for the visuals, I aimed to minimize what was going on in the document viewer. I feel that it&#8217;s better to directly be able to influence specifically which page is viewed, rather than clicking through each one&nbsp;individually.</p>
 
-<h3 id="video-viewer">Video Viewer</h3>
-<p>I wish I could show an example of the video viewer. Unfortunately it was not included in the free version, a download was necessary for free users. Paid users were allowed a previewer. With the video player, I aimed to keep it consistent with other video players common to cloud viewers. Users are familiar with the layout. </p>
+<p><img src="http://beta.twnsnd.co/images/inline/box-box-doc.png"></p>
 
-<p><img stye="max-width: 100%; height: auto;" src="http://beta.twnsnd.co/images/inline/box-video.png" /></p>
+<p><img src="http://beta.twnsnd.co/images/inline/box-my-doc.png"></p>
 
-<h2 id="nav">Nav</h2>
-<p>The nav I found to be a bit inconsistent and congested. I had a hard time discerning which icon did what, and was a bit overwhelmed with the amount of icons. I shifted the upgrade feature farthest right, so it remains unobtrusive to the user. I also separated the tasks and messages drop down into two separate features. They aren’t peas and carrots or PB&amp;J. Tasks and messages should be separated. Instead of wondering whether it is a message form a coworker or a task from the project manager, the user will know immediately. Simplification is sometimes confused with subtracting. In this case it means simplification meant adding an extra icon to eliminate a step for the user.</p>
+<h3>Video&nbsp;Viewer</h3>
 
-<p><img src="http://beta.twnsnd.co/images/inline/box-box-nav.png" /></p>
+<p>I wish I could show an example of the video viewer. Unfortunately it was not included in the free version, a download was necessary for free users. Paid users were allowed a previewer. With the video player, I aimed to keep it consistent with other video players common to cloud viewers. Users are familiar with the&nbsp;layout.</p>
 
-<p><img src="http://beta.twnsnd.co/images/inline/box-my-nav.png" /></p>
+<p><img stye="max-width: 100%; height: auto;" src="http://beta.twnsnd.co/images/inline/box-video.png"></p>
 
-<h3 id="sub-nav">Sub Nav</h3>
-<p>I cleared the sub nav up by using a bit more padding and dropping the font- size. There is already a contrasting color for the sub nav and the visual hierarchy is established without using that big of a font. Slightly smaller font will work just as well and will create a bit more breathing room for the title of the document. I also eliminated the text next to the icons. I feel that icons should already communicate the function of the button. Granted this is highly dependent on the users, and some sort of A/B testing would be helpful to make the decision.</p>
+<h2>Nav</h2>
 
-<h2 id="comments">Comments</h2>
-<p>The comment area was cluttered with links for various types of comments. The comment area shouldn’t be intimidating or hard to read! It should be helpful and fun. At Box, the commenting area is also used to assign tasks, perhaps on a document or a TPS report. </p>
+<p>The nav I found to be a bit inconsistent and congested. I had a hard time discerning which icon did what, and was a bit overwhelmed with the amount of icons. I shifted the upgrade feature farthest right, so it remains unobtrusive to the user. I also separated the tasks and messages drop down into two separate features. They aren&#8217;t peas and carrots or <span class="caps">PB</span>&amp;J. Tasks and messages should be separated. Instead of wondering whether it is a message form a coworker or a task from the project manager, the user will know immediately. Simplification is sometimes confused with subtracting. In this case it means simplification meant adding an extra icon to eliminate a step for the&nbsp;user.</p>
 
-<p><img src="http://beta.twnsnd.co/images/inline/box-box-comment.png" /></p>
+<p><img src="http://beta.twnsnd.co/images/inline/box-box-nav.png"></p>
 
-<p><img src="http://beta.twnsnd.co/images/inline/box-my-comment.png" /></p>
+<p><img src="http://beta.twnsnd.co/images/inline/box-my-nav.png"></p>
+
+<h3>Sub&nbsp;Nav</h3>
+
+<p>I cleared the sub nav up by using a bit more padding and dropping the font- size. There is already a contrasting color for the sub nav and the visual hierarchy is established without using that big of a font. Slightly smaller font will work just as well and will create a bit more breathing room for the title of the document. I also eliminated the text next to the icons. I feel that icons should already communicate the function of the button. Granted this is highly dependent on the users, and some sort of A/B testing would be helpful to make the&nbsp;decision.</p>
+
+<h2>Comments</h2>
+
+<p>The comment area was cluttered with links for various types of comments. The comment area shouldn&#8217;t be intimidating or hard to read! It should be helpful and fun. At Box, the commenting area is also used to assign tasks, perhaps on a document or a <span class="caps">TPS</span>&nbsp;report.</p>
+
+<p><img src="http://beta.twnsnd.co/images/inline/box-box-comment.png"></p>
+
+<p><img src="http://beta.twnsnd.co/images/inline/box-my-comment.png"></p>
 
       </article>
     </section>

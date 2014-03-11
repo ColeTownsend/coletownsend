@@ -5,12 +5,14 @@ $sans-serif: "europa", "Futura", "Helvetica Neue", sans-serif;
 $sans-light: $sans-serif;
 $sans-medium: $sans-serif;
 $sans-bold: $sans-serif;
-$serif: "Born", "Georgia";
-$serif-alt: "adobe-caslon-pro", "Garamond";
+$serif: "Freight Text Pro", "freight-text-pro", "FF Meta Serif", "Georgia";
+$serif-alt: "adobe-text-pro", "Garamond";
 $mono: "Aften Trio";
+$fancy: "Apercu";
 
 $head: $sans-serif;
 $body: $sans-serif;
+$longform: $serif;
 $base-font-family: $sans-serif;
 $header-font-family: $head;
 
@@ -67,7 +69,7 @@ $maroon:  #85144B;
 $red: #EC6F66;
 
 // Ebony and Ivory
-$black:  #453939;
+$black:  #2D2626;
 $white: #fefefe;
 
 // Bitters
