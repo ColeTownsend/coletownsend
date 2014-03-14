@@ -6,7 +6,7 @@
 }
 
 html {
-  font-size: 125%;
+  font-size: 100%;
   height: 100%;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
@@ -112,7 +112,7 @@ header[role="main-header"] {
   color: $black;
   font-weight: 600;
   position: relative;
-  padding: 1.5em;
+  padding: 1.5em 0;
   -moz-box-shadow:    0px 1px 0px 0px rgba(243,243,243,0.5);
   -webkit-box-shadow: 0px 1px 0px 0px rgba(243,243,243,0.5);
   box-shadow:         0px 1px 0px 0px rgba(243,243,243,0.5);
@@ -177,7 +177,7 @@ section[class*="block-"] {
 }
 // First Block
 .block-1 {
-  margin-top: $base-line-height*3;
+  margin-top: $base-line-height*2;
   background: $white;  
   article {
     @extend %container;
@@ -187,38 +187,29 @@ section[class*="block-"] {
     height: 100%;
     font-weight: 500;
   }
-  img {
-    @include border-top-radius(200px);
-    @include border-bottom-radius(200px);
-    @include border-left-radius(200px);
-    @include border-right-radius(200px);
-    @include span-columns(2);
-    height: auto;
-    @include media($medium) {
-      @include span-columns(1.5);
-      @include shift(.25);
-    }
-    @include media($small) {
-      display: block;
-      @include span-columns(1);
-      @include shift(1);
-      float: none;
-      margin: 0 auto;
+  a {
+    font-size: $fs5;
+    color: $red;
+    @include transition(color .2s $ease-in-out-quad);
+    &:hover {
+      color: $black;
+      @include transition(color .2s $ease-in-out-quad);
     }
   }
   h1 {
     font-size: $fs3;
     margin-top: 1em;
-    @include span-columns(5);
-    @include shift(1);
-    @include omega();
+    @include span-columns(8);
     @include media($medium) {
       @include span-columns(5.5);
       @include shift(.5);
       @include omega();
       margin-top: .5em;
-      font-size: $fs4;
+      font-size: $fs5;
     }
+  p {
+    @extend .h4;
+  }
     @include media($small) {
       display: block;
       text-align: center;
@@ -229,112 +220,12 @@ section[class*="block-"] {
   }
 }
 
-// Code Block
-.block-2 {
-  @include media($small) {
-    display: none;
-  }
-  background: $red;
-  position: relative;
-  z-index: 1;
-  article {
-    @extend %container;
-    float: none;
-    padding: 4em 0;
-    position: relative;
-    height: 100%;
-  }
-  .hide-code {
-    position: relative;
-    height: em(16*32);
-  }
-  h2 {
-    position: relative;
-    @include span-columns(5);
-    z-index: 100;
-    text-align: left;
-    font-weight: 400;
-    color: $white;
-    margin-top: $base-line-height*3;
-    @include media($small) {
-      @include span-columns(3);
-      @include shift(.5);
-      text-align: center;
-    }
-    @include media($medium) {
-      @include span-columns(4.5);
-      @include shift(.5);
-      @extend %h5;
-    }
-    a {
-      color: $white;
-      padding-bottom: 8px;
-      &:hover {
-        &:after {
-          opacity: 1;
-          -webkit-transform: translateY(0px);
-          -moz-transform: translateY(0px);
-          transform: translateY(0px);
-        }
-      }
-      &:after {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        height: 4px;
-        background: rgba(255,255,255,0.8);
-        content: '';
-        opacity: 0;
-        -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-        -moz-transition: opacity 0.3s, -moz-transform 0.3s;
-        transition: opacity 0.3s, transform 0.3s;
-        @include transform(translateY(8px));
-      }
-    }
-  }
-  article img {
-    position: absolute;
-    height: 32em;
-    right: -50%;
-    z-index: 2;
-    top: 2em;
-    -webkit-box-shadow: -10px 20px 0px rgba(0,0,0,0.10);
-    -moz-box-shadow: -10px 20px 0px rgba(0,0,0,0.10);
-    box-shadow: -10px 20px 0px rgba(0,0,0,0.10);
-    -webkit-border-radius: 6px;
-            border-radius: 6px;
-    @include transition(all .2s $ease-in-out-quad);
-    &:hover {
-      @include animation(hovering 2s $ease-in-out-sine);
-      @include animation-iteration-count(infinite);
-    }
-    @include media($medium) {
-      right: -65%;
-    }
-    @include media($small) {
-      display: none;
-    }
-  }
-}
-
-.hide-code #arrow {
-  @include triangle(2em, white, down);
-  position: absolute;
-  bottom: $base-line-height;
-  left: 20%;
-  @include media($small) {
-    left: 48%;
-  }
-  @include animation(hovering 2s $ease-in-out-cubic);
-  @include animation-iteration-count(16);
-}
-
 // Work Block
-.block-3 {
+.block-2 {
   z-index: 100;
   background: $white;
-  padding: $base-line-height;
+  @extend %container;
+  padding-bottom: $base-line-height*2;
   article {
     position: relative;
     height: 100%;
@@ -345,16 +236,18 @@ section[class*="block-"] {
       list-style-type: none;
     }
     .work-title {
-      display: none;
+      font-style: italic;
+      color: $red;
+      text-align: center;
+      padding-bottom: $base-line-height;
       @include media($small) {
         display: block;
         margin-top: 0;
         padding-bottom: 1em;
         font-size: $fs5;
         text-align: center;
-        @extend %caps-lock;
         letter-spacing: 2px;
-        color: $light-gray;
+        color: $red;
       }
     }
     .work-grid {
@@ -366,7 +259,7 @@ section[class*="block-"] {
       @include transition(all .2s $ease-in-out-quad);    
       @include span-columns(2.6666666);
       @include omega(3n);
-      height: 28vw;
+      height: 14vw;
       @include media($medium) {
         h1 {
           font-size: $fs6;
@@ -374,8 +267,10 @@ section[class*="block-"] {
       }
       @include media($small) {
         margin-bottom: .5em;
-        @include border-top-radius(50%);
-        @include border-bottom-radius(50%);
+        @include span-columns(4);
+        float: none;
+        display: block;
+        height: 6em;
       }
       &:hover {
         @include transition(all .1s $ease-in-out-quad);
@@ -386,10 +281,10 @@ section[class*="block-"] {
         z-index: 10;
         display: block;
         position: absolute;
-        color: $light-gray;
+        color: $red;
         background: $white;
         // background: lighten($light-gray, 10%);
-        border: 2px solid lighten($light-gray, 8%);
+        border: 2px solid lighten($red, 8%);
         @include transition(all .2s $ease-in-out-quad);
         // Media
         @include media($medium) {
@@ -454,11 +349,12 @@ section[class*="block-"] {
       @extend %caps-lock;
       color: $light-gray;
       letter-spacing: 2px;
-      font-weight: 500;
+      font-weight: bold;
       font-size: $fs7;
     }
     .tag {
       color: $medium-gray;
+      font-weight: bold;
       font-size: $fs7;
       padding-left: 10px;
       position: relative;
@@ -509,13 +405,14 @@ section[class*="block-"] {
       &.web {
         margin-top: $base-line-height*2;
         border: 1px solid $light-gray;
-        @include border-top-radius(4px);
-        @include border-bottom-radius(4px);
+        @include border-top-radius(0px);
+        @include border-bottom-radius(0px);
         height: 30em;
         overflow-y: scroll;
         position: relative;
-        -webkit-box-shadow: 0 -2em 0 $light-gray;
-                box-shadow: 0 -2em 0 $light-gray;
+        z-index: 1;
+        -webkit-box-shadow: 0 -2em 0 $white, 0 -2.0375em 1px $light-gray;
+                box-shadow: 0 -2em 0 $white, 0 -2.0375em 1px $light-gray;
         img {
           @include border-top-radius(0);
           @include border-bottom-radius(0);
@@ -613,10 +510,13 @@ section[class*="block-"] {
     li {
       list-style-type: none;
       list-style-type: none;
+      font-weight: bold;
       background: $light-gray;
       &:first-of-type {
         background: $white;
+        font-style: italic;
         color: $black;
+        font-weight: normal;
         width: 100%;
         height: 100%;
         display: block;
@@ -627,9 +527,7 @@ section[class*="block-"] {
     }
     h1 {
       font-size: $fs1;
-      font-family: $sans-bold;
       text-transform: capitalize;
-      font-weight: bold;
       font-variant: normal;
       display: block;
       @extend %container;
@@ -655,6 +553,7 @@ section[class*="block-"] {
 
 footer {
   @extend .full; 
+  font-family: $base-font-family;
   text-align: center;
   padding: 1em 0; 
   width:100%;
