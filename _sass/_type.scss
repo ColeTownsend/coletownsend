@@ -3,51 +3,57 @@
 
 body {
   color: $base-font-color;
-  font-family: $base-font-family;
+  font-family: $head;
   font-size: $base-font-size;
   -webkit-font-smoothing: antialiased;
   line-height: $base-line-height;
 }
 
-h1,.h1, h2, .h2, h3, .h3, h4, h5, h6 {
+h1,.h1 ,%h1, h2, .h2,%h2, h3, .h3,%h3, h4, h5, h6 {
   font-family: $header-font-family;
   line-height: 1.25em;
   margin: 0;
   text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 
-h1,.h1 {
+h5,h6 {
+  font-family: $base-font-family;
+  font-variant: small-caps;
+}
+
+h1,.h1,%h1 {
   font-size: $fs1; // 20 * 2.25 = 45px
   line-height: 1.2em;
   margin-bottom: .25em;
 }
 
-h2,.h2 {
+h2,.h2,%h2 {
   font-size: $fs2; // 20 * 2 = 40px
   line-height: 1.2em;
   margin-bottom: .33em;
 }
 
-h3,.h3 {
+h3,.h3,%h3 {
   font-size: $fs3; // 20 * 1.75 = 35px
   line-height: 1.3em;
   margin-bottom: .25em;
 }
 
-h4 {
+h4,.h4,%h4 {
   font-size: $fs4; // 20 * 1.5 = 30px
   line-height: 1.4em;
-  margin-bottom: em(8);
+  margin-bottom: em(8, 20);
 }
 
-h5 {
+h5,.h5,,%h5 {
   font-size: $fs5; // 20 * 1.25 = 25px
   line-height: 1.4em;
-  margin-bottom: em(5);
+  margin-bottom: em(5, 20);
 }
 
 h6 {
   font-size: $base-font-size;
+  @extend %caps-lock;
 }
 
 p {

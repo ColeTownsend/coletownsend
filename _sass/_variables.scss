@@ -6,13 +6,13 @@ $ss-alt: "Futura", "Helvetica Neue", sans-serif;
 $sans-light: $sans-serif;
 $sans-medium: $sans-serif;
 $sans-bold: $sans-serif;
-$serif: "Skolar", "ff-tisa-web-pro","Calendas Plus", "Arial";
-$serif-alt: "europa", "Arial";
+$serif: "CMU Concrete","ff-tisa-web-pro","FF Tisa","Calendas Plus", "Arial";
+$serif-alt: "CMU Concrete", "Arial";
 $mono: "Aften Trio";
-$fancy: "Apercu";
+$hipster: "DIN";
 
-$head: $sans-serif;
-$body: $sans-serif;
+$head: $serif;
+$body: $serif;
 $longform: $serif;
 $base-font-family: $sans-serif;
 $header-font-family: $head;
@@ -71,7 +71,7 @@ $maroon:  #85144B;
 $red: #EC6F66;
 
 // Ebony and Ivory
-$black:  #2D2626;
+$black:  $blue-gray;
 $white: #fefefe;
 
 // Bitters
