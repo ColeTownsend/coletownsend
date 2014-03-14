@@ -186,6 +186,9 @@ section[class*="block-"] {
     position: relative;
     height: 100%;
     font-weight: 500;
+    @include media($small) {
+      padding: 0 1em;
+    }
   }
   a {
     font-size: $fs5;
@@ -221,6 +224,8 @@ section[class*="block-"] {
   padding-bottom: $base-line-height*2;
   @include media($small) {
     padding-bottom: 0;
+    padding: 0;
+    margin: 0;
   }
   article {
     position: relative;
@@ -255,7 +260,7 @@ section[class*="block-"] {
       @include transition(all .2s $ease-in-out-quad);    
       @include span-columns(2.6666666);
       @include omega(3n);
-      height: 14vw;
+      height: 17vw;
       @include media($medium) {
         h1 {
           font-size: $fs6;
@@ -380,6 +385,8 @@ section[class*="block-"] {
       margin: $base-line-height*2 0;
       h1:first-of-type {
         text-transform: capitalize;
+        font-weight: bold;
+        font-style: normal;
       }
     }
     .no-bg-img {

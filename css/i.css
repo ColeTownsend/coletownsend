@@ -355,7 +355,8 @@ h6, small, header[role="main-header"] hgroup, .post .description .label {
   margin-top: 0; }
 .post article h1, .post article .h1, .post article h2, .post article .h2, .post article h3, .post article .h3, .post article h4, .post article h5 {
   font-weight: normal;
-  margin-top: 1.5em; }
+  margin-top: 1.5em;
+  font-style: italic; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -525,6 +526,9 @@ section[class*="block-"] {
     position: relative;
     height: 100%;
     font-weight: 500; }
+    @media screen and (max-width: 520px) {
+      .block-1 article {
+        padding: 0 1em; } }
   .block-1 a {
     font-size: 1.25em;
     color: #ec6f66;
@@ -564,7 +568,9 @@ section[class*="block-"] {
   padding-bottom: 3em; }
   @media screen and (max-width: 520px) {
     .block-2 {
-      padding-bottom: 0; } }
+      padding-bottom: 0;
+      padding: 0;
+      margin: 0; } }
   .block-2 article {
     position: relative;
     height: 100%; }
@@ -598,7 +604,7 @@ section[class*="block-"] {
     display: block;
     margin-right: 2.85714%;
     width: 31.42857%;
-    height: 14vw; }
+    height: 17vw; }
     .block-2 article .work-grid:last-child {
       margin-right: 0; }
     .block-2 article .work-grid:nth-child(3n) {
@@ -679,7 +685,7 @@ section[class*="block-"] {
   -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.08), inset 0 -2px 0 rgba(0, 0, 0, 0.08);
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.08), inset 0 -2px 0 rgba(0, 0, 0, 0.08); }
 .post .description {
-  color: #b0b2b8;
+  color: #c6c7cb;
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
   margin-bottom: 0.375em; }
   .post .description .label {
@@ -688,7 +694,7 @@ section[class*="block-"] {
     font-weight: bold;
     font-size: 0.75em; }
   .post .description .tag {
-    color: #b0b2b8;
+    color: #c6c7cb;
     font-weight: bold;
     font-size: 0.75em;
     padding-left: 10px;
@@ -698,7 +704,7 @@ section[class*="block-"] {
       content: ",";
       position: absolute;
       right: -6px;
-      color: #b0b2b8; }
+      color: #c6c7cb; }
     .post .description .tag:first-of-type {
       padding-left: 0; }
     .post .description .tag:last-of-type:after {
@@ -716,7 +722,9 @@ section[class*="block-"] {
   .post article header {
     margin: 3em 0; }
     .post article header h1:first-of-type {
-      text-transform: capitalize; }
+      text-transform: capitalize;
+      font-weight: bold;
+      font-style: normal; }
   .post article .no-bg-img {
     margin-top: 6em; }
   .post article img {
