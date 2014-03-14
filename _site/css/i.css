@@ -316,10 +316,10 @@ address {
   margin: 0 0 0.75em; }
 
 del {
-  color: #6e717a; }
+  color: rgba(74, 76, 82, 0.67); }
 
 blockquote {
-  color: #6e717a;
+  color: rgba(74, 76, 82, 0.67);
   margin: 1.5em 0;
   margin-left: 1.5em;
   padding-left: 1.5em; }

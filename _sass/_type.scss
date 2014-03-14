@@ -93,11 +93,11 @@ address {
 }
 
 del {
-  color: lighten($base-font-color, 15);
+  color: transparentize($base-font-color, .33);
 }
 
 blockquote {
-  color: lighten($base-font-color, 15);
+  color: transparentize($base-font-color, .33);
   margin: $base-line-height 0;
   margin-left: $base-line-height;
   padding-left: $base-line-height;
