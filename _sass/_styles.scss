@@ -201,21 +201,14 @@ section[class*="block-"] {
     margin-top: 1em;
     @include span-columns(8);
     @include media($medium) {
-      @include span-columns(5.5);
-      @include shift(.5);
-      @include omega();
-      margin-top: .5em;
       font-size: $fs5;
     }
   p {
-    @extend .h4;
+    @extend %h4;
   }
     @include media($small) {
       display: block;
-      text-align: center;
-      @include span-columns(3);
-      @include shift(.5);
-      @include omega();
+      @include span-columns(4);
     }
   }
 }
@@ -226,6 +219,9 @@ section[class*="block-"] {
   background: $white;
   @extend %container;
   padding-bottom: $base-line-height*2;
+  @include media($small) {
+    padding-bottom: 0;
+  }
   article {
     position: relative;
     height: 100%;
@@ -266,7 +262,7 @@ section[class*="block-"] {
         }
       }
       @include media($small) {
-        margin-bottom: .5em;
+        margin-bottom: 0;
         @include span-columns(4);
         float: none;
         display: block;

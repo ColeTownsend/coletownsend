@@ -547,26 +547,14 @@ section[class*="block-"] {
       margin-right: 0; }
     @media screen and (max-width: 719px) {
       .block-1 h1 {
-        float: left;
-        display: block;
-        margin-right: 2.85714%;
-        width: 67.85714%;
-        margin-left: 6.42857%;
-        margin-right: 0;
-        margin-top: .5em;
-        font-size: 1.25em; }
-        .block-1 h1:last-child {
-          margin-right: 0; } }
+        font-size: 1.25em; } }
     @media screen and (max-width: 520px) {
       .block-1 h1 {
         display: block;
-        text-align: center;
         float: left;
         display: block;
         margin-right: 5.88235%;
-        width: 73.52941%;
-        margin-left: 13.23529%;
-        margin-right: 0; }
+        width: 100%; }
         .block-1 h1:last-child {
           margin-right: 0; } }
 
@@ -574,6 +562,9 @@ section[class*="block-"] {
   z-index: 100;
   background: #fefefe;
   padding-bottom: 3em; }
+  @media screen and (max-width: 520px) {
+    .block-2 {
+      padding-bottom: 0; } }
   .block-2 article {
     position: relative;
     height: 100%; }
@@ -619,7 +610,7 @@ section[class*="block-"] {
         font-size: 1em; } }
     @media screen and (max-width: 520px) {
       .block-2 article .work-grid {
-        margin-bottom: .5em;
+        margin-bottom: 0;
         float: left;
         display: block;
         margin-right: 5.88235%;
