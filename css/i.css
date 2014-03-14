@@ -351,7 +351,7 @@ small, header[role="main-header"] hgroup, .post .description .label {
 .post article:first-child {
   margin-top: 0; }
 .post article h1, .post article .h1, .post article h2, .post article .h2, .post article h3, .post article .h3, .post article h4, .post article h5 {
-  font-weight: bold;
+  font-weight: normal;
   margin-top: 1.5em; }
 
 * {
@@ -361,7 +361,7 @@ small, header[role="main-header"] hgroup, .post .description .label {
   box-sizing: border-box; }
 
 html {
-  font-size: 125%;
+  font-size: 100%;
   height: 100%;
   font-weight: normal;
   -webkit-font-smoothing: antialiased; }
@@ -855,7 +855,7 @@ section[class*="block-"] {
   margin-right: 2.85714%;
   width: 87.14286%;
   margin-left: 6.42857%;
-  font-family: "Freight Text Pro", "freight-text-pro", "FF Meta Serif", "Georgia"; }
+  font-family: "Skolar", "ff-tisa-web-pro", "Calendas Plus", "Arial"; }
   .post article:last-child {
     margin-right: 0; }
   .post article header {

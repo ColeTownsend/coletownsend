@@ -61,7 +61,6 @@ p {
   -webkit-hyphens: auto;
      -moz-hyphens: auto;
           hyphens: auto;
-  line-height: $base-line-height;
 }
 
 hr {
@@ -186,7 +185,7 @@ cite {
         margin-top: 0;
       }
     h1,.h1,h2,.h2,h3,.h3,,h4,h5 {
-      font-weight: bold;
+      font-weight: normal;
       margin-top: $base-line-height;
       
     }

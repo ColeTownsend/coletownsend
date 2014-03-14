@@ -2,11 +2,12 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 $sans-serif: "europa", "Futura", "Helvetica Neue", sans-serif;
+$ss-alt: "Futura", "Helvetica Neue", sans-serif;
 $sans-light: $sans-serif;
 $sans-medium: $sans-serif;
 $sans-bold: $sans-serif;
-$serif: "Freight Text Pro", "freight-text-pro", "FF Meta Serif", "Georgia";
-$serif-alt: "adobe-text-pro", "Garamond";
+$serif: "Skolar", "ff-tisa-web-pro","Calendas Plus", "Arial";
+$serif-alt: "europa", "Arial";
 $mono: "Aften Trio";
 $fancy: "Apercu";
 
@@ -57,6 +58,7 @@ $soft-blue: desaturate($blue, 20%);
 $light-soft-blue: transparentize($soft-blue, .25);
 $navy:  #001F3F;
 $blue-black: #282e42;
+$blue-gray: #4A4C52;
 $light-blue-black: transparentize($blue-black, .25);
 $teal:  #39CCCC;
 
