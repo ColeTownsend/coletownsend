@@ -290,15 +290,15 @@ p {
   word-break: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
-  hyphens: auto;
-  line-height: 1.5em; }
+  hyphens: auto; }
 
 hr {
   border-bottom: 1px solid #c8bdbd;
   border-left: none;
   border-right: none;
   border-top: none;
-  margin: 1.5em 0; }
+  margin: 1.5em 0;
+  margin-top: 1.4375em; }
 
 img {
   margin: 0;
