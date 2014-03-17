@@ -255,8 +255,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, h5, h6 {
   text-rendering: optimizeLegibility; }
 
 h5, h6 {
-  font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
-  font-variant: small-caps; }
+  font-family: "europa", "Futura", "Helvetica Neue", sans-serif; }
 
 h1, .h1 {
   font-size: 2.25em;
@@ -338,7 +337,7 @@ cite {
    ========================================================================== */
 /* Casing
    ========================================================================== */
-h6, small, header[role="main-header"] hgroup, .post .description .label {
+h6, small, .post article h5, .post article .h5, .post article h6, .post article .h6, header[role="main-header"] hgroup, .post .description .label {
   text-transform: uppercase; }
 
 /* Tracking
@@ -353,10 +352,14 @@ h6, small, header[role="main-header"] hgroup, .post .description .label {
    ========================================================================== */
 .post article:first-child {
   margin-top: 0; }
-.post article h1, .post article .h1, .post article h2, .post article .h2, .post article h3, .post article .h3, .post article h4, .post article h5 {
+.post article h1, .post article .h1, .post article h2, .post article .h2, .post article h3, .post article .h3, .post article h4 {
   font-weight: normal;
   margin-top: 1.5em;
   font-style: italic; }
+.post article h5, .post article .h5, .post article h6, .post article .h6 {
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.1em; }
 
 * {
   -webkit-box-sizing: border-box;

@@ -18,7 +18,6 @@ h1,.h1 ,%h1, h2, .h2,%h2, h3, .h3,%h3, h4, h5, h6 {
 
 h5,h6 {
   font-family: $base-font-family;
-  font-variant: small-caps;
 }
 
 h1,.h1,%h1 {
@@ -190,10 +189,16 @@ cite {
     &:first-child {
         margin-top: 0;
       }
-    h1,.h1,h2,.h2,h3,.h3,,h4,h5 {
+    h1,.h1,h2,.h2,h3,.h3,,h4 {
       font-weight: normal;
       margin-top: $base-line-height;
       font-style: italic;      
+    }
+    h5,.h5,h6,.h6 {
+      @extend %caps-lock;
+      font-style: normal;
+      font-weight: bold;
+      letter-spacing: 0.1em;
     }
   }
 }
