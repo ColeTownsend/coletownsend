@@ -260,7 +260,7 @@ section[class*="block-"] {
       @include transition(all .2s $ease-in-out-quad);    
       @include span-columns(2.6666666);
       @include omega(3n);
-      height: 17vw;
+      height: 16vw;
       @include media($medium) {
         h1 {
           font-size: $fs6;
