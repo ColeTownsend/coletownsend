@@ -515,12 +515,17 @@ section[class*="block-"] {
       list-style-type: none;
       font-weight: bold;
       background: $light-gray;
+      position: relative;
+      position: relative;
       &:first-of-type {
+        -webkit-box-shadow: inset 0 -2px 0 $light-gray;
+                box-shadow: inset 0 -2px 0 $light-gray;
         background: $white;
         font-style: italic;
-        color: $black;
+        color: lighten($black, 40%);
         font-weight: normal;
         width: 100%;
+        opacity: 1;
         height: 100%;
         display: block;
         padding: $base-line-height*2;
@@ -537,18 +542,33 @@ section[class*="block-"] {
       max-width: 800px;
       margin: 0 auto;
     }
+    small {
+      opacity: .33;
+      font-family: $base-font-family;
+      @extend %caps-lock;
+      letter-spacing: 0.08em;
+      margin-top: $base-line-height;
+    }
     a {
       width: 100%;
       height: 100%;
+      z-index: 10;
       display: block;
+      background: $white;
+      color: $black;
+      // background: lighten($light-gray, 10%);
       padding: $base-line-height*2;
-      position: relative;
-      color: $white;
-      @include transition(all .15s $ease-in-out-quad);
+      @include transition(all .2s $ease-in-out-quad);
       &:hover {
-        background: $white;
-        color: $black;
-        @include transition(all .3s $ease-in-out-quad);
+        color: $white;
+        background: none;
+        border: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        @include transition(all .2s $ease-in-out-quad);
+        small {
+          opacity: .75;
+        }
       }
     }
   }

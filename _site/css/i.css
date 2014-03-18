@@ -338,7 +338,7 @@ cite {
    ========================================================================== */
 /* Casing
    ========================================================================== */
-h6, small, .post article h5, .post article .h5, .post article h6, .post article .h6, header[role="main-header"] hgroup, .post .description .label {
+h6, small, .post article h5, .post article .h5, .post article h6, .post article .h6, header[role="main-header"] hgroup, .post .description .label, .listing .work-listing small {
   text-transform: uppercase; }
 
 /* Tracking
@@ -847,13 +847,18 @@ section[class*="block-"] {
     list-style-type: none;
     list-style-type: none;
     font-weight: bold;
-    background: #e6e6e8; }
+    background: #e6e6e8;
+    position: relative;
+    position: relative; }
     .listing .work-listing li:first-of-type {
+      -webkit-box-shadow: inset 0 -2px 0 #e6e6e8;
+      box-shadow: inset 0 -2px 0 #e6e6e8;
       background: #fefefe;
       font-style: italic;
-      color: #4a4c52;
+      color: #b0b2b8;
       font-weight: normal;
       width: 100%;
+      opacity: 1;
       height: 100%;
       display: block;
       padding: 3em;
@@ -866,22 +871,33 @@ section[class*="block-"] {
     display: block;
     max-width: 800px;
     margin: 0 auto; }
+  .listing .work-listing small {
+    opacity: .33;
+    font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
+    letter-spacing: 0.08em;
+    margin-top: 1.5em; }
   .listing .work-listing a {
     width: 100%;
     height: 100%;
+    z-index: 10;
     display: block;
+    background: #fefefe;
+    color: #4a4c52;
     padding: 3em;
-    position: relative;
-    color: #fefefe;
-    -webkit-transition: all 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-    -moz-transition: all 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-    transition: all 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+    -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    -moz-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
     .listing .work-listing a:hover {
-      background: #fefefe;
-      color: #4a4c52;
-      -webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-      -moz-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-      transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+      color: #fefefe;
+      background: none;
+      border: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      -moz-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+      .listing .work-listing a:hover small {
+        opacity: .75; }
 
 footer {
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
