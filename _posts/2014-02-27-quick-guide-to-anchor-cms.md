@@ -4,7 +4,7 @@ layout: post
 title: A Quick Guide to Anchor CMS
 date: "2014-02-27 12:06:34"
 category: journal
-accent-color: "#757E8E"
+accent_color: "#757E8E"
 tags: [Anchor CMS, cmd, front end]
 ---
 Below is a condensed version of the install instructions available at [Anchor CMS](http://anchorcms.com/docs/getting-started/installing).

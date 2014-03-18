@@ -4,7 +4,7 @@ layout: portfolio
 title: Williams Outing Club
 date: "2014-02-25 13:01:12"
 category: work
-brand-color: "#383838"
+accent_color: "#383838"
 title-color: ""
 role: "Design Lead"
 tags: [Branding, Logo Design]

@@ -4,7 +4,7 @@ layout: portfolio
 title: Illustrations
 date: "2014-02-26 18:39:05"
 category: work
-brand-color: "#705B90"
+accent_color: "#705B90"
 role: "Illustrator"
 tags: [Having fun, Coloring Within The Lines]
 image:
