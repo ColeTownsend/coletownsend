@@ -678,15 +678,23 @@ section[class*="block-"] {
   vertical-align: middle;
   height: 20em;
   width: 100%;
+  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
-  vertical-align: middle;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   position: relative;
-  -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.08), inset 0 -2px 0 rgba(0, 0, 0, 0.08);
-  box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.08), inset 0 -2px 0 rgba(0, 0, 0, 0.08); }
+  -webkit-filter: grayscale(100%);
+  /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+  -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.1); }
+  .post header.bg-img:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #fefefe;
+    opacity: .5; }
 .post .description {
   color: #c6c7cb;
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
