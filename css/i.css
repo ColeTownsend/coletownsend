@@ -706,7 +706,7 @@ section[class*="block-"] {
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
   margin-bottom: 0.375em; }
   .post .description .label {
-    color: rgba(40, 46, 66, 0.25);
+    color: #cbccd0;
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 0.75em; }
@@ -751,8 +751,8 @@ section[class*="block-"] {
     max-width: 100%;
     height: auto; }
   .post article a {
-    color: rgba(40, 46, 66, 0.25);
-    border-bottom: 1px dotted #282e42; }
+    color: #888b94;
+    border-bottom: 1px dotted #a2abc7; }
   .post article figure {
     margin: 1.5em auto; }
     .post article figure.web {
@@ -853,7 +853,7 @@ section[class*="block-"] {
   .listing header[role="main-header"] {
     background: #4a4c52; }
     .listing header[role="main-header"] a {
-      color: #9b9da4; }
+      color: #cbccd0; }
   .listing article {
     margin-bottom: 0; }
     .listing article header {
@@ -872,7 +872,7 @@ section[class*="block-"] {
       .listing .work-listing li:first-of-type {
         background: #4a4c52;
         font-style: italic;
-        color: #9b9da4;
+        color: #cbccd0;
         font-weight: normal;
         width: 100%;
         opacity: 1;

@@ -363,7 +363,7 @@ section[class*="block-"] {
     margin-bottom: em(6);
     .label {
       @extend %caps-lock;
-      color: $light-blue-black;
+      color: $light-blue-gray;
       letter-spacing: 2px;
       font-weight: bold;
       font-size: $fs7;
@@ -415,8 +415,8 @@ section[class*="block-"] {
       height: auto;
     }
     a {
-      color: $light-blue-black;
-      border-bottom: 1px dotted $blue-black;
+      color: $mid-blue-black;
+      border-bottom: 1px dotted $light-blue-black;
     }
     figure {
       margin: $base-line-height auto;
@@ -518,7 +518,7 @@ section[class*="block-"] {
   header[role="main-header"] {
     background: $black;
     a {
-      color: $dark-gray;
+      color: $light-blue-gray;
     }
   }
   article {
@@ -544,7 +544,7 @@ section[class*="block-"] {
         //         box-shadow: inset 0 -2px 0 $light-gray;
         background: $black;
         font-style: italic;
-        color: $dark-gray;
+        color: $light-blue-gray;
         font-weight: normal;
         width: 100%;
         opacity: 1;
