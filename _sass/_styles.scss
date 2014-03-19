@@ -89,7 +89,6 @@ hr {
 
 .page-wrap {
   min-height: 100%;
-  background: $white;
   @include clearfix();
   margin-bottom: -($base-line-height*4); 
   &:after {
@@ -260,8 +259,15 @@ section[class*="block-"] {
       @include transition(all .2s $ease-in-out-quad);    
       @include span-columns(2.6666666);
       @include omega(3n);
-      height: 16vw;
+      height: 18vw;
       @include media($medium) {
+        height: 25vw;
+        h1 {
+          font-size: $fs6;
+        }
+      }
+      @include media($large) {
+        height: 17vw;
         h1 {
           font-size: $fs6;
         }
@@ -331,9 +337,10 @@ section[class*="block-"] {
   header.bg-img {
     vertical-align: middle;
     height: 20em;
+    max-height: 400px;
     width: 100%;
-    background-attachment: fixed;
-    background-position: center center;
+    // background-attachment: fixed;
+    background-position: center 0;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -347,7 +354,7 @@ section[class*="block-"] {
       height: 100%;
       width: 100%;
       background: $white;
-      opacity: .5;
+      opacity: .25;
     }
   }
   .description {
@@ -507,6 +514,13 @@ section[class*="block-"] {
 }
 
 .listing {
+  background: $black;
+  header[role="main-header"] {
+    background: $black;
+    a {
+      color: $dark-gray;
+    }
+  }
   article {
     margin-bottom: 0;
     header {
@@ -526,11 +540,11 @@ section[class*="block-"] {
       position: relative;
       position: relative;
       &:first-of-type {
-        -webkit-box-shadow: inset 0 -2px 0 $light-gray;
-                box-shadow: inset 0 -2px 0 $light-gray;
-        background: $white;
+        // -webkit-box-shadow: inset 0 -2px 0 $light-gray;
+        //         box-shadow: inset 0 -2px 0 $light-gray;
+        background: $black;
         font-style: italic;
-        color: lighten($black, 40%);
+        color: $dark-gray;
         font-weight: normal;
         width: 100%;
         opacity: 1;

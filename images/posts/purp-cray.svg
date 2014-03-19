@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <title>Purple Crayon</title>
+<svg width="1440px" height="400px" viewBox="0 0 1440 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Slice 1</title>
     <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
     <defs></defs>
-    <g id="Page 1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Purple Crayon">
-            <path d="M0,0 L0,600 L800,600 L800,0 L0,0 Z M0,0" id="Rectangle 1" fill="#9DE2CE"></path>
-            <g id="Group" transform="translate(250.000000, 164.000000)">
-                <g id="icon" fill="#705B90">
-                    <g id="Small_Icons">
-                        <g id="Artboard_2">
-                            <path d="M99.0824317,13.5136778 L87.75,33.0294037 L113.917102,48.0486322 L125.25,28.5317474 L99.0824317,13.5136778 L99.0824317,13.5136778 Z M79.6868191,45.7963526 L23.25,144.035976 L49.3127164,159.161094 L105.75,60.9217045 L79.6868191,45.7963526 L79.6868191,45.7963526 Z M110.532287,2.70130818 L127.933911,12.7863907 C137.615106,18.3885672 140.829164,30.6248202 135.302461,40.2285513 L126.484124,55.5311485 L118.959261,68.6040585 L54.9958325,179.748956 L15.6843563,205.77572 C6.17062321,212.067305 -0.629811114,207.878895 0.04630707,196.713917 L2.86807273,149.554751 L66.8321976,38.4103195 L74.3570608,25.3374095 L83.1558877,10.0334144 C88.701404,0.430848233 100.929829,-2.85170797 110.532287,2.70130818 L110.532287,2.70130818 Z M14.25,190.693009 L42,172.046735 L16.244471,156.908815 L14.25,190.693009 L14.25,190.693009 Z M14.25,190.693009" id="pencil_copy_2"></path>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="purp-cray" sketch:type="MSLayerGroup">
+            <g id="Page-1" sketch:type="MSShapeGroup">
+                <g id="purp-cray">
+                    <g id="Page-1">
+                        <g id="Purple-Crayon">
+                            <path d="M0,0 L0,400 L1440,400 L1440,0 L0,0 L0,0 Z" id="Rectangle-1" fill="#9DE2CE"></path>
+                            <g id="Group" transform="translate(611.000000, 110.000000)">
+                                <g id="icon" fill="#705B90">
+                                    <g id="Small_Icons">
+                                        <g id="Artboard_2">
+                                            <path d="M72.3301751,9.84802431 L64.0575,24.0700108 L83.1594845,35.0151976 L91.4325,20.7923665 L72.3301751,9.84802431 L72.3301751,9.84802431 Z M58.1713779,33.3738602 L16.9725,104.965489 L35.998283,115.987842 L77.1975,44.3963838 L58.1713779,33.3738602 L58.1713779,33.3738602 Z M80.6885695,1.96856467 L93.391755,9.31801751 C100.459027,13.4005753 102.80529,22.3176827 98.7707965,29.3163532 L92.3334105,40.4680434 L86.8402605,49.9948604 L40.1469577,130.991142 L11.4495801,149.958015 C4.50455494,154.542975 -0.459762113,151.490693 0.0338041611,143.354271 L2.09369309,108.987268 L48.7875042,27.991326 L54.2806544,18.4645089 L60.703798,7.31179997 C64.7520249,0.313978469 73.6787752,-2.07816775 80.6885695,1.96856467 L80.6885695,1.96856467 L80.6885695,1.96856467 Z M10.4025,138.966565 L30.66,125.378187 L11.8584638,114.346505 L10.4025,138.966565 L10.4025,138.966565 Z" id="pencil_copy_2"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                                <path d="M3.96524013,164.969958 C123.325329,217.832236 111.48262,110.612629 219,155.739868" id="Path-5" stroke="#705B90" stroke-width="11.659919"></path>
+                            </g>
                         </g>
                     </g>
                 </g>
-                <path d="M5.43183579,226.375442 C168.938807,298.914235 152.715918,151.785108 300,213.709708" id="Path 5" stroke="#705B90" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></path>
             </g>
         </g>
     </g>
