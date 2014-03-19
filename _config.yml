@@ -73,13 +73,3 @@ sitemap:
         - "/index.html"
     change_frequency_name: "change_frequency"
     priority_name: "priority"
-
-assets:
-  js_compressor: uglifier
-  css_compressor: sass
-  sources:
-    - _assets/fonts
-    - _assets/js
-    - _assets/sass
-    - _assets/img
-  gzip: false
