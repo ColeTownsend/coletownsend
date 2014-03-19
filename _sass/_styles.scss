@@ -259,7 +259,7 @@ section[class*="block-"] {
       @include transition(all .2s $ease-in-out-quad);    
       @include span-columns(2.6666666);
       @include omega(3n);
-      height: 18vw;
+      height: 16vw;
       @include media($medium) {
         height: 25vw;
         h1 {
@@ -354,7 +354,7 @@ section[class*="block-"] {
       height: 100%;
       width: 100%;
       background: $white;
-      opacity: .25;
+      opacity: .5;
     }
   }
   .description {
@@ -363,13 +363,13 @@ section[class*="block-"] {
     margin-bottom: em(6);
     .label {
       @extend %caps-lock;
-      color: $light-gray;
+      color: $light-blue-black;
       letter-spacing: 2px;
       font-weight: bold;
       font-size: $fs7;
     }
     .tag {
-      color: $medium-gray;
+      color: $dark-gray;
       font-weight: bold;
       font-size: $fs7;
       padding-left: 10px;
@@ -379,7 +379,7 @@ section[class*="block-"] {
         content: ",";
         position: absolute;
         right: -6px;
-        color: $medium-gray;
+        color: $dark-gray;
       }
       &:first-of-type {
         padding-left: 0;

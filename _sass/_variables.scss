@@ -55,11 +55,11 @@ $purple: #6F4993;
 $aqua:  #7FDBFF;
 $blue:  #0074D9;
 $soft-blue: desaturate($blue, 20%);
-$light-soft-blue: transparentize($soft-blue, .25);
+$light-soft-blue: transparentize($soft-blue, .75);
 $navy:  #001F3F;
 $blue-black: #282e42;
 $blue-gray: #4A4C52;
-$light-blue-black: transparentize($blue-black, .25);
+$light-blue-black: transparentize($blue-black, .75);
 $teal:  #39CCCC;
 
 // Warm
@@ -76,7 +76,7 @@ $white: #fefefe;
 
 // Bitters
 $real-black: #232830;
-$dark-gray: lighten($black, 24%);
+$dark-gray: lighten($black, 32%);
 $medium-gray: lighten($black, 48%);
 $light-gray: lighten($black, 60%);
 $light-red: #FBE3E4;
