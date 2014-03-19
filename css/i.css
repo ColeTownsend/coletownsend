@@ -607,7 +607,7 @@ section[class*="block-"] {
     display: block;
     margin-right: 2.85714%;
     width: 31.42857%;
-    height: 18vw; }
+    height: 16vw; }
     .block-2 article .work-grid:last-child {
       margin-right: 0; }
     .block-2 article .work-grid:nth-child(3n) {
@@ -701,18 +701,18 @@ section[class*="block-"] {
     height: 100%;
     width: 100%;
     background: #fefefe;
-    opacity: .25; }
+    opacity: .5; }
 .post .description {
   color: #c6c7cb;
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
   margin-bottom: 0.375em; }
   .post .description .label {
-    color: #e6e6e8;
+    color: rgba(40, 46, 66, 0.25);
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 0.75em; }
   .post .description .tag {
-    color: #c6c7cb;
+    color: #9b9da4;
     font-weight: bold;
     font-size: 0.75em;
     padding-left: 10px;
@@ -722,7 +722,7 @@ section[class*="block-"] {
       content: ",";
       position: absolute;
       right: -6px;
-      color: #c6c7cb; }
+      color: #9b9da4; }
     .post .description .tag:first-of-type {
       padding-left: 0; }
     .post .description .tag:last-of-type:after {
@@ -752,7 +752,7 @@ section[class*="block-"] {
     max-width: 100%;
     height: auto; }
   .post article a {
-    color: rgba(40, 46, 66, 0.75);
+    color: rgba(40, 46, 66, 0.25);
     border-bottom: 1px dotted #282e42; }
   .post article figure {
     margin: 1.5em auto; }
@@ -854,7 +854,7 @@ section[class*="block-"] {
   .listing header[role="main-header"] {
     background: #4a4c52; }
     .listing header[role="main-header"] a {
-      color: #858891; }
+      color: #9b9da4; }
   .listing article {
     margin-bottom: 0; }
     .listing article header {
@@ -873,7 +873,7 @@ section[class*="block-"] {
       .listing .work-listing li:first-of-type {
         background: #4a4c52;
         font-style: italic;
-        color: #858891;
+        color: #9b9da4;
         font-weight: normal;
         width: 100%;
         opacity: 1;
