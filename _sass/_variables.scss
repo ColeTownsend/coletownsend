@@ -54,12 +54,15 @@ $fs8: .6em; // 12px
 $purple: #6F4993;
 $aqua:  #7FDBFF;
 $blue:  #0074D9;
-$soft-blue: desaturate($blue, 20%);
-$light-soft-blue: transparentize($soft-blue, .75);
+$soft-blue: desaturate($blue, 70%);
+$light-soft-blue: transparentize($soft-blue, .25);
 $navy:  #001F3F;
 $blue-black: #282e42;
 $blue-gray: #4A4C52;
-$light-blue-black: transparentize($blue-black, .75);
+$light-blue-gray: lighten($blue-gray, 50%);
+$off-blue-black: saturate($blue-gray, 10%);
+$mid-blue-black: lighten($blue-gray, 25%);
+$light-blue-black: lighten($blue-black, 50%);
 $teal:  #39CCCC;
 
 // Warm
