@@ -693,8 +693,8 @@ section[class*="block-"] {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #fefefe;
-    opacity: .5; }
+    background: #4a4c52;
+    opacity: .08; }
 .post .description {
   color: #c6c7cb;
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif;

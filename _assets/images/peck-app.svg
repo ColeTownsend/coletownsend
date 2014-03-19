@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1200px" height="400px" viewBox="0 0 1200 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Slice 1</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="peck-app" sketch:type="MSLayerGroup">
+            <g id="Page-1" sketch:type="MSShapeGroup">
+                <g id="Loading-Page">
+                    <path d="M0,0 L0,400 L1200,400 L1200,0 L0,0 L0,0 Z" id="Rectangle-538" fill="#BC5B4C"></path>
+                    <path d="M599.624447,211.239201 C599.831971,211.45085 600.164074,211.455295 600.375957,211.239201 L636.755758,174.136364 L640.428334,170.390796 C640.935346,169.873707 641.759709,169.868252 642.264862,170.383445 L649.624431,177.889283 C650.126412,178.401241 650.126357,179.243059 649.617223,179.762311 L645.944647,183.507879 L600.383594,229.974442 C600.171852,230.190392 599.833838,230.195784 599.616809,229.974442 L554.055757,183.507879 L550.383181,179.762311 C549.876168,179.245222 549.87082,178.404475 550.375972,177.889283 L557.735542,170.383445 C558.237523,169.871487 559.062936,169.871544 559.57207,170.390796 L563.244646,174.136364 L599.624447,211.239201 L599.624447,211.239201 Z" id="Rectangle-193" fill="#E7C4BA"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
