@@ -4,7 +4,7 @@ layout: portfolio
 title: %%TITLE%%
 date: unpublished
 category: work
-brand-color: "#"
+accent_color: "#"
 title-color: "#"
 role: "Design Lead"
 tags: [Branding, Logo Design]

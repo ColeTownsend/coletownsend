@@ -701,7 +701,7 @@ section[class*="block-"] {
     height: 100%;
     width: 100%;
     background: #fefefe;
-    opacity: .5; }
+    opacity: .75; }
 .post .description {
   color: #c6c7cb;
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
