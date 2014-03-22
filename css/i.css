@@ -264,8 +264,8 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 2em;
-  line-height: 1.4em;
-  margin-bottom: 0.2em; }
+  line-height: 1.2em;
+  margin-bottom: 0.6em; }
 
 h3, .h3 {
   font-size: 1.75em;
@@ -326,6 +326,9 @@ blockquote {
 small {
   font-size: 0.6em;
   display: block; }
+
+em {
+  font-style: italic; }
 
 cite {
   color: #888b94;
@@ -931,6 +934,44 @@ footer {
   footer small {
     color: #fefefe;
     opacity: .2; }
+
+.about {
+  position: relative; }
+  .about section article header {
+    *zoom: 1;
+    max-width: 36em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 4.5em; }
+    .about section article header:before, .about section article header:after {
+      content: " ";
+      display: table; }
+    .about section article header:after {
+      clear: both; }
+  .about h2 {
+    position: relative;
+    z-index: 2; }
+  .about .profile-wrap {
+    float: left;
+    display: block;
+    margin-right: 2.85714%;
+    width: 35.71429%; }
+    .about .profile-wrap:last-child {
+      margin-right: 0; }
+  .about .profile {
+    background: url("/images/assets/profile.png");
+    opacity: .6;
+    width: 260px;
+    height: 260px;
+    z-index: 1;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; }
+  .about p {
+    margin-right: 0; }
 
 #instantclick-bar {
   background: #ec6f66;

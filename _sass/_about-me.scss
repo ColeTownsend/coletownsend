@@ -1,0 +1,30 @@
+.about {
+  position: relative;
+  section article header {
+    @include outer-container();
+    position: relative;
+    margin-top: $base-line-height*3;
+  }
+  h2 {
+    position: relative;
+    z-index: 2;
+  }
+  .profile-wrap {
+    @include span-columns(3);
+  }
+  .profile {
+    background: url('/images/assets/profile.png');
+    opacity: .6;
+    width: 260px;
+    height: 260px;
+    z-index: 1;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  p {
+    @include omega();
+  }
+}

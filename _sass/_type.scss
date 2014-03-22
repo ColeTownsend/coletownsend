@@ -28,8 +28,8 @@ h1,.h1,%h1 {
 
 h2,.h2,%h2 {
   font-size: $fs2; // 20 * 2 = 40px
-  line-height: 1.4em;
-  margin-bottom: em(4,20);
+  line-height: 1.2em;
+  margin-bottom: em(12,20);
 }
 
 h3,.h3,%h3 {
@@ -106,6 +106,10 @@ small {
   font-size: $fs8;
   display: block;
   @extend %caps-lock;
+}
+
+em {
+  font-style: italic;
 }
 
 cite {
