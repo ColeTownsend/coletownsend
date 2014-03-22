@@ -22,32 +22,32 @@ h5,h6 {
 
 h1,.h1,%h1 {
   font-size: $fs1; // 20 * 2.25 = 45px
-  line-height: 1.2em;
-  margin-bottom: .25em;
+  line-height: 1.16em;
+  margin-bottom: em(8,20);
 }
 
 h2,.h2,%h2 {
   font-size: $fs2; // 20 * 2 = 40px
-  line-height: 1.2em;
-  margin-bottom: .33em;
+  line-height: 1.4em;
+  margin-bottom: em(4,20);
 }
 
 h3,.h3,%h3 {
   font-size: $fs3; // 20 * 1.75 = 35px
-  line-height: 1.3em;
-  margin-bottom: .25em;
+  line-height: 1.44em;
+  margin-bottom: em(10,20);
 }
 
 h4,.h4,%h4 {
   font-size: $fs4; // 20 * 1.5 = 30px
-  line-height: 1.4em;
-  margin-bottom: em(8, 20);
+  line-height: 1.47em;
+  margin-bottom: em(18, 20);
 }
 
 h5,.h5,,%h5 {
   font-size: $fs5; // 20 * 1.25 = 25px
-  line-height: 1.4em;
-  margin-bottom: em(5, 20);
+  line-height: 1.48em;
+  margin-bottom: em(23, 20);
 }
 
 h6 {
@@ -97,7 +97,6 @@ del {
 }
 
 blockquote {
-  color: transparentize($base-font-color, .33);
   margin: $base-line-height 0;
   margin-left: $base-line-height;
   padding-left: $base-line-height;

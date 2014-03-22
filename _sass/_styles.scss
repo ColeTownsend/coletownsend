@@ -111,7 +111,6 @@ header[role="main-header"] {
   color: $black;
   font-weight: 600;
   position: relative;
-  padding: 1.5em 0;
   -moz-box-shadow:    0px 1px 0px 0px rgba(243,243,243,0.5);
   -webkit-box-shadow: 0px 1px 0px 0px rgba(243,243,243,0.5);
   box-shadow:         0px 1px 0px 0px rgba(243,243,243,0.5);
@@ -126,6 +125,7 @@ header[role="main-header"] {
     margin-bottom: 0;
   }
   a {
+    line-height: 80px;
     color: $black;
     @include transition(color .2s $ease-in-out-sine);
     &:hover {
@@ -167,7 +167,7 @@ header[role="main-header"] {
 
 // Home Page
 section[class*="block-"] {
-  min-height: 21em;
+  min-height: 19em;
   position: relative;
   overflow: hidden;
   @include media($small) {
@@ -260,14 +260,14 @@ section[class*="block-"] {
       @include span-columns(2.6666666);
       @include omega(3n);
       height: 16vw;
-      @include media($medium) {
-        height: 25vw;
+      @include media($large) {
+        height: 17vw;
         h1 {
           font-size: $fs6;
         }
       }
-      @include media($large) {
-        height: 17vw;
+      @include media($medium) {
+        height: 25vw;
         h1 {
           font-size: $fs6;
         }

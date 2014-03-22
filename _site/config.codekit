@@ -97,8 +97,8 @@
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_sass\/_tooltips.scss",
 		"outputAbbreviatedPath": "\/css\/_tooltips.css",
 		"outputPathIsSetByUser": 0,
@@ -907,8 +907,8 @@
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_sass\/i.scss",
 		"outputAbbreviatedPath": "\/css\/i.css",
 		"outputPathIsSetByUser": 0,
@@ -1210,6 +1210,14 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/archive\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/archive\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/css\/i.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -1306,12 +1314,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_site\/javascripts\/smooth-scroll.js": {
+	"\/_site\/javascripts\/smooth-scroll.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/javascripts\/smooth-scroll.js",
-		"outputAbbreviatedPath": "\/_site\/javascripts\/min\/smooth-scroll-ck.js",
+		"inputAbbreviatedPath": "\/_site\/javascripts\/smooth-scroll.min.js",
+		"outputAbbreviatedPath": "\/_site\/javascripts\/min\/smooth-scroll.min-ck.js",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1374,27 +1382,19 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/journal\/test\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/journal\/test\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/journal\/typo-test\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/journal\/typo-test\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/search\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/search\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/work\/balzac-theme\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/work\/balzac-theme\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -1419,14 +1419,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/work\/peck\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/work\/thenews\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/work\/thenews\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -1615,6 +1607,26 @@
 		"outputAbbreviatedPath": "\/images\/inline\/2014\/03\/peck-menu.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/inline\/balzac-theme-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98849,
+		"inputAbbreviatedPath": "\/images\/inline\/balzac-theme-1.jpg",
+		"outputAbbreviatedPath": "\/images\/inline\/balzac-theme-1.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/inline\/balzac-theme-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25748,
+		"inputAbbreviatedPath": "\/images\/inline\/balzac-theme-2.png",
+		"outputAbbreviatedPath": "\/images\/inline\/balzac-theme-2.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/inline\/box-box-comment.png": {
 		"fileType": 32768,
@@ -1806,6 +1818,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/posts\/balzac-theme-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25748,
+		"inputAbbreviatedPath": "\/images\/posts\/balzac-theme-2.png",
+		"outputAbbreviatedPath": "\/images\/posts\/balzac-theme-2.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/posts\/line-goose.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1816,13 +1838,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/images\/posts\/thenews-app.png": {
+	"\/images\/posts\/typistry-tumblr.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 22016,
-		"inputAbbreviatedPath": "\/images\/posts\/thenews-app.png",
-		"outputAbbreviatedPath": "\/images\/posts\/thenews-app.png",
+		"initialSize": 112660,
+		"inputAbbreviatedPath": "\/images\/posts\/typistry-tumblr.png",
+		"outputAbbreviatedPath": "\/images\/posts\/typistry-tumblr.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1914,15 +1936,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/javascripts\/smooth-scroll.js": {
+	"\/javascripts\/smooth-scroll.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/javascripts\/smooth-scroll.js",
-		"outputAbbreviatedPath": "\/javascripts\/min\/smooth-scroll-ck.js",
+		"inputAbbreviatedPath": "\/javascripts\/smooth-scroll.min.js",
+		"outputAbbreviatedPath": "\/javascripts\/min\/smooth-scroll.min-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/javascripts\/tooltips.js": {
 		"fileType": 64,
@@ -1955,15 +1977,6 @@
 		}
 	},
 "hooks": [
-	{
-		"enabled": 1,
-		"hookType": 1,
-		"name": "Foreman",
-		"predicateDataBase64Encoded": "YnBsaXN0MDDUAQIDBAUGbW5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMjY7PEFFS1BRVlxhZmhVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy8wMV8QEE5TU2VsZkV4cHJlc3Npb25cTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMzWhNIAJgAzTCx83ODk6WU5TS2V5UGF0aIALEAqACl1pbnB1dEZ1bGxQYXRo0issPT5fEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uoz9AMV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb25cTlNFeHByZXNzaW9u0issQkNeTlNNdXRhYmxlQXJyYXmjQkQxV05TQXJyYXnSKyxGR18QE05TS2V5UGF0aEV4cHJlc3Npb26kSElKMV8QE05TS2V5UGF0aEV4cHJlc3Npb25fEBROU0Z1bmN0aW9uRXhwcmVzc2lvblxOU0V4cHJlc3Npb27TTB8LTU5PXxAPTlNDb25zdGFudFZhbHVlgA8QAIAQWXBvcnRmb2xpb9IrLFJTXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNUVTFfEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uXE5TRXhwcmVzc2lvbtQLV1hZWk4oW1pOU01vZGlmaWVyV05TRmxhZ3NeTlNPcGVyYXRvclR5cGWAEhBj0issXV5fEBVOU0luUHJlZGljYXRlT3BlcmF0b3KjX2AxXxAVTlNJblByZWRpY2F0ZU9wZXJhdG9yXxATTlNQcmVkaWNhdGVPcGVyYXRvctIrLGJjXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo2RlMV8QFU5TQ29tcGFyaXNvblByZWRpY2F0ZVtOU1ByZWRpY2F0ZdIrLERnokQx0issaWpfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2tsMV8QE05TQ29tcG91bmRQcmVkaWNhdGVbTlNQcmVkaWNhdGVfEA9OU0tleWVkQXJjaGl2ZXLRb3BUcm9vdIABAAgAEQAaACMALQAyADcAUABWAF0AdwCJAJAAkgCUAJYAmwCmAKgAqgCsALUAyQDcAPIA9AD2APgA+gEFAQ8BHgExAT0BPwFBAUMBRQFHAVQBWQFbAV0BYgFtAXYBiQGNAaABrQG2AbsBvQG\/AcEByAHSAdQB1gHYAeYB6wIKAg4CLQI6Aj8CTgJSAloCXwJ1AnoCkAKnArQCuwLNAs8C0QLTAt0C4gL+AwIDHgMrAzQDPwNHA1YDWANaA18DdwN7A5MDqQOuA8YDygPiA+4D8wP2A\/sEEQQVBCsENwRJBEwEUQAAAAAAAAIBAAAAAAAAAHEAAAAAAAAAAAAAAAAAAART",
-		"runOrder": 0,
-		"scriptSourceString": "cd documents\/www\/sites\/portfolio\nforeman start\ncd",
-		"uuidString": "CC876346-6A50-4F4C-BBBB-8B2A04A87C03"
-		}
 	],
 "lastSavedByUser": "Cole Townsend",
 "manualImportLinks": {
@@ -1976,7 +1989,7 @@
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
-	"animateCSSInjections": 1,
+	"animateCSSInjections": 0,
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
 	"autoSyncProjectSettingsFile": 1,
@@ -2532,7 +2545,7 @@
 	"markdownEnableFootnotes": 0,
 	"markdownEnableSmartyPants": 1,
 	"markdownExpandTabs": 1,
-	"reloadFileURLs": 0,
+	"reloadFileURLs": 1,
 	"sassAutoOutputPathRelativePath": "..\/css",
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
@@ -2544,7 +2557,7 @@
 	"sassUseLibsass": 0,
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,
-	"skippedItemsString": "\/_posts, \/404, _logs, \/_layouts, \/_plugins, log, logs, cache, \/_resources, \/_includes, .git, \/templates, \/search, \/_drafts, \/journal",
+	"skippedItemsString": "\/_posts, \/404, _logs, \/_layouts, \/_plugins, log, logs, cache, \/_resources, \/_includes, .git, \/templates, \/archive, \/search, \/_drafts, \/journal",
 	"slimAutoOutputPathRelativePath": "",
 	"slimAutoOutputPathReplace1": "",
 	"slimAutoOutputPathReplace2": "",
@@ -2713,7 +2726,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/_site\/"
+	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "2"
 }
