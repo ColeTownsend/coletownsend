@@ -5,14 +5,25 @@
     <div class="page-wrap">
       {% include _navigation_main.html %}
        <section class="wrap">
-          <article>
-            <header>
-              <h3>I create visual solutions with <em>personality</em>.</h3>
-              <div class="profile-wrap"><div class="profile"></div></div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, vitae ullam iusto itaque enim optio pariatur maxime qui repudiandae incidunt. Architecto, vero est blanditiis? Deleniti, voluptate, eveniet, commodi, accusantium delectus dolore rem nihil culpa numquam minima illo dolor quo saepe animi voluptatem nulla consequatur repellendus assumenda cupiditate alias? Incidunt, iure ipsum odit dolorum placeat aliquam non molestias itaque. Mollitia, maiores?</p>
-            </header>
-
-          </article>
+            <aside>
+              <div class="profile-wrap">
+                <img src="/images/assets/monochrome-profile.png" alt=""><span class="border"></span>
+<!--                 <div class="profile"></div>
+ -->              </div>
+              <ul class="profile-links">
+                <hr>
+                <li><a href="http://twitter.com/{{site.twitter}}"><small>@{{site.twitter}}</small></a></li>
+                <li><a href="#"><small>{{site.email}}</small></a></li>
+                <li>{% if site.work_status contains 'unavailable' %} <span class="red-marker"></span> {%else %} <span class="green-marker"></span> {% endif %}<a data="disabled" href="#"><small>{{site.work_status}}</small></a></li>
+                <hr>
+                <li><a href="#"><small>Fun Link 1</small></a></li>
+                <li><a href="#"><small>Fun Link 2</small></a></li>
+                <li><a href="#"><small>Fun Link 3</small></a></li>
+              </ul>
+            </aside>
+            <aside>
+              {{ content }}
+            </aside>
         </section>
     </div>
     {% include _footer.html %}

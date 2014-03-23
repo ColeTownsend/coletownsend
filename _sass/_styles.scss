@@ -38,14 +38,9 @@ a {
   text-decoration: none;
 }
 
-hr {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  height: 4px;
-  border: none;
-  background: $light-gray;
-  margin: ($base-line-height - 2) auto;
+a[data="disabled"] {
+  pointer-events: none;
+  cursor: default;
 }
 
 // Modular Bits to Extend
@@ -358,6 +353,9 @@ section[class*="block-"] {
     }
   }
   .description {
+    div {
+      line-height: em(28,20);
+    }
     color: $medium-gray;
     font-family: $sans-serif;
     margin-bottom: em(6);
@@ -372,6 +370,7 @@ section[class*="block-"] {
       color: $dark-gray;
       font-weight: bold;
       font-size: $fs7;
+      line-height: 18px;
       padding-left: 10px;
       position: relative;
       text-transform: capitalize;
@@ -487,7 +486,7 @@ section[class*="block-"] {
         top: 50%;
         left: -$base-line-height;
         height: 1px;
-        background: $light-gray;
+        background: $red;
       }
       &:before {
         content: '';
@@ -497,7 +496,7 @@ section[class*="block-"] {
         top: 50%;
         left: -$base-line-height;
         height: 1px;
-        background: $light-gray;
+        background: $red;
       }
     }
     ul {

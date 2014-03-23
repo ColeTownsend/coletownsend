@@ -1,30 +1,89 @@
 .about {
   position: relative;
-  section article header {
-    @include outer-container();
-    position: relative;
-    margin-top: $base-line-height*3;
+  .wrap {
+    padding-top: $base-line-height*4;
+    padding-bottom: $base-line-height*2;
+  }
+  aside {
+    &:first-of-type {
+     @include span-columns(3);
+     min-height: 300px;
+    }
+    @include span-columns(5);
+    @include omega();
   }
   h2 {
     position: relative;
     z-index: 2;
   }
   .profile-wrap {
-    @include span-columns(3);
+    @include span-columns(2.5 of 3);
+    position: relative;
+    img {
+      width: 11em;
+      height: auto;
+      opacity: .7;
+      position: relative;
+      z-index: 1;
+      float: right;
+      @include border-top-radius($border-radius);
+    }
+    .border {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      bottom: em(10,20);
+      right: em(10,20);
+      z-index: 2;
+      border: 2px solid transparentize($blue, .4)
+    }
   }
-  .profile {
-    background: url('/images/assets/profile.png');
-    opacity: .6;
-    width: 260px;
-    height: 260px;
-    z-index: 1;
-    background-position: center center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  // .profile {
+  //   background: url('/images/assets/profile.png');
+  //   opacity: .6;
+  //   position: absolute;
+  //   left: -4vw;
+  //   top: 0;
+  //   width: 22%;
+  //   height: auto;
+  //   z-index: 1;
+  //   background-position: center center;
+  //   background-size: cover;
+  //   -webkit-background-size: cover;
+  //   -moz-background-size: cover;
+  //   -o-background-size: cover;
+  // }
+  .profile-links {
+    @include span-columns(2.5 of 3);
+    font-family: $base-font-family;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: right;
+    a {
+      color: $red;
+      @include transition(color .2s $ease-in-out-sine);
+      &:hover {
+        color: darken($red, 10%);
+        @include transition(color .2s $ease-in-out-sine);
+      }
+    }
+    small {
+      display: inline-block;
+    }
   }
-  p {
-    @include omega();
-  }
+}
+
+.red-marker {
+  width: .25em;
+  height: .25em;
+  display: inline-block;
+  background: $red;
+  margin-right: .1em;
+  position: relative;
+  top: -.1em;
+}
+
+.green-marker {
+  @extend .red-marker;
+  background: $green;
 }
