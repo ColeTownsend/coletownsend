@@ -1,0 +1,52 @@
+<script src="https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js"></script> 
+<script> google.maps.event.addDomListener(window, 'load', init);
+
+var map;
+
+function init() {
+    var mapOptions = {
+        center: new google.maps.LatLng(42.720281,-73.194581),
+        zoom: 10,
+            zoomControl: false,
+        disableDoubleClickZoom: true,
+        mapTypeControl: false,
+        scaleControl: false,
+        scrollwheel: false,
+        streetViewControl: false,
+        draggable : false,
+        overviewMapControl: false,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+    styles: [ 
+  { featureType: "administrative", elementType: "all", stylers: [ { visibility: "on" }, { saturation: -100 }, { lightness: 20 } ] },
+  { featureType: "road", elementType: "all", stylers: [ { visibility: "on" }, { saturation: -100 }, { lightness: 40 } ] },
+  { featureType: "water", elementType: "all", stylers: [ { visibility: "on" }, { saturation: -10 }, { lightness: 30 } ] },
+  { featureType: "landscape.man_made", elementType: "all", stylers: [ { visibility: "simplified" }, { saturation: -60 }, { lightness: 10 } ] },
+  { featureType: "landscape.natural", elementType: "all", stylers: [ { visibility: "simplified" }, { saturation: -60 }, { lightness: 60 } ] },
+  { featureType: "poi", elementType: "all", stylers: [ { visibility: "off" }, { saturation: -100 }, { lightness: 60 } ] }, 
+  { featureType: "transit", elementType: "all", stylers: [ { visibility: "off" }, { saturation: -100 }, { lightness: 60 } ] }
+],
+    
+    }
+
+    var mapElement = document.getElementById('map');
+    var map = new google.maps.Map(mapElement, mapOptions);
+    var locations = [
+        ['Williamstown', -37.8572918, 144.8977593]
+    ];
+
+    for (i = 0; i < locations.length; i++) {
+        marker = new google.maps.Marker({
+            icon: 'http://i.imgur.com/LJiW7er.png',
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map
+        });
+    }
+}
+</script> 
+
+<style> 
+#map {
+    width:600px;
+    height:400px;
+}
+</style> 
