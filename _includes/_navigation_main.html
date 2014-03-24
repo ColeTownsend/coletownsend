@@ -5,8 +5,8 @@
     </hgroup>
     
     <ul>      
-      {% for link in site.links %}
-        <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %} data-no-instant target="_blank"{% endif %}>{{ link.title }}</a></li>
+      {% for nav_link in site.data.nav_links %}
+        <li><a href="{% if nav_link.external %}{{ nav_link.url }}{% else %}{{ site.url }}{{ nav_link.url }}{% endif %}" {% if nav_link.external %} data-no-instant target="_blank"{% endif %}>{{ nav_link.title }}</a></li>
       {% endfor %}
     </ul>
   </nav>

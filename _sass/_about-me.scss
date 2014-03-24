@@ -4,7 +4,7 @@
     padding-top: $base-line-height*4;
     padding-bottom: $base-line-height*2;
   }
-  a {
+  p a, .profile-links a {
     color: $base-link-color;
     @include transition(color .2s $ease-in-out-sine);
     &:hover {

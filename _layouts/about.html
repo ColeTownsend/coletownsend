@@ -14,7 +14,7 @@
                 <hr>
                 <li><a href="http://twitter.com/{{site.twitter}}"><small>@{{site.twitter}}</small></a></li>
                 <li><a href="#"><small>{{site.email}}</small></a></li>
-                <li>{% if site.work_status contains 'unavailable' %} <span class="red-marker"></span> {%else %} <span class="green-marker"></span> {% endif %}<small class="work-status">{{site.work_status}}</small></li>
+                <li>{% if site.data.work_status contains 'unavailable' %} <span class="red-marker"></span> {%else %} <span class="green-marker"></span> {% endif %}<small class="work-status">{{site.data.work_status}}</small></li>
                 <hr>
                 {% for link in site.data.links %}
                 <li><a data-no-instant href="{{ link.url }}"><small>{{ link.title }}</small></a></li>

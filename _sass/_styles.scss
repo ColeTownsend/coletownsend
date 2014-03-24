@@ -608,6 +608,9 @@ footer {
   a {
     color: $white;
     border-bottom: 1px solid transparentize($white, .4);
+    &:visited {
+      color: $white;
+    }
   }
   small {
     color: $white;
