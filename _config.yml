@@ -4,7 +4,7 @@ author: "Twnsnd Co"
 url: "http://beta.twnsnd.co"
 email: cole@twnsnd.co
 twitter: twnsndco
-work_status: unavailable
+work_status: unavailable # either available or unavailable
 
 future: true
 
@@ -49,6 +49,8 @@ links:
     url: /work/
   - title: Journal
     url: /journal/
+  - title: About
+    url: /about/
 
 
 

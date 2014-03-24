@@ -259,23 +259,23 @@ h5, h6 {
 
 h1, .h1 {
   font-size: 2.25em;
-  line-height: 1.16em;
-  margin-bottom: 0.4em; }
+  line-height: 1.1em;
+  margin-bottom: 0.525em; }
 
 h2, .h2 {
   font-size: 2em;
-  line-height: 1.2em;
-  margin-bottom: 12px; }
+  line-height: 1.15em;
+  margin-bottom: 0.7em; }
 
 h3, .h3 {
   font-size: 1.75em;
-  line-height: 1.44em;
-  margin-bottom: 0.5em; }
+  line-height: 1.25em;
+  margin-bottom: 0.725em; }
 
 h4, .h4, .block-1 h1 p {
   font-size: 1.5em;
-  line-height: 1.47em;
-  margin-bottom: 0.9em; }
+  line-height: 1.35em;
+  margin-bottom: 0.875em; }
 
 h5, .h5 {
   font-size: 1.25em;
@@ -946,6 +946,16 @@ footer {
   .about .wrap {
     padding-top: 6em;
     padding-bottom: 3em; }
+  .about a {
+    color: #ec6f66;
+    -webkit-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -moz-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
+    .about a:hover {
+      color: #e95a4f;
+      -webkit-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+      -moz-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+      transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
   .about aside {
     float: left;
     display: block;
@@ -970,7 +980,8 @@ footer {
     display: block;
     margin-right: 8%;
     width: 82%;
-    position: relative; }
+    position: relative;
+    top: 10px; }
     .about .profile-wrap:last-child {
       margin-right: 0; }
     .about .profile-wrap img {
@@ -1001,16 +1012,6 @@ footer {
     text-align: right; }
     .about .profile-links:last-child {
       margin-right: 0; }
-    .about .profile-links a {
-      color: #ec6f66;
-      -webkit-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
-      -moz-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
-      transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
-      .about .profile-links a:hover {
-        color: #e64439;
-        -webkit-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
-        -moz-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
-        transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
     .about .profile-links small {
       display: inline-block; }
 
@@ -1023,8 +1024,14 @@ footer {
   position: relative;
   top: -.1em; }
 
+.red-marker + .work-status, .green-marker + .work-status {
+  color: #ec6f66; }
+
 .green-marker {
   background: #14b250; }
+
+.green-marker + .work-status {
+  color: #14b250; }
 
 #instantclick-bar {
   background: #ec6f66;

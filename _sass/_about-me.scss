@@ -4,6 +4,14 @@
     padding-top: $base-line-height*4;
     padding-bottom: $base-line-height*2;
   }
+  a {
+    color: $base-link-color;
+    @include transition(color .2s $ease-in-out-sine);
+    &:hover {
+      color: $hover-link-color;
+      @include transition(color .2s $ease-in-out-sine);
+    }
+  }
   aside {
     &:first-of-type {
      @include span-columns(3);
@@ -19,6 +27,7 @@
   .profile-wrap {
     @include span-columns(2.5 of 3);
     position: relative;
+    top: 10px;
     img {
       width: 11em;
       height: auto;
@@ -59,14 +68,6 @@
     font-weight: bold;
     letter-spacing: 1px;
     text-align: right;
-    a {
-      color: $red;
-      @include transition(color .2s $ease-in-out-sine);
-      &:hover {
-        color: darken($red, 10%);
-        @include transition(color .2s $ease-in-out-sine);
-      }
-    }
     small {
       display: inline-block;
     }
@@ -83,7 +84,15 @@
   top: -.1em;
 }
 
+.red-marker + .work-status {
+  color: $red;
+}
+
 .green-marker {
   @extend .red-marker;
   background: $green;
+}
+
+.green-marker + .work-status {
+  color: $green;
 }

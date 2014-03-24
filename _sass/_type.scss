@@ -22,26 +22,26 @@ h5,h6 {
 
 h1,.h1,%h1 {
   font-size: $fs1; // 20 * 2.25 = 45px
-  line-height: 1.16em;
-  margin-bottom: em(8,20);
+  line-height: 1.1em;
+  margin-bottom: em(10.5,20);
 }
 
 h2,.h2,%h2 {
   font-size: $fs2; // 20 * 2 = 40px
-  line-height: 1.2em;
-  margin-bottom: 12px;
+  line-height: 1.15em;
+  margin-bottom: em(14,20);
 }
 
 h3,.h3,%h3 {
   font-size: $fs3; // 20 * 1.75 = 35px
-  line-height: 1.44em;
-  margin-bottom: em(10, 20);
+  line-height: 1.25em;
+  margin-bottom: em(14.5, 20);
 }
 
 h4,.h4,%h4 {
   font-size: $fs4; // 20 * 1.5 = 30px
-  line-height: 1.47em;
-  margin-bottom: em(18, 20);
+  line-height: 1.35em;
+  margin-bottom: em(17.5, 20);
 }
 
 h5,.h5,,%h5 {

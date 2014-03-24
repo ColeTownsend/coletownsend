@@ -14,11 +14,11 @@
                 <hr>
                 <li><a href="http://twitter.com/{{site.twitter}}"><small>@{{site.twitter}}</small></a></li>
                 <li><a href="#"><small>{{site.email}}</small></a></li>
-                <li>{% if site.work_status contains 'unavailable' %} <span class="red-marker"></span> {%else %} <span class="green-marker"></span> {% endif %}<a data="disabled" href="#"><small>{{site.work_status}}</small></a></li>
+                <li>{% if site.work_status contains 'unavailable' %} <span class="red-marker"></span> {%else %} <span class="green-marker"></span> {% endif %}<small class="work-status">{{site.work_status}}</small></li>
                 <hr>
-                <li><a href="#"><small>Fun Link 1</small></a></li>
-                <li><a href="#"><small>Fun Link 2</small></a></li>
-                <li><a href="#"><small>Fun Link 3</small></a></li>
+                {% for link in site.data.links %}
+                <li><a data-no-instant href="{{ link.url }}"><small>{{ link.title }}</small></a></li>
+                {% endfor %}
               </ul>
             </aside>
             <aside>
