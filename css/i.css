@@ -283,7 +283,11 @@ h5, .h5 {
   margin-bottom: 1.15em; }
 
 h6 {
-  font-size: 1em; }
+  font-size: 0.7em;
+  font-weight: bold;
+  line-height: 1.33em;
+  margin-top: 2.25em;
+  margin-bottom: 0.75em; }
 
 p {
   -ms-word-break: break-all;
@@ -947,7 +951,7 @@ footer {
   position: relative; }
   .about .wrap {
     padding-top: 6em;
-    padding-bottom: 3em; }
+    padding-bottom: 6em; }
   .about p a, .about .profile-links a {
     color: #ec6f66;
     -webkit-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);

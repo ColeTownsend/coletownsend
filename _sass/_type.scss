@@ -51,8 +51,12 @@ h5,.h5,,%h5 {
 }
 
 h6 {
-  font-size: $base-font-size;
+  font-size: $fs7;
   @extend %caps-lock;
+  font-weight: bold;
+  line-height: 1.33em;
+  margin-top: 1.5*$base-line-height;
+  margin-bottom: $base-line-height/2;
 }
 
 p {
