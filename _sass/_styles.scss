@@ -127,7 +127,7 @@ header[role="main-header"] {
     }
   }
   a {
-    line-height: 80px;
+    line-height: 90px;
     color: $black;
     @include transition(color .2s $ease-in-out-sine);
     @include media($small) {
@@ -348,8 +348,7 @@ section[class*="block-"] {
 .post {
   header.bg-img {
     vertical-align: middle;
-    height: 20em;
-    max-height: 400px;
+    height: $base-line-height*14;
     width: 100%;
     // background-attachment: fixed;
     background-position: center 0;
@@ -366,7 +365,7 @@ section[class*="block-"] {
       height: 100%;
       width: 100%;
       background: $white;
-      opacity: .75;
+      opacity: .6;
     }
   }
   .description {
@@ -395,6 +394,7 @@ section[class*="block-"] {
         content: ",";
         position: absolute;
         right: -6px;
+        top: 2px;
         color: $dark-gray;
       }
       &:first-of-type {
@@ -413,7 +413,7 @@ section[class*="block-"] {
     @include shift(.5);
     font-family: $longform;
     header {
-      margin: $base-line-height*2 0;
+      margin: $base-line-height 0;
       h1:first-of-type {
         text-transform: capitalize;
         font-weight: bold;
@@ -421,14 +421,15 @@ section[class*="block-"] {
       }
     }
     .no-bg-img {
-      margin-top: $base-line-height*4;
+      margin-top: $base-line-height*3;
     }
     img {
       display: block;
-      margin: $base-line-height/2 auto;
+      margin: $base-line-height/2 0;
       width: auto;
       max-width: 100%;
       height: auto;
+      max-height: $base-line-height*14;
     }
     a {
       color: $mid-blue-black;
@@ -518,11 +519,11 @@ section[class*="block-"] {
     }
     ul {
       list-style-type: disc;
-      margin-bottom: $base-line-height / 2;
+      margin: $base-line-height / 2;
       padding-left: $base-line-height;
     ol {
       list-style-type: decimal;
-      margin-bottom: $base-line-height / 2;
+      margin: $base-line-height / 2;
       padding-left: $base-line-height;
       }
     }
@@ -541,6 +542,7 @@ section[class*="block-"] {
     margin-bottom: 0;
     header {
       margin: $base-line-height*2 auto;
+      margin-bottom: 1.5em;
       @extend %container;
     }
   }
@@ -616,9 +618,8 @@ footer {
   @extend .full; 
   font-family: $base-font-family;
   text-align: center;
-  padding: 1em 0; 
   width:100%;
-  height: $base-line-height*4;
+  height: 120px;
   background: $real-black;
   position: relative;
   color: $white;

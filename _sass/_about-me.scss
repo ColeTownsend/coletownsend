@@ -1,15 +1,23 @@
 .about {
   position: relative;
   .wrap {
-    padding-top: $base-line-height*4;
-    padding-bottom: $base-line-height*4;
+    padding-top: $base-line-height*3;
+    padding-bottom: $base-line-height*3;
   }
-  p a, .profile-links a {
+  .profile-links a {
     color: $base-link-color;
     @include transition(color .2s $ease-in-out-sine);
     &:hover {
       color: $hover-link-color;
       @include transition(color .2s $ease-in-out-sine);
+    }
+  }
+  p a {
+    color: $mid-blue-black;
+    border-bottom: 1px dotted $light-blue-black;
+    &:hover {
+      color: darken($mid-blue-black, 5%);
+      border-bottom: 1px dotted darken($light-blue-black, 5%);
     }
   }
   aside {

@@ -260,17 +260,17 @@ h5, h6 {
 h1, .h1 {
   font-size: 2.25em;
   line-height: 1.1em;
-  margin-bottom: 0.525em; }
+  margin-bottom: .42em; }
 
 h2, .h2 {
   font-size: 2em;
   line-height: 1.15em;
-  margin-bottom: 0.7em; }
+  margin-bottom: .34888em; }
 
 h3, .h3 {
   font-size: 1.75em;
   line-height: 1.25em;
-  margin-bottom: 0.725em; }
+  margin-bottom: .35em; }
 
 h4, .h4, .block-1 h1 p {
   font-size: 1.5em;
@@ -279,13 +279,12 @@ h4, .h4, .block-1 h1 p {
 
 h5, .h5 {
   font-size: 1.25em;
-  line-height: 1.48em;
-  margin-bottom: 1.15em; }
+  line-height: 1.5rem; }
 
 h6 {
   font-size: 0.7em;
   font-weight: bold;
-  line-height: 1.33em;
+  line-height: 1.5rem;
   margin-top: 2.25em;
   margin-bottom: 0.75em; }
 
@@ -369,11 +368,12 @@ h6, small, .post article h5, .post article .h5, .post article h6, .post article 
   margin-top: 0; }
 .post article h1, .post article .h1, .post article h2, .post article .h2, .post article h3, .post article .h3, .post article h4 {
   font-weight: normal;
-  margin-top: 1.5em;
+  margin-top: 1.5rem;
   font-style: italic; }
 .post article h5, .post article .h5, .post article h6, .post article .h6 {
   font-style: normal;
   font-weight: bold;
+  margin-top: 1.5rem;
   letter-spacing: 0.1em; }
 
 * {
@@ -491,7 +491,7 @@ header[role="main-header"] {
         display: block;
         float: none; } }
   header[role="main-header"] a {
-    line-height: 80px;
+    line-height: 90px;
     color: #4a4c52;
     -webkit-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
     -moz-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
@@ -708,8 +708,7 @@ section[class*="block-"] {
 
 .post header.bg-img {
   vertical-align: middle;
-  height: 20em;
-  max-height: 400px;
+  height: 21em;
   width: 100%;
   background-position: center 0;
   background-size: cover;
@@ -726,7 +725,7 @@ section[class*="block-"] {
     height: 100%;
     width: 100%;
     background: #fefefe;
-    opacity: .75; }
+    opacity: .6; }
 .post .description {
   color: #c6c7cb;
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
@@ -750,6 +749,7 @@ section[class*="block-"] {
       content: ",";
       position: absolute;
       right: -6px;
+      top: 2px;
       color: #9b9da4; }
     .post .description .tag:first-of-type {
       padding-left: 0; }
@@ -766,19 +766,20 @@ section[class*="block-"] {
   .post article:last-child {
     margin-right: 0; }
   .post article header {
-    margin: 3em 0; }
+    margin: 1.5em 0; }
     .post article header h1:first-of-type {
       text-transform: capitalize;
       font-weight: bold;
       font-style: normal; }
   .post article .no-bg-img {
-    margin-top: 6em; }
+    margin-top: 4.5em; }
   .post article img {
     display: block;
-    margin: 0.75em auto;
+    margin: 0.75em 0;
     width: auto;
     max-width: 100%;
-    height: auto; }
+    height: auto;
+    max-height: 21em; }
   .post article a {
     color: #888b94;
     border-bottom: 1px dotted #a2abc7; }
@@ -870,11 +871,11 @@ section[class*="block-"] {
       background: #ec6f66; }
   .post article ul {
     list-style-type: disc;
-    margin-bottom: 0.75em;
+    margin: 0.75em;
     padding-left: 1.5em; }
     .post article ul ol {
       list-style-type: decimal;
-      margin-bottom: 0.75em;
+      margin: 0.75em;
       padding-left: 1.5em; }
 
 .listing {
@@ -886,7 +887,8 @@ section[class*="block-"] {
   .listing article {
     margin-bottom: 0; }
     .listing article header {
-      margin: 3em auto; }
+      margin: 3em auto;
+      margin-bottom: 1.5em; }
   .listing .work-listing {
     list-style-type: none;
     list-style: none;
@@ -948,9 +950,8 @@ section[class*="block-"] {
 footer {
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
   text-align: center;
-  padding: 1em 0;
   width: 100%;
-  height: 6em;
+  height: 120px;
   background: #232830;
   position: relative;
   color: #fefefe; }
@@ -966,18 +967,24 @@ footer {
 .about {
   position: relative; }
   .about .wrap {
-    padding-top: 6em;
-    padding-bottom: 6em; }
-  .about p a, .about .profile-links a {
+    padding-top: 4.5em;
+    padding-bottom: 4.5em; }
+  .about .profile-links a {
     color: #ec6f66;
     -webkit-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
     -moz-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
     transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
-    .about p a:hover, .about .profile-links a:hover {
+    .about .profile-links a:hover {
       color: #e95a4f;
       -webkit-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
       -moz-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
       transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
+  .about p a {
+    color: #888b94;
+    border-bottom: 1px dotted #a2abc7; }
+    .about p a:hover {
+      color: #7b7e87;
+      border-bottom: 1px dotted #929cbd; }
   .about aside {
     float: left;
     display: block;

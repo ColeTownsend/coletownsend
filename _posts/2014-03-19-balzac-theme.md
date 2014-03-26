@@ -8,6 +8,8 @@ accent_color: "#6d98cf"
 title-color: "#"
 role: "Designer and Developer"
 tags: [Web Design, CMS]
+image:
+  feature: balzac-code.png
 ---
 
 ## For Anchor

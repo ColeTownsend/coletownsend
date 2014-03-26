@@ -23,19 +23,19 @@ h5,h6 {
 h1,.h1,%h1 {
   font-size: $fs1; // 20 * 2.25 = 45px
   line-height: 1.1em;
-  margin-bottom: em(10.5,20);
+  margin-bottom: .42em;
 }
 
 h2,.h2,%h2 {
   font-size: $fs2; // 20 * 2 = 40px
   line-height: 1.15em;
-  margin-bottom: em(14,20);
+  margin-bottom: .34888em;
 }
 
 h3,.h3,%h3 {
   font-size: $fs3; // 20 * 1.75 = 35px
   line-height: 1.25em;
-  margin-bottom: em(14.5, 20);
+  margin-bottom: .35em;
 }
 
 h4,.h4,%h4 {
@@ -46,15 +46,14 @@ h4,.h4,%h4 {
 
 h5,.h5,,%h5 {
   font-size: $fs5; // 20 * 1.25 = 25px
-  line-height: 1.48em;
-  margin-bottom: em(23, 20);
+  line-height: 1.5rem;
 }
 
 h6 {
   font-size: $fs7;
   @extend %caps-lock;
   font-weight: bold;
-  line-height: 1.33em;
+  line-height: 1.5rem;
   margin-top: 1.5*$base-line-height;
   margin-bottom: $base-line-height/2;
 }
@@ -210,13 +209,14 @@ cite {
       }
     h1,.h1,h2,.h2,h3,.h3,,h4 {
       font-weight: normal;
-      margin-top: $base-line-height;
+      margin-top: 1.5rem;
       font-style: italic;      
     }
     h5,.h5,h6,.h6 {
       @extend %caps-lock;
       font-style: normal;
       font-weight: bold;
+      margin-top: 1.5rem;
       letter-spacing: 0.1em;
     }
   }
