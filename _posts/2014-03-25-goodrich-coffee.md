@@ -13,14 +13,14 @@ image:
   feature:
 ---
 
-At Williams College, I worked with Goodrich Coffee Bar. I developed their identity through several poster campaigns. With custom illustrations and cheeky copywriting I helped develop their brand voice.
+At Williams College, I worked with Goodrich Coffee Bar. I developed their identity through several poster campaigns. With custom illustrations and cheeky copywriting I helped develop their brand voice. I used the typeface _Soleil_, available on Typekit.
 
-###### Initial Campaign
+###### Fall Campaign
 <img src="{{ site.url }}{{ site.images_url }}gcb-skyr.jpg" alt="">
 <img src="{{ site.url }}{{ site.images_url }}gcb-tees.jpg" alt="">
 <img src="{{ site.url }}{{ site.images_url }}gcb-iced.jpg" alt="">
 <img src="{{ site.url }}{{ site.images_url }}gcb-wildflour.jpg" alt="">
 
-###### Night Campaign
+###### Winter Campaign
 <img src="{{ site.url }}{{ site.images_url }}gcb-night.jpg" alt="">
 <img src="{{ site.url }}{{ site.images_url }}gcb-happy-tea.jpg" alt="">
