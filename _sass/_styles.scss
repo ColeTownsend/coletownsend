@@ -122,7 +122,7 @@ header[role="main-header"] {
     position: relative;
     margin-bottom: 0;
     @include media($small) {
-      display: block;
+      display: none;
       float: none;
     }
   }
@@ -131,7 +131,7 @@ header[role="main-header"] {
     color: $black;
     @include transition(color .2s $ease-in-out-sine);
     @include media($small) {
-      line-height: 20px;
+      line-height: 40px;
     }
     &:hover {
       color: $red;

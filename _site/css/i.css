@@ -488,7 +488,7 @@ header[role="main-header"] {
     margin-bottom: 0; }
     @media screen and (max-width: 520px) {
       header[role="main-header"] hgroup {
-        display: block;
+        display: none;
         float: none; } }
   header[role="main-header"] a {
     line-height: 90px;
@@ -498,7 +498,7 @@ header[role="main-header"] {
     transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
     @media screen and (max-width: 520px) {
       header[role="main-header"] a {
-        line-height: 20px; } }
+        line-height: 40px; } }
     header[role="main-header"] a:hover {
       color: #ec6f66;
       -webkit-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
