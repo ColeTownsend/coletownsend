@@ -14,14 +14,19 @@
               {% if post.categories contains 'journal' %}
                 <li class="work-rectangle" style="background:{% if post.accent_color %}{{ post.accent_color}}{% else %}{% endif %};">
                   <a href="{{ site.url }}{{ post.url }}">
-<!--                   {% capture postTitle %}{{ post.title | strip_html }}{% endcapture %}
-                  {% capture postTitleTruncate %}{{ postTitle | truncate: 28, '...' }}{% endcapture %}
-
-                    <h1>{{ postTitleTruncate }}</h1> -->
                     <h1>{{ post.title }}</h1>
                     <small>{{ post.date | date: "%-d %B %Y" }}</small>
                   </a>
-
+                </li>
+              {% elsif post.categories contains 'links' %}
+                <li class="work-rectangle" style="background:{% if post.accent_color %}{{ post.accent_color}}{% else %}{% endif %};">
+                {% capture postTitle %}{{ post.title | strip_html }}{% endcapture %}
+                  {% capture postTitleTruncate %}{{ postTitle | truncate: 22, '...' }}{% endcapture %}
+                  <a data-no-instant href="{{ post.custom_url }}">
+                    <h1>Link: {{ postTitleTruncate }}</h1>
+                    <!-- <small>{{ post.date | date: "%-d %B %Y" }}</small> -->
+                    <small>{{ post.title }}</small>
+                  </a>
                 </li>
               {% endif %}
             {% endfor %}
