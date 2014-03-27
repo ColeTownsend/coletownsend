@@ -1,0 +1,16 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  {% include _head.html %}
+  <body class="post">
+    {% include _navigation_main.html %}
+    <section class="wrap">
+      <article>
+        <header >
+          <a data-no-instant href="{{custom_url}}"><h1>{{ page.title }}</h1></a>
+        </header>
+        {{ content }}
+      </article>
+    </section>
+    {% include _footer.html %}
+  </body>
+</html>
