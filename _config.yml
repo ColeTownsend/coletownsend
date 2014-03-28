@@ -57,6 +57,8 @@ links:
 # ============================================================
 permalink: /:categories/:title
 
+paginate: 4
+
 # Variable format options for URL styles below
 # ============================================================
 # pretty                                          => /2009/04/29/slap-chop/index.html

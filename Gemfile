@@ -9,6 +9,7 @@ gem 'sass'
 gem 'bourbon'
 gem 'neat'
 
+gem 'reduce'
 gem 'json'
 gem 'nokogiri'
 gem 'fileutils'

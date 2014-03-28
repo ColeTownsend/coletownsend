@@ -6,10 +6,7 @@ $ss-alt: "Futura", "Helvetica Neue", sans-serif;
 $sans-light: $sans-serif;
 $sans-medium: $sans-serif;
 $sans-bold: $sans-serif;
-$serif: "CMU Concrete","ff-tisa-web-pro","FF Tisa","Calendas Plus", "Arial";
-$serif-alt: "CMU Concrete", "Arial";
-$mono: "Aften Trio";
-$hipster: "DIN";
+$serif: "CMU Concrete","Georgia", serif;
 
 $head: $serif;
 $body: $serif;
@@ -32,10 +29,8 @@ $border-radius: $base-border-radius;
 
 
 
-// Type Scale - I always need a type-scale
+// Type Scale
 ///////////////////////////////////////////////////////////////////////////////
-
-/** * 16 as roots then powers of two. */
 
 $fs1: 2.25em; // 45px
 $fs2: 2em; // 40px
@@ -78,7 +73,7 @@ $red: #EC6F66;
 $black:  $blue-gray;
 $white: #fefefe;
 
-// Bitters
+// Others
 $real-black: #232830;
 $dark-gray: lighten($black, 32%);
 $medium-gray: lighten($black, 48%);
@@ -87,19 +82,17 @@ $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
-/* Neutrals */
+// White
 $off-white: darken(#ffffff, 1%);
+
 
 // Body Color
 $base-body-color: $white;
-
 //  Font Colors
 $base-font-color: $black;
 $base-accent-color: $red;
-
 //  Text Link Colors
 $base-link-color: $base-accent-color;
 $hover-link-color: darken($base-accent-color, 5);
-
 // Border color
 $base-border-color: $light-gray;

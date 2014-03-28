@@ -1,5 +1,3 @@
-/** * 16 as roots then powers of two. */
-/* Neutrals */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
@@ -58,7 +56,6 @@ a {
   to {
     text-shadow: 0 0 19px pink;
     color: pink; } }
-
 @-webkit-keyframes textglow {
   from {
     text-shadow: 0 0 9px red;
@@ -67,7 +64,6 @@ a {
   to {
     text-shadow: 0 0 19px pink;
     color: pink; } }
-
 @-o-keyframes textglow {
   from {
     text-shadow: 0 0 9px red;
@@ -76,7 +72,6 @@ a {
   to {
     text-shadow: 0 0 19px pink;
     color: pink; } }
-
 @-ms-keyframes textglow {
   from {
     text-shadow: 0 0 9px red;
@@ -85,7 +80,6 @@ a {
   to {
     text-shadow: 0 0 19px pink;
     color: pink; } }
-
 @-khtml-keyframes textglow {
   from {
     text-shadow: 0 0 9px red;
@@ -94,7 +88,6 @@ a {
   to {
     text-shadow: 0 0 19px pink;
     color: pink; } }
-
 @keyframes textglow {
   from {
     text-shadow: 0 0 9px red;
@@ -103,7 +96,6 @@ a {
   to {
     text-shadow: 0 0 19px pink;
     color: pink; } }
-
 @-moz-keyframes hovering {
   0% {
     -webkit-transform: translateY(0);
@@ -125,7 +117,6 @@ a {
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
     transform: translateY(0); } }
-
 @-webkit-keyframes hovering {
   0% {
     -webkit-transform: translateY(0);
@@ -147,7 +138,6 @@ a {
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
     transform: translateY(0); } }
-
 @-o-keyframes hovering {
   0% {
     -webkit-transform: translateY(0);
@@ -169,7 +159,6 @@ a {
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
     transform: translateY(0); } }
-
 @-ms-keyframes hovering {
   0% {
     -webkit-transform: translateY(0);
@@ -191,7 +180,6 @@ a {
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
     transform: translateY(0); } }
-
 @-khtml-keyframes hovering {
   0% {
     -webkit-transform: translateY(0);
@@ -213,7 +201,6 @@ a {
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
     transform: translateY(0); } }
-
 @keyframes hovering {
   0% {
     -webkit-transform: translateY(0);
@@ -235,7 +222,6 @@ a {
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
     transform: translateY(0); } }
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -243,13 +229,13 @@ a {
 
 body {
   color: #4a4c52;
-  font-family: "CMU Concrete", "ff-tisa-web-pro", "FF Tisa", "Calendas Plus", "Arial";
+  font-family: "CMU Concrete", "Georgia", serif;
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
   line-height: 1.5em; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, h5, h6 {
-  font-family: "CMU Concrete", "ff-tisa-web-pro", "FF Tisa", "Calendas Plus", "Arial";
+  font-family: "CMU Concrete", "Georgia", serif;
   line-height: 1.25em;
   margin: 0;
   text-rendering: optimizeLegibility; }
@@ -402,7 +388,7 @@ body {
   height: 100%;
   min-height: 100%;
   background: #fefefe;
-  font-family: "CMU Concrete", "ff-tisa-web-pro", "FF Tisa", "Calendas Plus", "Arial";
+  font-family: "CMU Concrete", "Georgia", serif;
   color: #4a4c52;
   text-size-adjust: 100%;
   overflow-x: hidden !important; }
@@ -762,7 +748,7 @@ section[class*="block-"] {
   margin-right: 2.85714%;
   width: 87.14286%;
   margin-left: 6.42857%;
-  font-family: "CMU Concrete", "ff-tisa-web-pro", "FF Tisa", "Calendas Plus", "Arial"; }
+  font-family: "CMU Concrete", "Georgia", serif; }
   .post article:last-child {
     margin-right: 0; }
   .post article header {
