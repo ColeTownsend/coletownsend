@@ -1,0 +1,61 @@
+.fluidbox {
+  outline: none;
+}
+a[data-fluidbox] {
+    background-color: #eee;
+    border: none;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+}
+a[data-fluidbox].fluidbox-opened {
+    cursor: -webkit-zoom-out;
+    cursor: -moz-zoom-out;
+}
+a[class^='float'] {
+    margin: 1.5rem;
+    margin-top: 0;
+    width: 33.33333%;
+}
+a.float-left {
+    float: left;
+    margin-left: 0;
+}
+a.float-right {
+    float: right;
+    margin-right: 0;
+}
+
+#fluidbox-overlay {
+    background-color: rgba(255,255,255,.85);
+    cursor: pointer;
+    cursor: -webkit-zoom-out;
+    cursor: -moz-zoom-out;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 500;
+}
+.fluidbox-wrap {
+    background-position: center center;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    z-index: 400;
+    @include transition(all .15s ease-in-out)
+}
+.fluidbox-opened .fluidbox-wrap {
+    z-index: 600;
+}
+.fluidbox-ghost {
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    background-position: center center;
+    position: absolute;
+    @include transition(all .25s ease-in-out)
+    }
