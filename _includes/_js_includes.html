@@ -1,4 +1,6 @@
 <script data-no-instant src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js"></script>
+<script src="{{ site.url }}/javascripts/jquery.fluidbox.min.js"></script>
 
 <!-- <script src="{{ site.url }}/javascripts/nav.js"></script> -->
 <!-- Data Image -->
@@ -15,6 +17,22 @@
     $('#top').smoothScroll({offset: 120});
 
   });
+</script>
+<script>
+$(function () {
+  $("a").fluidbox({
+    closeTrigger: [
+      { selector: '#fluidbox-overlay', event: 'click'},
+      { selector: 'window', event: 'scroll'}
+    ]
+  });
+  $(".fluidbox").fluidbox({
+    closeTrigger: [
+      { selector: '#fluidbox-overlay', event: 'click'},
+      { selector: 'window', event: 'scroll'}
+    ]
+  });
+});
 </script>
 <!--
 <script data-no-instant>InstantClick.on('change', smoothScroll);</script>
