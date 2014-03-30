@@ -472,10 +472,6 @@ header[role="main-header"] {
     float: left;
     position: relative;
     margin-bottom: 0; }
-    @media screen and (max-width: 520px) {
-      header[role="main-header"] hgroup {
-        display: none;
-        float: none; } }
   header[role="main-header"] a {
     line-height: 90px;
     color: #4a4c52;
@@ -499,8 +495,7 @@ header[role="main-header"] {
       margin-top: 0; }
       @media screen and (max-width: 520px) {
         header[role="main-header"] nav ul {
-          display: block;
-          float: none; }
+          display: block; }
           header[role="main-header"] nav ul li {
             text-align: left; } }
     header[role="main-header"] nav ul li {

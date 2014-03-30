@@ -121,10 +121,6 @@ header[role="main-header"] {
     float: left;
     position: relative;
     margin-bottom: 0;
-    @include media($small) {
-      display: none;
-      float: none;
-    }
   }
   a {
     line-height: 90px;
@@ -148,7 +144,6 @@ header[role="main-header"] {
       margin-top: 0;
       @include media($small) {
         display: block;
-        float: none;
         li {
           text-align: left;
         }        

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Best Resources for Sketch App
+title: The Best Resources for Sketch
 date: "2014-02-27 12:06:34"
 categories: journal
 tags: [sketch, vector, resources]
