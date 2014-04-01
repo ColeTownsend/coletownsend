@@ -12,12 +12,11 @@
       @include transition(color .2s $ease-in-out-sine);
     }
   }
-  p a {
-    color: $mid-blue-black;
-    border-bottom: 1px dotted $light-blue-black;
+  .main-about a  {
+    color: $blue-black;
+    @include underline($base-body-color, $blue-black);
     &:hover {
-      color: darken($mid-blue-black, 5%);
-      border-bottom: 1px dotted darken($light-blue-black, 5%);
+      color: darken($blue-black, 10);
     }
   }
   aside {
@@ -36,6 +35,7 @@
     @include span-columns(2.5 of 3);
     position: relative;
     top: 10px;
+    margin-bottom: $base-line-height - em(10, 20);
     img {
       width: 11em;
       height: auto;

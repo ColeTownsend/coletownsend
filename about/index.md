@@ -15,4 +15,7 @@ I am taking on new work! <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6F
 {% endif %}
 
 ###### Elsewhere
-I write about all sorts of things, often design on my [journal]({{ site.url }}/journal). I chat about my day and useful things I find on [Twitter](http://twitter.com/{{ site.twitter }}). I show off my latest work on [Dribbble](http://dribbble.com/coletownsend). You can find my open source projects, and this site, on [Github](http://github.com/coletownsend).
+- [Writings]({{ site.url }}/journal) — Thoughts and the like.
+- [Twitter](http://twitter.com/{{ site.twitter }}) — Clever, sometimes.
+- [Dribbble](http://dribbble.com/coletownsend) — Fun sized projects.
+- [Github](http://github.com/coletownsend) — Coding is for nerds.

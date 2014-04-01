@@ -106,9 +106,9 @@ header[role="main-header"] {
   color: $black;
   font-weight: 600;
   position: relative;
-  -moz-box-shadow:    0px 1px 0px 0px rgba(243,243,243,0.5);
-  -webkit-box-shadow: 0px 1px 0px 0px rgba(243,243,243,0.5);
-  box-shadow:         0px 1px 0px 0px rgba(243,243,243,0.5);
+  // -moz-box-shadow:    0px 1px 0px 0px rgba(243,243,243,0.5);
+  // -webkit-box-shadow: 0px 1px 0px 0px rgba(243,243,243,0.5);
+  // box-shadow:         0px 1px 0px 0px rgba(243,243,243,0.5);
   @include media($small) {
     padding: 1em;
   }
@@ -268,7 +268,7 @@ section[class*="block-"] {
       @include omega(3n);
       height: 16vw;
       @include media($large) {
-        height: 17vw;
+        height: 15.6vw;
         h1 {
           font-size: $fs6;
         }
@@ -427,31 +427,37 @@ section[class*="block-"] {
       max-height: $base-line-height*14;
     }
     a {
-      color: $mid-blue-black;
-      border-bottom: 1px dotted $light-blue-black;
+      color: $red;
+      @include underline($base-body-color, $base-accent-color);
+      &:hover {
+        color: darken($red, 10);
+      }
     }
     figure {
       margin: $base-line-height auto;
       &.web {
         margin-top: $base-line-height*2;
-        border: 1px solid $light-gray;
+        border: 1px solid $base-border-color;
         @include border-top-radius(0px);
         @include border-bottom-radius(0px);
         height: 30em;
         overflow-y: scroll;
         position: relative;
         z-index: 1;
-        -webkit-box-shadow: 0 -2em 0 $white, 0 -2.0375em 1px $light-gray;
-                box-shadow: 0 -2em 0 $white, 0 -2.0375em 1px $light-gray;
+        -webkit-box-shadow: 0 -2em 0 $base-body-color, 0 -2.0375em 1px $base-border-color;
+                box-shadow: 0 -2em 0 $base-body-color, 0 -2.0375em 1px $base-border-color;
         img {
           @include border-top-radius(0);
           @include border-bottom-radius(0);
+          width: 100%;
+          height: auto !important;
+          max-height: none;
         }
       }
       &.iphone {
         width: 328px;
         height: 584px + 96px;
-        border: 1px solid $light-gray;
+        border: 1px solid $base-border-color;
         @include border-top-radius(2em);
         @include border-bottom-radius(2em);
         padding: 64px 16px;
@@ -464,7 +470,7 @@ section[class*="block-"] {
           height: 48px;
           -webkit-border-radius: 24px;
                   border-radius: 24px;
-          border: 1px solid $light-gray;
+          border: 1px solid $base-border-color;
           left: (328px/2) - 24px;
           bottom: 24px;
         }
@@ -480,7 +486,7 @@ section[class*="block-"] {
           }
         }
         img {
-          border: 1px solid $light-gray;
+          border: 1px solid $base-border-color;
           @include border-top-radius(4px);
           @include border-bottom-radius(4px);
         }
@@ -499,7 +505,7 @@ section[class*="block-"] {
         top: 50%;
         left: -$base-line-height;
         height: 1px;
-        background: $red;
+        background: $base-accent-color;
       }
       &:before {
         content: '';
@@ -509,7 +515,7 @@ section[class*="block-"] {
         top: 50%;
         left: -$base-line-height;
         height: 1px;
-        background: $red;
+        background: $base-accent-color;
       }
     }
     ul {

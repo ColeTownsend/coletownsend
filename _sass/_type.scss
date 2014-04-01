@@ -119,11 +119,16 @@ small {
 
 em {
   font-style: italic;
+  letter-spacing: -0.01em;
 }
 
 b {
   font-weight: bold;
   letter-spacing: -0.04em;
+}
+
+.hilite {
+  background: transparentize($yellow, .66);
 }
 
 cite {
