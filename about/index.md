@@ -2,7 +2,7 @@
 layout: about
 ---
 
-### _Insouciant_ — a relaxed and calm state.
+### _Insouciance_ — a relaxed and calm state.
 I pride myself in my ability to stay calm, to stay in the moment. This applies to design, to running, to living. My name is Cole Townsend, and I am a designer.
 
 I  also study Art History at Williams College. I like chemex coffee, running, and napping — in that order. I think programming is cool, but don't actually program that much. I'm always trying to learn new things, though. XCode and iOS development are on my shortlist.
