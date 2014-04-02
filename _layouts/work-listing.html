@@ -14,7 +14,7 @@
               {% if post.categories contains 'work' %}
                 <li class="work-rectangle" style="background:{% if post.accent_color %}{{ post.accent_color }}{% else %}#EFEFEF{% endif %};">
                   <a href="{{ site.url }}{{ post.url }}">
-                    <h1 {% if post.title-color %} style="color: {{ post.title-color }};"{% endif %}>{{ post.title }}</h1>
+                    <h2 {% if post.title-color %} style="color: {{ post.title-color }};"{% endif %}>{{ post.title }}</h2>
                     <small>See Case Study</small>
                   </a>
 

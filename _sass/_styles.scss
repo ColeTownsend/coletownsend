@@ -10,12 +10,13 @@ html {
   height: 100%;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
+  font-size: 125%;
   @include media($small) {
-    font-size: 87.5%;
+    font-size: 112.5%;
   }
-  @include media($large) {
-    font-size: 125%;
-  }
+  // @include media($large) {
+  //   font-size: 125%;
+  // }
   @include media($huge) {
     font-size: 150%;
   }
@@ -408,7 +409,7 @@ section[class*="block-"] {
     @include shift(.5);
     font-family: $longform;
     header {
-      margin: $base-line-height 0;
+      margin: $base-line-height*2 0;
       h1:first-of-type {
         text-transform: capitalize;
         font-weight: bold;
