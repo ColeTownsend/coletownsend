@@ -15,15 +15,18 @@ Even so, there are a surprising lack of downloads and addons. As there are devs 
 I encourage you to give Sketch a try. The app is 10mb; neither slow download speed nor hard drive size is a good excuse.
 
 <em>Update: Since then, tons of awesome resources for Sketch have come out.</em> 
-## Stuff I've Done
+
+### Resources
+<hr>
+###### Stuff I've Done
 * [HTC First](http://dribbble.com/shots/1053190-HTC-First?list=show&tag=sketch)
 * [Minimus for Sketch](http://dribbble.com/shots/969976-Sketched-Minimus?list=show&tag=sketch)
-
-## Workflow Resources
+<hr>
+###### Shortcuts + Workflow
 * [Keyboard Shortcuts](http://sketchshortcuts.com/)
 * [Sketch Commands](https://github.com/bomberstudios/sketch-commands)
-
-## File Resources
+<hr>
+###### Assets + Scripts
 * [Community Resources on Sketch.com](http://www.bohemiancoding.com/sketch/community/)
 * [SketchMine](http://sketchmine.co/)
 * [Simple Scripts](https://github.com/pieteromvlee/Sketch-Scripts/tree/master/Examples)

@@ -10,15 +10,17 @@ html {
   height: 100%;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
-  font-size: 125%;
   @include media($small) {
+    font-size: 87.5%;
+  }
+  @include media($medium) {
     font-size: 112.5%;
   }
-  // @include media($large) {
-  //   font-size: 125%;
-  // }
+  @include media($default) {
+    font-size: 125%;
+  }
   @include media($huge) {
-    font-size: 150%;
+    font-size: 137.5%;
   }
 }
 
@@ -71,6 +73,9 @@ a[data="disabled"] {
   // Big Screens
   // Tablet
   margin: 0 auto;
+  @include media($small) {
+    padding: 0 0; 
+  }
   @include media($medium) {
     padding: 0 .5em; 
   }
@@ -302,11 +307,6 @@ section[class*="block-"] {
         border: 2px solid lighten($red, 8%);
         @include transition(all .2s $ease-in-out-quad);
         // Media
-        @include media($medium) {
-          background: none;
-          color: $white;
-          border: none;
-        }
         @include media($small) {
           background: none;
           color: $white;
