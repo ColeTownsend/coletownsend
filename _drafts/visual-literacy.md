@@ -2,7 +2,7 @@
 layout: post
 
 title: Visual Literacy
-date: unpublished
+date: "unpublished"
 category: journal
 accent_color: "#6d98cf"
 tags: []

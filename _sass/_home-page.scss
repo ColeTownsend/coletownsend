@@ -1,0 +1,155 @@
+// Home Page
+section[class*="block-"] {
+  min-height: 19em;
+  position: relative;
+  overflow: hidden;
+  @include media($small) {
+    min-height: 16em;
+  }
+}
+// First Block
+.block-1 {
+  margin-top: $base-line-height*2;
+  background: $white;  
+  article {
+    @extend %container;
+    float: none;
+    padding: 3em 0;
+    position: relative;
+    height: 100%;
+    font-weight: 500;
+    @include media($small) {
+      padding: 0 1em;
+    }
+  }
+  a {
+    font-size: $fs5;
+    color: $red;
+    @include transition(color .2s $ease-in-out-quad);
+    &:hover {
+      color: $black;
+      @include transition(color .2s $ease-in-out-quad);
+    }
+  }
+  h1 {
+    font-size: $fs3;
+    margin-top: 1em;
+    @include span-columns(8);
+    @include media($medium) {
+      font-size: $fs5;
+    }
+  p {
+    @extend %h4;
+  }
+    @include media($small) {
+      display: block;
+      @include span-columns(4);
+    }
+  }
+}
+
+// Work Block
+.block-2 {
+  z-index: 100;
+  background: $white;
+  @extend %container;
+  padding-bottom: $base-line-height*2;
+  @include media($small) {
+    padding-bottom: 0;
+    padding: 0;
+    margin: 0;
+  }
+  article {
+    position: relative;
+    height: 100%;
+  }
+  article {
+    ul {
+      list-style: none;
+      list-style-type: none;
+    }
+    .work-title {
+      font-style: italic;
+      color: $red;
+      text-align: center;
+      padding-bottom: $base-line-height;
+      @include media($small) {
+        display: block;
+        margin-top: 0;
+        padding-bottom: 1em;
+        font-size: $fs5;
+        text-align: center;
+        letter-spacing: 2px;
+        color: $red;
+      }
+    }
+    .work-grid {
+      margin-bottom: $base-line-height;
+      background: $light-gray;
+      position: relative;
+      text-align: center; 
+      z-index: 1;
+      @include transition(all .2s $ease-in-out-quad);    
+      @include span-columns(2.6666666);
+      @include omega(3n);
+      height: 16vw;
+      @include media($large) {
+        height: 15.6vw;
+        h1 {
+          font-size: $fs6;
+        }
+      }
+      @include media($medium) {
+        height: 25vw;
+        h1 {
+          font-size: $fs6;
+        }
+      }
+      @include media($small) {
+        margin-bottom: 0;
+        @include span-columns(4);
+        float: none;
+        display: block;
+        height: 6em;
+      }
+      &:hover {
+        @include transition(all .1s $ease-in-out-quad);
+      }
+      a {
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        display: block;
+        position: absolute;
+        color: $red;
+        background: $white;
+        // background: lighten($light-gray, 10%);
+        border: 2px solid lighten($red, 8%);
+        @include transition(all .2s $ease-in-out-quad);
+        // Media
+        @include media($small) {
+          background: none;
+          color: $white;
+          border: none;
+        }
+        &:hover {
+          color: $white;
+          background: none;
+          border: none;
+          @include transition(all .1s $ease-in-out-quad);
+        }
+      }
+      h1 {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        max-width: 90%;
+        font-size: $fs5;
+        @extend %liga;
+        font-weight: bold;
+        @extend %vertical-align;
+      } 
+    }
+  }
+}

@@ -2,43 +2,41 @@
 <html lang="en"> 
   {% include _head.html %}
   <body>
-    <div class="page-wrap">
-      {% include _navigation_main.html %}
-      <section class="full block-1">
-        <article>
-          <h1>Hi, I'm Cole, a web and visual designer.</h1>
-          <!-- <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6F%6C%65%40%74%77%6E%73%6E%64%2E%63%6F"></a> --> 
-          <p>
-            I have a passion for clean and intuitive solutions. 
-            {% if site.data.work_status contains 'unavailable' %} 
-            <del>Let's work together!</del> 
-            <br> 
-            Sorry, I'm currently unavailable. Stick around and take a peek anyway. <a href="/work">&#8620;</a> 
-            {% else %} 
-            Let's work together!
-            <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6F%6C%65%40%74%77%6E%73%6E%64%2E%63%6F">&#8620;</a> 
-            {% endif %}
-            
-          </p>
-        </article>
-      </section>
-      <section id="work" class="block-2">
-        <article class="full">
-          <h2 class="work-title">Selected Works</h2>
-          <ul>
-          {% for post in site.posts %}
-            {% if post.categories contains 'work' %}
-                <li class="work-grid" style="background:{% if post.accent_color %}{{ post.accent_color}}{% else %}#EFEFEF{% endif %};">
-                  <a href="{{ site.url }}{{ post.url }}">
-                    <h1 {% if post.title-color %} style="color: {{ post.title-color }};"{% endif %}>{{ post.title }}</h1>
-                  </a>
-                </li>
-            {% endif %}
-          {% endfor %}
-          </ul>
-        </article>
-      </section>
-    </div>
+    {% include _navigation_main.html %}
+    <section class="full block-1">
+      <article>
+        <h1>Hi, I'm Cole, a web and visual designer.</h1>
+        <!-- <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6F%6C%65%40%74%77%6E%73%6E%64%2E%63%6F"></a> --> 
+        <p>
+          I have a passion for clean and intuitive solutions. 
+          {% if site.data.work_status contains 'unavailable' %} 
+          <del>Let's work together!</del> 
+          <br> 
+          Sorry, I'm currently unavailable. Stick around and take a peek anyway. <a href="/work">&#8620;</a> 
+          {% else %} 
+          Let's work together!
+          <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6F%6C%65%40%74%77%6E%73%6E%64%2E%63%6F">&#8620;</a> 
+          {% endif %}
+          
+        </p>
+      </article>
+    </section>
+    <section id="work" class="block-2">
+      <article class="full">
+        <h2 class="work-title">Selected Works</h2>
+        <ul>
+        {% for post in site.posts %}
+          {% if post.categories contains 'work' %}
+              <li class="work-grid" style="background:{% if post.accent_color %}{{ post.accent_color}}{% else %}#EFEFEF{% endif %};">
+                <a href="{{ site.url }}{{ post.url }}">
+                  <h1 {% if post.title-color %} style="color: {{ post.title-color }};"{% endif %}>{{ post.title }}</h1>
+                </a>
+              </li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+      </article>
+    </section>
     {% include _footer.html %}
   </body>
 </html>

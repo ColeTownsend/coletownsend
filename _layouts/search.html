@@ -2,24 +2,22 @@
 <html lang="en"> 
   {% include _head.html %}
   <body>
-    <div class="page-wrap">
-      {% include _navigation_main.html %}
-      <section class="wrap">
-        <article>
-          <header>
-            <h1>{{ page.title }}</h1>
-            <div id="search">
-              <form action="/search" method="get">
-                <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
-              </form>
-            </div>
-          </header>
-          
-          {{ content }}
+    {% include _navigation_main.html %}
+    <section class="wrap">
+      <article>
+        <header>
+          <h1>{{ page.title }}</h1>
+          <div id="search">
+            <form action="/search" method="get">
+              <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
+            </form>
+          </div>
+        </header>
+        
+        {{ content }}
 
-        </article>
-      </section>
-    </div>
+      </article>
+    </section>
     {% include _footer.html %}
   </body>
 </html>

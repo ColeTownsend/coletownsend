@@ -2,30 +2,28 @@
 <html lang="en"> 
   {% include _head.html %}
   <body class="listing">
-    <div class="page-wrap">
-      {% include _navigation_main.html %}
-      <section class="full">
-        <article class="full">
-            <ul class="work-listing">
-              <li class="list-head">
-                <h1>Selected Works</h1>
-              </li>
-            {% for post in site.posts %}
-              {% if post.categories contains 'work' %}
-                <li class="work-rectangle" style="background:{% if post.accent_color %}{{ post.accent_color }}{% else %}#EFEFEF{% endif %};">
-                  <a href="{{ site.url }}{{ post.url }}">
-                    <h2 {% if post.title-color %} style="color: {{ post.title-color }};"{% endif %}>{{ post.title }}</h2>
-                    <small>See Case Study</small>
-                  </a>
+    {% include _navigation_main.html %}
+    <section class="full">
+      <article class="full">
+          <ul class="work-listing">
+            <li class="list-head">
+              <h1>Selected Works</h1>
+            </li>
+          {% for post in site.posts %}
+            {% if post.categories contains 'work' %}
+              <li class="work-rectangle" style="background:{% if post.accent_color %}{{ post.accent_color }}{% else %}#EFEFEF{% endif %};">
+                <a href="{{ site.url }}{{ post.url }}">
+                  <h2 {% if post.title-color %} style="color: {{ post.title-color }};"{% endif %}>{{ post.title }}</h2>
+                  <small>See Case Study</small>
+                </a>
 
-                </li>
-              {% endif %}
-            {% endfor %}
-            </ul>
-          </section>
-        </article>
-      </section>
-    </div>
+              </li>
+            {% endif %}
+          {% endfor %}
+          </ul>
+        </section>
+      </article>
+    </section>
     {% include _footer.html %}
   </body>
 </html>

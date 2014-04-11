@@ -9,53 +9,57 @@ body {
   line-height: $base-line-height;
 }
 
-h1,.h1 ,%h1, h2, .h2,%h2, h3, .h3,%h3, h4, h5, h6 {
+h1,%h1, h2,%h2, h3,%h3, h4,%h4, h5,%h5, h6,%h6 {
   font-family: $header-font-family;
   line-height: 1.25em;
   margin: 0;
   text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 
-h5,h6 {
-  font-family: $base-font-family;
+h5, %h5, h6, %h6 {
+  font-family: $sans-serif;
 }
 
-h1,.h1,%h1 {
+h1, %h1 {
   font-size: $fs1; // 20 * 2.25 = 45px
   line-height: 1.1em;
   margin-bottom: .42em;
 }
 
-h2,.h2,%h2 {
+h2, %h2 {
   font-size: $fs2; // 20 * 2 = 40px
   line-height: 1.15em;
   margin-bottom: .34888em;
 }
 
-h3,.h3,%h3 {
+h3, %h3 {
   font-size: $fs3; // 20 * 1.75 = 35px
   line-height: 1.25em;
   margin-bottom: .35em;
 }
 
-h4,.h4,%h4 {
+h4, %h4 {
   font-size: $fs4; // 20 * 1.5 = 30px
   line-height: 1.35em;
   margin-bottom: em(17.5, 20);
 }
 
-h5,.h5,,%h5 {
+h5, %h5 {
   font-size: $fs5; // 20 * 1.25 = 25px
   line-height: 1.5rem;
 }
 
-h6 {
+h6, %h6 {
   font-size: $fs7;
   @extend %caps-lock;
   font-weight: bold;
   line-height: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: 0;
+}
+
+figcaption {
+  @extend %h6;
 }
 
 p {
@@ -216,12 +220,12 @@ cite {
     &:first-child {
         margin-top: 0;
       }
-    h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5, {
+    h1,%h1,h2,%h2,h3,%h3,h4,%h4,h5,%h5, {
       font-weight: normal;
       margin-top: 1.5rem;
       font-style: italic;      
     }
-    h6,.h6 {
+    h6, %h6 {
       @extend %caps-lock;
       font-style: normal;
       font-weight: bold;

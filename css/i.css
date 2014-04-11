@@ -234,40 +234,40 @@ body {
   -webkit-font-smoothing: antialiased;
   line-height: 1.5em; }
 
-h1, .h1, h2, .h2, h3, .h3, h4, h5, h6 {
+h1, h2, h3, h4, .block-1 h1 p, h5, h6, figcaption {
   font-family: "CMU Concrete", "Georgia", serif;
   line-height: 1.25em;
   margin: 0;
   text-rendering: optimizeLegibility; }
 
-h5, h6 {
+h5, h6, figcaption {
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif; }
 
-h1, .h1 {
+h1 {
   font-size: 2.25em;
   line-height: 1.1em;
   margin-bottom: .42em; }
 
-h2, .h2 {
+h2 {
   font-size: 2em;
   line-height: 1.15em;
   margin-bottom: .34888em; }
 
-h3, .h3 {
+h3 {
   font-size: 1.75em;
   line-height: 1.25em;
   margin-bottom: .35em; }
 
-h4, .h4, .block-1 h1 p {
+h4, .block-1 h1 p {
   font-size: 1.5em;
   line-height: 1.35em;
   margin-bottom: 0.875em; }
 
-h5, .h5 {
+h5 {
   font-size: 1.25em;
   line-height: 1.5rem; }
 
-h6 {
+h6, figcaption {
   font-size: 0.7em;
   font-weight: bold;
   line-height: 1.5rem;
@@ -344,7 +344,7 @@ cite {
    ========================================================================== */
 /* Casing
    ========================================================================== */
-h6, small, .post article h6, .post article .h6, header[role="main-header"] hgroup, .post .description .label, .listing .work-listing small {
+h6, figcaption, small, .post article h6, .post article figcaption, header[role="main-header"] hgroup, .post .description .label, .listing .work-listing small {
   text-transform: uppercase; }
 
 /* Tracking
@@ -359,11 +359,11 @@ h6, small, .post article h6, .post article .h6, header[role="main-header"] hgrou
    ========================================================================== */
 .post article:first-child {
   margin-top: 0; }
-.post article h1, .post article .h1, .post article h2, .post article .h2, .post article h3, .post article .h3, .post article h4, .post article .h4, .post article h5, .post article .h5 {
+.post article h1, .post article h2, .post article h3, .post article h4, .post article .block-1 h1 p, .block-1 h1 .post article p, .post article h5 {
   font-weight: normal;
   margin-top: 1.5rem;
   font-style: italic; }
-.post article h6, .post article .h6 {
+.post article h6, .post article figcaption {
   font-style: normal;
   font-weight: bold;
   margin-top: 1.5rem;
@@ -377,7 +377,8 @@ h6, small, .post article h6, .post article .h6, header[role="main-header"] hgrou
 
 html {
   font-size: 100%;
-  height: 100%;
+  min-height: 100%;
+  position: relative;
   font-weight: normal;
   -webkit-font-smoothing: antialiased; }
   @media screen and (max-width: 520px) {
@@ -395,8 +396,7 @@ html {
 
 body {
   width: 100%;
-  height: 100%;
-  min-height: 100%;
+  margin: 0 0 100px;
   background: #fefefe;
   font-family: "CMU Concrete", "Georgia", serif;
   color: #4a4c52;
@@ -443,28 +443,16 @@ a[data="disabled"] {
     .wrap, header[role="main-header"] nav, .block-1 article, .block-2, .listing article header, .listing .work-listing h1 {
       padding: 0 .5em; } }
 
-.full, footer {
+.full {
   width: 100%;
   min-height: 1px;
   display: block;
   *zoom: 1; }
-  .full:before, footer:before, .full:after, footer:after {
+  .full:before, .full:after {
     content: " ";
     display: table; }
-  .full:after, footer:after {
+  .full:after {
     clear: both; }
-
-.page-wrap {
-  min-height: 100%;
-  *zoom: 1;
-  margin-bottom: -6em; }
-  .page-wrap:before, .page-wrap:after {
-    content: " ";
-    display: table; }
-  .page-wrap:after {
-    clear: both; }
-  .page-wrap:after {
-    height: 6em; }
 
 header[role="main-header"] {
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
@@ -527,6 +515,9 @@ header[role="main-header"] {
           -webkit-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
           -moz-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
           transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
+
+.wrap article > header {
+  margin-top: 3em; }
 
 section[class*="block-"] {
   min-height: 19em;
@@ -689,9 +680,6 @@ section[class*="block-"] {
       font-size: 1.25em;
       font-weight: bold; }
 
-.wrap article > header {
-  margin-top: 3em; }
-
 .post header.bg-img {
   vertical-align: middle;
   height: 21em;
@@ -778,6 +766,12 @@ section[class*="block-"] {
       color: #e95a4f; }
     .post article a:hover {
       color: #e64439; }
+  .post article figcaption {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    z-index: 100; }
   .post article figure {
     margin: 1.5em auto; }
     .post article figure.web {
@@ -787,12 +781,12 @@ section[class*="block-"] {
       border-top-right-radius: 0px;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
-      height: 30em;
+      height: 27em;
       overflow-y: scroll;
       position: relative;
-      z-index: 1;
-      -webkit-box-shadow: 0 -2em 0 #fefefe, 0 -2.0375em 1px #e6e6e8;
-      box-shadow: 0 -2em 0 #fefefe, 0 -2.0375em 1px #e6e6e8; }
+      z-index: -1;
+      -webkit-box-shadow: 0 -2.0375em 1px #e6e6e8;
+      box-shadow: 0 -2.0375em 1px #e6e6e8; }
       .post article figure.web img {
         border-top-left-radius: 0;
         border-top-right-radius: 0;
@@ -946,12 +940,16 @@ section[class*="block-"] {
           opacity: .75; }
 
 footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: block;
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
   text-align: center;
   width: 100%;
   height: 120px;
   background: #232830;
-  position: relative;
   color: #fefefe; }
   footer a {
     color: #fefefe;

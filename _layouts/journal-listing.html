@@ -2,39 +2,37 @@
 <html lang="en"> 
   {% include _head.html %}
   <body class="listing">
-    <div class="page-wrap">
-      {% include _navigation_main.html %}
-      <section class="full">
-        <article class="full">
-            <ul class="work-listing">
-              <li class="list-head">
-                <h1>Thoughts & Tidbits</h1>
+    {% include _navigation_main.html %}
+    <section class="full">
+      <article class="full">
+          <ul class="work-listing">
+            <li class="list-head">
+              <h1>Thoughts & Tidbits</h1>
+            </li>
+          {% for post in site.posts %}
+            {% if post.categories contains 'journal' %}
+              <li class="work-rectangle" style="background:{% if post.accent_color %}{{ post.accent_color}}{% else %}{% endif %};">
+                <a href="{{ site.url }}{{ post.url }}">
+                  <h2>{{ post.title }}</h2>
+                  <small>{{ post.date | date: "%-d %B %Y" }}</small>
+                </a>
               </li>
-            {% for post in site.posts %}
-              {% if post.categories contains 'journal' %}
-                <li class="work-rectangle" style="background:{% if post.accent_color %}{{ post.accent_color}}{% else %}{% endif %};">
-                  <a href="{{ site.url }}{{ post.url }}">
-                    <h2>{{ post.title }}</h2>
-                    <small>{{ post.date | date: "%-d %B %Y" }}</small>
-                  </a>
-                </li>
-              {% elsif post.categories contains 'links' %}
-                <li class="work-rectangle" style="background:{% if post.accent_color %}{{ post.accent_color}}{% else %}{% endif %};">
-                {% capture postTitle %}{{ post.title | strip_html }}{% endcapture %}
-                  {% capture postTitleTruncate %}{{ postTitle | truncate: 22, '...' }}{% endcapture %}
-                  <a data-no-instant href="{{ post.custom_url }}">
-                    <h2>Link: {{ postTitleTruncate }}</h2>
-                    <!-- <small>{{ post.date | date: "%-d %B %Y" }}</small> -->
-                    <small>{{ post.title }}</small>
-                  </a>
-                </li>
-              {% endif %}
-            {% endfor %}
-            </ul>
-          </section>
-        </article>
-      </section>
-    </div>
+            {% elsif post.categories contains 'links' %}
+              <li class="work-rectangle" style="background:{% if post.accent_color %}{{ post.accent_color}}{% else %}{% endif %};">
+              {% capture postTitle %}{{ post.title | strip_html }}{% endcapture %}
+                {% capture postTitleTruncate %}{{ postTitle | truncate: 22, '...' }}{% endcapture %}
+                <a data-no-instant href="{{ post.custom_url }}">
+                  <h2>Link: {{ postTitleTruncate }}</h2>
+                  <!-- <small>{{ post.date | date: "%-d %B %Y" }}</small> -->
+                  <small>{{ post.title }}</small>
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+          </ul>
+        </section>
+      </article>
+    </section>
     {% include _footer.html %}
   </body>
 </html>
