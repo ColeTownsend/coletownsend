@@ -10,7 +10,6 @@ section[class*="block-"] {
 // First Block
 .block-1 {
   margin-top: $base-line-height*2;
-  background: $white;  
   article {
     @extend %container;
     float: none;
@@ -51,7 +50,6 @@ section[class*="block-"] {
 // Work Block
 .block-2 {
   z-index: 100;
-  background: $white;
   @extend %container;
   padding-bottom: $base-line-height*2;
   @include media($small) {

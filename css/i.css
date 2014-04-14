@@ -372,7 +372,6 @@ h6, figcaption, small, .post article h6, .post article figcaption, header[role="
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
   box-sizing: border-box; }
 
 html {
@@ -396,7 +395,7 @@ html {
 
 body {
   width: 100%;
-  margin: 0 0 100px;
+  padding: 0 0 120px;
   background: #fefefe;
   font-family: "CMU Concrete", "Georgia", serif;
   color: #4a4c52;
@@ -528,8 +527,7 @@ section[class*="block-"] {
       min-height: 16em; } }
 
 .block-1 {
-  margin-top: 3em;
-  background: #fefefe; }
+  margin-top: 3em; }
   .block-1 article {
     float: none;
     padding: 3em 0;
@@ -574,7 +572,6 @@ section[class*="block-"] {
 
 .block-2 {
   z-index: 100;
-  background: #fefefe;
   padding-bottom: 3em; }
   @media screen and (max-width: 520px) {
     .block-2 {
