@@ -425,15 +425,13 @@ a[data="disabled"] {
 
 /* Site Architecture */
 .wrap, header[role="main-header"] nav, .block-1 article, .block-2, .listing article header, .listing .work-listing h1 {
-  *zoom: 1;
   max-width: 36em;
   margin-left: auto;
   margin-right: auto;
   margin: 0 auto; }
-  .wrap:before, header[role="main-header"] nav:before, .block-1 article:before, .block-2:before, .listing article header:before, .listing .work-listing h1:before, .wrap:after, header[role="main-header"] nav:after, .block-1 article:after, .block-2:after, .listing article header:after, .listing .work-listing h1:after {
-    content: " ";
-    display: table; }
   .wrap:after, header[role="main-header"] nav:after, .block-1 article:after, .block-2:after, .listing article header:after, .listing .work-listing h1:after {
+    content: "";
+    display: table;
     clear: both; }
   @media screen and (max-width: 520px) {
     .wrap, header[role="main-header"] nav, .block-1 article, .block-2, .listing article header, .listing .work-listing h1 {
@@ -445,12 +443,10 @@ a[data="disabled"] {
 .full {
   width: 100%;
   min-height: 1px;
-  display: block;
-  *zoom: 1; }
-  .full:before, .full:after {
-    content: " ";
-    display: table; }
+  display: block; }
   .full:after {
+    content: "";
+    display: table;
     clear: both; }
 
 header[role="main-header"] {
@@ -1065,6 +1061,11 @@ footer {
 .fluidbox {
   outline: none; }
 
+.zoomIt {
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in; }
+
 a[data-fluidbox] {
   background-color: #eee;
   border: none;
@@ -1088,37 +1089,33 @@ a.float-right {
   float: right;
   margin-right: 0; }
 
-#fluidbox-overlay {
-  background-color: rgba(255, 255, 255, 0.85);
+.fluidbox {
+  outline: none; }
+
+.fluidbox-overlay, #fluidbox-overlay {
   cursor: pointer;
   cursor: -webkit-zoom-out;
   cursor: -moz-zoom-out;
-  display: none;
+  opacity: 0;
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: 500; }
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out; }
 
 .fluidbox-wrap {
   background-position: center center;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   margin: 0 auto;
   position: relative;
-  z-index: 400;
-  -webkit-transition: all 0.15s ease-in-out;
-  -moz-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out; }
-
-.fluidbox-opened .fluidbox-wrap {
-  z-index: 600; }
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out; }
 
 .fluidbox-ghost {
-  -webkit-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-position: center center;
   position: absolute;
