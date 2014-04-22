@@ -1,7 +1,6 @@
 .fluidbox {
   outline: none;
 }
-<<<<<<< HEAD
 
 .zoomIt {
   cursor: -webkit-zoom-in;
@@ -14,7 +13,6 @@ a[data-fluidbox] {
     border: none;
     cursor: -webkit-zoom-in;
     cursor: -moz-zoom-in;
-=======
 a[role="fluidbox"]{
   background-color: #eee;
   border: none;
@@ -23,8 +21,8 @@ a[role="fluidbox"]{
   img {
     border: 1px solid $base-border-color;
   }
->>>>>>> dev
 }
+
 a[role="fluidbox"].fluidbox-opened {
   cursor: -webkit-zoom-out;
   cursor: -moz-zoom-out;
@@ -47,7 +45,6 @@ a.float-right {
   margin-right: 0;
 }
 
-<<<<<<< HEAD
 .fluidbox {
   outline: none;
 }
@@ -77,7 +74,6 @@ a.float-right {
   background-position: center center;
   position: absolute;
   @include transition(all .25s ease-in-out);
-=======
 a.center {
   img {
     display: block;
@@ -99,7 +95,7 @@ a.center {
   top: 0;
   left: 0;
   z-index: 500;
-  @include transition(all .15s ease-in-out)
+  @include transition(all .15s ease-in-out);
 }
 .fluidbox-wrap {
   background-position: center center;
@@ -109,18 +105,20 @@ a.center {
   margin: 0 auto;
   position: relative;
   z-index: 400;
-  @include transition(all .15s ease-in-out)
+  @include transition(all .15s ease-in-out);
 }
+
 .fluidbox-opened .fluidbox-wrap {
   z-index: 600;
 }
+
 .fluidbox-ghost {
   -webkit-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
   background-position: center center;
   position: absolute;
-  @include transition(all .25s ease-in-out)
+  @include transition(all .25s ease-in-out);
   &:after {
       content: "Email address:";
       position: absolute;
@@ -129,5 +127,4 @@ a.center {
       font-size: $fs1;
       color: $red;
     }
->>>>>>> dev
 }
