@@ -17,11 +17,15 @@ At Williams College, I worked with Goodrich Coffee Bar. I developed their identi
 
 
 ###### Fall Campaign
-<img src="{{ site.url }}{{ site.images_url }}gcb-skyr.jpg" alt="">
-<img src="{{ site.url }}{{ site.images_url }}gcb-tees.jpg" alt="">
-<img src="{{ site.url }}{{ site.images_url }}gcb-iced.jpg" alt="">
-<img src="{{ site.url }}{{ site.images_url }}gcb-wildflour.jpg" alt="">
+<a role="fluidbox" href="{{ site.url }}{{ site.images_url }}gcb-skyr.jpg"><img src="{{ site.url }}{{ site.images_url }}gcb-skyr.jpg" alt="Skyr"></a>
+
+<a role="fluidbox" href="{{ site.url }}{{ site.images_url }}gcb-tees.jpg"><img src="{{ site.url }}{{ site.images_url }}gcb-tees.jpg" alt="Tees for Sale"></a>
+
+<a role="fluidbox" href="{{ site.url }}{{ site.images_url }}gcb-iced.jpg"><img src="{{ site.url }}{{ site.images_url }}gcb-iced.jpg" alt="Iced Coffee"></a>
+
+<a role="fluidbox" href="{{ site.url }}{{ site.images_url }}gcb-wildflour.jpg"><img src="{{ site.url }}{{ site.images_url }}gcb-wildflour.jpg" alt="Wildflour Baked Goods"></a>
 
 ###### Winter Campaign
-<img src="{{ site.url }}{{ site.images_url }}gcb-night.jpg" alt="">
-<img src="{{ site.url }}{{ site.images_url }}gcb-happy-tea.jpg" alt="">
+<a role="fluidbox" href="{{ site.url }}{{ site.images_url }}gcb-night.jpg"><img src="{{ site.url }}{{ site.images_url }}gcb-night.jpg" alt="Night Time"></a>
+
+<a role="fluidbox" href="{{ site.url }}{{ site.images_url }}gcb-happy-tea.jpg"><img src="{{ site.url }}{{ site.images_url }}gcb-happy-tea.jpg" alt="Happy Hour, Tea"></a>
