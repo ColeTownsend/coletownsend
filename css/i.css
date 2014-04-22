@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
@@ -1126,3 +1127,77 @@ a.float-right {
 #instantclick-bar {
   background: #ec6f66;
   height: 4px !important; }
+=======
+/*
+Syntax error: Invalid CSS after "...5s ease-in-out)": expected "}", was "&:after {"
+        on line 78 of _sass/_fluidbox.scss
+        from line 11 of _sass/i.scss
+
+73:        -o-background-size: cover;
+74:           background-size: cover;
+75:   background-position: center center;
+76:   position: absolute;
+77:   @include transition(all .25s ease-in-out)
+78:   &:after {
+79:       content: "Email address:";
+80:       position: absolute;
+81:       top: 0;
+82:       right: 0;
+83:       font-size: $fs1;
+
+Backtrace:
+_sass/_fluidbox.scss:78
+_sass/i.scss:11
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/scss/parser.rb:1306:in `expected'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/scss/parser.rb:1242:in `expected'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/scss/parser.rb:1237:in `tok!'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/scss/parser.rb:637:in `block'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/scss/parser.rb:629:in `ruleset'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/scss/parser.rb:654:in `block_child'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/scss/parser.rb:647:in `block_contents'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/scss/parser.rb:116:in `stylesheet'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/scss/parser.rb:41:in `parse'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/engine.rb:409:in `_to_tree'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/engine.rb:305:in `to_tree'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/visitors/perform.rb:295:in `block in visit_import'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/stack.rb:88:in `block in with_import'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/stack.rb:121:in `with_frame'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/stack.rb:88:in `with_import'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/visitors/perform.rb:294:in `visit_import'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/stack.rb:79:in `block in with_base'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/stack.rb:121:in `with_frame'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/stack.rb:79:in `with_base'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/visitors/perform.rb:151:in `visit'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/tree/root_node.rb:20:in `render'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/engine.rb:274:in `render'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/plugin/compiler.rb:414:in `update_stylesheet'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/plugin/compiler.rb:186:in `each'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/plugin/compiler.rb:393:in `on_file_changed'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/sass-3.3.5/lib/sass/plugin/compiler.rb:248:in `block in watch'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/listen-2.7.1/lib/listen/listener.rb:149:in `call'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/listen-2.7.1/lib/listen/listener.rb:149:in `block in _wait_for_changes'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/listen-2.7.1/lib/listen/listener.rb:138:in `loop'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/listen-2.7.1/lib/listen/listener.rb:138:in `_wait_for_changes'
+/Users/ct/.rvm/gems/ruby-2.1.0/gems/listen-2.7.1/lib/listen/listener.rb:42:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"...5s ease-in-out)\": expected \"}\", was \"&:after {\"\A         on line 78 of _sass/_fluidbox.scss\A         from line 11 of _sass/i.scss\A \A 73:        -o-background-size: cover;\A 74:           background-size: cover;\A 75:   background-position: center center;\A 76:   position: absolute;\A 77:   @include transition(all .25s ease-in-out)\A 78:   &:after {\A 79:       content: \"Email address:\";\A 80:       position: absolute;\A 81:       top: 0;\A 82:       right: 0;\A 83:       font-size: $fs1;"; }
+>>>>>>> dev

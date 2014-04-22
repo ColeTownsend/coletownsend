@@ -7,8 +7,8 @@
     <header class="full bg-img" style="background-image: url({{ site.url }}/images/posts/{{ page.image.feature }})">
     </header>
     <section class="wrap">
-      <article>
-        <header >
+      <article data-no-instant>
+        <header>
           <h1>{{ page.title }}</h1>
           <div class="description">
             <div><span class="label">Role&#58;</span><span class="tag">{{page.role}}</span></div>
@@ -24,7 +24,7 @@
           
     {% else %}
     <section class="wrap">
-      <article>
+      <article data-no-instant>
         <header class="no-bg-img">
           <h1>{{ page.title }}</h1>
           <div class="description">
