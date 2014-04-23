@@ -91,6 +91,26 @@ section[class*="block-"] {
       @include span-columns(2.6666666);
       @include omega(3n);
       height: 16vw;
+      .colorize {
+        opacity: .4;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        right: 0;
+      }
+      .project {
+        background-position: center center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+      }
       @include media($large) {
         height: 15.6vw;
         h1 {

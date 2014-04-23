@@ -614,6 +614,24 @@ section[class*="block-"] {
       margin-right: 0; }
     .block-2 article .work-grid:nth-child(3n+1) {
       clear: left; }
+    .block-2 article .work-grid .colorize {
+      opacity: .4;
+      position: relative;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      right: 0; }
+    .block-2 article .work-grid .project {
+      background-position: center center;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      right: 0; }
     @media screen and (min-width: 1080px) {
       .block-2 article .work-grid {
         height: 15.6vw; }
