@@ -759,14 +759,48 @@ section[class*="block-"] {
       color: #e95a4f; }
     .post article a:hover {
       color: #e64439; }
-  .post article figcaption {
-    margin: 0;
-    position: relative;
-    width: 100%;
-    text-align: center;
-    z-index: 100; }
   .post article figure {
     margin: 1.5em auto; }
+    .post article figure figcaption {
+      margin: .5rem auto;
+      position: relative;
+      width: 100%;
+      text-align: center;
+      z-index: 100; }
+    .post article figure.grid-full {
+      display: block;
+      width: 100%; }
+      .post article figure.grid-full:after {
+        content: "";
+        display: table;
+        clear: both; }
+    .post article figure.grid-2 {
+      float: left;
+      display: block;
+      margin-right: 2.85714%;
+      width: 45.35714%; }
+      .post article figure.grid-2:last-child {
+        margin-right: 0; }
+      .post article figure.grid-2 figcaption {
+        text-align: center;
+        width: 100%; }
+      .post article figure.grid-2 + .grid-2 {
+        margin-right: 0;
+        margin-left: 6.42857%; }
+    .post article figure.grid-4 {
+      float: left;
+      display: block;
+      margin-right: 2.85714%;
+      width: 22.85714%; }
+      .post article figure.grid-4:last-child {
+        margin-right: 0; }
+      .post article figure.grid-4:nth-child(4n) {
+        margin-right: 0; }
+      .post article figure.grid-4:nth-child(4n+1) {
+        clear: left; }
+      .post article figure.grid-4 figcaption {
+        text-align: center;
+        width: 100%; }
     .post article figure.web {
       margin-top: 3em;
       border: 1px solid #e6e6e8;
@@ -1090,10 +1124,16 @@ a[class^='float'] {
 a.float-left {
   float: left;
   margin-left: 0; }
+  a.float-left figcaption {
+    float: left;
+    margin-left: 0; }
 
 a.float-right {
   float: right;
   margin-right: 0; }
+  a.float-right figcaption {
+    float: left;
+    margin-left: 0; }
 
 .fluidbox {
   outline: none; }

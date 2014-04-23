@@ -37,11 +37,19 @@ a[class^='float'] {
 a.float-left {
   float: left;
   margin-left: 0;
+  figcaption {
+    float: left;
+    margin-left: 0;
+  }
 }
 
 a.float-right {
   float: right;
   margin-right: 0;
+  figcaption {
+    float: left;
+    margin-left: 0;
+  }
 }
 
 .fluidbox {

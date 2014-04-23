@@ -92,15 +92,39 @@
         color: darken($red, 10);
       }
     }
-    figcaption {
-      margin: 0;
-      position: relative;
-      width: 100%;
-      text-align: center;
-      z-index: 100;  
-    }  
     figure {
       margin: $base-line-height auto;
+      figcaption {
+        margin: .5rem auto;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        z-index: 100;  
+      }
+      &.grid-full {
+        @include clearfix();
+        display: block;
+        width: 100%;
+      }
+      &.grid-2 {
+        @include span-columns(3.75);
+        figcaption {
+          text-align: center;
+          width: 100%;
+        }
+        &+.grid-2 {
+          @include omega();
+          @include shift(.5);
+        }
+      }
+      &.grid-4 {
+        @include span-columns(2);
+        @include omega(4n);
+        figcaption {
+          text-align: center;
+          width: 100%;
+        }
+      }
       &.web {
         margin-top: $base-line-height*2;
         border: 1px solid $base-border-color;

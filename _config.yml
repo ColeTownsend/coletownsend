@@ -11,9 +11,7 @@ images_url: /images/inline/
 image:
   source: images/inline
 
-# "A list of directories (including trailing slash) and files to exclude from the conversion"
-# I normally exclude _sass, README*, and .gitignore
-# Directories that start with an underscore _ are not copied over by default. Still like to include _sass anyways.
+# A list of directories (including trailing slash) and files to exclude from the conversion
 # ============================================================
 exclude: ['README.md', 'Rakefile', '.gitignore', '_sass', 'templates', '.sublime-workspace', '.sublime-project']
 include:  ['.htaccess']
@@ -21,21 +19,11 @@ include:  ['.htaccess']
 timezone:    America/New_York
 future:      true
 pygments:    true
-markdown:    rdiscount
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+markdown: rdiscount
+rdiscount:
+  extensions:
+    - smart
+    - generate_toc
 
 
 # Links to include in top navigation
@@ -51,23 +39,9 @@ links:
   - title: About
     url: /about/
 
-
-
-# Style of permalinks
-# ============================================================
 permalink: /:categories/:title
 
 paginate: 4
-
-# Variable format options for URL styles below
-# ============================================================
-# pretty                                          => /2009/04/29/slap-chop/index.html
-# /:month-:day-:year/:title.html/                 => 04-29-2009/slap-chop.html
-# /blog/:year/:month/:day/:title                  => /blog/2009/04/29/slap-chop/index.html
-
-# Uncomment if you have pygments installed. Used for code syntax highlighting.
-# If you're not doing syntax highlighting you can delete this.
-pygments: true
 
 sitemap:
     file: "/sitemap.xml"
