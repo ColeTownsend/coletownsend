@@ -10,10 +10,24 @@ task :default do
   abort "use foreman start to run the project"
 end
 
+desc "Bump version number"
+task :bump do
+  content = IO.read('_config.yml')
+  content.sub!(/^version: (\d+)$/) {|v|
+      ver = $1.next
+      notify "At version #{ver}",:quiet => true
+      "version: #{ver}"
+  }
+  File.open('_config.yml','w') do |f|
+    f.write content
+  end
+end
+
 desc "Push current branch to GH."
 task :ship do
   message = ARGV.last
   task message.to_sym do ; end
+  system "rake bump"
   system "jekyll build"
   system "add"
   system "git commit -am '#{message}'"
