@@ -13,7 +13,7 @@ image:
 
 # A list of directories (including trailing slash) and files to exclude from the conversion
 # ============================================================
-exclude: ['README.md', 'Rakefile', '.gitignore', '_sass', 'templates', '.sublime-workspace', '.sublime-project']
+exclude: ['README.md', 'Rakefile', '.gitignore', 'templates', '.sublime-workspace', '.sublime-project']
 include:  ['.htaccess']
 
 timezone:    America/New_York
