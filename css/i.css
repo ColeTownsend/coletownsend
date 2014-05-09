@@ -396,7 +396,7 @@ html {
 body {
   width: 100%;
   padding: 0 0 120px;
-  background: #fefefe;
+  background: #ececec;
   font-family: "CMU Concrete", "Georgia", serif;
   color: #4a4c52;
   text-size-adjust: 100%;
@@ -647,7 +647,7 @@ section[class*="block-"] {
       display: block;
       position: absolute;
       color: #ec6f66;
-      background: #fefefe;
+      background: #ececec;
       border: 2px solid #f1918a;
       -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -moz-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -655,10 +655,10 @@ section[class*="block-"] {
       @media screen and (max-width: 520px) {
         .block-2 article .work-grid a {
           background: none;
-          color: #fefefe;
+          color: #ececec;
           border: none; } }
       .block-2 article .work-grid a:hover {
-        color: #fefefe;
+        color: #ececec;
         background: none;
         border: none;
         -webkit-transition: all 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -691,7 +691,7 @@ section[class*="block-"] {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #fefefe;
+    background: #ececec;
     opacity: .6; }
 .post .description {
   color: #c6c7cb;
@@ -749,10 +749,10 @@ section[class*="block-"] {
     max-height: 21em; }
   .post article a {
     color: #ec6f66;
-    background: -webkit-linear-gradient(#fefefe, #fefefe), -webkit-linear-gradient(#fefefe, #fefefe), -webkit-linear-gradient(#ec6f66, #ec6f66);
+    background: -webkit-linear-gradient(#ececec, #ececec), -webkit-linear-gradient(#ececec, #ececec), -webkit-linear-gradient(#ec6f66, #ec6f66);
     background-size: 0.04em 1px, 0.04em 1px, 1px 1px;
     background-repeat: no-repeat, no-repeat, repeat-x;
-    text-shadow: 0.02em 0 #fefefe, -0.02em 0 #fefefe, 0 0.02em #fefefe, 0 -0.04em #fefefe, 0.08em 0 #fefefe, -0.08em 0 #fefefe, 0.08em 0 #fefefe, -0.12em 0 #fefefe, 0.14em 0 #fefefe, -0.14em 0 #fefefe, 0.16em 0 #fefefe, -0.16em 0 #fefefe;
+    text-shadow: 0.02em 0 #ececec, -0.02em 0 #ececec, 0 0.02em #ececec, 0 -0.04em #ececec, 0.08em 0 #ececec, -0.08em 0 #ececec, 0.08em 0 #ececec, -0.12em 0 #ececec, 0.14em 0 #ececec, -0.14em 0 #ececec, 0.16em 0 #ececec, -0.16em 0 #ececec;
     background-position-y: 90%, 90%, 90%;
     background-position-x: 0%, 100%, 0%; }
     .post article a:hover {
@@ -914,14 +914,14 @@ section[class*="block-"] {
       height: 100%;
       z-index: 10;
       display: block;
-      background: #fefefe;
+      background: #ececec;
       color: #4a4c52;
       padding: 3em;
       -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -moz-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
       .listing .work-listing a:hover {
-        color: #fefefe;
+        color: #ececec;
         background: none;
         border: none;
         -webkit-box-shadow: none;
@@ -943,14 +943,14 @@ footer {
   width: 100%;
   height: 120px;
   background: #232830;
-  color: #fefefe; }
+  color: #ececec; }
   footer a {
-    color: #fefefe;
-    border-bottom: 1px solid rgba(254, 254, 254, 0.6); }
+    color: #ececec;
+    border-bottom: 1px solid rgba(236, 236, 236, 0.6); }
     footer a:visited {
-      color: #fefefe; }
+      color: #ececec; }
   footer small {
-    color: #fefefe;
+    color: #ececec;
     opacity: .2; }
 
 .about {
@@ -970,10 +970,10 @@ footer {
       transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
   .about .main-about a {
     color: #282e42;
-    background: -webkit-linear-gradient(#fefefe, #fefefe), -webkit-linear-gradient(#fefefe, #fefefe), -webkit-linear-gradient(#282e42, #282e42);
+    background: -webkit-linear-gradient(#ececec, #ececec), -webkit-linear-gradient(#ececec, #ececec), -webkit-linear-gradient(#282e42, #282e42);
     background-size: 0.04em 1px, 0.04em 1px, 1px 1px;
     background-repeat: no-repeat, no-repeat, repeat-x;
-    text-shadow: 0.02em 0 #fefefe, -0.02em 0 #fefefe, 0 0.02em #fefefe, 0 -0.04em #fefefe, 0.08em 0 #fefefe, -0.08em 0 #fefefe, 0.08em 0 #fefefe, -0.12em 0 #fefefe, 0.14em 0 #fefefe, -0.14em 0 #fefefe, 0.16em 0 #fefefe, -0.16em 0 #fefefe;
+    text-shadow: 0.02em 0 #ececec, -0.02em 0 #ececec, 0 0.02em #ececec, 0 -0.04em #ececec, 0.08em 0 #ececec, -0.08em 0 #ececec, 0.08em 0 #ececec, -0.12em 0 #ececec, 0.14em 0 #ececec, -0.14em 0 #ececec, 0.16em 0 #ececec, -0.16em 0 #ececec;
     background-position-y: 90%, 90%, 90%;
     background-position-x: 0%, 100%, 0%; }
     .about .main-about a:hover {
