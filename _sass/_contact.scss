@@ -1,0 +1,36 @@
+/* Contact Page */
+.contact {
+  p {
+    margin-top: 0;
+    &:first-child {
+      @extend %h6;
+      margin-top: 0;
+    }
+  }
+  label {
+    @extend %h6;
+    margin-top: 0;
+    border-bottom: 1px solid $base-border-color;
+  }
+  input {
+    border-bottom: 1px solid $base-border-color;
+    margin-bottom: $base-line-height;
+    margin-top: 0;
+    @include transition(all, .3s, ease);
+    &:active, &:focus {
+      background: $base-border-color;
+      @include transition(all, .3s, ease);
+    }
+  }
+  label, input {
+    padding: .5em 1em;
+    @include span-columns(8);
+  }
+  textarea {
+    padding: .5em 1em;
+    resize: none;
+    &:active, &:focus {
+      border: 1px solid $base-border-color;
+    }
+  }
+}

@@ -4,7 +4,7 @@ author: "Twnsnd Co"
 url: "http://beta.twnsnd.co"
 email: cole@twnsnd.co
 twitter: twnsndco
-version: 1
+version: 2
 
 future: true
 
@@ -19,7 +19,7 @@ include:  ['.htaccess']
 
 timezone:    America/New_York
 future:      true
-pygments:    true
+highlighter:    true
 markdown: rdiscount
 rdiscount:
   extensions:

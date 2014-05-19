@@ -90,14 +90,15 @@ section[class*="block-"] {
       @include transition(all .2s $ease-in-out-quad);    
       @include span-columns(2.6666666);
       @include omega(3n);
-      height: 16vw;
+      height: 18vw;
       .colorize {
         opacity: .4;
-        position: relative;
+        position: absolute;
         height: 100%;
         width: 100%;
         top: 0;
         right: 0;
+        z-index: 2;
       }
       .project {
         background-position: center center;
@@ -105,16 +106,17 @@ section[class*="block-"] {
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        position: relative;
+        position: absolute;
         width: 100%;
         height: 100%;
         top: 0;
         right: 0;
+        z-index: 1;
       }
       @include media($large) {
-        height: 15.6vw;
+        height: 16vw;
         h1 {
-          font-size: $fs6;
+          font-size: $fs6 !important;
         }
       }
       @include media($medium) {
@@ -152,7 +154,9 @@ section[class*="block-"] {
         }
         &:hover {
           color: $white;
-          background: none;
+          text-shadow: 0 1px 1px rgba(0,0,0,.1);
+          background:none;
+          @include linear-gradient(to top, rgba(0,0,0,.15), rgba(0,0,0,.1));
           border: none;
           @include transition(all .1s $ease-in-out-quad);
         }

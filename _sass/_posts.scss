@@ -66,6 +66,9 @@
     @include span-columns(7);
     @include shift(.5);
     font-family: $longform;
+    @if $longform == '$ss-alt' {
+      letter-spacing: -0.02em;
+    }
     header {
       margin: $base-line-height*2 0;
       h1:first-of-type {

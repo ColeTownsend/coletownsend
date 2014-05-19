@@ -1,0 +1,74 @@
+
+// Main Navigation
+// Site Nav
+header[role="main-header"] {
+  font-family: $sans-serif;
+  width: 100%;
+  color: $black;
+  font-weight: 600;
+  position: relative;
+  // -moz-box-shadow:    0px 1px 0px 0px rgba(243,243,243,0.5);
+  // -webkit-box-shadow: 0px 1px 0px 0px rgba(243,243,243,0.5);
+  // box-shadow:         0px 1px 0px 0px rgba(243,243,243,0.5);
+  @include media($small) {
+    padding: 1em;
+  }
+  // Logo
+  hgroup {
+    font-family: $sans-serif;
+    font-size: $base-font-size * .6;
+    letter-spacing: 2px;
+    @extend %caps-lock;
+    float: left;
+    position: relative;
+    margin-bottom: 0;
+  }
+  a {
+    line-height: 90px;
+    color: $black;
+    @include transition(color .2s $ease-in-out-sine);
+    @include media($small) {
+      line-height: 40px;
+    }
+    &:hover {
+      color: $red;
+      @include transition(color .2s $ease-in-out-sine);
+    }
+  }
+  nav {
+    @extend %container;
+    display: block;
+    position: relative;
+    ul {
+      float: right;
+      margin-bottom: 0;
+      margin-top: 0;
+      @include media($small) {
+        display: block;
+        li {
+          text-align: left;
+        }        
+      }
+    }
+    ul li {
+      font-size: $base-font-size * .6;
+      letter-spacing: 2px;
+      text-align: right;
+      text-transform: uppercase;
+      display: inline-block;
+      position: relative;
+      margin-left: 2em;
+      &:first-child {
+        margin-left: 0;
+      }
+      // Link Color
+      a {
+        @include transition(color .2s $ease-in-out-sine);
+        &:hover {
+          color: $red;
+          @include transition(color .2s $ease-in-out-sine);
+        } 
+      }
+    }
+  }
+}

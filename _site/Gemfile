@@ -4,6 +4,7 @@ gem 'jekyll'
 
 gem 'rake'
 gem 'foreman'
+gem 'versionomy'
 
 gem 'sass'
 gem 'bourbon'

@@ -55,21 +55,7 @@
       border: 2px solid transparentize($blue, .4)
     }
   }
-  // .profile {
-  //   background: url('/images/assets/profile.png');
-  //   opacity: .6;
-  //   position: absolute;
-  //   left: -4vw;
-  //   top: 0;
-  //   width: 22%;
-  //   height: auto;
-  //   z-index: 1;
-  //   background-position: center center;
-  //   background-size: cover;
-  //   -webkit-background-size: cover;
-  //   -moz-background-size: cover;
-  //   -o-background-size: cover;
-  // }
+  
   .profile-links {
     @include span-columns(2.5 of 3);
     font-family: $base-font-family;

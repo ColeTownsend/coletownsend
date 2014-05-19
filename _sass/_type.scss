@@ -223,7 +223,11 @@ cite {
     h1,%h1,h2,%h2,h3,%h3,h4,%h4,h5,%h5, {
       font-weight: normal;
       margin-top: 1.5rem;
-      font-style: italic;      
+      font-style: italic;
+      @if $head == $ss-alt-head {
+        font-style: normal;
+        font-weight: bold;
+      }   
     }
     h6, %h6 {
       @extend %caps-lock;

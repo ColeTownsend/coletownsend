@@ -1,20 +1,18 @@
 // Typography
 ///////////////////////////////////////////////////////////////////////////////
 
-$sans-serif: "Futura", "Helvetica Neue", sans-serif;
+$sans-serif: "europa","Futura", "Helvetica Neue", sans-serif;
 $ss-alt: "Karla", "Helvetica Neue", sans-serif;
+$ss-alt-head: "GTWalsheim", "Karla", "Myriad Pro", "Arial", sans-serif;
 $sans-light: $sans-serif;
 $sans-medium: $sans-serif;
 $sans-bold: $sans-serif;
 $serif: "CMU Concrete","Georgia", serif;
+$serif-alt: "Source Serif Pro", serif;
 
 $head: $serif;
 $body: $serif;
 $longform: $serif;
-
-@if $body == "$ss-alt" {
-	head: "GT Walsheim", "Karla", "Myriad Pro", "Arial", sans-serif;
-}
 
 $base-font-family: $sans-serif;
 $header-font-family: $head;

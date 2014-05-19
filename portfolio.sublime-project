@@ -21,6 +21,9 @@
 		},
 		{
 			"path": "about"
+		},
+		{
+			"path": "contact"
 		}
 	]
 }
