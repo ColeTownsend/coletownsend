@@ -1,8 +1,8 @@
 // Typography
 ///////////////////////////////////////////////////////////////////////////////
 
-$sans-serif: "europa", "Futura", "Helvetica Neue", sans-serif;
-$ss-alt: "Futura", "Helvetica Neue", sans-serif;
+$sans-serif: "Futura", "Helvetica Neue", sans-serif;
+$ss-alt: "Karla", "Helvetica Neue", sans-serif;
 $sans-light: $sans-serif;
 $sans-medium: $sans-serif;
 $sans-bold: $sans-serif;
@@ -11,6 +11,11 @@ $serif: "CMU Concrete","Georgia", serif;
 $head: $serif;
 $body: $serif;
 $longform: $serif;
+
+@if $body == "$ss-alt" {
+	head: "GT Walsheim", "Karla", "Myriad Pro", "Arial", sans-serif;
+}
+
 $base-font-family: $sans-serif;
 $header-font-family: $head;
 
