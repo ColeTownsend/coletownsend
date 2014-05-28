@@ -44,20 +44,8 @@
       padding-left: 10px;
       position: relative;
       text-transform: capitalize;
-      &:after {
-        content: ",";
-        position: absolute;
-        right: -6px;
-        top: 2px;
-        color: $dark-gray;
-      }
       &:first-of-type {
         padding-left: 0;
-      }
-      &:last-of-type {
-        &:after {
-          content: "";
-        }
       }
     }
   }
