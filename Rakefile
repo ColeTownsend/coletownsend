@@ -4,6 +4,7 @@ require 'rake'
 desc "Remove _site from directory before committing"
 task :clean do
   system "rm -rf _site"
+  puts "Cleaned!"
 end # task :clean
 
 task :default do
@@ -57,8 +58,10 @@ desc "Push current branch to GH."
 task :ship do
   message = ARGV.last
   task message.to_sym do ; end
-  system "rake bump"
+  # system "rake bump"
+  system "rake clean"
   system "jekyll build"
+  system "rake minify"
   system "add"
   system "git commit -am '#{message}'"
   system "git push"
