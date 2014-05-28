@@ -739,16 +739,8 @@ section[class*="block-"] {
     padding-left: 10px;
     position: relative;
     text-transform: capitalize; }
-    .post .description .tag:after {
-      content: ",";
-      position: absolute;
-      right: -6px;
-      top: 2px;
-      color: #9b9da4; }
     .post .description .tag:first-of-type {
       padding-left: 0; }
-    .post .description .tag:last-of-type:after {
-      content: ""; }
 .post article {
   margin-bottom: 3em;
   float: left;
