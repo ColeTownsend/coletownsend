@@ -11,11 +11,15 @@
 
 	<link data-no-instant rel="stylesheet" href="{{ site.url }}/css/i.css?v={{ site.version }}">
   <link data-no-instant rel="stylesheet" href="{{ site.url }}/fonts/cmu/font.css">
-
-  
   {% for css_name in page.extra_css %}
     <link rel="stylesheet" href="{{ site.url }}{{ css_name }}?v={{ site.version }}">
   {% endfor %}
+
+  <!-- FOUT B Gone -->
+   <script src="foutbgone.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    fbg.hideFOUT('asap', 400);
+  </script>
   
   <!-- Favicons and Touch Device Icons -->
   <link rel="shortcut icon" href="{{ site.url }}/images/assets/favicon.ico?v={{ site.version }}">
