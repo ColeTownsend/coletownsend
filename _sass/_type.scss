@@ -112,6 +112,11 @@ del {
   color: transparentize($base-font-color, .33);
 }
 
+sup{
+  vertical-align: super;
+  font-style: $fs7/1.5;
+}
+
 blockquote {
   font-style: italic;
   margin: $base-line-height 0;

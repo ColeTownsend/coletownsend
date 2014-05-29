@@ -73,9 +73,14 @@ $(function (){
         });
         
         // Calculate scale based on orientation
+        // if(vpRatio > data.imgRatio) {
+        //   data.imgScale = $(window).height()*.95 / $img.height();
+        // } else {
+        //   data.imgScale = $(window).width()*.95 / $img.width();
+        // }
+
+         // Calculate scale based on orientation
         if(vpRatio > data.imgRatio) {
-          data.imgScale = $(window).height()*.95 / $img.height();
-        } else {
           data.imgScale = $(window).width()*.95 / $img.width();
         }
 

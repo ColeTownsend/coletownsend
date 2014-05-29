@@ -25,6 +25,7 @@ rdiscount:
   extensions:
     - smart
     - generate_toc
+    - footnotes
 
 
 # Links to include in top navigation

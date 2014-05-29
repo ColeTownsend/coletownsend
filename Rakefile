@@ -53,6 +53,16 @@ task :bump, :type do |t, args|
   puts "Successfully bumped from #{current_version} to #{next_version}!"
 end
 
+# serve my drafts up!
+desc "Serve drafts."
+task :drafts do
+  message = ARGV.last
+  task message.to_sym do ; end
+  system "rake clean"
+  system "jekyll build --drafts"
+  puts "Now serving your drafts!"
+end
+
 # push to github
 desc "Push current branch to GH."
 task :ship do

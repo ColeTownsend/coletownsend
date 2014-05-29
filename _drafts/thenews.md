@@ -2,7 +2,7 @@
 layout: portfolio
 
 title: TheNews
-date: unpublished
+date: "2014-05-29 15:14:44"
 category: work
 accent_color: "#78C2A9"
 title-color: ""

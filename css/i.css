@@ -313,6 +313,10 @@ address {
 del {
   color: rgba(74, 76, 82, 0.67); }
 
+sup {
+  vertical-align: super;
+  font-style: 0.46667em; }
+
 blockquote {
   font-style: italic;
   margin: 1.5em 0;
