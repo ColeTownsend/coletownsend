@@ -72,18 +72,13 @@ $(function (){
           left: $img.offset().left - $wrap.offset().left,
         });
         
-        // Calculate scale based on orientation
-        // if(vpRatio > data.imgRatio) {
-        //   data.imgScale = $(window).height()*.95 / $img.height();
-        // } else {
-        //   data.imgScale = $(window).width()*.95 / $img.width();
-        // }
-
-         // Calculate scale based on orientation
+        Calculate scale based on orientation
         if(vpRatio > data.imgRatio) {
+          data.imgScale = $(window).height()*.95 / $img.height();
+        } else {
           data.imgScale = $(window).width()*.95 / $img.width();
         }
-
+        
       });
       
       // Reposition Fluidbox, but only when one is found to be opened
