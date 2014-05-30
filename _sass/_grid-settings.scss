@@ -9,6 +9,6 @@ $max-width: em(720,20);
 // Define your breakpoints
 $huge: new-breakpoint(min-width 1441px 8);
 $large: new-breakpoint(min-width 1080px 8);
-$default: new-breakpoint(min-width 721px 8);
-$medium: new-breakpoint(min width 521px 8);
+$default: new-breakpoint(min-width 801px 8);
+$medium: new-breakpoint(max-width 800px 8);
 $small: new-breakpoint(max-width 520px 4);

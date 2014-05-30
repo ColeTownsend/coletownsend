@@ -90,7 +90,29 @@ section[class*="block-"] {
       @include transition(all .2s $ease-in-out-quad);    
       @include span-columns(2.6666666);
       @include omega(3n);
-      height: 18vw;
+      min-height: 12vw;
+      // Small
+      @include media($small) {
+        margin-bottom: 0;
+        @include span-columns(4);
+        float: none;
+        display: block;
+        height: 6em;
+      }
+      // Medium
+      @include media($medium) {
+        height: 25vw;
+        h1 {
+          font-size: $fs6 !important;
+        }
+      }
+      // Default
+      @include media($default) {
+        height: calc(680px/3);
+        h1 {
+          font-size: $fs6 !important;
+        }
+      }
       .colorize {
         opacity: .4;
         position: absolute;
@@ -112,26 +134,7 @@ section[class*="block-"] {
         top: 0;
         right: 0;
         z-index: 1;
-      }
-      @include media($large) {
-        height: 16vw;
-        h1 {
-          font-size: $fs6 !important;
-        }
-      }
-      @include media($medium) {
-        height: 25vw;
-        h1 {
-          font-size: $fs6;
-        }
-      }
-      @include media($small) {
-        margin-bottom: 0;
-        @include span-columns(4);
-        float: none;
-        display: block;
-        height: 6em;
-      }
+      }      
       &:hover {
         @include transition(all .1s $ease-in-out-quad);
       }
@@ -151,14 +154,18 @@ section[class*="block-"] {
           background: none;
           color: $white;
           border: none;
+          text-shadow: 0 1px 1px rgba(0,0,0,.16);
         }
         &:hover {
           color: $white;
           text-shadow: 0 1px 1px rgba(0,0,0,.1);
           background:none;
-          @include linear-gradient(to top, rgba(0,0,0,.15), rgba(0,0,0,.1));
+          @include linear-gradient(to top, rgba(0,0,0,.08), rgba(0,0,0,.04));
           border: none;
           @include transition(all .1s $ease-in-out-quad);
+          @include media($small) {
+            text-shadow: 0 1px 1px rgba(0,0,0,.2);
+          }
         }
       }
       h1 {

@@ -43,7 +43,7 @@ links:
 
 permalink: /:categories/:title
 
-paginate: 4
+paginate: 6
 
 sitemap:
     file: "/sitemap.xml"
