@@ -38,19 +38,17 @@ task :minify do
   puts "Total compression %0.2f\%" % (((original-compressed)/original)*100)
 end
 
-# version
-desc 'Bump version number'
-task :bump, :type do |t, args|
-  args.with_defaults(:type => :tiny)
-  content = File.read('metadata.rb')
-
-  version_pattern = /(version.*?')(.*?)(')/
-  current_version = content.match(version_pattern)[2]
-  next_version    = Versionomy.parse(Regexp.last_match[2]).bump(args.type).to_s
-
-  File.write('metadata.rb', content.gsub(version_pattern, "\\1#{next_version}\\3"))
-
-  puts "Successfully bumped from #{current_version} to #{next_version}!"
+desc "Bump version number"
+task :bump do
+  content = IO.read('_config.yml')
+  content.sub!(/^version: (\d+)$/) {|v|
+      ver = $1.next
+      print "At version #{ver}",:quiet => true
+      "version: #{ver}"
+  }
+  File.open('_config.yml','w') do |f|
+    f.write content
+  end
 end
 
 # serve my drafts up!
