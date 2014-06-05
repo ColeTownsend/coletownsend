@@ -4,3 +4,9 @@
 portfolio.sublime-workspace
 
 *.sublime-workspace
+
+*.yml
+
+_config_yml
+
+*.yml

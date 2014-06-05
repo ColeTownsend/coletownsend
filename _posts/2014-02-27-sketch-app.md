@@ -10,7 +10,7 @@ tags: [sketch, vector, resources]
 
 One area where Sketch lacks is resources. There are so many Photoshop plugins, grids, brushes, and templates. As the industry standard I would expect there to be more for Photoshop, just as Windows runs more games than Mac. That's just how it is.
 
-Even so, there are a surprising lack of downloads and addons. As there are devs that make games specifically for Mac, I would expect some designers to make resources specifically for Sketch. I didn't find as many as I would like, so I took a few hours of my time to make The Royal Macs. It features a minimally styled iMac, iPad, and iPhone that are infinitely scalable. <a href="http://cl.ly/Nrmc" target="blank">You can download it here (opens in new tab).</a>
+Even so, there are a surprising lack of downloads and addons. As there are devs that make games specifically for Mac, I would expect some designers to make resources specifically for Sketch. I didn't find as many as I would like, so I took a few hours of my time to make The Royal Macs. It features a minimally styled iMac, iPad, and iPhone that are infinitely scalable. You can download it <a href="http://cl.ly/Nrmc" target="blank">here</a> (opens in new tab).
 
 I encourage you to give Sketch a try. The app is 10mb; neither slow download speed nor hard drive size is a good excuse.
 

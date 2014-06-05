@@ -87,7 +87,7 @@ section[class*="block-"] {
       position: relative;
       text-align: center; 
       z-index: 1;
-      @include transition(all .2s $ease-in-out-quad);    
+      @include transition(all .2s $base-transition-timing);    
       @include span-columns(2.6666666);
       @include omega(3n);
       min-height: 12vw;
@@ -136,7 +136,7 @@ section[class*="block-"] {
         z-index: 1;
       }      
       &:hover {
-        @include transition(all .1s $ease-in-out-quad);
+        @include transition(all .1s $base-transition-timing);
       }
       a {
         width: 100%;
