@@ -7,7 +7,7 @@ footer {
   font-family: $base-font-family;
   text-align: center;
   width:100%;
-  height: 120px;
+  height: 144px;
   background: $real-black;
   color: $white;
   a {
@@ -17,9 +17,19 @@ footer {
       color: $white;
     }
   }
+  .buffalo-icon {
+    width: 32px;
+    opacity: 1;
+    position: relative;
+    top: 6px;
+    margin-right: .25rem;
+    opacity: .75;
+  }
   small {
     color: $white;
     @extend %vertical-align;
-    opacity: .2;
+    opacity: .15;
+    letter-spacing: 1px;
+    font-weight: 600;
   }
 }

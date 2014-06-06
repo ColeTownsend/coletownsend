@@ -7,6 +7,7 @@ category: journal
 accent_color: "#757E8E"
 tags: [Anchor CMS, cmd, front end]
 ---
+
 Below is a condensed version of the install instructions available at [Anchor CMS](http://anchorcms.com/docs/getting-started/installing).
 
 * Before installing, make sure your platform has the required components to run Anchor.

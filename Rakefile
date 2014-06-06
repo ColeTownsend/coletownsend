@@ -61,12 +61,22 @@ task :drafts do
   puts "Now serving your drafts!"
 end
 
+# thumbnail images
+desc "Create thumbs of images"
+task :thumbs do
+  message = ARGV.last
+  task message.to_sym do ; end
+  system "cd images/inline; sips -Z 720 *.png *.jpg --out thumbs"
+  system "cd .../"
+  puts "Created thumbnail images."
+end
+
 # push to github
 desc "Push current branch to GH."
 task :ship do
   message = ARGV.last
   task message.to_sym do ; end
-  # system "rake bump"
+  system "rake bump"
   system "rake clean"
   system "jekyll build"
   system "rake minify"
@@ -74,4 +84,5 @@ task :ship do
   system "git commit -am '#{message}'"
   system "git push"
   puts "Pushed latest changes to GitHub!"
+  system "glynn"
 end

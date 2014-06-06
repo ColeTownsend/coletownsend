@@ -4,7 +4,7 @@ author: "Twnsnd Co"
 url: "http://beta.twnsnd.co"
 email: cole@twnsnd.co
 twitter: twnsndco
-version: 2
+version: 4
 
 future: true
 
@@ -15,17 +15,13 @@ image:
 
 
 ftp_host: 'ftp.coletownsend.com'
-ftp_dir: '/beta-site'
-ftp_passive: true
+ftp_dir: '../beta-site'
+ftp_passive: false
 
-# optional
-ftp_port: 21                  # default 21
-ftp_username: 'glynn@coletownsend.com'     # default read from stdin
-ftp_password: 'jekyll%%glynn93' # default read from stdin
 
 # A list of directories (including trailing slash) and files to exclude from the conversion
 # ============================================================
-exclude: ['README.md', 'Rakefile', '.gitignore', 'templates', '.sublime-workspace', '.sublime-project', '_config.yml']
+exclude: ['README.md', 'Procfile', 'Rakefile', '*.codekit', 'Gemfile.lock', 'Gemfile', '.gitignore', 'templates', '*.sublime-workspace', '*.sublime-project', '_config.yml', '*.scssc']
 include:  ['.htaccess']
 
 timezone:    America/New_York

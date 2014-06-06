@@ -195,7 +195,7 @@
     ul {
       list-style-type: disc;
       margin: $base-line-height / 2;
-      padding-left: $base-line-height;
+      padding-left: $base-line-height/4;
       a {
       color: $red;
       @include underline($base-body-color, $base-accent-color);
@@ -206,7 +206,7 @@
     ol {
       list-style-type: decimal;
       margin: $base-line-height / 2;
-      padding-left: $base-line-height;
+      padding-left: $base-line-height/4;
       a {
       color: $red;
       @include underline($base-body-color, $base-accent-color);
@@ -220,7 +220,23 @@
 }
 
 /* Scale up bounce */
-.post article p a {
+.post article p a.strip-style {
+  border-radius: none;
+  &:hover {
+    color: $red;
+  }
+  &:before {
+    display: none;
+  }
+  // reapply styles
+  color: $red;
+  @include underline($base-body-color, $base-accent-color);
+  &:hover {
+    color: darken($red, 10);
+  }
+}
+
+p a {
   color: $red;
   vertical-align: bottom;
   font-weight: 500;

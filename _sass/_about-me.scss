@@ -1,5 +1,54 @@
 .about {
   position: relative;
+  .buffalo {
+    @include user-select();
+    @include background(url("../images/assets/buffalo-grey.svg"), center center no-repeat);
+    background-repeat: no-repeat;
+    opacity: .25;
+    position: fixed;
+    bottom: 2em;
+    left: 2em;
+    width: 2rem;
+    height: 2rem;
+    @include transition(all .2s $base-transition-timing);
+    font-family: $sans-serif !important;
+    &:hover {
+      opacity: 1;
+      @include background(url("../images/assets/buffalo-red.svg"), center center no-repeat);
+      background-repeat: no-repeat;
+      @include transition(all .3s $base-transition-timing);
+      &:before {
+        text-align: center;
+        font-family: $sans-serif !important;
+        opacity: 1;
+        -webkit-transition-delay: 0s, 0s, 0s, 0.1s;
+        transition-delay: 0s, 0s, 0s, 0.1s;
+        -webkit-transform: scale(1) translateX(75%) translateY(0%);
+        transform: scale(1) translateX(75%) translateY(0%);
+      }
+    }
+    &:before {
+      opacity: 0;
+      color: $white;
+      @include user-select();
+      -webkit-border-radius: $base-border-radius;
+      -moz-border-radius: $base-border-radius;
+      border-radius: $base-border-radius;
+      position: absolute;
+      top: -5%;
+      left: 5%;
+      content: attr(href);
+      background: $red;
+      padding: 0 .5rem;
+      font-weight: 600;
+      font-size: 50%;
+      text-transform: uppercase;
+      @include transition(all .3s $ease-in-out-quad);
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+      pointer-events: auto;
+    }
+  }
   .wrap {
     padding-top: $base-line-height*3;
     padding-bottom: $base-line-height*3;
@@ -12,7 +61,7 @@
       @include transition(color .2s $ease-in-out-sine);
     }
   }
-  .main-about a  {
+  .main-about li a  {
     color: $blue-black;
     @include underline($base-body-color, $blue-black);
     &:hover {

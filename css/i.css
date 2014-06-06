@@ -906,7 +906,7 @@ section[class*="block-"] {
   .post article ul {
     list-style-type: disc;
     margin: 0.75em;
-    padding-left: 1.5em; }
+    padding-left: 0.375em; }
     .post article ul a {
       color: #ec6f66;
       background: -webkit-linear-gradient(#fefefe, #fefefe), -webkit-linear-gradient(#fefefe, #fefefe), -webkit-linear-gradient(#ec6f66, #ec6f66);
@@ -922,7 +922,7 @@ section[class*="block-"] {
     .post article ul ol {
       list-style-type: decimal;
       margin: 0.75em;
-      padding-left: 1.5em; }
+      padding-left: 0.375em; }
       .post article ul ol a {
         color: #ec6f66;
         background: -webkit-linear-gradient(#fefefe, #fefefe), -webkit-linear-gradient(#fefefe, #fefefe), -webkit-linear-gradient(#ec6f66, #ec6f66);
@@ -937,7 +937,25 @@ section[class*="block-"] {
           color: #e64439; }
 
 /* Scale up bounce */
-.post article p a {
+.post article p a.strip-style {
+  border-radius: none;
+  color: #ec6f66;
+  background: -webkit-linear-gradient(#fefefe, #fefefe), -webkit-linear-gradient(#fefefe, #fefefe), -webkit-linear-gradient(#ec6f66, #ec6f66);
+  background-size: 0.04em 1px, 0.04em 1px, 1px 1px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  text-shadow: 0.02em 0 #fefefe, -0.02em 0 #fefefe, 0 0.02em #fefefe, 0 -0.04em #fefefe, 0.08em 0 #fefefe, -0.08em 0 #fefefe, 0.08em 0 #fefefe, -0.12em 0 #fefefe, 0.14em 0 #fefefe, -0.14em 0 #fefefe, 0.16em 0 #fefefe, -0.16em 0 #fefefe;
+  background-position-y: 90%, 90%, 90%;
+  background-position-x: 0%, 100%, 0%; }
+  .post article p a.strip-style:hover {
+    color: #ec6f66; }
+  .post article p a.strip-style:before {
+    display: none; }
+  .post article p a.strip-style:hover {
+    color: #e95a4f; }
+  .post article p a.strip-style:hover {
+    color: #e64439; }
+
+p a {
   color: #ec6f66;
   vertical-align: bottom;
   font-weight: 500;
@@ -948,7 +966,7 @@ section[class*="block-"] {
   text-decoration: none;
   white-space: nowrap;
   border-radius: 2px; }
-  .post article p a:hover {
+  p a:hover {
     color: #fefefe; }
 
 p a::before {
@@ -1066,7 +1084,7 @@ footer {
   font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
   text-align: center;
   width: 100%;
-  height: 120px;
+  height: 144px;
   background: #232830;
   color: #fefefe; }
   footer a {
@@ -1074,12 +1092,80 @@ footer {
     border-bottom: 1px solid rgba(254, 254, 254, 0.6); }
     footer a:visited {
       color: #fefefe; }
+  footer .buffalo-icon {
+    width: 32px;
+    opacity: 1;
+    position: relative;
+    top: 6px;
+    margin-right: .25rem;
+    opacity: .75; }
   footer small {
     color: #fefefe;
-    opacity: .2; }
+    opacity: .15;
+    letter-spacing: 1px;
+    font-weight: 600; }
 
 .about {
   position: relative; }
+  .about .buffalo {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: url("../images/assets/buffalo-grey.svg"), center center no-repeat;
+    background: url("../images/assets/buffalo-grey.svg"), center center no-repeat;
+    background-repeat: no-repeat;
+    opacity: .25;
+    position: fixed;
+    bottom: 2em;
+    left: 2em;
+    width: 2rem;
+    height: 2rem;
+    -webkit-transition: all 0.2s cubic-bezier(0.25, 0.25, 0.325, 1.39);
+    -moz-transition: all 0.2s cubic-bezier(0.25, 0.25, 0.325, 1.39);
+    transition: all 0.2s cubic-bezier(0.25, 0.25, 0.325, 1.39);
+    font-family: "europa", "Futura", "Helvetica Neue", sans-serif !important; }
+    .about .buffalo:hover {
+      opacity: 1;
+      background: url("../images/assets/buffalo-red.svg"), center center no-repeat;
+      background: url("../images/assets/buffalo-red.svg"), center center no-repeat;
+      background-repeat: no-repeat;
+      -webkit-transition: all 0.3s cubic-bezier(0.25, 0.25, 0.325, 1.39);
+      -moz-transition: all 0.3s cubic-bezier(0.25, 0.25, 0.325, 1.39);
+      transition: all 0.3s cubic-bezier(0.25, 0.25, 0.325, 1.39); }
+      .about .buffalo:hover:before {
+        text-align: center;
+        font-family: "europa", "Futura", "Helvetica Neue", sans-serif !important;
+        opacity: 1;
+        -webkit-transition-delay: 0s, 0s, 0s, 0.1s;
+        transition-delay: 0s, 0s, 0s, 0.1s;
+        -webkit-transform: scale(1) translateX(75%) translateY(0%);
+        transform: scale(1) translateX(75%) translateY(0%); }
+    .about .buffalo:before {
+      opacity: 0;
+      color: #fefefe;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+      position: absolute;
+      top: -5%;
+      left: 5%;
+      content: attr(href);
+      background: #ec6f66;
+      padding: 0 .5rem;
+      font-weight: 600;
+      font-size: 50%;
+      text-transform: uppercase;
+      -webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      -moz-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+      pointer-events: auto; }
   .about .wrap {
     padding-top: 4.5em;
     padding-bottom: 4.5em; }
@@ -1093,7 +1179,7 @@ footer {
       -webkit-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
       -moz-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
       transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
-  .about .main-about a {
+  .about .main-about li a {
     color: #282e42;
     background: -webkit-linear-gradient(#fefefe, #fefefe), -webkit-linear-gradient(#fefefe, #fefefe), -webkit-linear-gradient(#282e42, #282e42);
     background-size: 0.04em 1px, 0.04em 1px, 1px 1px;
@@ -1101,9 +1187,9 @@ footer {
     text-shadow: 0.02em 0 #fefefe, -0.02em 0 #fefefe, 0 0.02em #fefefe, 0 -0.04em #fefefe, 0.08em 0 #fefefe, -0.08em 0 #fefefe, 0.08em 0 #fefefe, -0.12em 0 #fefefe, 0.14em 0 #fefefe, -0.14em 0 #fefefe, 0.16em 0 #fefefe, -0.16em 0 #fefefe;
     background-position-y: 90%, 90%, 90%;
     background-position-x: 0%, 100%, 0%; }
-    .about .main-about a:hover {
+    .about .main-about li a:hover {
       color: #1e2332; }
-    .about .main-about a:hover {
+    .about .main-about li a:hover {
       color: #151822; }
   .about aside {
     float: left;

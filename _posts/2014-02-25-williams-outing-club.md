@@ -22,9 +22,6 @@ I bridged the remaining space with two lines, one continuing from the mountains,
 
 I applied the logo in several different branding schemes to give an idea of how it might be used.
 
-<img src="http://coletownsend.com/content/woc/WOC-Letterpress.jpg">
-<img src="http://coletownsend.com/content/woc/WOC-Cards.jpg">
-<img src="http://d13yacurqjgara.cloudfront.net/users/172830/screenshots/1321006/attachments/185698/WOC-Stationary.jpg">
-<img src="http://coletownsend.com/content/woc/poster.jpg">
-<img src="http://coletownsend.com/content/woc/WOC-poster-man.jpg">
+{% include _fluidbox.html grid="full" class="" alt="Home Page" url="WOC-stationary.jpg" loweres="" cap="Business Cards" %}
+{% include _fluidbox.html grid="full" class="" alt="Home Page" url="WOC-poster.jpg" loweres="" cap="Branding Posters" %}
 

@@ -2,7 +2,7 @@
 <figure {% if include.grid %}class="grid-{{ include.grid }}" {% endif %}>
   {% if include.grid != 'full' %}{% if include.cap %}<figcaption>{{ include.cap }}</figcaption>{% endif %}{% endif %}
   <a role="fluidbox" class="{{ include.class }}" href="{{ site.url }}{{ site.images_url }}{{ include.url }}" title="{{ include.alt }}">
-  	<img src="{{ site.url }}{{ site.images_url }}/thumbnails/{{ include.lowres }}" alt="{{ include.alt }}" title="{{ include.alt }}">
+  	<img src="{{ site.url }}{{ site.images_url }}/thumbs/{{ include.url }}" alt="{{ include.alt }}" title="{{ include.alt }}">
    </a>
   {% if include.grid contains 'full' %}{% if include.cap %}<figcaption>{{ include.cap }}</figcaption>{% endif %}{% endif %}
 </figure>

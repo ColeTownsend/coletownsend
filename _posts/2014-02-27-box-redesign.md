@@ -8,6 +8,7 @@ accent_color: "#048BCD"
 image:
   feature: box-app.svg
 ---
+
 <img src="http://f.cl.ly/items/3A1K280y3H2Z3j1I0N3Q/Screen%20Shot%202013-03-30%20at%201.04.jpg">
 
 My first step was some minor UX tweaking. I didn't want to radically change the site; it's relatively intuitive to use as I am familiar with CloudApp, Dropbox, and numerous other cloud based services. One thing I noticed was that there were many different functions on the viewing page. When I was revising the viewing page, I wanted to clean it up. My goal was to make the primary function of each page very clear. 
