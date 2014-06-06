@@ -27,5 +27,5 @@ _This site is only accessible on Williams College wifi as it has student names. 
 * styled with SCSS
 * Hosted by BlueHost
 
-{% include _fluidbox.html grid="2" class="" alt="Home Page" url="pvcc-home.png" cap="Landing Page" %}
+{% include _fluidbox.html grid="2" class="" alt="Home Page" url="pvcc-home.png" lowres="pvcc-home-lowres.png" cap="Landing Page" %}
 {% include _fluidbox.html grid="2" class="" alt="Home Page" url="pvcc-sign-up.png" cap="Sign Up" %}
