@@ -1,5 +1,9 @@
 // Post Page
 .post {
+  div {
+    display: block;
+    @include clearfix;
+  }
   header.bg-img {
     vertical-align: middle;
     height: $base-line-height*14;
@@ -100,6 +104,10 @@
           @include omega();
           @include shift(.5);
         }
+      }
+      &.grid-3 {
+        @include span-columns(2);
+        @include omega(3n);
       }
       &.grid-4 {
         @include span-columns(2);

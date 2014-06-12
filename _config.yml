@@ -12,8 +12,18 @@ future: true
 images_url: /images/inline/
 image:
   source: images/inline
+# dribbble
+dribbble_set:
+  user:            'coletownsend'
+  shots_per_page:  9
+  page:            1
+  gallery_tag:     'ul'
+  gallery_class:   'dribbble-grid'
+  is_list:         true
+  a_target:        '_blank'
+  full_size:       false
 
-
+# glynn
 ftp_host: 'ftp.coletownsend.com'
 ftp_dir: '../beta-site'
 ftp_passive: false

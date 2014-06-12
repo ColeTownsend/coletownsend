@@ -16,12 +16,15 @@ image:
 At Williams College, I worked with Goodrich Coffee Bar. I developed their identity through several poster campaigns. With custom illustrations and cheeky copywriting I helped develop their brand voice. I used the typeface _Soleil_, available on Typekit.
 
 ###### Fall Campaign
-{% include _fluidbox.html grid="2" class="" alt="Tees" url="gcb-skyr.jpg" %}
-{% include _fluidbox.html grid="2" class="" alt="Tees" url="gcb-tees.jpg" %}
+<div>
+{% include _fluidbox.html grid="2" class="" alt="Tees" url="gcb-skyr.jpg" %}{% include _fluidbox.html grid="2" class="" alt="Tees" url="gcb-tees.jpg" %}
+</div>
+<div>
+{% include _fluidbox.html grid="2" class="" alt="Tees" url="gcb-iced.jpg" %}{% include _fluidbox.html grid="2" class="" alt="Tees" url="gcb-wildflour.jpg" %}
+</div>
 
-{% include _fluidbox.html grid="2" class="" alt="Tees" url="gcb-iced.jpg" %}
-{% include _fluidbox.html grid="2" class="" alt="Tees" url="gcb-wildflour.jpg" %}
 
 ###### Winter Campaign
-{% include _fluidbox.html grid="2" class="" alt="Tees" url="gcb-night.jpg" %}
-{% include _fluidbox.html grid="2" class="" alt="Tees" url="gcb-happy-tea.jpg" %}
+<div>
+{% include _fluidbox.html grid="2" class="" alt="Tees" url="gcb-night.jpg" %}{% include _fluidbox.html grid="2" class="" alt="Tees" url="gcb-happy-tea.jpg" %}
+</div>

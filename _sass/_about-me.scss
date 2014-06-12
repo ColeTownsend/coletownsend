@@ -2,7 +2,8 @@
   position: relative;
   .buffalo {
     @include user-select();
-    @include background(url("../images/assets/buffalo-grey.svg"), center center no-repeat);
+    @include retina-image("../images/assets/buffalo-blue", 2rem 2rem);
+    // @include background(url("../images/assets/buffalo-grey.svg"), center center no-repeat);
     background-repeat: no-repeat;
     opacity: .25;
     position: fixed;
@@ -14,7 +15,8 @@
     font-family: $sans-serif !important;
     &:hover {
       opacity: 1;
-      @include background(url("../images/assets/buffalo-red.svg"), center center no-repeat);
+      @include retina-image("../images/assets/buffalo-red", 2rem 2rem);
+      // @include background(url("../images/assets/buffalo-red.svg"), center center no-repeat);
       background-repeat: no-repeat;
       @include transition(all .3s $base-transition-timing);
       &:before {

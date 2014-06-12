@@ -24,6 +24,9 @@
 		},
 		{
 			"path": "contact"
+		},
+		{
+			"path": "bestof"
 		}
 	]
 }
