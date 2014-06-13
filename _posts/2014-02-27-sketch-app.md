@@ -6,7 +6,7 @@ categories: journal
 tags: [sketch, vector, resources]
 ---
 
-<a href="http://www.bohemiancoding.com/sketch/" target="_blank">Sketch App</a> by Bohemian Coding is absolutely awesome. It's built for UI work. It exclusively uses vectors. The interface is simple and intuitive. I can run it off a thumb drive and the program is smaller than the average PSD.
+<a href="http://www.bohemiancoding.com/sketch/" target="_blank">Sketch App</a> by Bohemian Coding is _the app_ for designing websites and interfaces. It's built for UI work. It exclusively uses vectors. The interface is simple and intuitive. It can run off a thumb drive and the program is smaller than the average PSD.
 
 One area where Sketch lacks is resources. There are so many Photoshop plugins, grids, brushes, and templates. As the industry standard I would expect there to be more for Photoshop, just as Windows runs more games than Mac. That's just how it is.
 
@@ -17,7 +17,6 @@ I encourage you to give Sketch a try. The app is 10mb; neither slow download spe
 <em>Update: Since then, tons of awesome resources for Sketch have come out.</em> 
 
 ### Resources
-<hr>
 ###### Stuff I've Done
 * [HTC First](http://dribbble.com/shots/1053190-HTC-First?list=show&tag=sketch)
 * [Minimus for Sketch](http://dribbble.com/shots/969976-Sketched-Minimus?list=show&tag=sketch)

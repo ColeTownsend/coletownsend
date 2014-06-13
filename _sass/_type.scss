@@ -18,6 +18,9 @@ h1,%h1, h2,%h2, h3,%h3, h4,%h4, h5,%h5, h6,%h6 {
 
 h5, %h5, h6, %h6 {
   font-family: $sans-serif;
+  @if $head == '$ss-alt-head' {
+    font-weight: 600;
+  }
 }
 
 h1, %h1 {
@@ -27,39 +30,55 @@ h1, %h1 {
 }
 
 h2, %h2 {
-  font-size: $fs2; // 20 * 2 = 40px
-  line-height: 1.15em;
-  margin-bottom: .34888em;
-}
-
-h3, %h3 {
   font-size: $fs3; // 20 * 1.75 = 35px
   line-height: 1.25em;
   margin-bottom: .35em;
+  // font-size: $fs2; // 20 * 2 = 40px
+  // line-height: 1.15em;
+  // margin-bottom: .34888em;
 }
 
-h4, %h4 {
+h3, %h3 {
   font-size: $fs4; // 20 * 1.5 = 30px
   line-height: 1.35em;
   margin-bottom: em(17.5, 20);
+  // font-size: $fs3; // 20 * 1.75 = 35px
+  // line-height: 1.25em;
+  // margin-bottom: .35em;
+}
+
+h4, %h4 {
+  font-size: $fs5; // 20 * 1.25 = 25px
+  line-height: 1.5rem;
+  // font-size: $fs4; // 20 * 1.5 = 30px
+  // line-height: 1.35em;
+  // margin-bottom: em(17.5, 20);
 }
 
 h5, %h5 {
-  font-size: $fs5; // 20 * 1.25 = 25px
+  font-size: $fs6; // 20 * 1.25 = 25px
   line-height: 1.5rem;
+    @if $head == '$ss-alt-head' {
+    font-weight: 600;
+  }
 }
 
 h6, %h6 {
   font-size: $fs7;
   @extend %caps-lock;
-  font-weight: bold;
   line-height: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: 0;
+  @extend %caps-lock;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  letter-spacing: 0.1em;
 }
 
 figcaption {
   @extend %h6;
+  opacity: .5;
 }
 
 p {
@@ -225,10 +244,9 @@ cite {
     &:first-child {
         margin-top: 0;
       }
-    h1,%h1,h2,%h2,h3,%h3,h4,%h4,h5,%h5, {
-      font-weight: normal;
+    h2,%h2,h3,%h3,h4,%h4,h5,%h5, {
+      font-weight: bold;
       margin-top: 1.5rem;
-      font-style: italic;
       @if $head == $ss-alt-head {
         font-style: normal;
         font-weight: bold;

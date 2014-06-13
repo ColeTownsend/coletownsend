@@ -22,13 +22,17 @@ header[role="main-header"] {
     float: left;
     position: relative;
     margin-bottom: 0;
+    @include media($small) {
+      display: block;
+      float: none;
+    }
   }
   a {
     line-height: 90px;
     color: $black;
     @include transition(color .2s $ease-in-out-sine);
     @include media($small) {
-      line-height: 40px;
+      line-height: .5rem;
     }
     &:hover {
       color: $red;
@@ -45,6 +49,7 @@ header[role="main-header"] {
       margin-top: 0;
       @include media($small) {
         display: block;
+        float: none;
         li {
           text-align: left;
         }        

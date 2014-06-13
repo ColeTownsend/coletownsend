@@ -13,6 +13,8 @@
     height: 2rem;
     @include transition(all .2s $base-transition-timing);
     font-family: $sans-serif !important;
+    @extend .jelly-me;
+    @extend .fadeIn;
     &:hover {
       opacity: 1;
       @include retina-image("../images/assets/buffalo-red", 2rem 2rem);

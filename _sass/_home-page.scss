@@ -26,7 +26,7 @@ section[class*="block-"] {
     color: $red;
     @include transition(color .2s $ease-in-out-quad);
     &:hover {
-      color: $black;
+      color: $base-body-color;
       @include transition(color .2s $ease-in-out-quad);
     }
   }
@@ -39,6 +39,10 @@ section[class*="block-"] {
     }
   p {
     @extend %h4;
+    @if $head == '$ss-alt-head' {
+      font-family: "GT Walsheim";
+      font-weight: normal;
+    }
   }
     @include media($small) {
       display: block;
@@ -114,7 +118,7 @@ section[class*="block-"] {
         }
       }
       .colorize {
-        opacity: .4;
+        opacity: .8;
         position: absolute;
         height: 100%;
         width: 100%;
@@ -160,7 +164,7 @@ section[class*="block-"] {
           color: $white;
           text-shadow: 0 1px 1px rgba(0,0,0,.1);
           background:none;
-          @include linear-gradient(to top, rgba(0,0,0,.08), rgba(0,0,0,.04));
+          @include linear-gradient(to top, rgba(0,0,0,.02), rgba(0,0,0,0));
           border: none;
           @include transition(all .1s $ease-in-out-quad);
           @include media($small) {
@@ -177,6 +181,9 @@ section[class*="block-"] {
         font-size: $fs5;
         @extend %liga;
         font-weight: bold;
+        @if $head == $ss-alt-head {
+          font-weight: 500;
+        }
         @extend %vertical-align;
       } 
     }
