@@ -15,16 +15,28 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     position: relative;
-    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+    @include filter(grayscale(80%)); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
     -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,.1), inset 0 -1px 0 rgba(0,0,0,.1);
             box-shadow: inset 0 1px 0 rgba(0,0,0,.1), inset 0 -1px 0 rgba(0,0,0,.1);
+    @include transition(-webkit-filter .2s $ease-in-out-quad);
+    @include transition(opacity .2s $ease-in-out-quad);
+    &:hover {
+      @include filter(grayscale(0));
+      @include transition(-webkit-filter .2s $ease-in-out-quad);
+      &:after {
+        opacity: 0;
+        @include transition(opacity .2s $ease-in-out-quad);
+      }
+    }
     &:after {
       position: absolute;
       height: 100%;
       width: 100%;
       background: $white;
       opacity: .6;
+      @include transition(opacity .2s $ease-in-out-quad);
     }
+
   }
   .description {
     div {

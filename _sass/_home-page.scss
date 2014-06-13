@@ -93,15 +93,48 @@ section[class*="block-"] {
       z-index: 1;
       @include transition(all .2s $base-transition-timing);    
       @include span-columns(2.6666666);
-      @include omega(3n);
-      min-height: 12vw;
+      @include omega();
+      min-height: 18vw;
+      &:nth-child(1) {
+        @include span-columns(5);
+      }
+      &:nth-child(2) {
+        @include span-columns(3);
+        @include omega();
+      }
+      &:nth-child(3) {
+        @include span-columns(3);
+      }
+      &:nth-child(4) {
+        @include span-columns(5);
+        @include omega();
+      }
+      &:nth-child(5) {
+        @include span-columns(8);
+      }
+      &:nth-child(6) {
+        @include span-columns(3);
+      }
+      &:nth-child(7) {
+        @include span-columns(5);
+        @include omega();
+        clear: none;
+      }
+      &:nth-child(8) {
+        @include span-columns(5);
+      }
+      &:nth-child(9) {
+        @include span-columns(3);
+        @include omega();
+        clear: none;
+      }
       // Small
       @include media($small) {
         margin-bottom: 0;
-        @include span-columns(4);
-        float: none;
-        display: block;
-        height: 6em;
+        width: 100% !important;
+        float: none !important;
+        display: block !important;
+        height: 6em !important;
       }
       // Medium
       @include media($medium) {
@@ -118,13 +151,16 @@ section[class*="block-"] {
         }
       }
       .colorize {
-        opacity: .8;
+        opacity: 0;
         position: absolute;
         height: 100%;
         width: 100%;
         top: 0;
         right: 0;
         z-index: 2;
+        @include media($small) {
+          opacity: .25;
+        }
       }
       .project {
         background-position: center center;
