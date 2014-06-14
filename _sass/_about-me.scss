@@ -143,3 +143,58 @@
 .green-marker + .work-status {
   color: $green;
 }
+
+
+
+.buffalo-full {
+    @include user-select();
+    @include background(url("../images/assets/buffalo-red-huge.png"), center center no-repeat);
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 20vh;
+    background-size: 100% auto;
+    width: 4rem;
+    height: 4rem;
+    font-family: $sans-serif !important;
+    @extend .jelly-big;
+    &:hover {
+      opacity: 1;
+      @include background(url("../images/assets/buffalo-red-huge.png"), center center no-repeat);
+      background-repeat: no-repeat;
+      @include transition(all .3s $base-transition-timing);
+      background-size: 100% auto;
+      &:before {
+        text-align: center;
+        font-family: $sans-serif !important;
+        opacity: 1;
+        -webkit-transition-delay: 0s, 0s, 0s, 0.1s;
+        transition-delay: 0s, 0s, 0s, 0.1s;
+        -webkit-transform: scale(1) translateX(0%) translateY(-100%);
+        transform: scale(1) translateX(0%) translateY(-100%);
+      }
+    }
+    &:before {
+      opacity: 0;
+      color: $white;
+      @include user-select();
+      -webkit-border-radius: $base-border-radius;
+      -moz-border-radius: $base-border-radius;
+      border-radius: $base-border-radius;
+      position: absolute;
+      top: -3rem;
+      left: 2rem;
+      content: 'New Site!';
+      background: $red;
+      padding: .5em 1em;
+      font-weight: 600;
+      font-size: 80%;
+      text-transform: uppercase;
+      width: 4rem;
+      @include transition(all .3s $ease-in-out-quad);
+      -webkit-transform: scale(0.75);
+      transform: scale(0.75);
+      pointer-events: auto;
+    }
+  }

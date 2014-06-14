@@ -73,6 +73,21 @@ end
 
 # push to github
 desc "Push current branch to GH."
+task :build do
+  message = ARGV.last
+  task message.to_sym do ; end
+  system "rake bump"
+  system "rake clean"
+  system "jekyll build"
+  system "rake minify"
+  system "add"
+  system "git commit -am '#{message}'"
+  system "git push"
+  puts "Pushed latest changes to GitHub!"
+end
+
+# push to github
+desc "Push current branch to GH."
 task :ship do
   message = ARGV.last
   task message.to_sym do ; end
