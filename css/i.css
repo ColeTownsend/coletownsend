@@ -1275,17 +1275,15 @@ a {
 
 body {
   color: #4a4c52;
-  font-family: "GT Walsheim", "Karla", "Myriad Pro", "Arial", sans-serif;
+  font-family: "CMU Concrete", "Georgia", serif;
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
-  line-height: 1.5em;
-  font-weight: 500; }
+  line-height: 1.5em; }
 
-h1, h2, .block-1 p, h3, h4, h5, h6, figcaption, .contact p:first-child, .contact label {
-  font-family: "GT Walsheim", "Karla", "Myriad Pro", "Arial", sans-serif;
+h1, h2, h3, h4, .block-1 h1 p, h5, h6, figcaption, .contact p:first-child, .contact label {
+  font-family: "CMU Concrete", "Georgia", serif;
   line-height: 1.25em;
   margin: 0;
-  font-weight: normal;
   text-rendering: optimizeLegibility; }
 
 h5, h6, figcaption, .contact p:first-child, .contact label {
@@ -1296,7 +1294,7 @@ h1 {
   line-height: 1.1em;
   margin-bottom: .42em; }
 
-h2, .block-1 p {
+h2 {
   font-size: 1.75em;
   line-height: 1.25em;
   margin-bottom: .35em; }
@@ -1306,7 +1304,7 @@ h3 {
   line-height: 1.35em;
   margin-bottom: 0.875em; }
 
-h4 {
+h4, .block-1 h1 p {
   font-size: 1.25em;
   line-height: 1.5rem; }
 
@@ -1412,18 +1410,13 @@ h6, figcaption, .contact p:first-child, .contact label, small, .post article h6,
    ========================================================================== */
 /* Leading
    ========================================================================== */
-.red {
-  color: #ec6f66; }
-
 /* Article Headings
    ========================================================================== */
 .post article:first-child {
   margin-top: 0; }
-.post article h2, .post article .block-1 p, .block-1 .post article p, .post article h3, .post article h4, .post article h5 {
+.post article h2, .post article h3, .post article h4, .post article .block-1 h1 p, .block-1 h1 .post article p, .post article h5 {
   font-weight: bold;
-  margin-top: 1.5rem;
-  font-style: normal;
-  font-weight: 500; }
+  margin-top: 1.5rem; }
 .post article h6, .post article figcaption, .post article .contact p:first-child, .contact .post article p:first-child, .post article .contact label, .contact .post article label {
   font-style: normal;
   font-weight: bold;
@@ -1458,7 +1451,7 @@ body {
   width: 100%;
   padding: 0 0 120px;
   background: white;
-  font-family: "Klinic Slab", "Georgia", serif;
+  font-family: "CMU Concrete", "Georgia", serif;
   color: #4a4c52;
   text-size-adjust: 100%;
   overflow-x: hidden !important; }
@@ -1488,20 +1481,20 @@ a[data="disabled"] {
   transform: translateY(-50%); }
 
 /* Site Architecture */
-.wrap, header[role="main-header"] nav, .block-2, .listing article header, .listing .work-listing h1 {
+.wrap, header[role="main-header"] nav, .block-1 article, .block-2, .listing article header, .listing .work-listing h1 {
   max-width: 36em;
   margin-left: auto;
   margin-right: auto;
   margin: 0 auto; }
-  .wrap:after, header[role="main-header"] nav:after, .block-2:after, .listing article header:after, .listing .work-listing h1:after {
+  .wrap:after, header[role="main-header"] nav:after, .block-1 article:after, .block-2:after, .listing article header:after, .listing .work-listing h1:after {
     content: "";
     display: table;
     clear: both; }
   @media screen and (max-width: 520px) {
-    .wrap, header[role="main-header"] nav, .block-2, .listing article header, .listing .work-listing h1 {
+    .wrap, header[role="main-header"] nav, .block-1 article, .block-2, .listing article header, .listing .work-listing h1 {
       padding: 0 0; } }
   @media screen and (max-width: 800px) {
-    .wrap, header[role="main-header"] nav, .block-2, .listing article header, .listing .work-listing h1 {
+    .wrap, header[role="main-header"] nav, .block-1 article, .block-2, .listing article header, .listing .work-listing h1 {
       padding: 0 .5em; } }
 
 .full {
@@ -1592,21 +1585,16 @@ section[class*="block-"] {
       min-height: 16em; } }
 
 .block-1 {
-  margin-top: 3em;
-  margin-bottom: 7.5em; }
+  margin-top: 3em; }
   .block-1 article {
-    max-width: 900px;
-    margin: 0 auto;
     float: none;
     padding: 3em 0;
     position: relative;
     height: 100%;
-    font-weight: 500 !important; }
+    font-weight: 500; }
     @media screen and (max-width: 520px) {
       .block-1 article {
         padding: 0 1em; } }
-  .block-1 p {
-    line-height: 40px; }
   .block-1 a {
     font-size: 1.25em;
     color: #ec6f66;
@@ -1619,9 +1607,8 @@ section[class*="block-"] {
       -moz-transition: color 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       transition: color 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
   .block-1 h1 {
-    font-size: 2em;
+    font-size: 1.75em;
     margin-top: 1em;
-    font-weight: regular;
     float: left;
     display: block;
     margin-right: 2.85714%;
@@ -1838,8 +1825,7 @@ section[class*="block-"] {
       position: relative;
       max-width: 90%;
       font-size: 1.25em;
-      font-weight: bold;
-      font-weight: 500; }
+      font-weight: bold; }
 
 .post div {
   display: block; }
@@ -1916,7 +1902,7 @@ section[class*="block-"] {
   margin-right: 2.85714%;
   width: 87.14286%;
   margin-left: 6.42857%;
-  font-family: "Klinic Slab", "Georgia", serif; }
+  font-family: "CMU Concrete", "Georgia", serif; }
   .post article:last-child {
     margin-right: 0; }
   .post article header {
@@ -1924,9 +1910,7 @@ section[class*="block-"] {
     .post article header h1:first-of-type {
       text-transform: capitalize;
       font-weight: bold;
-      font-style: normal;
-      font-style: normal;
-      font-weight: 500; }
+      font-style: normal; }
   .post article .no-bg-img {
     margin-top: 4.5em; }
   .post article img {
@@ -2203,7 +2187,7 @@ p a:focus::before {
       position: relative; }
       .listing .work-listing li:first-of-type {
         background: #4a4c52;
-        font-weight: bold;
+        font-style: italic;
         color: #cbccd0;
         font-weight: normal;
         width: 100%;
@@ -2222,7 +2206,7 @@ p a:focus::before {
       margin: 0 auto; }
     .listing .work-listing small {
       opacity: .33;
-      font-family: "GT Walsheim", "Karla", "Myriad Pro", "Arial", sans-serif;
+      font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
       letter-spacing: 0.08em;
       margin-top: 1.5em; }
     .listing .work-listing a {
@@ -2254,7 +2238,7 @@ footer {
   left: 0;
   width: 100%;
   display: block;
-  font-family: "GT Walsheim", "Karla", "Myriad Pro", "Arial", sans-serif;
+  font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
   text-align: center;
   width: 100%;
   height: 144px;
@@ -2358,8 +2342,6 @@ footer {
       -webkit-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
       -moz-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
       transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
-  .about .main-about h3 {
-    font-family: "Klinic Slab", "Georgia", serif; }
   .about .main-about li a {
     color: #282e42;
     background: -webkit-linear-gradient(white, white), -webkit-linear-gradient(white, white), -webkit-linear-gradient(#282e42, #282e42);
@@ -2423,7 +2405,7 @@ footer {
     display: block;
     margin-right: 8%;
     width: 82%;
-    font-family: "GT Walsheim", "Karla", "Myriad Pro", "Arial", sans-serif;
+    font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
     text-align: right; }
