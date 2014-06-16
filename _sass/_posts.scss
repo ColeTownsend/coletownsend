@@ -79,6 +79,10 @@
         text-transform: capitalize;
         font-weight: bold;
         font-style: normal;
+        @if $head == $ss-alt-head {
+          font-style: normal;
+          font-weight: 500;
+        } 
       }
     }
     .no-bg-img {
