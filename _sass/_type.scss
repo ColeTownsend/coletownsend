@@ -7,14 +7,12 @@ body {
   font-size: $base-font-size;
   -webkit-font-smoothing: antialiased;
   line-height: $base-line-height;
-  font-weight: 500;
 }
 
 h1,%h1, h2,%h2, h3,%h3, h4,%h4, h5,%h5, h6,%h6 {
   font-family: $header-font-family;
   line-height: 1.25em;
   margin: 0;
-  font-weight: normal;
   text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 
@@ -61,7 +59,7 @@ h5, %h5 {
   font-size: $fs6; // 20 * 1.25 = 25px
   line-height: 1.5rem;
     @if $head == '$ss-alt-head' {
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 
@@ -237,9 +235,6 @@ cite {
 //   }
 // }
   
-.red {
-  color: $red;
-}
 
 /* Article Headings
    ========================================================================== */
@@ -254,7 +249,7 @@ cite {
       margin-top: 1.5rem;
       @if $head == $ss-alt-head {
         font-style: normal;
-        font-weight: 500;
+        font-weight: bold;
       }   
     }
     h6, %h6 {

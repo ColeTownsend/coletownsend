@@ -3,19 +3,19 @@
 
 $sans-serif: "europa","Futura", "Helvetica Neue", sans-serif;
 $ss-alt: "Karla", "Helvetica Neue", sans-serif;
-$ss-alt-head: "GT Walsheim", "Karla", "Myriad Pro", "Arial", sans-serif;
+$ss-alt-head: "GTWalsheim", "Karla", "Myriad Pro", "Arial", sans-serif;
 $sans-light: $sans-serif;
 $sans-medium: $sans-serif;
 $sans-bold: $sans-serif;
 $serif: "CMU Concrete","Georgia", serif;
-$serif-alt: "Klinic Slab", "Georgia", serif;
+$serif-alt: "Source Serif Pro", serif;
 
-$head: $ss-alt-head;
-$body: $serif-alt;
-$longform: $serif-alt;
+$head: $serif;
+$body: $serif;
+$longform: $serif;
 
-$base-font-family: $ss-alt-head;
-$header-font-family: $ss-alt-head;
+$base-font-family: $sans-serif;
+$header-font-family: $head;
 
 
 // Sizes
