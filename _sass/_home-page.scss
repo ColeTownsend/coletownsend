@@ -10,15 +10,28 @@ section[class*="block-"] {
 // First Block
 .block-1 {
   margin-top: $base-line-height*2;
+  margin-bottom: $base-line-height*5;
   article {
-    @extend %container;
+    max-width: 900px;
+    margin: 0 auto;
     float: none;
     padding: 3em 0;
     position: relative;
     height: 100%;
-    font-weight: 500;
+    font-weight: 500 !important;
+    @if $head == '$ss-alt-head' {
+      font-weight: normal;
+    }
     @include media($small) {
       padding: 0 1em;
+    }
+  }
+  p {
+    @extend %h2;
+    line-height: 40px;
+    @if $head == '$ss-alt-head' {
+      font-family: "GT Walsheim";
+      font-weight: normal;
     }
   }
   a {
@@ -31,19 +44,13 @@ section[class*="block-"] {
     }
   }
   h1 {
-    font-size: $fs3;
+    font-size: $fs2;
     margin-top: 1em;
+    font-weight: regular;
     @include span-columns(8);
     @include media($medium) {
       font-size: $fs5;
     }
-  p {
-    @extend %h4;
-    @if $head == '$ss-alt-head' {
-      font-family: "GT Walsheim";
-      font-weight: normal;
-    }
-  }
     @include media($small) {
       display: block;
       @include span-columns(4);
