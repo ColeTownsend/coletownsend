@@ -1,5 +1,5 @@
 .home header[role="main-header"] {
-  background: #ebebea;
+  background: $red-gray;
   nav {
   border-bottom: 2px solid rgba(0,0,0,.1);
   }
@@ -18,10 +18,11 @@ section[class*="block-"] {
 .block-1 {
   padding: $base-line-height 0;
   padding-bottom: $base-line-height*2;
-  background: #ebebea;
+  background: $red-gray;
   margin-bottom: $base-line-height*2;
   @include media($small) { 
     margin-bottom: 0;
+    padding-bottom: 0;
   }
   article {
     @extend %container;
@@ -35,11 +36,14 @@ section[class*="block-"] {
     }
   }
   p {
-    @extend %h2;
+    color: $base-font-color;
+    @extend %h3;
     line-height: 1.5;
+    padding: 0 3rem;
     @include media($small) {
       font-size: $fs6;
       line-height: 1.5;
+      padding: 0;
     }
   }
   a:hover {
@@ -172,7 +176,7 @@ section[class*="block-"] {
         z-index: 1;
       }      
       &:hover {
-        @include transition(all .1s $base-transition-timing);
+        @include transition(all .2s $ease-in-out-quad);
       }
       a {
         width: 100%;
@@ -181,6 +185,13 @@ section[class*="block-"] {
         display: block;
         position: absolute;
         color: transparentize($white, 1);
+        @include transition(all .2s $ease-in-out-quad); 
+        &.shown {
+          color: $white;
+          @extend %red-gradient;
+          box-shadow: none;
+          @include transition(all .2s $ease-in-out-quad);
+        }
         box-shadow: inset $base-border-color 0 0 0 1px;
         // text-shadow: 0 1px 1px rgba(0,0,0,.16);
         // @include linear-gradient(to top, rgba(0,0,0,.04), rgba(0,0,0,.02));
@@ -194,12 +205,11 @@ section[class*="block-"] {
           box-shadow: none;
         }
         &:hover {
-          color: $red;
+          color: $white;
           text-shadow: none;
-          background: $base-body-color;
+          @extend %red-gradient;
           // @include linear-gradient(to top, rgba(0,0,0,.02), rgba(0,0,0,0));
-          box-shadow: inset $red 0 0 0 2px;
-          @include transition(all .1s $ease-in-out-quad);
+          @include transition(all .2s $ease-in-out-quad);
           @include media($small) {
             text-shadow: 0 1px 1px rgba(0,0,0,.2);
           }

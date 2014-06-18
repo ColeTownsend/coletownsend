@@ -1,3 +1,9 @@
+.block-2 article .work-grid a.shown, .block-2 article .work-grid a:hover {
+  background-image: -o-linear-gradient(-45deg, #ec6f66 0%, #ff928b 100%);
+  background-image: -moz-linear-gradient(-45deg, #ec6f66 0%, #ff928b 100%);
+  background-image: -ms-linear-gradient(-45deg, #ec6f66 0%, #ff928b 100%);
+  background-image: linear-gradient(-135deg, #ec6f66 0%, #ff928b 100%); }
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
@@ -1280,7 +1286,7 @@ body {
   -webkit-font-smoothing: antialiased;
   line-height: 1.5em; }
 
-h1, h2, .block-1 p, h3, h4, h5, h6, figcaption, .contact p:first-child, .contact label {
+h1, h2, h3, .block-1 p, h4, h5, h6, figcaption, .contact p:first-child, .contact label {
   font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   line-height: 1.25em;
   margin: 0;
@@ -1294,12 +1300,12 @@ h1 {
   line-height: 1.1em;
   margin-bottom: .42em; }
 
-h2, .block-1 p {
+h2 {
   font-size: 1.75em;
   line-height: 1.25em;
   margin-bottom: .35em; }
 
-h3 {
+h3, .block-1 p {
   font-size: 1.5em;
   line-height: 1.35em;
   margin-bottom: 0.875em; }
@@ -1407,7 +1413,7 @@ span.accent {
 
 /* Copy
    ========================================================================== */
-.post hr, .post h1, .post h2, .post .block-1 p, .block-1 .post p, .post h3, .post h4, .post h5, .post h6, .post figcaption, .post .contact p:first-child, .contact .post p:first-child, .post .contact label, .contact .post label, .post article header, .post article p, .post article ul, .post article ul ol {
+.post hr, .post h1, .post h2, .post h3, .post .block-1 p, .block-1 .post p, .post h4, .post h5, .post h6, .post figcaption, .post .contact p:first-child, .contact .post p:first-child, .post .contact label, .contact .post label, .post article header, .post article p, .post article ul, .post article ul ol {
   float: left;
   display: block;
   margin-right: 1.69492%;
@@ -1415,16 +1421,16 @@ span.accent {
   margin-left: 16.94915%;
   float: none;
   position: relative; }
-  .post hr:last-child, .post h1:last-child, .post h2:last-child, .post .block-1 p:last-child, .block-1 .post p:last-child, .post h3:last-child, .post h4:last-child, .post h5:last-child, .post h6:last-child, .post figcaption:last-child, .post .contact p:last-child:first-child, .contact .post p:last-child:first-child, .post .contact label:last-child, .contact .post label:last-child, .post article header:last-child, .post article p:last-child, .post article ul:last-child, .post article ul ol:last-child {
+  .post hr:last-child, .post h1:last-child, .post h2:last-child, .post h3:last-child, .post .block-1 p:last-child, .block-1 .post p:last-child, .post h4:last-child, .post h5:last-child, .post h6:last-child, .post figcaption:last-child, .post .contact p:last-child:first-child, .contact .post p:last-child:first-child, .post .contact label:last-child, .contact .post label:last-child, .post article header:last-child, .post article p:last-child, .post article ul:last-child, .post article ul ol:last-child {
     margin-right: 0; }
   @media screen and (max-width: 640px) {
-    .post hr, .post h1, .post h2, .post .block-1 p, .block-1 .post p, .post h3, .post h4, .post h5, .post h6, .post figcaption, .post .contact p:first-child, .contact .post p:first-child, .post .contact label, .contact .post label, .post article header, .post article p, .post article ul, .post article ul ol {
+    .post hr, .post h1, .post h2, .post h3, .post .block-1 p, .block-1 .post p, .post h4, .post h5, .post h6, .post figcaption, .post .contact p:first-child, .contact .post p:first-child, .post .contact label, .contact .post label, .post article header, .post article p, .post article ul, .post article ul ol {
       float: left;
       display: block;
       margin-right: 1.69492%;
       width: 100%;
       margin-left: 0%; }
-      .post hr:last-child, .post h1:last-child, .post h2:last-child, .post .block-1 p:last-child, .block-1 .post p:last-child, .post h3:last-child, .post h4:last-child, .post h5:last-child, .post h6:last-child, .post figcaption:last-child, .post .contact p:last-child:first-child, .contact .post p:last-child:first-child, .post .contact label:last-child, .contact .post label:last-child, .post article header:last-child, .post article p:last-child, .post article ul:last-child, .post article ul ol:last-child {
+      .post hr:last-child, .post h1:last-child, .post h2:last-child, .post h3:last-child, .post .block-1 p:last-child, .block-1 .post p:last-child, .post h4:last-child, .post h5:last-child, .post h6:last-child, .post figcaption:last-child, .post .contact p:last-child:first-child, .contact .post p:last-child:first-child, .post .contact label:last-child, .contact .post label:last-child, .post article header:last-child, .post article p:last-child, .post article ul:last-child, .post article ul ol:last-child {
         margin-right: 0; } }
 
 /* Casing
@@ -1448,7 +1454,7 @@ h6, figcaption, .contact p:first-child, .contact label, small, .post h6, .post f
   font-weight: 400;
   margin-left: 0;
   margin-right: 0; }
-.post h2, .post .block-1 p, .block-1 .post p, .post h3, .post h4, .post h5 {
+.post h2, .post h3, .post .block-1 p, .block-1 .post p, .post h4, .post h5 {
   font-weight: normal;
   margin-top: 1.5rem; }
 .post h6, .post figcaption, .post .contact p:first-child, .contact .post p:first-child, .post .contact label, .contact .post label {
@@ -1461,6 +1467,14 @@ h6, figcaption, .contact p:first-child, .contact label, small, .post h6, .post f
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+  * ::selection {
+    background: #ec6f66;
+    /* Safari */
+    color: white; }
+  * ::-moz-selection {
+    background: #ec6f66;
+    /* Firefox */
+    color: white; }
 
 html {
   font-size: 100%;
@@ -1483,7 +1497,7 @@ html {
 
 body {
   width: 100%;
-  padding: 0 0 120px;
+  padding: 0 0 9em;
   background: white;
   font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   color: #4a4c52;
@@ -1548,7 +1562,11 @@ header[role="main-header"] {
   width: 100%;
   color: #4a4c52;
   font-weight: 500;
-  position: relative; }
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
   @media screen and (max-width: 640px) {
     header[role="main-header"] {
       padding: 1em; } }
@@ -1563,7 +1581,7 @@ header[role="main-header"] {
         display: block;
         float: none;
         text-align: center;
-        margin-bottom: 1rem; } }
+        margin-bottom: .5rem; } }
   header[role="main-header"] a {
     line-height: 90px;
     color: #4a4c52;
@@ -1591,7 +1609,8 @@ header[role="main-header"] {
           display: block;
           float: none;
           width: 100%;
-          text-align: center; } }
+          text-align: center;
+          margin-bottom: .5rem; } }
     header[role="main-header"] nav ul li {
       font-size: 16px;
       letter-spacing: 1px;
@@ -1631,7 +1650,8 @@ section[class*="block-"] {
   margin-bottom: 3em; }
   @media screen and (max-width: 640px) {
     .block-1 {
-      margin-bottom: 0; } }
+      margin-bottom: 0;
+      padding-bottom: 0; } }
   .block-1 article {
     float: none;
     padding: 3em 0;
@@ -1642,11 +1662,14 @@ section[class*="block-"] {
       .block-1 article {
         padding: 0 1em; } }
   .block-1 p {
-    line-height: 1.5; }
+    color: #4a4c52;
+    line-height: 1.5;
+    padding: 0 3rem; }
     @media screen and (max-width: 640px) {
       .block-1 p {
         font-size: 1em;
-        line-height: 1.5; } }
+        line-height: 1.5;
+        padding: 0; } }
   .block-1 a:hover {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -1809,9 +1832,9 @@ section[class*="block-"] {
       right: 0;
       z-index: 1; }
     .block-2 article .work-grid:hover {
-      -webkit-transition: all 0.1s cubic-bezier(0.25, 0.25, 0.325, 1.39);
-      -moz-transition: all 0.1s cubic-bezier(0.25, 0.25, 0.325, 1.39);
-      transition: all 0.1s cubic-bezier(0.25, 0.25, 0.325, 1.39); }
+      -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      -moz-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
     .block-2 article .work-grid a {
       width: 100%;
       height: 100%;
@@ -1819,10 +1842,19 @@ section[class*="block-"] {
       display: block;
       position: absolute;
       color: rgba(255, 255, 255, 0);
+      -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      -moz-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       box-shadow: inset #e6e6e8 0 0 0 1px;
       -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -moz-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+      .block-2 article .work-grid a.shown {
+        color: white;
+        box-shadow: none;
+        -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        -moz-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
       @media screen and (max-width: 640px) {
         .block-2 article .work-grid a {
           background: none;
@@ -1831,13 +1863,11 @@ section[class*="block-"] {
           text-shadow: 0 1px 1px rgba(0, 0, 0, 0.16);
           box-shadow: none; } }
       .block-2 article .work-grid a:hover {
-        color: #ec6f66;
+        color: white;
         text-shadow: none;
-        background: white;
-        box-shadow: inset #ec6f66 0 0 0 2px;
-        -webkit-transition: all 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-        -moz-transition: all 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-        transition: all 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+        -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        -moz-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
         @media screen and (max-width: 640px) {
           .block-2 article .work-grid a:hover {
             text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); } }
@@ -1960,6 +1990,9 @@ section[class*="block-"] {
         content: "";
         display: table;
         clear: both; }
+    @media screen and (max-width: 640px) {
+      .post article figure.grid-2 figcaption, .post article figure.grid-3 figcaption, .post article figure.grid-4 figcaption {
+        display: none; } }
     .post article figure.grid-2 {
       float: left;
       display: block;
@@ -2206,15 +2239,14 @@ p a:focus::before {
     .listing .work-listing li {
       list-style-type: none;
       list-style-type: none;
-      font-weight: bold;
+      font-weight: normal;
       background: #e6e6e8;
       position: relative;
       position: relative; }
       .listing .work-listing li:first-of-type {
         background: #4a4c52;
-        font-style: italic;
         color: #cbccd0;
-        font-weight: normal;
+        font-weight: 500;
         width: 100%;
         opacity: 1;
         height: 100%;
@@ -2226,12 +2258,14 @@ p a:focus::before {
       font-size: 2.25em;
       text-transform: capitalize;
       font-variant: normal;
+      font-weight: normal;
       display: block;
       max-width: 800px;
       margin: 0 auto; }
     .listing .work-listing small {
       opacity: .33;
-      font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
+      font-family: "Inconsolata", "Menlo";
+      font-weight: bold;
       letter-spacing: 0.08em;
       margin-top: 1.5em; }
     .listing .work-listing a {
@@ -2266,7 +2300,7 @@ footer {
   font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   text-align: center;
   width: 100%;
-  height: 144px;
+  height: 9em;
   background: #232830;
   color: white; }
   footer a {

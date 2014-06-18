@@ -20,6 +20,9 @@ $base-font-size: 1em;
 $base-line-height: $base-font-size * 1.5;
 $line-height: $base-line-height;
 
+// Footer Height
+$footer-height: 9em;
+
 
 // Border Radii
 ///////////////////////////////////////////////////////////////////////////////
@@ -69,6 +72,12 @@ $orange:  #FF851B;
 $fuchsia: #F012BE;
 $maroon:  #85144B;
 $red: #EC6F66;
+%red-gradient {
+	background-image: -o-linear-gradient(-45deg, #EC6F66 0%, #FF928B 100%);
+	background-image: -moz-linear-gradient(-45deg, #EC6F66 0%, #FF928B 100%);
+	background-image: -ms-linear-gradient(-45deg, #EC6F66 0%, #FF928B 100%);
+	background-image: linear-gradient(-135deg, #EC6F66 0%, #FF928B 100%);
+}
 
 // Ebony and Ivory
 $black:  $blue-gray;
@@ -78,6 +87,7 @@ $white: #ffffff;
 $real-black: #232830;
 $dark-gray: lighten($black, 32%);
 $medium-gray: lighten($black, 48%);
+$red-gray: #ebebea;
 $light-gray: lighten($black, 60%);
 $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;

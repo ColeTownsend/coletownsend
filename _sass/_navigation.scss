@@ -10,6 +10,7 @@ header[role="main-header"] {
   // -moz-box-shadow:    0px 1px 0px 0px rgba(243,243,243,0.5);
   // -webkit-box-shadow: 0px 1px 0px 0px rgba(243,243,243,0.5);
   // box-shadow:         0px 1px 0px 0px rgba(243,243,243,0.5);
+  @include user-select();
   @include media($small) {
     padding: 1em;
   }
@@ -24,7 +25,7 @@ header[role="main-header"] {
       display: block;
       float: none;
       text-align: center;
-      margin-bottom: 1rem;
+      margin-bottom: .5rem;
     }
   }
   a {
@@ -53,6 +54,7 @@ header[role="main-header"] {
         float: none;
         width: 100%;
         text-align: center;
+        margin-bottom: .5rem;
       }
     }
     ul li {

@@ -2,6 +2,14 @@
 
 * {
   @include box-sizing(border-box);
+  ::selection {
+    background: $red; /* Safari */
+    color: white;
+  }
+  ::-moz-selection {
+    background: $red; /* Firefox */
+    color: white;
+  }
 }
 
 html {
@@ -26,7 +34,7 @@ html {
 
 body {
   width: 100%;
-  padding: 0 0 120px;
+  padding: 0 0 $footer-height;
   background: $white;
   font-family: $body;
   @if $body == $ss-alt {
