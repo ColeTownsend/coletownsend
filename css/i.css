@@ -1275,26 +1275,26 @@ a {
 
 body {
   color: #4a4c52;
-  font-family: "CMU Concrete", "Georgia", serif;
+  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
   line-height: 1.5em; }
 
-h1, h2, h3, h4, .block-1 h1 p, h5, h6, figcaption, .contact p:first-child, .contact label {
-  font-family: "CMU Concrete", "Georgia", serif;
+h1, h2, .block-1 p, h3, h4, h5, h6, figcaption, .contact p:first-child, .contact label {
+  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   line-height: 1.25em;
   margin: 0;
   text-rendering: optimizeLegibility; }
 
 h5, h6, figcaption, .contact p:first-child, .contact label {
-  font-family: "europa", "Futura", "Helvetica Neue", sans-serif; }
+  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif; }
 
 h1 {
   font-size: 2.25em;
   line-height: 1.1em;
   margin-bottom: .42em; }
 
-h2 {
+h2, .block-1 p {
   font-size: 1.75em;
   line-height: 1.25em;
   margin-bottom: .35em; }
@@ -1304,7 +1304,7 @@ h3 {
   line-height: 1.35em;
   margin-bottom: 0.875em; }
 
-h4, .block-1 h1 p {
+h4 {
   font-size: 1.25em;
   line-height: 1.5rem; }
 
@@ -1339,12 +1339,12 @@ p + p {
 
 hr {
   display: block;
-  margin: 0 auto;
   width: 100%;
   height: 2px;
   border: none;
   background: #e6e6e8;
-  margin: 0.5em auto; }
+  margin-top: 0.5em auto;
+  margin-bottom: 0.5em auto; }
 
 h6 + hr {
   margin-top: -1px; }
@@ -1372,7 +1372,14 @@ blockquote {
   font-style: italic;
   margin: 1.5em 0;
   margin-left: 1.5em;
-  padding-left: 1.5em; }
+  padding-left: 1.5em;
+  float: left;
+  display: block;
+  margin-right: 1.69492%;
+  width: 83.05085%;
+  margin-left: 8.47458%; }
+  blockquote:last-child {
+    margin-right: 0; }
 
 small {
   font-size: 0.6em;
@@ -1395,11 +1402,34 @@ cite {
   cite:before {
     content: '\2014 \00A0'; }
 
+span.accent {
+  color: #ec6f66; }
+
 /* Copy
    ========================================================================== */
+.post hr, .post h1, .post h2, .post .block-1 p, .block-1 .post p, .post h3, .post h4, .post h5, .post h6, .post figcaption, .post .contact p:first-child, .contact .post p:first-child, .post .contact label, .contact .post label, .post article header, .post article p, .post article ul, .post article ul ol {
+  float: left;
+  display: block;
+  margin-right: 1.69492%;
+  width: 66.10169%;
+  margin-left: 16.94915%;
+  float: none;
+  position: relative; }
+  .post hr:last-child, .post h1:last-child, .post h2:last-child, .post .block-1 p:last-child, .block-1 .post p:last-child, .post h3:last-child, .post h4:last-child, .post h5:last-child, .post h6:last-child, .post figcaption:last-child, .post .contact p:last-child:first-child, .contact .post p:last-child:first-child, .post .contact label:last-child, .contact .post label:last-child, .post article header:last-child, .post article p:last-child, .post article ul:last-child, .post article ul ol:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 640px) {
+    .post hr, .post h1, .post h2, .post .block-1 p, .block-1 .post p, .post h3, .post h4, .post h5, .post h6, .post figcaption, .post .contact p:first-child, .contact .post p:first-child, .post .contact label, .contact .post label, .post article header, .post article p, .post article ul, .post article ul ol {
+      float: left;
+      display: block;
+      margin-right: 1.69492%;
+      width: 100%;
+      margin-left: 0%; }
+      .post hr:last-child, .post h1:last-child, .post h2:last-child, .post .block-1 p:last-child, .block-1 .post p:last-child, .post h3:last-child, .post h4:last-child, .post h5:last-child, .post h6:last-child, .post figcaption:last-child, .post .contact p:last-child:first-child, .contact .post p:last-child:first-child, .post .contact label:last-child, .contact .post label:last-child, .post article header:last-child, .post article p:last-child, .post article ul:last-child, .post article ul ol:last-child {
+        margin-right: 0; } }
+
 /* Casing
    ========================================================================== */
-h6, figcaption, .contact p:first-child, .contact label, small, .post article h6, .post article figcaption, .post article .contact label, .contact .post article label, header[role="main-header"] hgroup, .post .description .label, .listing .work-listing small {
+h6, figcaption, .contact p:first-child, .contact label, small, .post h6, .post figcaption, .post .contact label, .contact .post label, .post .description .label, .listing .work-listing small {
   text-transform: uppercase; }
 
 /* Tracking
@@ -1412,12 +1442,16 @@ h6, figcaption, .contact p:first-child, .contact label, small, .post article h6,
    ========================================================================== */
 /* Article Headings
    ========================================================================== */
-.post article:first-child {
+.post:first-child {
   margin-top: 0; }
-.post article h2, .post article h3, .post article h4, .post article .block-1 h1 p, .block-1 h1 .post article p, .post article h5 {
-  font-weight: bold;
+.post h1 {
+  font-weight: 400;
+  margin-left: 0;
+  margin-right: 0; }
+.post h2, .post .block-1 p, .block-1 .post p, .post h3, .post h4, .post h5 {
+  font-weight: normal;
   margin-top: 1.5rem; }
-.post article h6, .post article figcaption, .post article .contact p:first-child, .contact .post article p:first-child, .post article .contact label, .contact .post article label {
+.post h6, .post figcaption, .post .contact p:first-child, .contact .post p:first-child, .post .contact label, .contact .post label {
   font-style: normal;
   font-weight: bold;
   margin-top: 1.5rem;
@@ -1434,7 +1468,7 @@ html {
   position: relative;
   font-weight: normal;
   -webkit-font-smoothing: antialiased; }
-  @media screen and (max-width: 520px) {
+  @media screen and (max-width: 640px) {
     html {
       font-size: 87.5%; } }
   @media screen and (max-width: 800px) {
@@ -1451,7 +1485,7 @@ body {
   width: 100%;
   padding: 0 0 120px;
   background: white;
-  font-family: "CMU Concrete", "Georgia", serif;
+  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   color: #4a4c52;
   text-size-adjust: 100%;
   overflow-x: hidden !important; }
@@ -1482,7 +1516,7 @@ a[data="disabled"] {
 
 /* Site Architecture */
 .wrap, header[role="main-header"] nav, .block-1 article, .block-2, .listing article header, .listing .work-listing h1 {
-  max-width: 36em;
+  max-width: 48em;
   margin-left: auto;
   margin-right: auto;
   margin: 0 auto; }
@@ -1490,7 +1524,7 @@ a[data="disabled"] {
     content: "";
     display: table;
     clear: both; }
-  @media screen and (max-width: 520px) {
+  @media screen and (max-width: 640px) {
     .wrap, header[role="main-header"] nav, .block-1 article, .block-2, .listing article header, .listing .work-listing h1 {
       padding: 0 0; } }
   @media screen and (max-width: 800px) {
@@ -1510,32 +1544,33 @@ a[data="disabled"] {
   margin-top: 3em; }
 
 header[role="main-header"] {
-  font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
+  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   width: 100%;
   color: #4a4c52;
-  font-weight: 600;
+  font-weight: 500;
   position: relative; }
-  @media screen and (max-width: 520px) {
+  @media screen and (max-width: 640px) {
     header[role="main-header"] {
       padding: 1em; } }
   header[role="main-header"] hgroup {
-    font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
-    font-size: 0.6em;
-    letter-spacing: 2px;
+    font-size: 16px;
+    letter-spacing: 1px;
     float: left;
     position: relative;
     margin-bottom: 0; }
-    @media screen and (max-width: 520px) {
+    @media screen and (max-width: 640px) {
       header[role="main-header"] hgroup {
         display: block;
-        float: none; } }
+        float: none;
+        text-align: center;
+        margin-bottom: 1rem; } }
   header[role="main-header"] a {
     line-height: 90px;
     color: #4a4c52;
     -webkit-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
     -moz-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
     transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
-    @media screen and (max-width: 520px) {
+    @media screen and (max-width: 640px) {
       header[role="main-header"] a {
         line-height: .5rem; } }
     header[role="main-header"] a:hover {
@@ -1544,23 +1579,23 @@ header[role="main-header"] {
       -moz-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
       transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
   header[role="main-header"] nav {
+    padding: 0 3rem;
     display: block;
     position: relative; }
     header[role="main-header"] nav ul {
       float: right;
       margin-bottom: 0;
       margin-top: 0; }
-      @media screen and (max-width: 520px) {
+      @media screen and (max-width: 640px) {
         header[role="main-header"] nav ul {
           display: block;
-          float: none; }
-          header[role="main-header"] nav ul li {
-            text-align: left; } }
+          float: none;
+          width: 100%;
+          text-align: center; } }
     header[role="main-header"] nav ul li {
-      font-size: 0.6em;
-      letter-spacing: 2px;
+      font-size: 16px;
+      letter-spacing: 1px;
       text-align: right;
-      text-transform: uppercase;
       display: inline-block;
       position: relative;
       margin-left: 2em; }
@@ -1576,62 +1611,53 @@ header[role="main-header"] {
           -moz-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
           transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
 
+.home header[role="main-header"] {
+  background: #ebebea; }
+  .home header[role="main-header"] nav {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); }
+
 section[class*="block-"] {
   min-height: 19em;
   position: relative;
   overflow: hidden; }
-  @media screen and (max-width: 520px) {
+  @media screen and (max-width: 640px) {
     section[class*="block-"] {
       min-height: 16em; } }
 
 .block-1 {
-  margin-top: 3em; }
+  padding: 1.5em 0;
+  padding-bottom: 3em;
+  background: #ebebea;
+  margin-bottom: 3em; }
+  @media screen and (max-width: 640px) {
+    .block-1 {
+      margin-bottom: 0; } }
   .block-1 article {
     float: none;
     padding: 3em 0;
     position: relative;
     height: 100%;
-    font-weight: 500; }
-    @media screen and (max-width: 520px) {
+    font-weight: 300; }
+    @media screen and (max-width: 640px) {
       .block-1 article {
         padding: 0 1em; } }
-  .block-1 a {
-    font-size: 1.25em;
-    color: #ec6f66;
-    -webkit-transition: color 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-    -moz-transition: color 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-    transition: color 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-    .block-1 a:hover {
-      color: white;
-      -webkit-transition: color 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-      -moz-transition: color 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-      transition: color 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-  .block-1 h1 {
-    font-size: 1.75em;
-    margin-top: 1em;
-    float: left;
-    display: block;
-    margin-right: 2.85714%;
-    width: 100%; }
-    .block-1 h1:last-child {
-      margin-right: 0; }
-    @media screen and (max-width: 800px) {
-      .block-1 h1 {
-        font-size: 1.25em; } }
-    @media screen and (max-width: 520px) {
-      .block-1 h1 {
-        display: block;
-        float: left;
-        display: block;
-        margin-right: 5.88235%;
-        width: 100%; }
-        .block-1 h1:last-child {
-          margin-right: 0; } }
+  .block-1 p {
+    line-height: 1.5; }
+    @media screen and (max-width: 640px) {
+      .block-1 p {
+        font-size: 1em;
+        line-height: 1.5; } }
+  .block-1 a:hover {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
 
 .block-2 {
   z-index: 100;
   padding-bottom: 3em; }
-  @media screen and (max-width: 520px) {
+  @media screen and (max-width: 640px) {
     .block-2 {
       padding-bottom: 0;
       padding: 0;
@@ -1647,7 +1673,7 @@ section[class*="block-"] {
     color: #ec6f66;
     text-align: center;
     padding-bottom: 1.5em; }
-    @media screen and (max-width: 520px) {
+    @media screen and (max-width: 640px) {
       .block-2 article .work-title {
         display: block;
         margin-top: 0;
@@ -1667,61 +1693,61 @@ section[class*="block-"] {
     transition: all 0.2s cubic-bezier(0.25, 0.25, 0.325, 1.39);
     float: left;
     display: block;
-    margin-right: 2.85714%;
-    width: 31.42857%;
+    margin-right: 1.69492%;
+    width: 23.72881%;
     margin-right: 0;
-    min-height: 18vw; }
+    min-height: 22vw; }
     .block-2 article .work-grid:last-child {
       margin-right: 0; }
     .block-2 article .work-grid:nth-child(1) {
       float: left;
       display: block;
-      margin-right: 2.85714%;
-      width: 61.42857%; }
+      margin-right: 1.69492%;
+      width: 57.62712%; }
       .block-2 article .work-grid:nth-child(1):last-child {
         margin-right: 0; }
     .block-2 article .work-grid:nth-child(2) {
       float: left;
       display: block;
-      margin-right: 2.85714%;
-      width: 35.71429%;
+      margin-right: 1.69492%;
+      width: 40.67797%;
       margin-right: 0; }
       .block-2 article .work-grid:nth-child(2):last-child {
         margin-right: 0; }
     .block-2 article .work-grid:nth-child(3) {
       float: left;
       display: block;
-      margin-right: 2.85714%;
-      width: 35.71429%; }
+      margin-right: 1.69492%;
+      width: 40.67797%; }
       .block-2 article .work-grid:nth-child(3):last-child {
         margin-right: 0; }
     .block-2 article .work-grid:nth-child(4) {
       float: left;
       display: block;
-      margin-right: 2.85714%;
-      width: 61.42857%;
+      margin-right: 1.69492%;
+      width: 57.62712%;
       margin-right: 0; }
       .block-2 article .work-grid:nth-child(4):last-child {
         margin-right: 0; }
     .block-2 article .work-grid:nth-child(5) {
       float: left;
       display: block;
-      margin-right: 2.85714%;
+      margin-right: 1.69492%;
       width: 100%; }
       .block-2 article .work-grid:nth-child(5):last-child {
         margin-right: 0; }
     .block-2 article .work-grid:nth-child(6) {
       float: left;
       display: block;
-      margin-right: 2.85714%;
-      width: 35.71429%; }
+      margin-right: 1.69492%;
+      width: 40.67797%; }
       .block-2 article .work-grid:nth-child(6):last-child {
         margin-right: 0; }
     .block-2 article .work-grid:nth-child(7) {
       float: left;
       display: block;
-      margin-right: 2.85714%;
-      width: 61.42857%;
+      margin-right: 1.69492%;
+      width: 57.62712%;
       margin-right: 0;
       clear: none; }
       .block-2 article .work-grid:nth-child(7):last-child {
@@ -1729,20 +1755,20 @@ section[class*="block-"] {
     .block-2 article .work-grid:nth-child(8) {
       float: left;
       display: block;
-      margin-right: 2.85714%;
-      width: 61.42857%; }
+      margin-right: 1.69492%;
+      width: 57.62712%; }
       .block-2 article .work-grid:nth-child(8):last-child {
         margin-right: 0; }
     .block-2 article .work-grid:nth-child(9) {
       float: left;
       display: block;
-      margin-right: 2.85714%;
-      width: 35.71429%;
+      margin-right: 1.69492%;
+      width: 40.67797%;
       margin-right: 0;
       clear: none; }
       .block-2 article .work-grid:nth-child(9):last-child {
         margin-right: 0; }
-    @media screen and (max-width: 520px) {
+    @media screen and (max-width: 640px) {
       .block-2 article .work-grid {
         margin-bottom: 0;
         width: 100% !important;
@@ -1767,7 +1793,7 @@ section[class*="block-"] {
       top: 0;
       right: 0;
       z-index: 2; }
-      @media screen and (max-width: 520px) {
+      @media screen and (max-width: 640px) {
         .block-2 article .work-grid .colorize {
           opacity: .25; } }
     .block-2 article .work-grid .project {
@@ -1792,30 +1818,27 @@ section[class*="block-"] {
       z-index: 10;
       display: block;
       position: absolute;
-      color: #ec6f66;
-      background: white;
-      border: 2px solid #f1918a;
+      color: rgba(255, 255, 255, 0);
+      box-shadow: inset #e6e6e8 0 0 0 1px;
       -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -moz-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-      @media screen and (max-width: 520px) {
+      @media screen and (max-width: 640px) {
         .block-2 article .work-grid a {
           background: none;
           color: white;
           border: none;
-          text-shadow: 0 1px 1px rgba(0, 0, 0, 0.16); } }
+          text-shadow: 0 1px 1px rgba(0, 0, 0, 0.16);
+          box-shadow: none; } }
       .block-2 article .work-grid a:hover {
-        color: white;
-        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-        background: none;
-        background-color: rgba(0, 0, 0, 0.02);
-        background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.02), transparent);
-        background-image: linear-gradient(to top,rgba(0, 0, 0, 0.02), transparent);
-        border: none;
+        color: #ec6f66;
+        text-shadow: none;
+        background: white;
+        box-shadow: inset #ec6f66 0 0 0 2px;
         -webkit-transition: all 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         -moz-transition: all 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         transition: all 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-        @media screen and (max-width: 520px) {
+        @media screen and (max-width: 640px) {
           .block-2 article .work-grid a:hover {
             text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); } }
     .block-2 article .work-grid h1 {
@@ -1825,7 +1848,7 @@ section[class*="block-"] {
       position: relative;
       max-width: 90%;
       font-size: 1.25em;
-      font-weight: bold; }
+      font-weight: 500; }
 
 .post div {
   display: block; }
@@ -1876,7 +1899,7 @@ section[class*="block-"] {
     transition: opacity 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
 .post .description {
   color: #c6c7cb;
-  font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
+  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   margin-bottom: 0.375em; }
   .post .description div {
     line-height: 1.4em; }
@@ -1887,7 +1910,7 @@ section[class*="block-"] {
     font-size: 0.7em; }
   .post .description .tag {
     color: #9b9da4;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 0.7em;
     line-height: 18px;
     padding-left: 10px;
@@ -1897,19 +1920,21 @@ section[class*="block-"] {
       padding-left: 0; }
 .post article {
   margin-bottom: 3em;
+  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   float: left;
   display: block;
-  margin-right: 2.85714%;
-  width: 87.14286%;
-  margin-left: 6.42857%;
-  font-family: "CMU Concrete", "Georgia", serif; }
+  margin-right: 1.69492%;
+  width: 100%; }
   .post article:last-child {
     margin-right: 0; }
   .post article header {
-    margin: 3em 0; }
+    margin-top: 3em;
+    margin-bottom: 3em; }
     .post article header h1:first-of-type {
+      width: 100%;
+      float: none;
       text-transform: capitalize;
-      font-weight: bold;
+      font-weight: 500;
       font-style: normal; }
   .post article .no-bg-img {
     margin-top: 4.5em; }
@@ -1919,7 +1944,7 @@ section[class*="block-"] {
     width: auto;
     max-width: 100%;
     height: auto;
-    max-height: 21em; }
+    max-height: 30em; }
   .post article figure {
     margin: 1.5em auto; }
     .post article figure figcaption {
@@ -1938,21 +1963,20 @@ section[class*="block-"] {
     .post article figure.grid-2 {
       float: left;
       display: block;
-      margin-right: 2.85714%;
-      width: 45.35714%; }
+      margin-right: 1.69492%;
+      width: 49.15254%; }
       .post article figure.grid-2:last-child {
         margin-right: 0; }
       .post article figure.grid-2 figcaption {
         text-align: center;
         width: 100%; }
       .post article figure.grid-2 + .grid-2 {
-        margin-right: 0;
-        margin-left: 6.42857%; }
+        margin-right: 0; }
     .post article figure.grid-3 {
       float: left;
       display: block;
-      margin-right: 2.85714%;
-      width: 22.85714%; }
+      margin-right: 1.69492%;
+      width: 32.20339%; }
       .post article figure.grid-3:last-child {
         margin-right: 0; }
       .post article figure.grid-3:nth-child(3n) {
@@ -1962,8 +1986,8 @@ section[class*="block-"] {
     .post article figure.grid-4 {
       float: left;
       display: block;
-      margin-right: 2.85714%;
-      width: 22.85714%; }
+      margin-right: 1.69492%;
+      width: 23.72881%; }
       .post article figure.grid-4:last-child {
         margin-right: 0; }
       .post article figure.grid-4:nth-child(4n) {
@@ -2015,7 +2039,7 @@ section[class*="block-"] {
         border: 1px solid #e6e6e8;
         left: 140px;
         bottom: 24px; }
-      @media screen and (max-width: 520px) {
+      @media screen and (max-width: 640px) {
         .post article figure.iphone {
           width: 100%;
           height: auto;
@@ -2062,7 +2086,7 @@ section[class*="block-"] {
       background: #ec6f66; }
   .post article ul {
     list-style-type: disc;
-    margin: 0.75em;
+    left: 1rem;
     padding-left: 0.375em; }
     .post article ul a {
       color: #ec6f66;
@@ -2078,7 +2102,7 @@ section[class*="block-"] {
         color: #e64439; }
     .post article ul ol {
       list-style-type: decimal;
-      margin: 0.75em;
+      left: 1rem;
       padding-left: 0.375em; }
       .post article ul ol a {
         color: #ec6f66;
@@ -2132,7 +2156,8 @@ p a::before {
   left: -5px;
   z-index: -1;
   box-sizing: content-box;
-  padding: 0 5px;
+  padding: 0 4px;
+  margin-top: 0px;
   width: 100%;
   height: 100%;
   background-color: #ec6f66;
@@ -2206,7 +2231,7 @@ p a:focus::before {
       margin: 0 auto; }
     .listing .work-listing small {
       opacity: .33;
-      font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
+      font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
       letter-spacing: 0.08em;
       margin-top: 1.5em; }
     .listing .work-listing a {
@@ -2238,7 +2263,7 @@ footer {
   left: 0;
   width: 100%;
   display: block;
-  font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
+  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   text-align: center;
   width: 100%;
   height: 144px;
@@ -2280,7 +2305,7 @@ footer {
     -webkit-transition: all 0.2s cubic-bezier(0.25, 0.25, 0.325, 1.39);
     -moz-transition: all 0.2s cubic-bezier(0.25, 0.25, 0.325, 1.39);
     transition: all 0.2s cubic-bezier(0.25, 0.25, 0.325, 1.39);
-    font-family: "europa", "Futura", "Helvetica Neue", sans-serif !important; }
+    font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif !important; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
       .about .buffalo {
         background-image: url("../images/assets/buffalo-blue_2x.png");
@@ -2298,7 +2323,7 @@ footer {
           background-size: 2rem 2rem; } }
       .about .buffalo:hover:before {
         text-align: center;
-        font-family: "europa", "Futura", "Helvetica Neue", sans-serif !important;
+        font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif !important;
         opacity: 1;
         -webkit-transition-delay: 0s, 0s, 0s, 0.1s;
         transition-delay: 0s, 0s, 0s, 0.1s;
@@ -2357,14 +2382,15 @@ footer {
   .about aside {
     float: left;
     display: block;
-    margin-right: 2.85714%;
-    width: 61.42857%;
+    margin-right: 1.69492%;
+    width: 57.62712%;
     margin-right: 0; }
     .about aside:first-of-type {
+      margin-left: 8.47458%;
       float: left;
       display: block;
-      margin-right: 2.85714%;
-      width: 35.71429%;
+      margin-right: 1.69492%;
+      width: 23.72881%;
       min-height: 300px; }
       .about aside:first-of-type:last-child {
         margin-right: 0; }
@@ -2376,8 +2402,8 @@ footer {
   .about .profile-wrap {
     float: left;
     display: block;
-    margin-right: 8%;
-    width: 82%;
+    margin-right: 7.14286%;
+    width: 82.14286%;
     position: relative;
     top: 10px;
     margin-bottom: 1em; }
@@ -2403,9 +2429,9 @@ footer {
   .about .profile-links {
     float: left;
     display: block;
-    margin-right: 8%;
-    width: 82%;
-    font-family: "europa", "Futura", "Helvetica Neue", sans-serif;
+    margin-right: 7.14286%;
+    width: 82.14286%;
+    font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
     text-align: right; }
@@ -2447,7 +2473,7 @@ footer {
   background-size: 100% auto;
   width: 4rem;
   height: 4rem;
-  font-family: "europa", "Futura", "Helvetica Neue", sans-serif !important; }
+  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif !important; }
   .buffalo-full:hover {
     opacity: 1;
     background: url("../images/assets/buffalo-red-huge.png"), center center no-repeat;
@@ -2459,7 +2485,7 @@ footer {
     background-size: 100% auto; }
     .buffalo-full:hover:before {
       text-align: center;
-      font-family: "europa", "Futura", "Helvetica Neue", sans-serif !important;
+      font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif !important;
       opacity: 1;
       -webkit-transition-delay: 0s, 0s, 0s, 0.1s;
       transition-delay: 0s, 0s, 0s, 0.1s;
@@ -2516,8 +2542,8 @@ footer {
   padding: .5em 1em;
   float: left;
   display: block;
-  margin-right: 2.85714%;
-  width: 100%; }
+  margin-right: 1.69492%;
+  width: 66.10169%; }
   .contact label:last-child, .contact input:last-child {
     margin-right: 0; }
 .contact textarea {

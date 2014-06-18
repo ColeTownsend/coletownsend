@@ -1,21 +1,17 @@
 // Typography
 ///////////////////////////////////////////////////////////////////////////////
 
-$sans-serif: "europa","Futura", "Helvetica Neue", sans-serif;
-$ss-alt: "Karla", "Helvetica Neue", sans-serif;
-$ss-alt-head: "GTWalsheim", "Karla", "Myriad Pro", "Arial", sans-serif;
-$sans-light: $sans-serif;
-$sans-medium: $sans-serif;
-$sans-bold: $sans-serif;
-$serif: "CMU Concrete","Georgia", serif;
-$serif-alt: "Source Serif Pro", serif;
+$sans-serif: "GT Walsheim","Futura PT", "Futura", "Helvetica Neue", sans-serif;
+$serif: "Adobe Garamond Pro","Georgia", serif;
+$ss-alt: "Karla", "Futura," "Avenir Next";
+$mono: "Inconsolata", "Menlo";
 
-$head: $serif;
-$body: $serif;
-$longform: $serif;
+$head: $sans-serif;
+$body: $sans-serif;
+$longform: $sans-serif;
 
 $base-font-family: $sans-serif;
-$header-font-family: $head;
+$header-font-family: $sans-serif;
 
 
 // Sizes

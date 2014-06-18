@@ -20,11 +20,11 @@ I encourage you to give Sketch a try. The app is 10mb; neither slow download spe
 ###### Stuff I've Done
 * [HTC First](http://dribbble.com/shots/1053190-HTC-First?list=show&tag=sketch)
 * [Minimus for Sketch](http://dribbble.com/shots/969976-Sketched-Minimus?list=show&tag=sketch)
-<hr>
+
 ###### Shortcuts + Workflow
 * [Keyboard Shortcuts](http://sketchshortcuts.com/)
 * [Sketch Commands](https://github.com/bomberstudios/sketch-commands)
-<hr>
+
 ###### Assets + Scripts
 * [Community Resources on Sketch.com](http://www.bohemiancoding.com/sketch/community/)
 * [SketchMine](http://sketchmine.co/)

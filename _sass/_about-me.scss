@@ -74,10 +74,11 @@
   }
   aside {
     &:first-of-type {
-     @include span-columns(3);
-     min-height: 300px;
+      @include shift(1);
+      @include span-columns(3);
+      min-height: 300px;
     }
-    @include span-columns(5);
+    @include span-columns(7);
     @include omega();
   }
   h2 {

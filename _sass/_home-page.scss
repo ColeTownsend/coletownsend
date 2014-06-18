@@ -1,3 +1,10 @@
+.home header[role="main-header"] {
+  background: #ebebea;
+  nav {
+  border-bottom: 2px solid rgba(0,0,0,.1);
+  }
+}
+
 // Home Page
 section[class*="block-"] {
   min-height: 19em;
@@ -9,45 +16,34 @@ section[class*="block-"] {
 }
 // First Block
 .block-1 {
-  margin-top: $base-line-height*2;
+  padding: $base-line-height 0;
+  padding-bottom: $base-line-height*2;
+  background: #ebebea;
+  margin-bottom: $base-line-height*2;
+  @include media($small) { 
+    margin-bottom: 0;
+  }
   article {
     @extend %container;
     float: none;
     padding: 3em 0;
     position: relative;
     height: 100%;
-    font-weight: 500;
+    font-weight: 300;
     @include media($small) {
       padding: 0 1em;
     }
   }
-  a {
-    font-size: $fs5;
-    color: $red;
-    @include transition(color .2s $ease-in-out-quad);
-    &:hover {
-      color: $base-body-color;
-      @include transition(color .2s $ease-in-out-quad);
-    }
-  }
-  h1 {
-    font-size: $fs3;
-    margin-top: 1em;
-    @include span-columns(8);
-    @include media($medium) {
-      font-size: $fs5;
-    }
   p {
-    @extend %h4;
-    @if $head == '$ss-alt-head' {
-      font-family: "GT Walsheim";
-      font-weight: normal;
+    @extend %h2;
+    line-height: 1.5;
+    @include media($small) {
+      font-size: $fs6;
+      line-height: 1.5;
     }
   }
-    @include media($small) {
-      display: block;
-      @include span-columns(4);
-    }
+  a:hover {
+    @include transform(rotate(0deg));
   }
 }
 
@@ -92,39 +88,39 @@ section[class*="block-"] {
       text-align: center; 
       z-index: 1;
       @include transition(all .2s $base-transition-timing);    
-      @include span-columns(2.6666666);
+      @include span-columns(3);
       @include omega();
-      min-height: 18vw;
+      min-height: 22vw;
       &:nth-child(1) {
-        @include span-columns(5);
+        @include span-columns(7);
       }
       &:nth-child(2) {
-        @include span-columns(3);
+        @include span-columns(5);
         @include omega();
       }
       &:nth-child(3) {
-        @include span-columns(3);
+        @include span-columns(5);
       }
       &:nth-child(4) {
-        @include span-columns(5);
+        @include span-columns(7);
         @include omega();
       }
       &:nth-child(5) {
-        @include span-columns(8);
+        @include span-columns(12);
       }
       &:nth-child(6) {
-        @include span-columns(3);
+        @include span-columns(5);
       }
       &:nth-child(7) {
-        @include span-columns(5);
+        @include span-columns(7);
         @include omega();
         clear: none;
       }
       &:nth-child(8) {
-        @include span-columns(5);
+        @include span-columns(7);
       }
       &:nth-child(9) {
-        @include span-columns(3);
+        @include span-columns(5);
         @include omega();
         clear: none;
       }
@@ -184,10 +180,10 @@ section[class*="block-"] {
         z-index: 10;
         display: block;
         position: absolute;
-        color: $red;
-        background: $white;
-        // background: lighten($light-gray, 10%);
-        border: 2px solid lighten($red, 8%);
+        color: transparentize($white, 1);
+        box-shadow: inset $base-border-color 0 0 0 1px;
+        // text-shadow: 0 1px 1px rgba(0,0,0,.16);
+        // @include linear-gradient(to top, rgba(0,0,0,.04), rgba(0,0,0,.02));
         @include transition(all .2s $ease-in-out-quad);
         // Media
         @include media($small) {
@@ -195,13 +191,14 @@ section[class*="block-"] {
           color: $white;
           border: none;
           text-shadow: 0 1px 1px rgba(0,0,0,.16);
+          box-shadow: none;
         }
         &:hover {
-          color: $white;
-          text-shadow: 0 1px 1px rgba(0,0,0,.1);
-          background:none;
-          @include linear-gradient(to top, rgba(0,0,0,.02), rgba(0,0,0,0));
-          border: none;
+          color: $red;
+          text-shadow: none;
+          background: $base-body-color;
+          // @include linear-gradient(to top, rgba(0,0,0,.02), rgba(0,0,0,0));
+          box-shadow: inset $red 0 0 0 2px;
           @include transition(all .1s $ease-in-out-quad);
           @include media($small) {
             text-shadow: 0 1px 1px rgba(0,0,0,.2);
@@ -215,11 +212,8 @@ section[class*="block-"] {
         position: relative;
         max-width: 90%;
         font-size: $fs5;
+        font-weight: 500;
         @extend %liga;
-        font-weight: bold;
-        @if $head == $ss-alt-head {
-          font-weight: 500;
-        }
         @extend %vertical-align;
       } 
     }

@@ -1,23 +1,17 @@
 <!DOCTYPE html> 
 <html lang="en"> 
   {% include _head.html %}
-  <body>
+  <body class="home">
     {% include _navigation_main.html %}
     <section class="full block-1">
       <article>
-        <h1>Hi, I'm Cole, a web and visual designer.</h1>
-        <!-- <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6F%6C%65%40%74%77%6E%73%6E%64%2E%63%6F"></a> --> 
         <p>
-          I have a passion for clean and intuitive solutions. 
+          Cole Townsend is a visual designer. He works in a variety of media with emphasis on web and iOS. He has a passion for clean and intuitive solutions. 
           {% if site.data.work_status contains 'unavailable' %} 
-          <del>Let's work together.</del> 
-          <br> 
-          Sorry, I'm currently unavailable for work. Stick around and take a peek anyway. <a href="/work">&#8620;</a> 
+          He is currently unavailable for work, but encourages you to take a look and contact him. <a href="#work">&#8620;</a>
           {% else %} 
-          Let's work together.
-          <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6F%6C%65%40%74%77%6E%73%6E%64%2E%63%6F">&#8620;</a> 
+          He is currently available for work.<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6F%6C%65%40%74%77%6E%73%6E%64%2E%63%6F">&#8620;</a> 
           {% endif %}
-          
         </p>
       </article>
     </section>

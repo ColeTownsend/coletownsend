@@ -58,9 +58,6 @@ h4, %h4 {
 h5, %h5 {
   font-size: $fs6; // 20 * 1.25 = 25px
   line-height: 1.5rem;
-    @if $head == '$ss-alt-head' {
-    font-weight: 600;
-  }
 }
 
 h6, %h6 {
@@ -100,12 +97,16 @@ p + p {
 
 hr {
   display: block;
-  margin: 0 auto;
   width: 100%;
   height: 2px;
   border: none;
   background: $light-gray;
-  margin: ($base-line-height - 1) auto;
+  margin-top: ($base-line-height - 1) auto;
+  margin-bottom: ($base-line-height - 1) auto;
+}
+
+.post hr {
+  @extend %post-width;
 }
 
 h6 + hr {
@@ -141,6 +142,8 @@ blockquote {
   margin: $base-line-height 0;
   margin-left: $base-line-height;
   padding-left: $base-line-height;
+  @include span-columns(10);
+  @include shift(1);
 }
 
 small {
@@ -172,6 +175,11 @@ cite {
   }
 }
 
+// Color
+span.accent {
+  color: $base-accent-color;
+}
+
 /* Copy
    ========================================================================== */
 
@@ -183,6 +191,17 @@ cite {
 // }
 
 
+// widths
+%post-width {
+  @include span-columns(8 of 12);
+  @include shift(2);
+  float: none;
+  position: relative;
+  @include media($small) {
+    @include span-columns(12 of 12);
+    @include shift(0);
+  }
+}
 
 /* Casing
    ========================================================================== */
@@ -240,24 +259,26 @@ cite {
    ========================================================================== */
    
 .post {
-  article {
     &:first-child {
         margin-top: 0;
       }
+    h1 {
+      font-weight: 400;
+      @extend %post-width;
+      margin-left: 0;
+      margin-right: 0;
+    }
     h2,%h2,h3,%h3,h4,%h4,h5,%h5, {
-      font-weight: bold;
-      margin-top: 1.5rem;
-      @if $head == $ss-alt-head {
-        font-style: normal;
-        font-weight: bold;
-      }   
+      font-weight: normal;
+      margin-top: 1.5rem; 
+      @extend %post-width;
     }
     h6, %h6 {
+      @extend %post-width;
       @extend %caps-lock;
       font-style: normal;
       font-weight: bold;
       margin-top: 1.5rem;
       letter-spacing: 0.1em;
     }
-  }
 }

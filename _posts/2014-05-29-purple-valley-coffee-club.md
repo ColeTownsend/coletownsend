@@ -21,11 +21,14 @@ It also serves as a base for information to increase transparency and drive memb
 
 _This site is only accessible on Williams College wifi as it has student names. Better safe than sorry._
 
+
 ###### Details
 * typeset in GT Walsheim and Inconsolata
 * Served via Jekyll
 * styled with SCSS
 * Hosted by BlueHost
 
+<div>
 {% include _fluidbox.html grid="2" class="" alt="Home Page" url="pvcc-home.png" lowres="pvcc-home-lowres.png" cap="Landing Page" %}
 {% include _fluidbox.html grid="2" class="" alt="Home Page" url="pvcc-sign-up.png" cap="Sign Up" %}
+</div>
