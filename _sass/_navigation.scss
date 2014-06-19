@@ -45,6 +45,9 @@ header[role="main-header"] {
     padding: 0 3rem;
     display: block;
     position: relative;
+    @include media($small) {
+      padding: 0;
+    }
     ul {
       float: right;
       margin-bottom: 0;

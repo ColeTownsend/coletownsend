@@ -91,7 +91,8 @@ section[class*="block-"] {
       position: relative;
       text-align: center; 
       z-index: 1;
-      @include transition(all .2s $base-transition-timing);    
+      opacity: 0;
+      // @include transition(all .2s $base-transition-timing);    
       @include span-columns(3);
       @include omega();
       min-height: 22vw;
@@ -176,7 +177,7 @@ section[class*="block-"] {
         z-index: 1;
       }      
       &:hover {
-        @include transition(all .2s $ease-in-out-quad);
+        // @include transition(all .2s $ease-in-out-quad);
       }
       a {
         width: 100%;
@@ -185,17 +186,17 @@ section[class*="block-"] {
         display: block;
         position: absolute;
         color: transparentize($white, 1);
-        @include transition(all .2s $ease-in-out-quad); 
+        @include transition(background .2s $ease-in-out-quad); 
         &.shown {
           color: $white;
-          @extend %red-gradient;
+          @include linear-gradient(135deg, $red 20%, $orange 100%);
           box-shadow: none;
-          @include transition(all .2s $ease-in-out-quad);
+          // @include transition(all .2s $ease-in-out-quad);
         }
         box-shadow: inset $base-border-color 0 0 0 1px;
         // text-shadow: 0 1px 1px rgba(0,0,0,.16);
         // @include linear-gradient(to top, rgba(0,0,0,.04), rgba(0,0,0,.02));
-        @include transition(all .2s $ease-in-out-quad);
+        // @include transition(back .2s $ease-in-out-quad);
         // Media
         @include media($small) {
           background: none;
@@ -207,7 +208,7 @@ section[class*="block-"] {
         &:hover {
           color: $white;
           text-shadow: none;
-          @extend %red-gradient;
+          @include linear-gradient(135deg, $red 20%, $orange 100%);
           // @include linear-gradient(to top, rgba(0,0,0,.02), rgba(0,0,0,0));
           @include transition(all .2s $ease-in-out-quad);
           @include media($small) {

@@ -68,16 +68,10 @@ $green: desaturate(#00c64b, 20%);
 // Warm
 
 $yellow:  #FFDC00;
-$orange:  #FF851B;
+$orange:  #ff928b;
 $fuchsia: #F012BE;
 $maroon:  #85144B;
 $red: #EC6F66;
-%red-gradient {
-	background-image: -o-linear-gradient(-45deg, #EC6F66 0%, #FF928B 100%);
-	background-image: -moz-linear-gradient(-45deg, #EC6F66 0%, #FF928B 100%);
-	background-image: -ms-linear-gradient(-45deg, #EC6F66 0%, #FF928B 100%);
-	background-image: linear-gradient(-135deg, #EC6F66 0%, #FF928B 100%);
-}
 
 // Ebony and Ivory
 $black:  $blue-gray;
