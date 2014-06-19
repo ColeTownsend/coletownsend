@@ -14,6 +14,17 @@ I am currently {{site.data.work_status}} for work, but I always reply to emails.
 I am taking on new work! <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6F%6C%65%40%74%77%6E%73%6E%64%2E%63%6F">Let's get in touch</a>.
 {% endif %}
 
+###### Services I Offer
+- Consulting
+- Copywriting
+- Branding Packages
+- Web Design
+- Web Development
+- Illustration
+
+
+<br>
+<hr>
 ###### Elsewhere
 - [Writings]({{ site.url }}/journal) — Thoughts and the like.
 - [Twitter](http://twitter.com/{{ site.twitter }}) — Clever, sometimes.
