@@ -21,7 +21,7 @@
               <li class="work-rectangle" style="background:{% if post.accent_color %}{{ post.accent_color}}{% else %}{% endif %};">
               {% capture postTitle %}{{ post.title | strip_html }}{% endcapture %}
                 {% capture postTitleTruncate %}{{ postTitle | truncate: 22, '...' }}{% endcapture %}
-                <a data-no-instant href="{{ post.custom_url }}">
+                <a data-no-instant href="{{ post.custom_url }}" target="_blank">
                   <h2>Link: {{ postTitleTruncate }}</h2>
                   <!-- <small>{{ post.date | date: "%-d %B %Y" }}</small> -->
                   <small>{{ post.title }}</small>
