@@ -2335,6 +2335,9 @@ footer {
       .about .buffalo {
         background-image: url("../images/assets/buffalo-blue_2x.png");
         background-size: 2rem 2rem; } }
+    @media screen and (max-width: 640px) {
+      .about .buffalo {
+        display: none; } }
     .about .buffalo:hover {
       opacity: 1;
       background-image: url("../images/assets/buffalo-red.png");
@@ -2419,8 +2422,19 @@ footer {
       min-height: 300px; }
       .about aside:first-of-type:last-child {
         margin-right: 0; }
+      @media screen and (max-width: 640px) {
+        .about aside:first-of-type {
+          display: none; } }
     .about aside:last-child {
       margin-right: 0; }
+    @media screen and (max-width: 640px) {
+      .about aside {
+        float: left;
+        display: block;
+        margin-right: 5.26316%;
+        width: 100%; }
+        .about aside:last-child {
+          margin-right: 0; } }
   .about h2 {
     position: relative;
     z-index: 2; }

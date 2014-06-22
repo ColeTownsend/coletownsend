@@ -4,6 +4,9 @@
     @include user-select();
     @include retina-image("../images/assets/buffalo-blue", 2rem 2rem);
     // @include background(url("../images/assets/buffalo-grey.svg"), center center no-repeat);
+    @include media($small) {
+      display: none;
+    }
     background-repeat: no-repeat;
     opacity: .25;
     position: fixed;
@@ -75,9 +78,15 @@
       @include shift(.5);
       @include span-columns(3.5);
       min-height: 300px;
+      @include media($small) {
+        display: none;
+      }
     }
     @include span-columns(8);
     @include omega();
+    @include media($small) {
+      @include span-columns(4 of 4);
+    }
   }
   h2 {
     position: relative;
