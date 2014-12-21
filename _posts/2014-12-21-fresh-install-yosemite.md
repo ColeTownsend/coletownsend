@@ -17,7 +17,7 @@ This requires being comfortable in the command line. You've been warned. This is
 * **zsh as default in command line**
 * **numerous other settings from [thoughtbot](http://thoughtbot.com) [laptop](https://github.com/thoughtbot/laptop) and [dotfiles](https://github.com/thoughtbot/dotfiles)**
 * **all the apps that I use that are listed in the `cask-install.sh`. You can add different ones available via [caskroom.io](http://caskroom.io).**
-* Don't install any Appstore apps yet, except for the OSX Yosemiter Installer.
+* Don't install any Appstore apps yet, except for the OSX Yosemite Installer.
 
 ## Here's the game plan:
 
