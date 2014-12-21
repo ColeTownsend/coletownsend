@@ -49,6 +49,8 @@
 </header>
     
     
+    <header class="full bg-img" style="background-image: url(http://localhost:4000/images/posts/yosemite-setup.png)">
+    </header>
     <section class="wrap">
       <article data-no-instant>
         <header >
@@ -95,7 +97,8 @@
 
 <p><br></p>
 
-<p><code>sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Yosemite.app --nointeraction</code></p>
+<pre><code>sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Yosemite.app --nointeraction
+</code></pre>
 
 <p>Once the task is done, you&#8217;ll have a bootable <span class="caps">USB.</span> In Spotlight, type in &#8220;Startup Disk&#8221;. This is a system preference and you should select your <span class="caps">USB</span> which is now titled &#8220;Install <span class="caps">OSX</span>&nbsp;Yosemite&#8221;.</p>
 
@@ -125,7 +128,7 @@ brew install rcm
 
 <h4>Minor Errors and Issues with&nbsp;Dotfiles</h4>
 
-<p>I needed to reinstall xCode command line tools and agree to their user agreements because I didn&#8217;t completely follow the instructions of laptop. Follow the script blindly. <em>Once the script is finished be sure to check for the dotfiles-local directory.</em> When I ran the script it didn&#8217;t create this folder and I needed to kind of infer what I needed to do. This messed up my gitconfig stuff etc. This script can be run multiple times as well! Pretty&nbsp;neat.</p>
+<p>I needed to reinstall xCode command line tools and agree to their user agreements because I didn&#8217;t completely follow the instructions of laptop. Follow the script blindly. <em>Once the script is finished be sure to check for the dotfiles-local directory.</em> When I ran the script it didn&#8217;t create this folder and I needed to kind of infer what I needed to do. This messed up my gitconfig stuff etc. This rcup deal can be run multiple times as well! Pretty neat. What it does is create aliases for all of these files which is&nbsp;cool.</p>
 
 <h3>Installing&nbsp;Apps</h3>
 
@@ -138,6 +141,7 @@ brew install rcm
 
       </article>
     </section>
+          
     
     <footer>
   <script data-no-instant src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

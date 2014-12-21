@@ -5,9 +5,11 @@ date: "2014-12-21 13:06:34"
 category: journal
 accent_color: "#5a5a5a"
 tags: [Yosemite, OSX, development]
+image:
+  feature: yosemite-setup.png
 ---
 
-#### Disclaimer 
+#### Disclaimer
 This requires being comfortable in the command line. You've been warned. This is also opinionated to a degree. It sets you up with the following:
 <br><br>
 
@@ -31,14 +33,16 @@ This requires being comfortable in the command line. You've been warned. This is
 Download OSX Yosemite from the App Store. It installs to your Applications folder.
 
 #### The USB
-Find an 8GB USB drive. You can use a larger one but this only requires about 6GB of space. Open disk utility and erase it. The default settings are just what we need. 
+Find an 8GB USB drive. You can use a larger one but this only requires about 6GB of space. Open disk utility and erase it. The default settings are just what we need.
 
 #### The Terminal Command
 Once you have it formatted run copy and paste the code below into your terminal window. This will prompt you for your password. Give your password and wait for a while. This process takes between 30-45 minutes usually.
 
 <br>
 
-`sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Yosemite.app --nointeraction`
+```
+sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Yosemite.app --nointeraction
+```
 
 Once the task is done, you'll have a bootable USB. In Spotlight, type in "Startup Disk". This is a system preference and you should select your USB which is now titled "Install OSX Yosemite".
 
@@ -66,7 +70,7 @@ brew install rcm
 Then bust out this little command in the terminal: `env RCRC=$HOME/dotfiles/rcrc rcup`. Then to update all you need to do is `rcup` it.
 
 #### Minor Errors and Issues with Dotfiles
-I needed to reinstall xCode command line tools and agree to their user agreements because I didn't completely follow the instructions of laptop. Follow the script blindly. *Once the script is finished be sure to check for the dotfiles-local directory.* When I ran the script it didn't create this folder and I needed to kind of infer what I needed to do. This messed up my gitconfig stuff etc. This script can be run multiple times as well! Pretty neat.
+I needed to reinstall xCode command line tools and agree to their user agreements because I didn't completely follow the instructions of laptop. Follow the script blindly. *Once the script is finished be sure to check for the dotfiles-local directory.* When I ran the script it didn't create this folder and I needed to kind of infer what I needed to do. This messed up my gitconfig stuff etc. This rcup deal can be run multiple times as well! Pretty neat. What it does is create aliases for all of these files which is cool.
 
 
 ### Installing Apps

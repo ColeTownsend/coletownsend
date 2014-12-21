@@ -49,7 +49,8 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Yosemite.app --nointeraction&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Yosemite.app --nointeraction
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Once the task is done, you&amp;#8217;ll have a bootable &lt;span class=&quot;caps&quot;&gt;USB.&lt;/span&gt; In Spotlight, type in &amp;#8220;Startup Disk&amp;#8221;. This is a system preference and you should select your &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; which is now titled &amp;#8220;Install &lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt;&amp;nbsp;Yosemite&amp;#8221;.&lt;/p&gt;
 
@@ -79,7 +80,7 @@ brew install rcm
 
 &lt;h4&gt;Minor Errors and Issues with&amp;nbsp;Dotfiles&lt;/h4&gt;
 
-&lt;p&gt;I needed to reinstall xCode command line tools and agree to their user agreements because I didn&amp;#8217;t completely follow the instructions of laptop. Follow the script blindly. &lt;em&gt;Once the script is finished be sure to check for the dotfiles-local directory.&lt;/em&gt; When I ran the script it didn&amp;#8217;t create this folder and I needed to kind of infer what I needed to do. This messed up my gitconfig stuff etc. This script can be run multiple times as well! Pretty&amp;nbsp;neat.&lt;/p&gt;
+&lt;p&gt;I needed to reinstall xCode command line tools and agree to their user agreements because I didn&amp;#8217;t completely follow the instructions of laptop. Follow the script blindly. &lt;em&gt;Once the script is finished be sure to check for the dotfiles-local directory.&lt;/em&gt; When I ran the script it didn&amp;#8217;t create this folder and I needed to kind of infer what I needed to do. This messed up my gitconfig stuff etc. This rcup deal can be run multiple times as well! Pretty neat. What it does is create aliases for all of these files which is&amp;nbsp;cool.&lt;/p&gt;
 
 &lt;h3&gt;Installing&amp;nbsp;Apps&lt;/h3&gt;
 
