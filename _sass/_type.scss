@@ -82,7 +82,7 @@ p {
   // margin: 0 0 ($base-line-height * .5);
   -ms-word-break: break-all;
       word-break: break-all;
-  
+
   /* Non standard for webkit */
       word-break: break-word;
 
@@ -180,6 +180,18 @@ span.accent {
   color: $base-accent-color;
 }
 
+pre {
+	font-family: monospace;
+	padding: 1rem;
+	background: $black;
+	color: $white;
+	margin: 1rem auto;
+  @include selection {
+    background-color: $white;
+    color: $black;
+  }
+}
+
 /* Copy
    ========================================================================== */
 
@@ -253,11 +265,11 @@ span.accent {
 //     margin-top: $line-height;
 //   }
 // }
-  
+
 
 /* Article Headings
    ========================================================================== */
-   
+
 .post {
     &:first-child {
         margin-top: 0;
@@ -270,7 +282,7 @@ span.accent {
     }
     h2,%h2,h3,%h3,h4,%h4,h5,%h5, {
       font-weight: normal;
-      margin-top: 1.5rem; 
+      margin-top: 1.5rem;
       @extend %post-width;
     }
     h6, %h6 {

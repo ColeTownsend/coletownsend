@@ -36,7 +36,7 @@ include:  ['.htaccess']
 
 timezone:    America/New_York
 future:      true
-highlighter:    true
+highlighter: pygments
 markdown: rdiscount
 rdiscount:
   extensions:

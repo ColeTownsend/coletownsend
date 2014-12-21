@@ -4,8 +4,23 @@
   background-repeat: no-repeat, no-repeat, repeat-x;
   text-shadow: 0.02em 0 $background, -0.02em 0 $background, 0 0.02em $background, 0 -0.04em $background, 0.08em 0 $background, -0.08em 0 $background, 0.08em 0 $background, -0.12em 0 $background, 0.14em 0 $background, -0.14em 0 $background, 0.16em 0 $background, -0.16em 0 $background;
   background-position-y: 90%, 90%, 90%;
-  background-position-x: 0%, 100%, 0%; 
+  background-position-x: 0%, 100%, 0%;
   &:hover {
     color: darken($line-color, 5%);
+  }
+}
+
+@mixin selection {
+  $before-colons: "";
+
+  @if & {
+    $before-colons: "&"
+  }
+
+  #{$before-colons}::selection {
+    @content;
+  }
+  #{$before-colons}::-moz-selection {
+    @content;
   }
 }
