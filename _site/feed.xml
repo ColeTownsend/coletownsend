@@ -47,8 +47,6 @@
 
 &lt;p&gt;Once you have it formatted run copy and paste the code below into your terminal window. This will prompt you for your password. Give your password and wait for a while. This process takes between 30-45 minutes&amp;nbsp;usually.&lt;/p&gt;
 
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
 &lt;pre&gt;&lt;code&gt;sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Yosemite.app --nointeraction
 &lt;/code&gt;&lt;/pre&gt;
 
