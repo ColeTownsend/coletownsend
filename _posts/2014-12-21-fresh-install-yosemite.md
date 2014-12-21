@@ -38,9 +38,9 @@ Find an 8GB USB drive. You can use a larger one but this only requires about 6GB
 #### The Terminal Command
 Once you have it formatted run copy and paste the code below into your terminal window. This will prompt you for your password. Give your password and wait for a while. This process takes between 30-45 minutes usually.
 
-```
+{% highlight bash %}
 sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Yosemite.app --nointeraction
-```
+{% endhighlight %}
 
 Once the task is done, you'll have a bootable USB. In Spotlight, type in "Startup Disk". This is a system preference and you should select your USB which is now titled "Install OSX Yosemite".
 

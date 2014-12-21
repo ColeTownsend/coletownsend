@@ -18,7 +18,7 @@
 &lt;li&gt;&lt;strong&gt;zsh as default in command&amp;nbsp;line&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;numerous other settings from &lt;a href=&quot;http://thoughtbot.com&quot;&gt;thoughtbot&lt;/a&gt; &lt;a href=&quot;https://github.com/thoughtbot/laptop&quot;&gt;laptop&lt;/a&gt; and &lt;a href=&quot;https://github.com/thoughtbot/dotfiles&quot;&gt;dotfiles&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;all the apps that I use that are listed in the &lt;code&gt;cask-install.sh&lt;/code&gt;. You can add different ones available via &lt;a href=&quot;http://caskroom.io&quot;&gt;caskroom.io&lt;/a&gt;.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Don&amp;#8217;t install any Appstore apps yet, except for the &lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt; Yosemiter&amp;nbsp;Installer.&lt;/li&gt;
+&lt;li&gt;Don&amp;#8217;t install any Appstore apps yet, except for the &lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt; Yosemite&amp;nbsp;Installer.&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -47,8 +47,9 @@
 
 &lt;p&gt;Once you have it formatted run copy and paste the code below into your terminal window. This will prompt you for your password. Give your password and wait for a while. This process takes between 30-45 minutes&amp;nbsp;usually.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Yosemite.app --nointeraction
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;sudo /Applications/Install&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;OS&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;X&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;OS&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;X&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;Yosemite.app --nointeraction
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 
 &lt;p&gt;Once the task is done, you&amp;#8217;ll have a bootable &lt;span class=&quot;caps&quot;&gt;USB.&lt;/span&gt; In Spotlight, type in &amp;#8220;Startup Disk&amp;#8221;. This is a system preference and you should select your &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; which is now titled &amp;#8220;Install &lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt;&amp;nbsp;Yosemite&amp;#8221;.&lt;/p&gt;
 
