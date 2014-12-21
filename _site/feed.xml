@@ -78,6 +78,27 @@ bash mac 2&amp;gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;1 &lt;sp
 			</item>
 		
 			<item>
+				<title>Pretty Common</title>
+				<description>&lt;p&gt;Pretty Common is a collaboration between Noah Buscher and me that produces accessible digital projects. We look to make simple resources for the web that &lt;strong&gt;just work&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This website was built with plain old static html via &lt;a href=&quot;http://mrmrs.io/&quot;&gt;@mrmrs&amp;#8217;&lt;/a&gt; &lt;a href=&quot;http://tachyons.io/&quot;&gt;tachyons&lt;/a&gt; template which is a development environment and css &amp;#8220;framework.&amp;#8221; I put this in quotes because it is really just a comprehensive collection of single use, object oriented global&amp;nbsp;classes.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;div&gt;
+&lt;img style=&quot;width: 100%; height: auto; max-height: 9999px; border: 1px solid #000&quot; src=&quot;http://localhost:4000/images/inline/pretty-common-1.jpg&quot;&gt;
+&lt;br&gt;
+&lt;img style=&quot;width: 100%; height: auto; max-height: 9999px; border: 1px solid #000&quot; src=&quot;http://localhost:4000/images/inline/pretty-common-2.jpg&quot;&gt;
+&lt;/div&gt;
+
+
+
+</description>
+				<pubDate>Mon, 01 Dec 2014 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/work/pretty-common</link>
+				<guid isPermaLink="true">http://localhost:4000/work/pretty-common</guid>
+			</item>
+		
+			<item>
 				<title>Two Dribbble Invites</title>
 				<description>&lt;p&gt;Two invites up for&amp;nbsp;grabs!&lt;/p&gt;
 </description>
@@ -383,55 +404,6 @@ bash mac 2&amp;gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;1 &lt;sp
 				<pubDate>Thu, 27 Feb 2014 12:06:34 -0500</pubDate>
 				<link>http://localhost:4000/work/typistry</link>
 				<guid isPermaLink="true">http://localhost:4000/work/typistry</guid>
-			</item>
-		
-			<item>
-				<title>The Best Resources for Sketch</title>
-				<description>&lt;p&gt;&lt;a href=&quot;http://www.bohemiancoding.com/sketch/&quot; target=&quot;_blank&quot;&gt;Sketch App&lt;/a&gt; by Bohemian Coding is &lt;em&gt;the app&lt;/em&gt; for designing websites and interfaces. It&amp;#8217;s built for &lt;span class=&quot;caps&quot;&gt;UI&lt;/span&gt; work. It exclusively uses vectors. The interface is simple and intuitive. It can run off a thumb drive and the program is smaller than the average&amp;nbsp;&lt;span class=&quot;caps&quot;&gt;PSD.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;One area where Sketch lacks is resources. There are so many Photoshop plugins, grids, brushes, and templates. As the industry standard I would expect there to be more for Photoshop, just as Windows runs more games than Mac. That&amp;#8217;s just how it&amp;nbsp;is.&lt;/p&gt;
-
-&lt;p&gt;Even so, there are a surprising lack of downloads and addons. As there are devs that make games specifically for Mac, I would expect some designers to make resources specifically for Sketch. I didn&amp;#8217;t find as many as I would like, so I took a few hours of my time to make The Royal Macs. It features a minimally styled iMac, iPad, and iPhone that are infinitely scalable. You can download it &lt;a href=&quot;http://cl.ly/Nrmc&quot; target=&quot;blank&quot;&gt;here&lt;/a&gt; (opens in new&amp;nbsp;tab).&lt;/p&gt;
-
-&lt;p&gt;I encourage you to give Sketch a try. The app is 10mb; neither slow download speed nor hard drive size is a good&amp;nbsp;excuse.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Update: Since then, tons of awesome resources for Sketch have come&amp;nbsp;out.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3&gt;Resources&lt;/h3&gt;
-
-&lt;h6&gt;Stuff I&amp;#8217;ve&amp;nbsp;Done&lt;/h6&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://dribbble.com/shots/1053190-HTC-First?list=show&amp;amp;tag=sketch&quot;&gt;&lt;span class=&quot;caps&quot;&gt;HTC&lt;/span&gt;&amp;nbsp;First&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://dribbble.com/shots/969976-Sketched-Minimus?list=show&amp;amp;tag=sketch&quot;&gt;Minimus for&amp;nbsp;Sketch&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;h6&gt;Shortcuts +&amp;nbsp;Workflow&lt;/h6&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://sketchshortcuts.com/&quot;&gt;Keyboard&amp;nbsp;Shortcuts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/bomberstudios/sketch-commands&quot;&gt;Sketch&amp;nbsp;Commands&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;h6&gt;Assets +&amp;nbsp;Scripts&lt;/h6&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.bohemiancoding.com/sketch/community/&quot;&gt;Community Resources on&amp;nbsp;Sketch.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://sketchmine.co/&quot;&gt;SketchMine&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/pieteromvlee/Sketch-Scripts/tree/master/Examples&quot;&gt;Simple&amp;nbsp;Scripts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.teehanlax.com/tools/iphone-sketch-app/&quot;&gt;i&lt;span class=&quot;caps&quot;&gt;OS&lt;/span&gt; 7 Template via&amp;nbsp;Teehan+Lax&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.sketchgems.com/&quot;&gt;Sketch&amp;nbsp;Gems&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://brilliantsketch.com/&quot;&gt;Brilliant&amp;nbsp;Sketch&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.sketchappsources.com/&quot;&gt;Sketch App&amp;nbsp;Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.pinterest.com/sketchsources/resources/&quot;&gt;Pinned&amp;nbsp;Resources&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-				<pubDate>Thu, 27 Feb 2014 12:06:34 -0500</pubDate>
-				<link>http://localhost:4000/journal/sketch-app</link>
-				<guid isPermaLink="true">http://localhost:4000/journal/sketch-app</guid>
 			</item>
 		
 	</channel>
