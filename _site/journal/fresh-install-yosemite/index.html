@@ -1,0 +1,190 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title> Twnsnd Co. - Fresh Install Yosemite to Development: The Easy Way  </title>
+  <meta name="author" content="Twnsnd Co">
+  <meta name="description" content="Insouciant describes me well.">
+  <link type="application/atom+xml" rel="self" href="http://localhost:4000/sitemap.xml"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
+
+	<link data-no-instant rel="stylesheet" href="http://localhost:4000/css/i.css?v=16">
+  <link data-no-instant rel="stylesheet" href="http://localhost:4000/fonts/gt/font.css">
+  
+
+  <!-- FOUT B Gone -->
+   <script src="http://localhost:4000/javascripts/foutbgone.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    fbg.hideFOUT('asap', 400);
+  </script>
+  
+  <!-- Favicons and Touch Device Icons -->
+  <link rel="shortcut icon" href="http://localhost:4000/images/assets/favicon.ico?v=16">
+  <link data-no-instant rel="apple-touch-icon" href="http://localhost:4000/assets/favicon-128x128.png?v=16">
+  <link data-no-instant rel="apple-touch-icon" sizes="72x72"   href="http://localhost:4000/images/assets/favicon-76x76.png?v=16">
+  <link data-no-instant rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/images/assets/favicon-128x128.png?v=16">
+  <link data-no-instant rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/images/assets/favicon-256x256.png?v=16">
+</head>
+
+  <body class="post">
+    <header id="top" role="main-header">  
+  <nav class="nav-collapse">
+    <hgroup>
+      <a href="http://localhost:4000">Twnsnd Co.</a>
+    </hgroup>
+    
+    <ul>      
+      
+        <li><a href="http://localhost:4000/work/" >Work</a></li>
+      
+        <li><a href="http://localhost:4000/journal/" >Journal</a></li>
+      
+        <li><a href="http://localhost:4000/about/" >About</a></li>
+      
+    </ul>
+  </nav>
+</header>
+    
+    
+    <section class="wrap">
+      <article data-no-instant>
+        <header >
+          <h1>Fresh Install Yosemite to Development: The Easy Way</h1>
+        </header>
+        <h4>Disclaimer</h4>
+
+<p>This requires being comfortable in the command line. You&#8217;ve been warned. This is also opinionated to a degree. It sets you up with the&nbsp;following:
+<br><br></p>
+
+<ul>
+<li><strong><span class="caps">OSX</span>&nbsp;Yosemite</strong></li>
+<li><strong>zsh as default in command&nbsp;line</strong></li>
+<li><strong>numerous other settings from <a href="http://thoughtbot.com">thoughtbot</a> <a href="https://github.com/thoughtbot/laptop">laptop</a> and <a href="https://github.com/thoughtbot/dotfiles">dotfiles</a></strong></li>
+<li><strong>all the apps that I use that are listed in the <code>cask-install.sh</code>. You can add different ones available via <a href="http://caskroom.io">caskroom.io</a>.</strong></li>
+</ul>
+
+
+<h2>Here&#8217;s the game&nbsp;plan:</h2>
+
+<ul>
+<li>Backup your laptop, perhaps twice. Sync everything that you can. Also upload your Sublime Text preferences to Dropbox or make it a gist so you can copy it all&nbsp;back.</li>
+<li>Download <span class="caps">OSX</span> Yosemite from the App&nbsp;Store.</li>
+<li>Format jump drive &#8220;Untitled&#8221; of 8gb or&nbsp;more.</li>
+<li>Run a terminal command to format the install for use off of the &#8220;Untitled&#8221; jum&nbsp;drive.</li>
+<li>Set your startup disk as the jump&nbsp;drive</li>
+<li>Restart</li>
+<li>Format your hard drive so it&#8217;s clean. There&#8217;s a little bug with hidden files and&nbsp;node_modules.</li>
+</ul>
+
+
+<h3>Making the Bootable&nbsp;<span class="caps">USB</span></h3>
+
+<p>Download <span class="caps">OSX</span> Yosemite from the App Store. It installs to your Applications&nbsp;folder.</p>
+
+<h4>The&nbsp;<span class="caps">USB</span></h4>
+
+<p>Find an <span class="caps">8GB</span> <span class="caps">USB</span> drive. You can use a larger one but this only requires about <span class="caps">6GB</span> of space. Open disk utility and erase it. The default settings are just what we&nbsp;need.</p>
+
+<h4>The Terminal&nbsp;Command</h4>
+
+<p>Once you have it formatted run copy and paste the code below into your terminal window. This will prompt you for your password. Give your password and wait for a while. This process takes between 30-45 minutes&nbsp;usually.</p>
+
+<p><br></p>
+
+<script src="https://gist.github.com/filmgirl/eac030290e688e802abb.js"></script>
+
+
+<p>Once the task is done, you&#8217;ll have a bootable <span class="caps">USB.</span> In Spotlight, type in &#8220;Startup Disk&#8221;. This is a system preference and you should select your <span class="caps">USB</span> which is now titled &#8220;Install <span class="caps">OSX</span>&nbsp;Yosemite&#8221;.</p>
+
+<h3>Dev Envi Comes&nbsp;First</h3>
+
+<p>Go here to thoughtbot&#8217;s <a href="https://github.com/thoughtbot/laptop">laptop</a> script and follow their instructions. It&#8217;s a simple curl command and a couple&nbsp;others.</p>
+
+<div class="highlight"><pre><code class="bash">curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
+less mac
+bash mac 2&gt;<span class="p">&amp;</span>1 <span class="p">|</span> tee ~/laptop.log
+</code></pre></div>
+
+
+<h3>Installing&nbsp;Apps</h3>
+
+<p>Simply run this bash script with <code>./cask-install.sh</code>, or fork and edit it for your needs! It can be in any directory, I ran it right from my cloned github repo that I forked from <a href="https://github.com/sandnuggah/dotfiles">this guy&#8217;s dotfiles</a>. I only used part of his stuff but some other parts are useful such as the <span class="caps">OSX</span>&nbsp;defaults.</p>
+
+<p><br></p>
+
+<script src="https://gist.github.com/ColeTownsend/aae9a778c08a68e6c3e7.js"></script>
+
+
+      </article>
+    </section>
+    
+    <footer>
+  <script data-no-instant src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://localhost:4000/javascripts/jquery.fluidbox.js"></script>
+<script type="text/javascript" src="http://localhost:4000/javascripts/retina.js"></script>
+<script data-no-instant src="http://localhost:4000/javascripts/velocity.min.js"></script>
+
+
+<!-- Typekit -->
+<script data-no-instant type="text/javascript" src="//use.typekit.net/tke7dvp.js"></script>
+<script data-no-instant type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<script data-no-instant src="http://localhost:4000/javascripts/smooth-scroll.min.js"></script>
+
+<script>
+ $(document).ready(function() {
+  $('a').smoothScroll({offset: -20});
+  $('#work').smoothScroll({offset: -60});
+  $('#top').smoothScroll({offset: 120});
+ });
+</script>
+
+<script data-no-instant>
+$(function () {
+  $(".zoomIt").fluidbox({
+    closeTrigger: [
+      { selector: '#fluidbox-overlay', event: 'click'},
+      { selector: 'window', event: 'scroll'}
+    ]
+  });
+});
+</script>
+
+<script>
+  $(".work-grid")
+  .velocity({delay: 300})
+  .velocity({ scale: 0}, 100, [ 250, 15 ])
+  .velocity({opacity: 1}, 100)
+  .velocity({ scale: 1 }, 800, [ 260, 13 ]);
+</script>
+
+<script>
+  $(".buffalo")
+  .velocity({delay: 300})
+  .velocity({ scale: 0}, 100, [ 250, 15 ])
+  .velocity({opacity: .5}, 100)
+  .velocity({ scale: 1 }, 800, [ 260, 13 ]);
+</script>
+
+<script>
+  $(function () {
+    $('a[role="fluidbox"]').fluidbox();
+  })
+</script>
+
+<script src="http://localhost:4000/javascripts/instantclick.js" data-no-instant></script>
+
+<script data-no-instant>   
+  InstantClick.init(55);
+</script>
+
+  <small>
+    <a href="#top">To Top</a> <br>
+    <img class="buffalo-icon" src="/images/assets/buffalo-blue.svg"> Made in Buffalo <br> © 2014 Cole Townsend
+  </small>
+</footer>
+  </body>
+</html>
