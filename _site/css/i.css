@@ -1413,9 +1413,35 @@ cite {
 span.accent {
   color: #ec6f66; }
 
+.gist pre {
+  color: #4a4c52; }
+
+pre {
+  font-family: monospace;
+  padding: .5rem 1rem;
+  background: #4a4c52;
+  color: white;
+  margin: 1rem auto; }
+  pre code {
+    padding: 0;
+    background: none; }
+
+code {
+  font-family: monospace;
+  padding: .4rem .5rem;
+  background: #4a4c52;
+  color: white; }
+  code::selection {
+    background-color: white !important;
+    color: #4a4c52 !important; }
+
+code::selection {
+  background-color: white !important;
+  color: #4a4c52 !important; }
+
 div.highlight {
   font-family: monospace;
-  padding: 1rem;
+  padding: .5rem 1rem;
   background: #4a4c52;
   color: white;
   margin: 1rem auto; }

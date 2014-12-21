@@ -18,6 +18,7 @@
 &lt;li&gt;&lt;strong&gt;zsh as default in command&amp;nbsp;line&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;numerous other settings from &lt;a href=&quot;http://thoughtbot.com&quot;&gt;thoughtbot&lt;/a&gt; &lt;a href=&quot;https://github.com/thoughtbot/laptop&quot;&gt;laptop&lt;/a&gt; and &lt;a href=&quot;https://github.com/thoughtbot/dotfiles&quot;&gt;dotfiles&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;all the apps that I use that are listed in the &lt;code&gt;cask-install.sh&lt;/code&gt;. You can add different ones available via &lt;a href=&quot;http://caskroom.io&quot;&gt;caskroom.io&lt;/a&gt;.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Don&amp;#8217;t install any Appstore apps yet, except for the &lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt; Yosemiter&amp;nbsp;Installer.&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -48,12 +49,13 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;script src=&quot;https://gist.github.com/filmgirl/eac030290e688e802abb.js&quot;&gt;&lt;/script&gt;
-
+&lt;p&gt;&lt;code&gt;sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Yosemite.app --nointeraction&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Once the task is done, you&amp;#8217;ll have a bootable &lt;span class=&quot;caps&quot;&gt;USB.&lt;/span&gt; In Spotlight, type in &amp;#8220;Startup Disk&amp;#8221;. This is a system preference and you should select your &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; which is now titled &amp;#8220;Install &lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt;&amp;nbsp;Yosemite&amp;#8221;.&lt;/p&gt;
 
 &lt;h3&gt;Dev Envi Comes&amp;nbsp;First&lt;/h3&gt;
+
+&lt;h4&gt;Laptop&amp;nbsp;Script&lt;/h4&gt;
 
 &lt;p&gt;Go here to thoughtbot&amp;#8217;s &lt;a href=&quot;https://github.com/thoughtbot/laptop&quot;&gt;laptop&lt;/a&gt; script and follow their instructions. It&amp;#8217;s a simple curl command and a couple&amp;nbsp;others.&lt;/p&gt;
 
@@ -62,6 +64,22 @@ less mac
 bash mac 2&amp;gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;1 &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; tee ~/laptop.log
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+
+&lt;h4&gt;Dotfiles&amp;nbsp;Script&lt;/h4&gt;
+
+&lt;p&gt;Per thoughtbot&amp;#8217;s instructions, run &lt;code&gt;chsh -s $(which zsh)&lt;/code&gt; to set zsh as your login shell. Then run &lt;code&gt;git clone git://github.com/thoughtbot/dotfiles.git
+&lt;/code&gt; from terminal which will clone the files into your repo. Finally install rcm by&amp;nbsp;running:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;brew tap thoughtbot/formulae
+brew install rcm
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then bust out this little command in the terminal: &lt;code&gt;env RCRC=$HOME/dotfiles/rcrc rcup&lt;/code&gt;. Then to update all you need to do is &lt;code&gt;rcup&lt;/code&gt;&amp;nbsp;it.&lt;/p&gt;
+
+&lt;h4&gt;Minor Errors and Issues with&amp;nbsp;Dotfiles&lt;/h4&gt;
+
+&lt;p&gt;I needed to reinstall xCode command line tools and agree to their user agreements because I didn&amp;#8217;t completely follow the instructions of laptop. Follow the script blindly. &lt;em&gt;Once the script is finished be sure to check for the dotfiles-local directory.&lt;/em&gt; When I ran the script it didn&amp;#8217;t create this folder and I needed to kind of infer what I needed to do. This messed up my gitconfig stuff etc. This script can be run multiple times as well! Pretty&amp;nbsp;neat.&lt;/p&gt;
 
 &lt;h3&gt;Installing&amp;nbsp;Apps&lt;/h3&gt;
 
@@ -81,8 +99,11 @@ bash mac 2&amp;gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;1 &lt;sp
 				<title>Pretty Common</title>
 				<description>&lt;p&gt;Pretty Common is a collaboration between Noah Buscher and me that produces accessible digital projects. We look to make simple resources for the web that &lt;strong&gt;just work&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;This website was built with plain old static html via &lt;a href=&quot;http://mrmrs.io/&quot;&gt;@mrmrs&amp;#8217;&lt;/a&gt; &lt;a href=&quot;http://tachyons.io/&quot;&gt;tachyons&lt;/a&gt; template which is a development environment and css &amp;#8220;framework.&amp;#8221; I put this in quotes because it is really just a comprehensive collection of single use, object oriented global&amp;nbsp;classes.
-&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;This website was built with plain old static html via &lt;a href=&quot;http://mrmrs.io/&quot;&gt;@mrmrs&amp;#8217;&lt;/a&gt; &lt;a href=&quot;http://tachyons.io/&quot;&gt;tachyons&lt;/a&gt; template which is a development environment and css &amp;#8220;framework.&amp;#8221; I put this in quotes because it is really just a comprehensive collection of single use, object oriented global&amp;nbsp;classes.&lt;/p&gt;
+
+&lt;p&gt;Live: &lt;a href=&quot;http://prettycommon.com&quot;&gt;prettycommon.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;div&gt;
 &lt;img style=&quot;width: 100%; height: auto; max-height: 9999px; border: 1px solid #000&quot; src=&quot;http://localhost:4000/images/inline/pretty-common-1.jpg&quot;&gt;

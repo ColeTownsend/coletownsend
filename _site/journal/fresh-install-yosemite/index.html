@@ -64,6 +64,7 @@
 <li><strong>zsh as default in command&nbsp;line</strong></li>
 <li><strong>numerous other settings from <a href="http://thoughtbot.com">thoughtbot</a> <a href="https://github.com/thoughtbot/laptop">laptop</a> and <a href="https://github.com/thoughtbot/dotfiles">dotfiles</a></strong></li>
 <li><strong>all the apps that I use that are listed in the <code>cask-install.sh</code>. You can add different ones available via <a href="http://caskroom.io">caskroom.io</a>.</strong></li>
+<li>Don&#8217;t install any Appstore apps yet, except for the <span class="caps">OSX</span> Yosemiter&nbsp;Installer.</li>
 </ul>
 
 
@@ -94,12 +95,13 @@
 
 <p><br></p>
 
-<script src="https://gist.github.com/filmgirl/eac030290e688e802abb.js"></script>
-
+<p><code>sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Yosemite.app --nointeraction</code></p>
 
 <p>Once the task is done, you&#8217;ll have a bootable <span class="caps">USB.</span> In Spotlight, type in &#8220;Startup Disk&#8221;. This is a system preference and you should select your <span class="caps">USB</span> which is now titled &#8220;Install <span class="caps">OSX</span>&nbsp;Yosemite&#8221;.</p>
 
 <h3>Dev Envi Comes&nbsp;First</h3>
+
+<h4>Laptop&nbsp;Script</h4>
 
 <p>Go here to thoughtbot&#8217;s <a href="https://github.com/thoughtbot/laptop">laptop</a> script and follow their instructions. It&#8217;s a simple curl command and a couple&nbsp;others.</p>
 
@@ -108,6 +110,22 @@ less mac
 bash mac 2&gt;<span class="p">&amp;</span>1 <span class="p">|</span> tee ~/laptop.log
 </code></pre></div>
 
+
+<h4>Dotfiles&nbsp;Script</h4>
+
+<p>Per thoughtbot&#8217;s instructions, run <code>chsh -s $(which zsh)</code> to set zsh as your login shell. Then run <code>git clone git://github.com/thoughtbot/dotfiles.git
+</code> from terminal which will clone the files into your repo. Finally install rcm by&nbsp;running:</p>
+
+<div class="highlight"><pre><code class="bash">brew tap thoughtbot/formulae
+brew install rcm
+</code></pre></div>
+
+
+<p>Then bust out this little command in the terminal: <code>env RCRC=$HOME/dotfiles/rcrc rcup</code>. Then to update all you need to do is <code>rcup</code>&nbsp;it.</p>
+
+<h4>Minor Errors and Issues with&nbsp;Dotfiles</h4>
+
+<p>I needed to reinstall xCode command line tools and agree to their user agreements because I didn&#8217;t completely follow the instructions of laptop. Follow the script blindly. <em>Once the script is finished be sure to check for the dotfiles-local directory.</em> When I ran the script it didn&#8217;t create this folder and I needed to kind of infer what I needed to do. This messed up my gitconfig stuff etc. This script can be run multiple times as well! Pretty&nbsp;neat.</p>
 
 <h3>Installing&nbsp;Apps</h3>
 

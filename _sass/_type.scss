@@ -190,9 +190,41 @@ span.accent {
   color: $base-accent-color;
 }
 
+.gist pre {
+  color: $black;
+}
+
+pre {
+	font-family: monospace;
+	padding: .5rem 1rem;
+	background: $black;
+	color: $white;
+	margin: 1rem auto;
+	code {
+		padding: 0;
+		background:none;
+	}
+}
+
+code {
+	font-family: monospace;
+	padding: .4rem .5rem;
+	background: $black;
+	color: $white;
+	&::selection {
+		background-color: $white !important;
+    color: $black !important;
+	}
+}
+
+code::selection {
+  background-color: $white !important;
+  color: $black !important;
+}
+
 div.highlight {
 	font-family: monospace;
-	padding: 1rem;
+	padding: .5rem 1rem;
 	background: $black;
 	color: $white;
 	margin: 1rem auto;

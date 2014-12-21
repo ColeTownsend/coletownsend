@@ -2,7 +2,7 @@
 *.scssc
 
 portfolio.sublime-workspace
-
+git-credential-osxkeychain
 *.sublime-workspace
 
 # Logs
