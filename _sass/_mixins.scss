@@ -9,18 +9,3 @@
     color: darken($line-color, 5%);
   }
 }
-
-@mixin selection {
-  $before-colons: "";
-
-  @if & {
-    $before-colons: "&"
-  }
-
-  #{$before-colons}::selection {
-    @content;
-  }
-  #{$before-colons}::-moz-selection {
-    @content;
-  }
-}

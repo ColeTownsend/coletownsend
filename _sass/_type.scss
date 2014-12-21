@@ -5,8 +5,18 @@ body {
   color: $base-font-color;
   font-family: $head;
   font-size: $base-font-size;
-  -webkit-font-smoothing: antialiased;
   line-height: $base-line-height;
+}
+
+p , a, h1, h2, h3, body, :not(code), :not(pre) :not(.highlight) :not(.p) {
+  &::selection {
+    background: $red; /* Safari */
+    color: white;
+  }
+  &::-moz-selection {
+    background: $red; /* Firefox */
+    color: white;
+  }
 }
 
 h1,%h1, h2,%h2, h3,%h3, h4,%h4, h5,%h5, h6,%h6 {
@@ -180,15 +190,27 @@ span.accent {
   color: $base-accent-color;
 }
 
-pre {
+div.highlight {
 	font-family: monospace;
 	padding: 1rem;
 	background: $black;
 	color: $white;
 	margin: 1rem auto;
-  @include selection {
-    background-color: $white;
-    color: $black;
+  &::selection {
+    background-color: $white !important;
+    color: $black !important;
+  }
+  pre::selection {
+    background-color: $white !important;
+    color: $black !important;
+  }
+  code::selection {
+    background-color: $white !important;
+    color: $black !important;
+  }
+  .p::selection {
+  	background-color: $white !important;
+    color: $black !important;
   }
 }
 

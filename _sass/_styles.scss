@@ -2,14 +2,7 @@
 
 * {
   @include box-sizing(border-box);
-  ::selection {
-    background: $red; /* Safari */
-    color: white;
-  }
-  ::-moz-selection {
-    background: $red; /* Firefox */
-    color: white;
-  }
+
 }
 
 html {
@@ -88,10 +81,10 @@ a[data="disabled"] {
   // Tablet
   margin: 0 auto;
   @include media($small) {
-    padding: 0 0; 
+    padding: 0 0;
   }
   @include media($medium) {
-    padding: 0 .5em; 
+    padding: 0 .5em;
   }
 }
 
