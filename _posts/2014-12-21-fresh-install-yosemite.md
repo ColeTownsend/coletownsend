@@ -17,7 +17,7 @@ This requires being comfortable in the command line. You've been warned. This is
 * **zsh as default in command line**
 * **numerous other settings from [thoughtbot](http://thoughtbot.com) [laptop](https://github.com/thoughtbot/laptop) and [dotfiles](https://github.com/thoughtbot/dotfiles)**
 * **all the apps that I use that are listed in the `cask-install.sh`. You can add different ones available via [caskroom.io](http://caskroom.io).**
-* Don't install any Appstore apps yet, except for the OSX Yosemiter Installer.
+* Don't install any Appstore apps yet, except for the OSX Yosemite Installer.
 
 ## Here's the game plan:
 
@@ -50,20 +50,20 @@ Once the task is done, you'll have a bootable USB. In Spotlight, type in "Startu
 #### Laptop Script
 Go here to thoughtbot's [laptop](https://github.com/thoughtbot/laptop) script and follow their instructions. It's a simple curl command and a couple others.
 
-{% highlight bash %}
+```
 curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
 less mac
 bash mac 2>&1 | tee ~/laptop.log
-{% endhighlight %}
+```
 
 #### Dotfiles Script
 Per thoughtbot's instructions, run `chsh -s $(which zsh)` to set zsh as your login shell. Then run `git clone git://github.com/thoughtbot/dotfiles.git
 ` from terminal which will clone the files into your repo. Finally install rcm by running:
 
-{% highlight bash %}
+```
 brew tap thoughtbot/formulae
 brew install rcm
-{% endhighlight %}
+```
 
 Then bust out this little command in the terminal: `env RCRC=$HOME/dotfiles/rcrc rcup`. Then to update all you need to do is `rcup` it.
 

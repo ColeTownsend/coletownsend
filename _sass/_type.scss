@@ -195,11 +195,13 @@ span.accent {
 }
 
 pre {
-	font-family: monospace;
-	padding: .5rem 1rem;
-	background: $black;
-	color: $white;
-	margin: 1rem auto;
+  font-family: monospace;
+  padding: .5rem 1rem;
+  background: $black;
+  color: $white;
+  overflow: scroll;
+  margin: 1rem auto;
+  max-width: 100%;
 	code {
 		padding: 0;
 		background:none;

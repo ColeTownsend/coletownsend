@@ -18,7 +18,7 @@
 &lt;li&gt;&lt;strong&gt;zsh as default in command&amp;nbsp;line&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;numerous other settings from &lt;a href=&quot;http://thoughtbot.com&quot;&gt;thoughtbot&lt;/a&gt; &lt;a href=&quot;https://github.com/thoughtbot/laptop&quot;&gt;laptop&lt;/a&gt; and &lt;a href=&quot;https://github.com/thoughtbot/dotfiles&quot;&gt;dotfiles&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;all the apps that I use that are listed in the &lt;code&gt;cask-install.sh&lt;/code&gt;. You can add different ones available via &lt;a href=&quot;http://caskroom.io&quot;&gt;caskroom.io&lt;/a&gt;.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Don&amp;#8217;t install any Appstore apps yet, except for the &lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt; Yosemiter&amp;nbsp;Installer.&lt;/li&gt;
+&lt;li&gt;Don&amp;#8217;t install any Appstore apps yet, except for the &lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt; Yosemite&amp;nbsp;Installer.&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -58,21 +58,19 @@
 
 &lt;p&gt;Go here to thoughtbot&amp;#8217;s &lt;a href=&quot;https://github.com/thoughtbot/laptop&quot;&gt;laptop&lt;/a&gt; script and follow their instructions. It&amp;#8217;s a simple curl command and a couple&amp;nbsp;others.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
+&lt;pre&gt;&lt;code&gt;curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
 less mac
-bash mac 2&amp;gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;1 &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; tee ~/laptop.log
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
+bash mac 2&amp;gt;&amp;amp;1 | tee ~/laptop.log
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;Dotfiles&amp;nbsp;Script&lt;/h4&gt;
 
 &lt;p&gt;Per thoughtbot&amp;#8217;s instructions, run &lt;code&gt;chsh -s $(which zsh)&lt;/code&gt; to set zsh as your login shell. Then run &lt;code&gt;git clone git://github.com/thoughtbot/dotfiles.git
 &lt;/code&gt; from terminal which will clone the files into your repo. Finally install rcm by&amp;nbsp;running:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;brew tap thoughtbot/formulae
+&lt;pre&gt;&lt;code&gt;brew tap thoughtbot/formulae
 brew install rcm
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Then bust out this little command in the terminal: &lt;code&gt;env RCRC=$HOME/dotfiles/rcrc rcup&lt;/code&gt;. Then to update all you need to do is &lt;code&gt;rcup&lt;/code&gt;&amp;nbsp;it.&lt;/p&gt;
 

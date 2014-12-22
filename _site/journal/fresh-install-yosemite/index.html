@@ -66,7 +66,7 @@
 <li><strong>zsh as default in command&nbsp;line</strong></li>
 <li><strong>numerous other settings from <a href="http://thoughtbot.com">thoughtbot</a> <a href="https://github.com/thoughtbot/laptop">laptop</a> and <a href="https://github.com/thoughtbot/dotfiles">dotfiles</a></strong></li>
 <li><strong>all the apps that I use that are listed in the <code>cask-install.sh</code>. You can add different ones available via <a href="http://caskroom.io">caskroom.io</a>.</strong></li>
-<li>Don&#8217;t install any Appstore apps yet, except for the <span class="caps">OSX</span> Yosemiter&nbsp;Installer.</li>
+<li>Don&#8217;t install any Appstore apps yet, except for the <span class="caps">OSX</span> Yosemite&nbsp;Installer.</li>
 </ul>
 
 
@@ -106,21 +106,19 @@
 
 <p>Go here to thoughtbot&#8217;s <a href="https://github.com/thoughtbot/laptop">laptop</a> script and follow their instructions. It&#8217;s a simple curl command and a couple&nbsp;others.</p>
 
-<div class="highlight"><pre><code class="bash">curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
+<pre><code>curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
 less mac
-bash mac 2&gt;<span class="p">&amp;</span>1 <span class="p">|</span> tee ~/laptop.log
-</code></pre></div>
-
+bash mac 2&gt;&amp;1 | tee ~/laptop.log
+</code></pre>
 
 <h4>Dotfiles&nbsp;Script</h4>
 
 <p>Per thoughtbot&#8217;s instructions, run <code>chsh -s $(which zsh)</code> to set zsh as your login shell. Then run <code>git clone git://github.com/thoughtbot/dotfiles.git
 </code> from terminal which will clone the files into your repo. Finally install rcm by&nbsp;running:</p>
 
-<div class="highlight"><pre><code class="bash">brew tap thoughtbot/formulae
+<pre><code>brew tap thoughtbot/formulae
 brew install rcm
-</code></pre></div>
-
+</code></pre>
 
 <p>Then bust out this little command in the terminal: <code>env RCRC=$HOME/dotfiles/rcrc rcup</code>. Then to update all you need to do is <code>rcup</code>&nbsp;it.</p>
 
