@@ -1,11 +1,10 @@
-<!DOCTYPE html> 
-<html lang="en"> 
+<!DOCTYPE html>
+<html lang="en">
   {% include _head.html %}
   <body class="post">
     {% include _navigation_main.html %}
-    
-    {% if page.image.feature %}
-    <header class="full bg-img" style="background-image: url({{ site.url }}/images/posts/{{ page.image.feature }})">
+		{% if page.image.feature %}
+    <header class="full bg-img" data-src="{{ site.url }}/images/posts/{{ page.image.feature }}" {% if page.image.feature_2x %} data-2x="{{ site.url }}/images/posts/{{ page.image.feature_2x }}" {% else %} data-2x="{{ site.url }}/images/posts/{{ page.image.feature }}" {% endif %}>
     </header>
     <section class="wrap">
       <article data-no-instant>
@@ -15,7 +14,7 @@
         {{ content }}
       </article>
     </section>
-          
+
     {% else %}
     <section class="wrap">
       <article data-no-instant>

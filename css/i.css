@@ -1279,15 +1279,6 @@ body {
   font-size: 1em;
   line-height: 1.5em; }
 
-p::selection, a::selection, h1::selection, h2::selection, h3::selection, body::selection, :not(code)::selection, :not(pre) :not(.highlight) :not(.p)::selection {
-  background: #ec6f66;
-  /* Safari */
-  color: white; }
-p::-moz-selection, a::-moz-selection, h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, body::-moz-selection, :not(code)::-moz-selection, :not(pre) :not(.highlight) :not(.p)::-moz-selection {
-  background: #ec6f66;
-  /* Firefox */
-  color: white; }
-
 h1, h2, h3, .block-1 p, h4, h5, h6, figcaption, .contact p:first-child, .contact label {
   font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   line-height: 1.25em;
@@ -1413,18 +1404,19 @@ cite {
 span.accent {
   color: #ec6f66; }
 
-.gist pre {
-  color: #4a4c52; }
-
 pre {
   font-family: monospace;
   padding: .5rem 1rem;
   background: #4a4c52;
   color: white;
-  margin: 1rem auto; }
+  overflow: scroll;
+  margin: 1rem auto;
+  max-width: 100%; }
   pre code {
     padding: 0;
-    background: none; }
+    background: none;
+    max-width: 100%;
+    display: block; }
 
 code {
   font-family: monospace;
@@ -1440,11 +1432,13 @@ code::selection {
   color: #4a4c52 !important; }
 
 div.highlight {
+  display: block;
   font-family: monospace;
   padding: .5rem 1rem;
   background: #4a4c52;
   color: white;
-  margin: 1rem auto; }
+  margin: 1rem auto;
+  max-width: 100%; }
   div.highlight::selection {
     background-color: white !important;
     color: #4a4c52 !important; }

@@ -8,17 +8,6 @@ body {
   line-height: $base-line-height;
 }
 
-p , a, h1, h2, h3, body, :not(code), :not(pre) :not(.highlight) :not(.p) {
-  &::selection {
-    background: $red; /* Safari */
-    color: white;
-  }
-  &::-moz-selection {
-    background: $red; /* Firefox */
-    color: white;
-  }
-}
-
 h1,%h1, h2,%h2, h3,%h3, h4,%h4, h5,%h5, h6,%h6 {
   font-family: $header-font-family;
   line-height: 1.25em;
@@ -190,10 +179,6 @@ span.accent {
   color: $base-accent-color;
 }
 
-.gist pre {
-  color: $black;
-}
-
 pre {
   font-family: monospace;
   padding: .5rem 1rem;
@@ -205,6 +190,8 @@ pre {
 	code {
 		padding: 0;
 		background:none;
+		max-width: 100%;
+		display: block;
 	}
 }
 
@@ -225,11 +212,13 @@ code::selection {
 }
 
 div.highlight {
+	display: block;
 	font-family: monospace;
 	padding: .5rem 1rem;
 	background: $black;
 	color: $white;
 	margin: 1rem auto;
+	max-width: 100%;
   &::selection {
     background-color: $white !important;
     color: $black !important;
