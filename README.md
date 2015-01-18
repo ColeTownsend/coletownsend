@@ -3,7 +3,7 @@
 
 This is a remodeling of my old portfolio. Ideally it has the same general appearance and feel, with a few improvements visually, but mostly in rendering time.
 
-Rest in peace, PHP. Long live Jekyll.
+RIP in peace PHP, long live Jekyll.
 
 Neatures — Neat Features
 * publisher.rb
