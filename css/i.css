@@ -1776,8 +1776,6 @@ section[class*="block-"] {
       border-bottom-right-radius: 0px;
       height: 27em;
       overflow-y: scroll;
-      position: relative;
-      z-index: -1;
       -webkit-box-shadow: 0 -2.0375em 1px #e6e6e8;
       box-shadow: 0 -2.0375em 1px #e6e6e8; }
       .post article figure.web img {

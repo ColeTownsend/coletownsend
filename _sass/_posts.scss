@@ -148,8 +148,6 @@
         @include border-bottom-radius(0px);
         height: 27em;
         overflow-y: scroll;
-        position: relative;
-        z-index: -1;
         -webkit-box-shadow: /*0 -2em 0 $base-body-color,*/ 0 -2.0375em 1px $base-border-color;
                 box-shadow: /*0 -2em 0 $base-body-color,*/ 0 -2.0375em 1px $base-border-color;
         img {

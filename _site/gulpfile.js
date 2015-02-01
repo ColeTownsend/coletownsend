@@ -43,7 +43,7 @@ gulp.task('jekyll-rebuild', ['jekyll-dev'], function () {
 gulp.task('browser-sync', ['sass', 'jekyll-dev'], function() {
     browserSync({
         server: {
-            baseDir: '_site'
+            baseDir: './_site'
         }
     });
 });
@@ -62,13 +62,13 @@ gulp.task('images', function () {
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
-    gulp.src('_scss/main.scss')
+    gulp.src('./_scss/i.scss')
         .pipe(sass({
             includePaths: ['scss'],
             onError: browserSync.notify
         }))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
-        .pipe(gulp.dest('_site/css'))
+        .pipe(gulp.dest('./_site/css'))
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('css'));
 });

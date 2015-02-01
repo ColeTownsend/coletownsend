@@ -3,7 +3,7 @@ layout: portfolio
 title: Pretty Common
 date: 2014-12-01
 categories: work
-accent-color: "#000000"
+accent_color: "#000000"
 role: Designer and Developer
 tags: [frontend, web design]
 extra_css:
@@ -13,7 +13,7 @@ image:
 
 Pretty Common is a collaboration between Noah Buscher and me that produces accessible digital projects. We look to make simple resources for the web that **just work**.
 
-This website was built with plain old static html via [@mrmrs'](http://mrmrs.io/) [tachyons](http://tachyons.io/) template which is a development environment and css "framework." I put this in quotes because it is really just a comprehensive collection of single use, object oriented global classes. 
+This website was built with plain old static html via [@mrmrs'](http://mrmrs.io/) [tachyons](http://tachyons.io/) template which is a development environment and css "framework." I put this in quotes because it is really just a comprehensive collection of single use, object oriented global classes.
 
 Live: [prettycommon.com](http://prettycommon.com)
 

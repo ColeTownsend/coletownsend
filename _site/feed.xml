@@ -7,6 +7,33 @@
 		<atom:link href="http://twnsnd.co/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Nomad CLI</title>
+				<description>&lt;p&gt;&lt;a href=&quot;http://nomad.cool&quot;&gt;Nomad&lt;/a&gt; is a command line tool that lets you install packages of code on your Ardunio. In three commands, you can get your Arduino up and running within minutes using the most popular packages on the internet. You can also easily package and share your own&amp;nbsp;setup.&lt;/p&gt;
+
+&lt;h2&gt;Logo&lt;/h2&gt;
+
+&lt;p&gt;For this project, I created both a logo and landing page for the service. The logo is an assymetric tent with bright red hues with a deep purple stroke. It&amp;#8217;s meant to evoke the hunter-gatherer lifestyle of its namesake: fire, warmth, safety, mobility, and&amp;nbsp;flexibility.&lt;/p&gt;
+
+&lt;p&gt;Initially, I played with the idea of camels, horses, and wood fires. I thought about working on a way to simplify the nomadic lifestyle: yurts, tents, constellations, rock paintings. What resonated the most with the name I felt was the tent. In just over an hour I had a working&amp;nbsp;piece.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;display: block; margin: 0 auto; width: 100%; border: 1px solid #f9f9f9;&quot; src=&quot;http://twnsnd.co/images/inline/nomadpm-logos.svg&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Web&lt;/h2&gt;
+
+&lt;p&gt;The website needed to communicate both how to work Nomad while showing how easy the service is to use. The goal in mind was lightweight modularity — just how great code should be. It also needs approachability. While many users will be familiar with command line, they may not be familiar with package managers. I tried to differentiate this site from most code based sites, looking to simplify information and aesthetic flourishes. The result is a clear hierarchy, minimal copywriting, and ample whitespace as to not overwhelm&amp;nbsp;visitors.&lt;/p&gt;
+
+&lt;p&gt;You can see the full website at &lt;a href=&quot;http://nomad.cool&quot;&gt;nomad.cool&lt;/a&gt; or&amp;nbsp;below.
+&lt;br&gt;
+&lt;figure class=&quot;web&quot;&gt;
+  &lt;img class=&quot;land-img&quot; src=&quot;http://twnsnd.co/images/inline/nomad-desktop.png&quot;&gt;
+&lt;/figure&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sat, 31 Jan 2015 00:00:00 -0500</pubDate>
+				<link>http://twnsnd.co/work/nomadpm</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/nomadpm</guid>
+			</item>
+		
+			<item>
 				<title>Fresh Install Yosemite to Development: The Easy Way</title>
 				<description>&lt;h4&gt;Disclaimer&lt;/h4&gt;
 
@@ -921,29 +948,6 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 				<pubDate>Wed, 19 Mar 2014 13:27:15 -0400</pubDate>
 				<link>http://twnsnd.co/work/balzac-theme</link>
 				<guid isPermaLink="true">http://twnsnd.co/work/balzac-theme</guid>
-			</item>
-		
-			<item>
-				<title>Typistry</title>
-				<description>&lt;p&gt;Typistry is a single column, reading-centric theme for Tumblr. I wanted to create an environment around the blog post, to coddle long form for a great reading experience. The end result was a theme that looked similar to what one might see on a kindle, on the &lt;span class=&quot;caps&quot;&gt;NYT&lt;/span&gt; redesign, or on A List&amp;nbsp;Apart.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;strip-style&quot; href=&quot;http://gum.co/yMIA&quot; class=&quot;gumroad-button&quot;&gt;Buy on Gumroad&lt;/a&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;https://gumroad.com/js/gumroad.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;h2&gt;Reader&amp;nbsp;Friendly&lt;/h2&gt;
-
-&lt;p&gt;The goal of this design was to optimize legibility. I focused on the reading experience. I started by choosing a font, and establishing the font size, line height and paragraph width. When I sought out to choose a font, I looked for humanist serifs that I enjoyed reading. I visited the informationArchitects blog, A List Apart, took a look at my kindle, and typed a bit on ByWord. I found that I enjoyed the heavier weighted serifs on my Kindle and A List Apart. I dug through free font catalogs and searched in the Google Web Fonts repo. I stumbled across Lora. Lora has moderate contrast and a tall x-height — perfect for long form&amp;nbsp;reading.&lt;/p&gt;
-
-&lt;p&gt;I then established a typographic rhythm. I used the Pearsonified typographic golden ratio calculator formula with the compute capabilities of &lt;span class=&quot;caps&quot;&gt;SCSS.&lt;/span&gt; I established a body width of 620px and a large body font size. The end result was a good balance of line length, font size, and white&amp;nbsp;space.&lt;/p&gt;
-
-&lt;h2&gt;Using&amp;nbsp;Sass&lt;/h2&gt;
-
-&lt;p&gt;I utilized &lt;span class=&quot;caps&quot;&gt;SCSS&lt;/span&gt; to style the theme. It was incredible how quickly and easily I could make vast style changes to the blog. Using @mixins was both faster for coding and better for visual consistency. As I made this theme responsive, as opposed to fluid, I changed elements as needed, which lead to less code. I ended up with cleaner &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt;, and ultimately fewer changes to the formatting of the blog. Visually, it is consistent and it scales down gracefully to&amp;nbsp;smartphone.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://thetypistry.tumblr.com/&quot;&gt;You can get a feel for Typistry here&lt;/a&gt;.&lt;/p&gt;
-</description>
-				<pubDate>Thu, 27 Feb 2014 12:06:34 -0500</pubDate>
-				<link>http://twnsnd.co/work/typistry</link>
-				<guid isPermaLink="true">http://twnsnd.co/work/typistry</guid>
 			</item>
 		
 	</channel>
