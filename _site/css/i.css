@@ -1011,18 +1011,18 @@ a {
 
 body {
   color: #4A4C52;
-  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
+  font-family: "Aften Screen", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   font-size: 1em;
   line-height: 1.5em; }
 
 h1, h2, h3, .block-1 p, h4, h5, h6, figcaption, .contact p:first-child, .contact label {
-  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
+  font-family: "Aften Screen", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   line-height: 1.25em;
   margin: 0;
   text-rendering: optimizeLegibility; }
 
 h5, h6, figcaption, .contact p:first-child, .contact label {
-  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif; }
+  font-family: "Aften Screen", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif; }
 
 h1 {
   font-size: 2.25em;
@@ -1268,7 +1268,7 @@ body {
   width: 100%;
   padding: 0 0 9em;
   background: #ffffff;
-  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
+  font-family: "Aften Screen", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   color: #4A4C52;
   text-size-adjust: 100%;
   overflow-x: hidden !important; }
@@ -1329,7 +1329,7 @@ a[data="disabled"] {
     margin-top: 3em; }
 
 header[role="main-header"] {
-  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
+  font-family: "Aften Screen", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   width: 100%;
   color: #4A4C52;
   font-weight: 500;
@@ -1666,7 +1666,7 @@ section[class*="block-"] {
   position: relative; }
 .post .description {
   color: #c6c7cb;
-  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
+  font-family: "Aften Screen", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   margin-bottom: 0.375em; }
   .post .description div {
     line-height: 1.4em; }
@@ -1687,7 +1687,7 @@ section[class*="block-"] {
       padding-left: 0; }
 .post article {
   margin-bottom: 3em;
-  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
+  font-family: "Aften Screen", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   float: left;
   display: block;
   margin-right: 1.69492%;
@@ -2034,7 +2034,7 @@ footer {
   left: 0;
   width: 100%;
   display: block;
-  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
+  font-family: "Aften Screen", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   text-align: center;
   width: 100%;
   height: 9em;
@@ -2074,11 +2074,14 @@ footer {
     width: 2rem;
     height: 2rem;
     opacity: 0;
-    font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif !important; }
+    font-family: "Aften Screen", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif !important; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
       .about .buffalo {
         background-image: url("../images/assets/buffalo-blue_2x.png");
         background-size: 2rem 2rem; } }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5 / 1), only screen and (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+      .about .buffalo {
+        background-size: 2rem 1.5rem; } }
     @media screen and (max-width: 640px) {
       .about .buffalo {
         display: none; } }
@@ -2095,7 +2098,7 @@ footer {
           background-size: 2rem 2rem; } }
       .about .buffalo:hover:before {
         text-align: center;
-        font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif !important;
+        font-family: "Aften Screen", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif !important;
         opacity: 1;
         -webkit-transition-delay: 0s, 0s, 0s, 0.1s;
         transition-delay: 0s, 0s, 0s, 0.1s;
@@ -2231,7 +2234,7 @@ footer {
     display: block;
     margin-right: 7.14286%;
     width: 82.14286%;
-    font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
+    font-family: "Aften Screen", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
     text-align: right; }
@@ -2273,7 +2276,7 @@ footer {
   background-size: 100% auto;
   width: 4rem;
   height: 4rem;
-  font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif !important; }
+  font-family: "Aften Screen", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif !important; }
   .buffalo-full:hover {
     opacity: 1;
     background: url("../images/assets/buffalo-red-huge.png"), center center no-repeat;
@@ -2285,7 +2288,7 @@ footer {
     background-size: 100% auto; }
     .buffalo-full:hover:before {
       text-align: center;
-      font-family: "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif !important;
+      font-family: "Aften Screen", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif !important;
       opacity: 1;
       -webkit-transition-delay: 0s, 0s, 0s, 0.1s;
       transition-delay: 0s, 0s, 0s, 0.1s;

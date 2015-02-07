@@ -4,6 +4,9 @@
     @include user-select();
     @include retina-image("../images/assets/buffalo-blue", 2rem 2rem);
     // @include background(url("../images/assets/buffalo-grey.svg"), center center no-repeat);
+    @include hidpi(1.5) {
+      background-size: 2rem 1.5rem;
+    }
     @include media($small) {
       display: none;
     }
@@ -122,7 +125,7 @@
       }
     }
   }
-  
+
   .profile-links {
     @include span-columns(2.5 of 3);
     font-family: $base-font-family;
