@@ -20,7 +20,7 @@ section[class*="block-"] {
   padding-bottom: $base-line-height*2;
   background: $red-gray;
   margin-bottom: $base-line-height*2;
-  @include media($small) { 
+  @include media($small) {
     margin-bottom: 0;
     padding-bottom: 0;
   }
@@ -30,7 +30,6 @@ section[class*="block-"] {
     padding: 3em 0;
     position: relative;
     height: 100%;
-    font-weight: 300;
     @include media($small) {
       padding: 0 1em;
     }
@@ -89,10 +88,10 @@ section[class*="block-"] {
       margin-bottom: $base-line-height;
       background: $light-gray;
       position: relative;
-      text-align: center; 
+      text-align: center;
       z-index: 1;
       opacity: 0;
-      // @include transition(all .2s $base-transition-timing);    
+      // @include transition(all .2s $base-transition-timing);
       @include span-columns(3);
       @include omega();
       min-height: 22vw;
@@ -175,7 +174,7 @@ section[class*="block-"] {
         top: 0;
         right: 0;
         z-index: 1;
-      }      
+      }
       &:hover {
         // @include transition(all .2s $ease-in-out-quad);
       }
@@ -186,7 +185,7 @@ section[class*="block-"] {
         display: block;
         position: absolute;
         color: transparentize($white, 1);
-        @include transition(background .2s $ease-in-out-quad); 
+        @include transition(background .2s $ease-in-out-quad);
         &.shown {
           color: $white;
           @include linear-gradient(135deg, $red 20%, $orange 100%);
@@ -226,7 +225,7 @@ section[class*="block-"] {
         font-weight: 500;
         @extend %liga;
         @extend %vertical-align;
-      } 
+      }
     }
   }
 }
