@@ -10,7 +10,6 @@ html {
   min-height: 100%;
   position: relative;
   font-weight: normal;
-  -webkit-font-smoothing: antialiased;
   @include media($small) {
     font-size: 87.5%;
   }
