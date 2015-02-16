@@ -7,6 +7,15 @@
 		<atom:link href="http://twnsnd.co/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Fifty Shades of Greige</title>
+				<description>&lt;p&gt;Sass Functions&amp;nbsp;Rock.&lt;/p&gt;
+</description>
+				<pubDate>Mon, 16 Feb 2015 11:20:22 -0500</pubDate>
+				<link>http://twnsnd.co/links/fifty-shades</link>
+				<guid isPermaLink="true">http://twnsnd.co/links/fifty-shades</guid>
+			</item>
+		
+			<item>
 				<title>Nomad CLI</title>
 				<description>&lt;p&gt;&lt;a href=&quot;http://nomad.cool&quot;&gt;Nomad&lt;/a&gt; package manager for Arduino. In three commands, you can get your device up and running within minutes using the most popular libraries on the internet. You can also easily package and share your own&amp;nbsp;setup.&lt;/p&gt;
 
@@ -908,46 +917,6 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 				<pubDate>Tue, 25 Mar 2014 19:41:57 -0400</pubDate>
 				<link>http://twnsnd.co/work/goodrich-coffee</link>
 				<guid isPermaLink="true">http://twnsnd.co/work/goodrich-coffee</guid>
-			</item>
-		
-			<item>
-				<title>Balzac Theme</title>
-				<description>&lt;h2&gt;For&amp;nbsp;Anchor&lt;/h2&gt;
-
-&lt;p&gt;Creating this theme in Anchor was relatively easy. I used similar php templates to those for my own website, and merely had to style the front end. I used Semantic.gs, a simple grid _include for Sass projects, and made it percentage based. The result was a fluid grid with min and max widths. I based the entire format on my favorite blogs and content heavy websites, and used the amazing &lt;a href=&quot;http://www.calendasplus.com/&quot;&gt;Calendas Plus&lt;/a&gt;&amp;nbsp;font.
-&lt;a href=&quot;http://gtat.me/balzac&quot; target=&quot;_blank&quot;&gt;Demo&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2&gt;For&amp;nbsp;Jekyll&lt;/h2&gt;
-
-&lt;p&gt;The Jekyll version was a bit more tricky. I was unfamiliar with Liquid, which is basically &lt;span class=&quot;caps&quot;&gt;SASS&lt;/span&gt; for &lt;span class=&quot;caps&quot;&gt;HTML.&lt;/span&gt; It makes large websites both scalable and incredible fast. I utilized some &lt;span class=&quot;caps&quot;&gt;MIT&lt;/span&gt; licensed code from &lt;a href=&quot;http://mademistakes.com/&quot;&gt;Michael Rose&lt;/a&gt;, and  quickly got the hang of it. The end result is a blog theme with exactly the same appearance as the Anchor theme, but without all the backend&amp;nbsp;bloat.
-&lt;a href=&quot;http://jekyll.gtat.me/&quot; target=&quot;_blank&quot;&gt;Demo&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;A note on&amp;nbsp;Jekyll.&lt;/h3&gt;
-
-&lt;p&gt;Jekyll doesn&amp;#8217;t use any backend. There is no admin panel or &lt;span class=&quot;caps&quot;&gt;SQL&lt;/span&gt; database. It stores all the files in folders. That means the content is static, and caches really well. Instead of loading each page differently for every visitor, it just loads the static file. That takes an enormous load off the servers if there is a lot of&amp;nbsp;traffic.&lt;/p&gt;
-
-&lt;div&gt;
-
-&lt;figure class=&quot;grid-full&quot; &gt;
-  
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/balzac-theme-1.jpg&quot; title=&quot;Home Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/balzac-theme-1.jpg&quot; alt=&quot;Home Page&quot; title=&quot;Home Page&quot;&gt;&lt;/a&gt;
-  &lt;figcaption&gt;Balzac Hero&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-
-&lt;figure class=&quot;grid-full&quot; &gt;
-  
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/balzac-theme-2.png&quot; title=&quot;Home Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/balzac-theme-2.png&quot; alt=&quot;Home Page&quot; title=&quot;Home Page&quot;&gt;&lt;/a&gt;
-  &lt;figcaption&gt;Balzac Longform&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-
-&lt;/div&gt;
-
-</description>
-				<pubDate>Wed, 19 Mar 2014 13:27:15 -0400</pubDate>
-				<link>http://twnsnd.co/work/balzac-theme</link>
-				<guid isPermaLink="true">http://twnsnd.co/work/balzac-theme</guid>
 			</item>
 		
 	</channel>
