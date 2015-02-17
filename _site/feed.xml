@@ -16,6 +16,57 @@
 			</item>
 		
 			<item>
+				<title>Panda Network</title>
+				<description>&lt;p&gt;Panda Network is the bootstrapped co-founding duo of Ahmet Sulek and William Channer. They simply get things done. They work in collaboration with many different developers and designers to ship apps you may be familiar with. I was lucky enough to work through them on &lt;a href=&quot;/work/thenews&quot;&gt;TheNews&lt;/a&gt;, designing both the i&lt;span class=&quot;caps&quot;&gt;OS&lt;/span&gt; app, i&lt;span class=&quot;caps&quot;&gt;OS&lt;/span&gt; app landing page, and redesigning the web&amp;nbsp;app.&lt;/p&gt;
+
+&lt;h2&gt;Getting Stuff&amp;nbsp;Done&lt;/h2&gt;
+
+&lt;p&gt;After enumerating over 3 different layouts, Ahmet, Williams and I decided on a simple and straightforward list. It speaks to their style of work. They&amp;#8217;re quick to reply, keep things moving, and stay organized. They also have a ton of projects off the ground. They&amp;#8217;re body of work really speaks for them, all they need is a place to invoke the various brands under the Panda Network&amp;nbsp;umbrella.&lt;/p&gt;
+
+&lt;p&gt;This is a more basic but eye catching approach. It&amp;#8217;s straightforward and speaks directly to dev and designers. They have likely heard of what Panda Networks has done. The apps here can continually be added and instead tells a story of Panda&amp;#8217;s&amp;nbsp;work.&lt;/p&gt;
+
+&lt;div&gt;
+&lt;figure class=&quot;grid-full&quot; &gt;
+  
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/panda-networks.jpg&quot; title=&quot;TheNews App Landing Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/panda-networks.jpg&quot; alt=&quot;TheNews App Landing Page&quot; title=&quot;TheNews App Landing Page&quot;&gt;&lt;/a&gt;
+  
+&lt;/figure&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;div&gt;
+&lt;figure class=&quot;grid-full&quot; &gt;
+  
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/panda-networks-hover.jpg&quot; title=&quot;TheNews App Landing Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/panda-networks-hover.jpg&quot; alt=&quot;TheNews App Landing Page&quot; title=&quot;TheNews App Landing Page&quot;&gt;&lt;/a&gt;
+  &lt;figcaption&gt;On hovering a link&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;div&gt;
+&lt;figure class=&quot;grid-full&quot; &gt;
+  
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/panda-networks-expanded.jpg&quot; title=&quot;TheNews App Landing Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/panda-networks-expanded.jpg&quot; alt=&quot;TheNews App Landing Page&quot; title=&quot;TheNews App Landing Page&quot;&gt;&lt;/a&gt;
+  &lt;figcaption&gt;On clicking expand&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/div&gt;
+
+
+
+</description>
+				<pubDate>Mon, 16 Feb 2015 00:00:00 -0500</pubDate>
+				<link>http://twnsnd.co/work/panda-network</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/panda-network</guid>
+			</item>
+		
+			<item>
 				<title>Nomad CLI</title>
 				<description>&lt;p&gt;&lt;a href=&quot;http://nomad.cool&quot;&gt;Nomad&lt;/a&gt; package manager for Arduino. In three commands, you can get your device up and running within minutes using the most popular libraries on the internet. You can also easily package and share your own&amp;nbsp;setup.&lt;/p&gt;
 
@@ -691,7 +742,7 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 
 &lt;p&gt;Inspired by &lt;a href=&quot;thenews.im&quot;&gt;thenews.im&lt;/a&gt; by &lt;a href=&quot;twitter.com/ahmetsulek&quot;&gt;Ahmet Sulek&lt;/a&gt;, &lt;a href=&quot;twitter.com/tosinaf&quot;&gt;Tosin Afolabi&lt;/a&gt;, and I decided to bring it over to i&lt;span class=&quot;caps&quot;&gt;OS.&lt;/span&gt; It takes advantage of native gestures, as well as conditioned gestures to make for a clean, natural feeling experience. I was lucky enough to have a target user base that is experienced with gestures. Swiping the navigation bar at the top switches between Designer and Hacker News. Swiping a post from right to left takes the user to the comment thread. Swiping from left to right &amp;#8220;up votes&amp;#8221; the&amp;nbsp;post.&lt;/p&gt;
 
-&lt;p&gt;You can see the app landing page here: &lt;a href=&quot;http://ahmetsulek.github.io/thenews&quot;&gt;TheNews App&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can see the app landing page here: &lt;a href=&quot;http://thenewsapp.co&quot;&gt;TheNews App&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div&gt;
 
@@ -847,76 +898,6 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 				<pubDate>Wed, 26 Mar 2014 16:28:42 -0400</pubDate>
 				<link>http://twnsnd.co/work/meeet</link>
 				<guid isPermaLink="true">http://twnsnd.co/work/meeet</guid>
-			</item>
-		
-			<item>
-				<title>Goodrich Coffee</title>
-				<description>&lt;p&gt;At Williams College, I worked with Goodrich Coffee Bar. I developed their identity through several poster campaigns. With custom illustrations and cheeky copywriting I helped develop their brand voice. I used the typeface &lt;em&gt;Soleil&lt;/em&gt;, available on&amp;nbsp;Typekit.&lt;/p&gt;
-
-&lt;h6&gt;Fall&amp;nbsp;Campaign&lt;/h6&gt;
-
-&lt;div&gt;
-
-&lt;figure class=&quot;grid-2&quot; &gt;
-  
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/gcb-skyr.jpg&quot; title=&quot;Tees&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/gcb-skyr.jpg&quot; alt=&quot;Tees&quot; title=&quot;Tees&quot;&gt;&lt;/a&gt;
-  
-&lt;/figure&gt;
-
-
-&lt;figure class=&quot;grid-2&quot; &gt;
-  
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/gcb-tees.jpg&quot; title=&quot;Tees&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/gcb-tees.jpg&quot; alt=&quot;Tees&quot; title=&quot;Tees&quot;&gt;&lt;/a&gt;
-  
-&lt;/figure&gt;
-
-
-&lt;/div&gt;
-
-
-&lt;div&gt;
-
-&lt;figure class=&quot;grid-2&quot; &gt;
-  
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/gcb-iced.jpg&quot; title=&quot;Tees&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/gcb-iced.jpg&quot; alt=&quot;Tees&quot; title=&quot;Tees&quot;&gt;&lt;/a&gt;
-  
-&lt;/figure&gt;
-
-
-&lt;figure class=&quot;grid-2&quot; &gt;
-  
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/gcb-wildflour.jpg&quot; title=&quot;Tees&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/gcb-wildflour.jpg&quot; alt=&quot;Tees&quot; title=&quot;Tees&quot;&gt;&lt;/a&gt;
-  
-&lt;/figure&gt;
-
-
-&lt;/div&gt;
-
-
-&lt;h6&gt;Winter&amp;nbsp;Campaign&lt;/h6&gt;
-
-&lt;div&gt;
-
-&lt;figure class=&quot;grid-2&quot; &gt;
-  
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/gcb-night.jpg&quot; title=&quot;Tees&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/gcb-night.jpg&quot; alt=&quot;Tees&quot; title=&quot;Tees&quot;&gt;&lt;/a&gt;
-  
-&lt;/figure&gt;
-
-
-&lt;figure class=&quot;grid-2&quot; &gt;
-  
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/gcb-happy-tea.jpg&quot; title=&quot;Tees&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/gcb-happy-tea.jpg&quot; alt=&quot;Tees&quot; title=&quot;Tees&quot;&gt;&lt;/a&gt;
-  
-&lt;/figure&gt;
-
-
-&lt;/div&gt;
-
-</description>
-				<pubDate>Tue, 25 Mar 2014 19:41:57 -0400</pubDate>
-				<link>http://twnsnd.co/work/goodrich-coffee</link>
-				<guid isPermaLink="true">http://twnsnd.co/work/goodrich-coffee</guid>
 			</item>
 		
 	</channel>
