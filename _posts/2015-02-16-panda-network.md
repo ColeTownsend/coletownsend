@@ -18,9 +18,18 @@ After enumerating over 3 different layouts, Ahmet, Williams and I decided on a s
 
 This is a more basic but eye catching approach. It's straightforward and speaks directly to dev and designers. They have likely heard of what Panda Networks has done. The apps here can continually be added and instead tells a story of Panda's work.
 
+<br>
+
+The website is live at [panda.network](http://panda.network)
+
 <div>{% include _fluidbox.html grid="full" class="" alt="TheNews App Landing Page" url="panda-networks.jpg" loweres="" %}</div>
 
 <div>{% include _fluidbox.html grid="full" class="" alt="TheNews App Landing Page" url="panda-networks-hover.jpg" loweres="" cap="On hovering a link" %}</div>
 
 <div>{% include _fluidbox.html grid="full" class="" alt="TheNews App Landing Page" url="panda-networks-expanded.jpg" loweres="" cap="On clicking expand" %}</div>
+
+
+The website also comes in a mobile flavor. It's styled according to work — so on mobile appears their mobile work available in the App Store.
+
+<div>{% include _fluidbox.html grid="full" class="" alt="Mobile Page" url="panda-networks-mobile.jpg" loweres="" %}</div>
 

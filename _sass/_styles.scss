@@ -11,16 +11,16 @@ html {
   position: relative;
   font-weight: normal;
   @include media($small) {
-    font-size: 87.5%;
+    font-size: 16px;
   }
   @include media($medium) {
-    font-size: 112.5%;
+    font-size: 20px;
   }
   @include media($default) {
-    font-size: 125%;
+    font-size: 22px;
   }
   @include media($huge) {
-    font-size: 137.5%;
+    font-size: 24px;
   }
 }
 

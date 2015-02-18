@@ -1013,7 +1013,8 @@ body {
   color: #4A4C52;
   font-family: "Nitti Grotesk", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   font-size: 1em;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased; }
 
 h1, h2, h3, .block-1 p, h4, h5, h6, figcaption, .contact p:first-child, .contact label {
   font-family: "Nitti Grotesk", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
@@ -1252,16 +1253,16 @@ html {
   font-weight: normal; }
   @media screen and (max-width: 640px) {
     html {
-      font-size: 87.5%; } }
+      font-size: 16px; } }
   @media screen and (max-width: 800px) {
     html {
-      font-size: 112.5%; } }
+      font-size: 20px; } }
   @media screen and (min-width: 801px) {
     html {
-      font-size: 125%; } }
+      font-size: 22px; } }
   @media screen and (min-width: 1441px) {
     html {
-      font-size: 137.5%; } }
+      font-size: 24px; } }
 
 body {
   width: 100%;
@@ -1298,7 +1299,7 @@ a[data="disabled"] {
 
 /* Site Architecture */
 .wrap, header[role="main-header"] nav, .block-1 article, .block-2, .listing article header, .listing .work-listing h1 {
-  max-width: 48em;
+  max-width: 43.63636em;
   margin-left: auto;
   margin-right: auto;
   margin: 0 auto; }
