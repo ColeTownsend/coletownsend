@@ -54,8 +54,8 @@
     }
     .tag {
       color: $dark-gray;
-      font-weight: 500;
-      font-size: $fs7;
+      font-weight: 400;
+      font-size: ($fs7 + em(1px));
       line-height: 18px;
       padding-left: 10px;
       position: relative;
@@ -97,6 +97,13 @@
       max-width: 100%;
       height: auto;
       max-height: $base-line-height*20;
+    }
+    video {
+      width: 100%;
+      max-width: 800px;
+      display: block;
+      height: auto;
+      margin: $base-line-height auto;
     }
     figure {
       margin: $base-line-height auto;
@@ -201,13 +208,14 @@
     }
     blockquote {
       position: relative;
+      line-height: 1.4;
       &:after {
         content: '';
         position: absolute;
         @include transform(rotate(-45deg));
         width: $base-line-height;
         top: 50%;
-        left: $base-line-height*3;
+        left: -$base-line-height;
         height: 1px;
         background: $base-accent-color;
       }

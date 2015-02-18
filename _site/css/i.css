@@ -1010,7 +1010,7 @@ a {
   box-sizing: border-box; }
 
 body {
-  color: #4A4C52;
+  color: #323337;
   font-family: "Nitti Grotesk", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   font-size: 1em;
   line-height: 1.5em;
@@ -1061,15 +1061,6 @@ h6, figcaption, .contact p:first-child, .contact label {
 figcaption {
   opacity: .5; }
 
-p {
-  -ms-word-break: break-all;
-  word-break: break-all;
-  /* Non standard for webkit */
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto; }
-
 p + p {
   margin-top: 1.5em; }
 
@@ -1098,24 +1089,35 @@ address {
   margin: 0 0 0.75em; }
 
 del {
-  color: rgba(74, 76, 82, 0.67); }
+  color: rgba(50, 51, 55, 0.67); }
 
 sup {
   vertical-align: super;
   font-style: 0.46667em; }
 
-blockquote {
-  font-style: italic;
+blockquote, .post article blockquote {
+  font-style: normal;
   margin: 1.5em 0;
-  margin-left: 1.5em;
-  padding-left: 1.5em;
+  margin-left: 0.75em;
+  padding-left: 0.75em;
   float: left;
   display: block;
   margin-right: 1.69492%;
-  width: 83.05085%;
-  margin-left: 8.47458%; }
-  blockquote:last-child {
+  width: 91.52542%;
+  margin-left: 4.23729%;
+  font-size: 1.25em;
+  z-index: 100; }
+  blockquote:last-child, .post article blockquote:last-child {
     margin-right: 0; }
+  blockquote p, .post article blockquote p {
+    width: 100%;
+    float: none;
+    display: block;
+    padding-left: 1.5em;
+    margin: 0;
+    margin-top: 1.5em; }
+    blockquote p:first-of-type, .post article blockquote p:first-of-type {
+      margin-top: 0; }
 
 small {
   font-size: 0.6em;
@@ -1133,7 +1135,7 @@ b {
   background: rgba(255, 220, 0, 0.34); }
 
 cite {
-  color: #888b94;
+  color: #6e717a;
   font-style: italic; }
   cite:before {
     content: '\2014 \00A0'; }
@@ -1269,7 +1271,6 @@ body {
   padding: 0 0 9em;
   background: #ffffff;
   font-family: "Nitti Grotesk", "GT Walsheim", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
-  color: #4A4C52;
   text-size-adjust: 100%;
   overflow-x: hidden !important; }
 
@@ -1435,7 +1436,7 @@ section[class*="block-"] {
       .block-1 article {
         padding: 0 1em; } }
   .block-1 p {
-    color: #4A4C52;
+    color: #323337;
     line-height: 1.5;
     padding: 0 3rem; }
     @media screen and (max-width: 640px) {
@@ -1676,8 +1677,8 @@ section[class*="block-"] {
     font-size: 0.7em; }
   .post .description .tag {
     color: #9b9da4;
-    font-weight: 500;
-    font-size: 0.7em;
+    font-weight: 400;
+    font-size: 0.7625em;
     line-height: 18px;
     padding-left: 10px;
     position: relative;
@@ -1711,6 +1712,12 @@ section[class*="block-"] {
     max-width: 100%;
     height: auto;
     max-height: 30em; }
+  .post article video {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    height: auto;
+    margin: 1.5em auto; }
   .post article figure {
     margin: 1.5em auto; }
     .post article figure figcaption {
@@ -1824,7 +1831,8 @@ section[class*="block-"] {
     .post article figure img {
       margin: 0 auto; }
   .post article blockquote {
-    position: relative; }
+    position: relative;
+    line-height: 1.4; }
     .post article blockquote:after {
       content: '';
       position: absolute;
@@ -1835,7 +1843,7 @@ section[class*="block-"] {
       transform: rotate(-45deg);
       width: 1.5em;
       top: 50%;
-      left: 4.5em;
+      left: -1.5em;
       height: 1px;
       background: #EC6F66; }
     .post article blockquote:before {

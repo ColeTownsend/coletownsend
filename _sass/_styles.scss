@@ -32,7 +32,6 @@ body {
   @if $body == $ss-alt {
     letter-spacing: -0.02em;
   }
-  color: $black;
   text-size-adjust: 100%;
   overflow-x: hidden !important;
 }

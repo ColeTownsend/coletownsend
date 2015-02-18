@@ -79,6 +79,7 @@ $white: #ffffff;
 
 // Others
 $real-black: #232830;
+$dark-real-black: darken($real-black, 5);
 $dark-gray: lighten($black, 32%);
 $medium-gray: lighten($black, 48%);
 $red-gray: #ebebea;
@@ -94,7 +95,7 @@ $off-white: darken(#ffffff, 1%);
 // Body Color
 $base-body-color: $white;
 //  Font Colors
-$base-font-color: $black;
+$base-font-color: darken($black,10);
 $base-accent-color: $red;
 //  Text Link Colors
 $base-link-color: $base-accent-color;
