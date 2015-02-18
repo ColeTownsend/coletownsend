@@ -3,16 +3,16 @@
 	<channel>
 		<title>Twnsnd Co.</title>
 		<description>Insouciant describes me well.</description>		
-		<link>http://localhost:4000</link>
-		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://twnsnd.co</link>
+		<atom:link href="http://twnsnd.co/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Fifty Shades of Greige</title>
 				<description>&lt;p&gt;Sass Functions&amp;nbsp;Rock.&lt;/p&gt;
 </description>
 				<pubDate>Mon, 16 Feb 2015 11:20:22 -0500</pubDate>
-				<link>http://localhost:4000/links/fifty-shades</link>
-				<guid isPermaLink="true">http://localhost:4000/links/fifty-shades</guid>
+				<link>http://twnsnd.co/links/fifty-shades</link>
+				<guid isPermaLink="true">http://twnsnd.co/links/fifty-shades</guid>
 			</item>
 		
 			<item>
@@ -39,11 +39,11 @@
 
 &lt;div style=&quot;margin: 0 auto; max-width: 800px;&quot;&gt;
 &lt;video controls&gt;
-  &lt;source src=&quot;http://localhost:4000/images/inline/panda-screen.mp4&quot; type=&quot;video/mp4&quot;&gt;
+  &lt;source src=&quot;http://twnsnd.co/images/inline/panda-screen.mp4&quot; type=&quot;video/mp4&quot;&gt;
   &lt;div&gt;
 &lt;figure class=&quot;grid-full&quot; &gt;
   
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://localhost:4000/images/inline/panda-networks.jpg&quot; title=&quot;Panda Networks landing page&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/inline/panda-networks.jpg&quot; alt=&quot;Panda Networks landing page&quot; title=&quot;Panda Networks landing page&quot;&gt;&lt;/a&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/panda-networks.jpg&quot; title=&quot;Panda Networks landing page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/panda-networks.jpg&quot; alt=&quot;Panda Networks landing page&quot; title=&quot;Panda Networks landing page&quot;&gt;&lt;/a&gt;
   
 &lt;/figure&gt;
 
@@ -59,7 +59,7 @@
 &lt;div&gt;
 &lt;figure class=&quot;grid-full&quot; &gt;
   
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://localhost:4000/images/inline/panda-networks-mobile.jpg&quot; title=&quot;Mobile Page&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/inline/panda-networks-mobile.jpg&quot; alt=&quot;Mobile Page&quot; title=&quot;Mobile Page&quot;&gt;&lt;/a&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/panda-networks-mobile.jpg&quot; title=&quot;Mobile Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/panda-networks-mobile.jpg&quot; alt=&quot;Mobile Page&quot; title=&quot;Mobile Page&quot;&gt;&lt;/a&gt;
   
 &lt;/figure&gt;
 
@@ -69,8 +69,8 @@
 
 </description>
 				<pubDate>Mon, 16 Feb 2015 00:00:00 -0500</pubDate>
-				<link>http://localhost:4000/work/panda-network</link>
-				<guid isPermaLink="true">http://localhost:4000/work/panda-network</guid>
+				<link>http://twnsnd.co/work/panda-network</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/panda-network</guid>
 			</item>
 		
 			<item>
@@ -83,7 +83,7 @@
 
 &lt;p&gt;Initially, I played with the idea of camels, horses, and wood fires. I thought about working on a way to simplify the nomadic lifestyle: yurts, tents, constellations, rock paintings. What resonated the most with the name I felt was the tent. In just over an hour I had a working&amp;nbsp;piece.&lt;/p&gt;
 
-&lt;p&gt;&lt;img style=&quot;display: block; margin: 0 auto; width: 100%; border: 1px solid #f9f9f9;&quot; src=&quot;http://localhost:4000/images/inline/nomadpm-logos.svg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style=&quot;display: block; margin: 0 auto; width: 100%; border: 1px solid #f9f9f9;&quot; src=&quot;http://twnsnd.co/images/inline/nomadpm-logos.svg&quot;&gt;&lt;/p&gt;
 
 &lt;h2&gt;Web&lt;/h2&gt;
 
@@ -92,12 +92,12 @@
 &lt;p&gt;You can see the full website at &lt;a href=&quot;http://nomad.cool&quot;&gt;nomad.cool&lt;/a&gt; or&amp;nbsp;below.
 &lt;br&gt;
 &lt;figure class=&quot;web&quot;&gt;
-  &lt;img class=&quot;land-img&quot; src=&quot;http://localhost:4000/images/inline/nomad-desktop.png&quot;&gt;
+  &lt;img class=&quot;land-img&quot; src=&quot;http://twnsnd.co/images/inline/nomad-desktop.png&quot;&gt;
 &lt;/figure&gt;&lt;/p&gt;
 </description>
 				<pubDate>Sat, 31 Jan 2015 00:00:00 -0500</pubDate>
-				<link>http://localhost:4000/work/nomadpm</link>
-				<guid isPermaLink="true">http://localhost:4000/work/nomadpm</guid>
+				<link>http://twnsnd.co/work/nomadpm</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/nomadpm</guid>
 			</item>
 		
 			<item>
@@ -704,8 +704,8 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 &lt;/code&gt;&lt;/pre&gt;
 </description>
 				<pubDate>Sun, 21 Dec 2014 13:06:34 -0500</pubDate>
-				<link>http://localhost:4000/journal/fresh-install-yosemite</link>
-				<guid isPermaLink="true">http://localhost:4000/journal/fresh-install-yosemite</guid>
+				<link>http://twnsnd.co/journal/fresh-install-yosemite</link>
+				<guid isPermaLink="true">http://twnsnd.co/journal/fresh-install-yosemite</guid>
 			</item>
 		
 			<item>
@@ -719,17 +719,17 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;div&gt;
-&lt;img style=&quot;width: 100%; height: auto; max-height: 9999px; border: 1px solid #000&quot; src=&quot;http://localhost:4000/images/inline/pretty-common-1.jpg&quot;&gt;
+&lt;img style=&quot;width: 100%; height: auto; max-height: 9999px; border: 1px solid #000&quot; src=&quot;http://twnsnd.co/images/inline/pretty-common-1.jpg&quot;&gt;
 &lt;br&gt;
-&lt;img style=&quot;width: 100%; height: auto; max-height: 9999px; border: 1px solid #000&quot; src=&quot;http://localhost:4000/images/inline/pretty-common-2.jpg&quot;&gt;
+&lt;img style=&quot;width: 100%; height: auto; max-height: 9999px; border: 1px solid #000&quot; src=&quot;http://twnsnd.co/images/inline/pretty-common-2.jpg&quot;&gt;
 &lt;/div&gt;
 
 
 
 </description>
 				<pubDate>Mon, 01 Dec 2014 00:00:00 -0500</pubDate>
-				<link>http://localhost:4000/work/pretty-common</link>
-				<guid isPermaLink="true">http://localhost:4000/work/pretty-common</guid>
+				<link>http://twnsnd.co/work/pretty-common</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/pretty-common</guid>
 			</item>
 		
 			<item>
@@ -737,8 +737,8 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 				<description>&lt;p&gt;Two invites up for&amp;nbsp;grabs!&lt;/p&gt;
 </description>
 				<pubDate>Sat, 21 Jun 2014 20:42:53 -0400</pubDate>
-				<link>http://localhost:4000/links/two-dribbble-invites</link>
-				<guid isPermaLink="true">http://localhost:4000/links/two-dribbble-invites</guid>
+				<link>http://twnsnd.co/links/two-dribbble-invites</link>
+				<guid isPermaLink="true">http://twnsnd.co/links/two-dribbble-invites</guid>
 			</item>
 		
 			<item>
@@ -755,14 +755,14 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 
 &lt;figure class=&quot;grid-4&quot; &gt;
   &lt;figcaption&gt;Commenting&lt;/figcaption&gt;
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://localhost:4000/images/inline/thenews-comment.png&quot; title=&quot;TheNews App Comment View&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/inline/thenews-comment.png&quot; alt=&quot;TheNews App Comment View&quot; title=&quot;TheNews App Comment View&quot;&gt;&lt;/a&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/thenews-comment.png&quot; title=&quot;TheNews App Comment View&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/thenews-comment.png&quot; alt=&quot;TheNews App Comment View&quot; title=&quot;TheNews App Comment View&quot;&gt;&lt;/a&gt;
   
 &lt;/figure&gt;
 
 
 &lt;figure class=&quot;grid-4&quot; &gt;
   &lt;figcaption&gt;The Menu&lt;/figcaption&gt;
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://localhost:4000/images/inline/thenews-menu.png&quot; title=&quot;TheNews App Menu&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/inline/thenews-menu.png&quot; alt=&quot;TheNews App Menu&quot; title=&quot;TheNews App Menu&quot;&gt;&lt;/a&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/thenews-menu.png&quot; title=&quot;TheNews App Menu&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/thenews-menu.png&quot; alt=&quot;TheNews App Menu&quot; title=&quot;TheNews App Menu&quot;&gt;&lt;/a&gt;
   
 &lt;/figure&gt;
 
@@ -770,14 +770,14 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 
 &lt;figure class=&quot;grid-4&quot; &gt;
   &lt;figcaption&gt;&lt;span class=&quot;caps&quot;&gt;MOTD&lt;/span&gt;&lt;/figcaption&gt;
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://localhost:4000/images/inline/thenews-hacker.png&quot; title=&quot;Message of the Day&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/inline/thenews-hacker.png&quot; alt=&quot;Message of the Day&quot; title=&quot;Message of the Day&quot;&gt;&lt;/a&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/thenews-hacker.png&quot; title=&quot;Message of the Day&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/thenews-hacker.png&quot; alt=&quot;Message of the Day&quot; title=&quot;Message of the Day&quot;&gt;&lt;/a&gt;
   
 &lt;/figure&gt;
 
 
 &lt;figure class=&quot;grid-4&quot; &gt;
   &lt;figcaption&gt;Hacker News&lt;/figcaption&gt;
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://localhost:4000/images/inline/thenews-hacker.png&quot; title=&quot;TheNews Hacker View&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/inline/thenews-hacker.png&quot; alt=&quot;TheNews Hacker View&quot; title=&quot;TheNews Hacker View&quot;&gt;&lt;/a&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/thenews-hacker.png&quot; title=&quot;TheNews Hacker View&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/thenews-hacker.png&quot; alt=&quot;TheNews Hacker View&quot; title=&quot;TheNews Hacker View&quot;&gt;&lt;/a&gt;
   
 &lt;/figure&gt;
 
@@ -791,7 +791,7 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 
 &lt;figure class=&quot;grid-full&quot; &gt;
   
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://localhost:4000/images/inline/thenews-app-site.png&quot; title=&quot;TheNews App Landing Page&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/inline/thenews-app-site.png&quot; alt=&quot;TheNews App Landing Page&quot; title=&quot;TheNews App Landing Page&quot;&gt;&lt;/a&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/thenews-app-site.png&quot; title=&quot;TheNews App Landing Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/thenews-app-site.png&quot; alt=&quot;TheNews App Landing Page&quot; title=&quot;TheNews App Landing Page&quot;&gt;&lt;/a&gt;
   &lt;figcaption&gt;TheNews App Site&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -802,8 +802,8 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 
 </description>
 				<pubDate>Thu, 12 Jun 2014 16:53:04 -0400</pubDate>
-				<link>http://localhost:4000/work/thenews</link>
-				<guid isPermaLink="true">http://localhost:4000/work/thenews</guid>
+				<link>http://twnsnd.co/work/thenews</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/thenews</guid>
 			</item>
 		
 			<item>
@@ -829,7 +829,7 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 &lt;div&gt;
 
 &lt;figure class=&quot;grid-2&quot; &gt;&lt;figcaption&gt;Landing Page&lt;/figcaption&gt;
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://localhost:4000/images/inline/pvcc-home.png&quot; title=&quot;Home Page&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/inline//thumbs/pvcc-home.png&quot; alt=&quot;Home Page&quot; title=&quot;Home Page&quot;&gt;&lt;/a&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/pvcc-home.png&quot; title=&quot;Home Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline//thumbs/pvcc-home.png&quot; alt=&quot;Home Page&quot; title=&quot;Home Page&quot;&gt;&lt;/a&gt;
   
 &lt;/figure&gt;
 
@@ -838,7 +838,7 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 
 &lt;figure class=&quot;grid-2&quot; &gt;
   &lt;figcaption&gt;Sign Up&lt;/figcaption&gt;
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://localhost:4000/images/inline/pvcc-sign-up.png&quot; title=&quot;Home Page&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/inline/pvcc-sign-up.png&quot; alt=&quot;Home Page&quot; title=&quot;Home Page&quot;&gt;&lt;/a&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/pvcc-sign-up.png&quot; title=&quot;Home Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/pvcc-sign-up.png&quot; alt=&quot;Home Page&quot; title=&quot;Home Page&quot;&gt;&lt;/a&gt;
   
 &lt;/figure&gt;
 
@@ -847,8 +847,8 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 
 </description>
 				<pubDate>Thu, 29 May 2014 15:10:14 -0400</pubDate>
-				<link>http://localhost:4000/work/purple-valley-coffee-club</link>
-				<guid isPermaLink="true">http://localhost:4000/work/purple-valley-coffee-club</guid>
+				<link>http://twnsnd.co/work/purple-valley-coffee-club</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/purple-valley-coffee-club</guid>
 			</item>
 		
 			<item>
@@ -859,14 +859,14 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 
 &lt;figure class=&quot;grid-full&quot; &gt;
   
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://localhost:4000/images/inline/tosin-home.jpg&quot; title=&quot;Home Page&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/inline/tosin-home.jpg&quot; alt=&quot;Home Page&quot; title=&quot;Home Page&quot;&gt;&lt;/a&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/tosin-home.jpg&quot; title=&quot;Home Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/tosin-home.jpg&quot; alt=&quot;Home Page&quot; title=&quot;Home Page&quot;&gt;&lt;/a&gt;
   &lt;figcaption&gt;Landing Page&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 
 
 &lt;figure class=&quot;grid-2&quot; &gt;&lt;figcaption&gt;Case Study&lt;/figcaption&gt;
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://localhost:4000/images/inline/tosin-work.jpg&quot; title=&quot;Case Study&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/inline//thumbs/tosin-work.jpg&quot; alt=&quot;Case Study&quot; title=&quot;Case Study&quot;&gt;&lt;/a&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/tosin-work.jpg&quot; title=&quot;Case Study&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline//thumbs/tosin-work.jpg&quot; alt=&quot;Case Study&quot; title=&quot;Case Study&quot;&gt;&lt;/a&gt;
   
 &lt;/figure&gt;
 
@@ -874,7 +874,7 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 
 
 &lt;figure class=&quot;grid-2&quot; &gt;&lt;figcaption&gt;Portfolio Listing&lt;/figcaption&gt;
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://localhost:4000/images/inline/tosin-listing.jpg&quot; title=&quot;Portfolio Listing&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/inline//thumbs/tosin-listing.jpg&quot; alt=&quot;Portfolio Listing&quot; title=&quot;Portfolio Listing&quot;&gt;&lt;/a&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/tosin-listing.jpg&quot; title=&quot;Portfolio Listing&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline//thumbs/tosin-listing.jpg&quot; alt=&quot;Portfolio Listing&quot; title=&quot;Portfolio Listing&quot;&gt;&lt;/a&gt;
   
 &lt;/figure&gt;
 
@@ -884,8 +884,8 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 
 </description>
 				<pubDate>Fri, 11 Apr 2014 14:59:54 -0400</pubDate>
-				<link>http://localhost:4000/work/tosin-af</link>
-				<guid isPermaLink="true">http://localhost:4000/work/tosin-af</guid>
+				<link>http://twnsnd.co/work/tosin-af</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/tosin-af</guid>
 			</item>
 		
 			<item>
@@ -903,8 +903,8 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 &lt;p&gt;We’d love to hear from you at us@meeet.co, or on Twitter &lt;a href=&quot;http://twitter.com/meeetco&quot;&gt;@meeetco&lt;/a&gt;.&lt;/p&gt;
 </description>
 				<pubDate>Wed, 26 Mar 2014 16:28:42 -0400</pubDate>
-				<link>http://localhost:4000/work/meeet</link>
-				<guid isPermaLink="true">http://localhost:4000/work/meeet</guid>
+				<link>http://twnsnd.co/work/meeet</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/meeet</guid>
 			</item>
 		
 	</channel>
