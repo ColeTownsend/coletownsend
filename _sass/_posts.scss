@@ -276,7 +276,7 @@
   }
 }
 
-p a {
+.about p a, .post p a {
   color: $red;
   vertical-align: bottom;
   font-weight: 500;
@@ -292,7 +292,7 @@ p a {
   }
 }
 
-p a::before {
+.about p a::before, .post p a::before {
   position: absolute;
   top: 0;
   left: -5px;
@@ -313,11 +313,12 @@ p a::before {
   @include border-bottom-radius($border-radius);
 }
 
-p a:hover::before,
-p a:focus::before {
+.about p a:hover::before, .post p a:hover::before,
+.about p a:focus::before, .post p a:focus::before {
   @include border-top-radius($border-radius);
   @include border-bottom-radius($border-radius);
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
+

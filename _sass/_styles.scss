@@ -1,8 +1,6 @@
 // Basic Site Architecture
-
 * {
   @include box-sizing(border-box);
-
 }
 
 html {
@@ -10,6 +8,7 @@ html {
   min-height: 100%;
   position: relative;
   font-weight: normal;
+  // font sizing for quick MQ adjustments
   @include media($small) {
     font-size: 16px;
   }

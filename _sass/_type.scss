@@ -1,6 +1,7 @@
 // Typography
 ///////////////////////////////////////////////////////////////////////////////
 
+
 body {
   color: $base-font-color;
   font-family: $head;
@@ -182,12 +183,14 @@ span.accent {
 
 pre {
   font-family: monospace;
+  font-size: .85em;
   padding: .5rem 1rem;
   background: $black;
   color: $white;
   overflow: scroll;
   margin: 1rem auto;
   max-width: 100%;
+  border-radius: $border-radius;
 	code {
 		padding: 0;
 		background:none;
@@ -198,7 +201,9 @@ pre {
 
 code {
 	font-family: monospace;
-	padding: .4rem .5rem;
+	padding: .2rem .3rem;
+  border-radius: $border-radius;
+  font-size: .85em;
 	background: $black;
 	color: $white;
 	&::selection {
@@ -339,4 +344,15 @@ div.highlight {
       margin-top: 1.5rem;
       letter-spacing: 0.1em;
     }
+}
+
+// links
+
+.low-key-link {
+  color: $red;
+  @include transition(color .2s $ease-in-out-sine);
+  &:hover {
+    color: $black;
+    @include transition(color .2s $ease-in-out-sine);
+  }
 }

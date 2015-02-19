@@ -1145,12 +1145,14 @@ span.accent {
 
 pre {
   font-family: monospace;
+  font-size: .85em;
   padding: .5rem 1rem;
   background: #4A4C52;
   color: #ffffff;
   overflow: scroll;
   margin: 1rem auto;
-  max-width: 100%; }
+  max-width: 100%;
+  border-radius: 2px; }
   pre code {
     padding: 0;
     background: none;
@@ -1159,7 +1161,9 @@ pre {
 
 code {
   font-family: monospace;
-  padding: .4rem .5rem;
+  padding: .2rem .3rem;
+  border-radius: 2px;
+  font-size: .85em;
   background: #4A4C52;
   color: #ffffff; }
   code::selection {
@@ -1242,6 +1246,17 @@ h6, figcaption, .contact p:first-child, .contact label, small, .post h6, .post f
   font-weight: bold;
   margin-top: 1.5rem;
   letter-spacing: 0.1em; }
+
+.low-key-link {
+  color: #EC6F66;
+  -webkit-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -moz-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
+  .low-key-link:hover {
+    color: #4A4C52;
+    -webkit-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -moz-transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
 
 * {
   -webkit-box-sizing: border-box;
@@ -1911,7 +1926,7 @@ section[class*="block-"] {
   .post article p a.strip-style:hover {
     color: #e64439; }
 
-p a {
+.about p a, .post p a {
   color: #EC6F66;
   vertical-align: bottom;
   font-weight: 500;
@@ -1922,10 +1937,10 @@ p a {
   text-decoration: none;
   white-space: nowrap;
   border-radius: 2px; }
-  p a:hover {
+  .about p a:hover, .post p a:hover {
     color: #ffffff; }
 
-p a::before {
+.about p a::before, .post p a::before {
   position: absolute;
   top: 0;
   left: -5px;
@@ -1955,8 +1970,8 @@ p a::before {
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px; }
 
-p a:hover::before,
-p a:focus::before {
+.about p a:hover::before, .post p a:hover::before,
+.about p a:focus::before, .post p a:focus::before {
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   border-bottom-left-radius: 2px;
