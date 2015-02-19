@@ -69,8 +69,8 @@
 
 </description>
 				<pubDate>Mon, 16 Feb 2015 00:00:00 -0500</pubDate>
-				<link>http://twnsnd.co/work/panda-network</link>
-				<guid isPermaLink="true">http://twnsnd.co/work/panda-network</guid>
+				<link>http://twnsnd.co/work,/home/panda-network</link>
+				<guid isPermaLink="true">http://twnsnd.co/work,/home/panda-network</guid>
 			</item>
 		
 			<item>
@@ -96,8 +96,8 @@
 &lt;/figure&gt;&lt;/p&gt;
 </description>
 				<pubDate>Sat, 31 Jan 2015 00:00:00 -0500</pubDate>
-				<link>http://twnsnd.co/work/nomadpm</link>
-				<guid isPermaLink="true">http://twnsnd.co/work/nomadpm</guid>
+				<link>http://twnsnd.co/work,/home/nomadpm</link>
+				<guid isPermaLink="true">http://twnsnd.co/work,/home/nomadpm</guid>
 			</item>
 		
 			<item>
@@ -728,8 +728,8 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 
 </description>
 				<pubDate>Mon, 01 Dec 2014 00:00:00 -0500</pubDate>
-				<link>http://twnsnd.co/work/pretty-common</link>
-				<guid isPermaLink="true">http://twnsnd.co/work/pretty-common</guid>
+				<link>http://twnsnd.co/work,/home/pretty-common</link>
+				<guid isPermaLink="true">http://twnsnd.co/work,/home/pretty-common</guid>
 			</item>
 		
 			<item>
@@ -802,8 +802,8 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 
 </description>
 				<pubDate>Thu, 12 Jun 2014 16:53:04 -0400</pubDate>
-				<link>http://twnsnd.co/work/thenews</link>
-				<guid isPermaLink="true">http://twnsnd.co/work/thenews</guid>
+				<link>http://twnsnd.co/work,/home/thenews</link>
+				<guid isPermaLink="true">http://twnsnd.co/work,/home/thenews</guid>
 			</item>
 		
 			<item>
@@ -847,51 +847,8 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 
 </description>
 				<pubDate>Thu, 29 May 2014 15:10:14 -0400</pubDate>
-				<link>http://twnsnd.co/work/purple-valley-coffee-club</link>
-				<guid isPermaLink="true">http://twnsnd.co/work/purple-valley-coffee-club</guid>
-			</item>
-		
-			<item>
-				<title>Portfolio of Tosin Afolabi</title>
-				<description>&lt;p&gt;This portfolio site is for a friend with whom I work. He wanted something that was unique, a bit edgier than the traditional site for a developer. I created several different color palettes as well as a motion prototype in &lt;em&gt;Adobe Edge Effects&lt;/em&gt; to flesh out timing and give him an idea of how his site would&amp;nbsp;feel.&lt;/p&gt;
-
-&lt;div&gt;
-
-&lt;figure class=&quot;grid-full&quot; &gt;
-  
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/tosin-home.png&quot; title=&quot;Home Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/tosin-home.png&quot; alt=&quot;Home Page&quot; title=&quot;Home Page&quot;&gt;&lt;/a&gt;
-  &lt;figcaption&gt;Landing Page&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-
-&lt;/div&gt;
-
-
-
-
-&lt;div&gt;
-
-&lt;figure class=&quot;grid-2&quot; &gt;
-  &lt;figcaption&gt;Case Study&lt;/figcaption&gt;
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/tosin-work.png&quot; title=&quot;Case Study&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/tosin-work.png&quot; alt=&quot;Case Study&quot; title=&quot;Case Study&quot;&gt;&lt;/a&gt;
-  
-&lt;/figure&gt;
-
-
-
-&lt;figure class=&quot;grid-2&quot; &gt;
-  &lt;figcaption&gt;Portfolio Listing&lt;/figcaption&gt;
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/tosin-listing.png&quot; title=&quot;Portfolio Listing&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/tosin-listing.png&quot; alt=&quot;Portfolio Listing&quot; title=&quot;Portfolio Listing&quot;&gt;&lt;/a&gt;
-  
-&lt;/figure&gt;
-
-
-&lt;/div&gt;
-
-</description>
-				<pubDate>Fri, 11 Apr 2014 14:59:54 -0400</pubDate>
-				<link>http://twnsnd.co/work/tosin-af</link>
-				<guid isPermaLink="true">http://twnsnd.co/work/tosin-af</guid>
+				<link>http://twnsnd.co/work,%20home/purple-valley-coffee-club</link>
+				<guid isPermaLink="true">http://twnsnd.co/work,%20home/purple-valley-coffee-club</guid>
 			</item>
 		
 			<item>
@@ -908,9 +865,39 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 
 &lt;p&gt;We’d love to hear from you at us@meeet.co, or on Twitter &lt;a href=&quot;http://twitter.com/meeetco&quot;&gt;@meeetco&lt;/a&gt;.&lt;/p&gt;
 </description>
-				<pubDate>Wed, 26 Mar 2014 16:28:42 -0400</pubDate>
-				<link>http://twnsnd.co/work/meeet</link>
-				<guid isPermaLink="true">http://twnsnd.co/work/meeet</guid>
+				<pubDate>Tue, 27 May 2014 00:00:00 -0400</pubDate>
+				<link>http://twnsnd.co/work,/home/meeet</link>
+				<guid isPermaLink="true">http://twnsnd.co/work,/home/meeet</guid>
+			</item>
+		
+			<item>
+				<title>Tuchuang</title>
+				<description>&lt;h2&gt;Logo&lt;/h2&gt;
+
+&lt;p&gt;I developed the logo as well as business cards for the company. In the logo, I aimed to communicate trustworthiness, stability, and approachability. After many different sketches, I chose an off centered, three dimensional &amp;#8220;T&amp;#8221;. A flat &amp;#8220;T&amp;#8221; seemed a bit boring, interchangeable, unapproachable. It didn&amp;#8217;t communicate the close relationship that Tuchuang aims to develop with clients. Adding a dimension and separating the sides gave it a bit of visual interest, while still communicating Tuchuang&amp;#8217;s professionalism, effectiveness, and strength. The end result is easily reproduced, visually consistent in all media, and scales&amp;nbsp;perfectly.&lt;/p&gt;
+
+&lt;h2&gt;Business&amp;nbsp;Cards&lt;/h2&gt;
+
+&lt;p&gt;With a template already in mind, I created a slightly more unique business card that would look great in both Chinese and&amp;nbsp;English.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/tuch-biz-front.png&quot;&gt;
+&lt;img src=&quot;http://twnsnd.co/images/inline/tuch-biz-back.png&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Website&lt;/h2&gt;
+
+&lt;p&gt;I provided the layout, illustrations, as well as &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; for various&amp;nbsp;elements.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/tuch-illust.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure class=&quot;web&quot;&gt;
+&lt;img class=&quot;land-img&quot; src=&quot;http://twnsnd.co/images/inline/tuch-small-land.jpg&quot;&gt;
+&lt;/figure&gt;&lt;/p&gt;
+</description>
+				<pubDate>Mon, 26 May 2014 17:01:50 -0400</pubDate>
+				<link>http://twnsnd.co/work/tuchuang</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/tuchuang</guid>
 			</item>
 		
 	</channel>

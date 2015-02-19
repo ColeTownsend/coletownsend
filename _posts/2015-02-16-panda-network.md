@@ -2,7 +2,7 @@
 layout: portfolio
 title: Panda Network
 date: 2015-02-16
-category: work
+categories: work, home
 accent_color: "#35af6b"
 role: designer
 tags: [web design, copywriting]

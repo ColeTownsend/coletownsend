@@ -2,11 +2,11 @@
 layout: portfolio
 title: Purple Valley Coffee Club
 date: "2014-05-29 15:10:14"
-category: work
+category: "work, home"
 accent_color: "#CCBFB4"
 title-color: "#fffff"
 role: "Design, Development"
-tags: [Branding, Logo Design, Just For Fun]
+tags: [Branding, Logo Design, Front End, Just For Fun]
 extra_css:
 image:
   feature: pvcc-home.png
