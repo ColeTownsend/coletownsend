@@ -1,11 +1,10 @@
 ---
 layout: portfolio
-
 title: Goodrich Coffee
 date: "2014-03-25 19:41:57"
 category: work
-accent_color: "#"
-title-color: "#"
+accent_color: ""
+title-color: ""
 role: "Designer"
 tags: [Branding, Copywriting]
 extra_css:

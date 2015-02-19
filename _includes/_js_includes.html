@@ -3,6 +3,7 @@
 <script type="text/javascript" src="{{ site.url }}/javascripts/retina.js"></script>
 <script type="text/javascript" src="{{ site.url }}/javascripts/no-src.js"></script>
 <script data-no-instant src="{{ site.url }}/javascripts/velocity.min.js"></script>
+<script data-no-instant src="{{ site.url }}/javascripts/velocity.ui.min.js"></script>
 
 
 <!-- Typekit -->
@@ -34,19 +35,29 @@ $(function () {
 </script>
 
 <script>
-  $(".work-grid")
-  .velocity({delay: 300 })
-  .velocity({ scale: 0}, 100, [ 250, 15 ])
-  .velocity({opacity: 1}, 100)
-  .velocity({ scale: 1 }, 800, [ 260, 13 ]);
+$.Velocity.RegisterUI("transition.bounceIn", {
+  defaultDuration: 1200,
+  calls: [
+    [ { scale: 0 }, .5, { easing: [ 250, 12 ] } ],
+    [ {opacity: 1}, .5],
+    [ { scale: 1 }, .7, { easing: [ 250, 12 ] } ]
+  ]
+});
+
+$(".work-grid").velocity("transition.bounceIn", { delay: 100, stagger: 100 });
 </script>
 
 <script>
-  $(".buffalo")
-  .velocity({delay: 300})
-  .velocity({ scale: 0}, 100, [ 250, 15 ])
-  .velocity({opacity: .5}, 100)
-  .velocity({ scale: 1 }, 800, [ 260, 13 ]);
+$.Velocity.RegisterUI("transition.bounceIn", {
+  defaultDuration: 1200,
+  calls: [
+    [ { scale: 0 }, .5, { easing: [ 250, 12 ] } ],
+    [ {opacity: 1}, .5],
+    [ { scale: 1 }, .7, { easing: [ 250, 12 ] } ]
+  ]
+});
+
+$(".buffalo").velocity("transition.bounceIn"});
 </script>
 
 <script>

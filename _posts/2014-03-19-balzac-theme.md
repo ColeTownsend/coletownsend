@@ -1,13 +1,12 @@
 ---
 layout: portfolio
-
 title: Balzac Theme
 date: "2014-03-19 13:27:15"
 category: work
 accent_color: "#6d98cf"
-title-color: "#"
+title-color: ""
 role: "Designer and Developer"
-tags: [Web Design, CMS]
+tags: [web design, front end]
 image:
   feature: balzac-code.png
 ---
