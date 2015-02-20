@@ -10,8 +10,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
 
 	<link data-no-instant rel="stylesheet" href="{{ site.url }}/css/i.css?v={{ site.version }}">
-  <link data-no-instant rel="stylesheet" href="{{ site.url }}/fonts/gt/font.css">
+  <link data-no-instant rel="stylesheet" href="{{ site.url }}/css/devices.min.css">
   <link data-no-instant href="//cloud.webtype.com/css/7006acc2-c25b-45bc-83fe-ee20be162e4c.css" rel="stylesheet" type="text/css" />
+
   {% for css_name in page.extra_css %}
     <link rel="stylesheet" href="{{ site.url }}{{ css_name }}?v={{ site.version }}">
   {% endfor %}

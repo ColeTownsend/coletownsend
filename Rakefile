@@ -2,7 +2,7 @@ require "yaml"
 require "fileutils"
 require "tmpdir"
 require "rubygems"
-# require "bundler/setup"
+require "reduce"
 require "jekyll"
 require "rubygems"
 require 'rake'

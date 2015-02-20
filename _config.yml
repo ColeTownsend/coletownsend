@@ -1,10 +1,10 @@
 name: "Twnsnd Co."
-description: "Insouciant describes me well."
+description: "I'm just happy to be here."
 author: "Twnsnd Co"
 url: "http://twnsnd.co"
 email: cole@twnsnd.co
 twitter: twnsndco
-version: 46
+version: 47
 
 future: true
 
@@ -31,7 +31,7 @@ ftp_passive: false
 
 # A list of directories (including trailing slash) and files to exclude from the conversion
 # ============================================================
-exclude: ['README.md', 'Procfile', 'Rakefile', '*.codekit', 'Gemfile.lock', 'Gemfile', '.gitignore', 'templates', '*.sublime-workspace', '*.sublime-project', '_config.yml', '*.scssc']
+exclude: ['README.md', 'Procfile', 'Rakefile', '*.codekit', 'Gemfile.lock', 'Gemfile', '.gitignore', 'templates', '*.sublime-workspace', '*.sublime-project', '_config.yml', '*.scssc', 'bower_components']
 include:  ['.htaccess']
 
 timezone:    America/New_York
@@ -60,7 +60,7 @@ links:
 
 permalink: /:categories/:title
 
-paginate: 6
+paginate: 1000
 
 sitemap:
     file: "/sitemap.xml"

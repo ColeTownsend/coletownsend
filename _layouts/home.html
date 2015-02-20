@@ -19,7 +19,7 @@
       <article class="full">
         <ul>
         {% for post in site.posts %}
-          {% if post.categories contains 'home' %}
+          {% if post.home %}
               {% if post.image.feature %}
                 <li class="work-grid">
                   <span class="colorize" style="background:{% if post.accent_color %}{{ post.accent_color}}{% else %}#EFEFEF{% endif %};"></span>

@@ -2,7 +2,8 @@
 layout: portfolio
 title: Purple Valley Coffee Club
 date: "2014-05-29 15:10:14"
-category: "work, home"
+category: "work"
+home: true
 accent_color: "#CCBFB4"
 title-color: "#fffff"
 role: "Design, Development"

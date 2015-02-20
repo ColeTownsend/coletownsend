@@ -2,7 +2,8 @@
 layout: portfolio
 title: Panda Network
 date: 2015-02-16
-categories: work, home
+category: work
+home: true
 accent_color: "#35af6b"
 role: designer
 tags: [web design, copywriting]
@@ -42,5 +43,7 @@ I was impressed with Ahmet's execution on the part of the click and scale animat
 
 The website also comes in a mobile flavor. It's styled according to work per medium — so for mobile appears their latest apps available in the App Store.
 
-<div>{% include _fluidbox.html grid="full" class="" alt="Mobile Page" url="panda-networks-mobile@2x.jpg" loweres="panda-networks-mobile.jpg" %}</div>
+<div>
+{% include _fluidbox.html grid="full" alt="Panda Networks Mobile View" url="panda-networks-mobile.jpg" loweres="" cap="Landing Page" %}
+</div>
 

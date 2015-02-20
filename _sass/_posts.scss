@@ -1,9 +1,5 @@
 // Post Page
 .post {
-  div {
-    display: block;
-    @include clearfix;
-  }
   header.bg-img {
     vertical-align: middle;
     height: $base-line-height*14;
@@ -97,6 +93,13 @@
       max-width: 100%;
       height: auto;
       max-height: $base-line-height*20;
+    }
+    .screen img {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      max-height: none;
     }
     video {
       width: 100%;

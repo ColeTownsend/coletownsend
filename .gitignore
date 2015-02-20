@@ -45,3 +45,10 @@ node_modules/**/**/**/**/*
 # Ruby
 Gemfile.lock
 _site/.htaccess
+
+# Ignore for Yeoman-Jekyll projects #
+/node_modules
+/bower_components
+/bower_componenets/*
+/.tmp
+
