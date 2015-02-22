@@ -1109,6 +1109,17 @@ blockquote, .post article blockquote {
   z-index: 100; }
   blockquote:last-child, .post article blockquote:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 640px) {
+    blockquote, .post article blockquote {
+      margin-left: 0;
+      padding: 0.375em;
+      float: left;
+      display: block;
+      margin-right: 2.5641%;
+      width: 100%;
+      margin-left: 0%; }
+      blockquote:last-child, .post article blockquote:last-child {
+        margin-right: 0; } }
   blockquote p, .post article blockquote p {
     width: 100%;
     float: none;
@@ -1116,6 +1127,10 @@ blockquote, .post article blockquote {
     padding-left: 1.5em;
     margin: 0;
     margin-top: 1.5em; }
+    @media screen and (max-width: 640px) {
+      blockquote p, .post article blockquote p {
+        padding-left: 0;
+        margin-left: 0; } }
     blockquote p:first-of-type, .post article blockquote p:first-of-type {
       margin-top: 0; }
 
@@ -1197,7 +1212,7 @@ div.highlight {
 
 /* Copy
    ========================================================================== */
-.post hr, .post h1, .post h2, .post h3, .post .block-1 p, .block-1 .post p, .post h4, .post h5, .post h6, .post figcaption, .post .contact p:first-child, .contact .post p:first-child, .post .contact label, .contact .post label, .post article header, .post article p, .post article ul, .post article ul ol {
+.post hr, .post h1, .post h2, .post h3, .post .block-1 p, .block-1 .post p, .post h4, .post h5, .post h6, .post figcaption, .post .contact p:first-child, .contact .post p:first-child, .post .contact label, .contact .post label, .post article header, .post article p, .post article ul, .post article ul ol, .post-width {
   float: left;
   display: block;
   margin-right: 1.69492%;
@@ -1205,16 +1220,16 @@ div.highlight {
   margin-left: 16.94915%;
   float: none;
   position: relative; }
-  .post hr:last-child, .post h1:last-child, .post h2:last-child, .post h3:last-child, .post .block-1 p:last-child, .block-1 .post p:last-child, .post h4:last-child, .post h5:last-child, .post h6:last-child, .post figcaption:last-child, .post .contact p:last-child:first-child, .contact .post p:last-child:first-child, .post .contact label:last-child, .contact .post label:last-child, .post article header:last-child, .post article p:last-child, .post article ul:last-child, .post article ul ol:last-child {
+  .post hr:last-child, .post h1:last-child, .post h2:last-child, .post h3:last-child, .post .block-1 p:last-child, .block-1 .post p:last-child, .post h4:last-child, .post h5:last-child, .post h6:last-child, .post figcaption:last-child, .post .contact p:last-child:first-child, .contact .post p:last-child:first-child, .post .contact label:last-child, .contact .post label:last-child, .post article header:last-child, .post article p:last-child, .post article ul:last-child, .post article ul ol:last-child, .post-width:last-child {
     margin-right: 0; }
   @media screen and (max-width: 640px) {
-    .post hr, .post h1, .post h2, .post h3, .post .block-1 p, .block-1 .post p, .post h4, .post h5, .post h6, .post figcaption, .post .contact p:first-child, .contact .post p:first-child, .post .contact label, .contact .post label, .post article header, .post article p, .post article ul, .post article ul ol {
+    .post hr, .post h1, .post h2, .post h3, .post .block-1 p, .block-1 .post p, .post h4, .post h5, .post h6, .post figcaption, .post .contact p:first-child, .contact .post p:first-child, .post .contact label, .contact .post label, .post article header, .post article p, .post article ul, .post article ul ol, .post-width {
       float: left;
       display: block;
       margin-right: 1.69492%;
       width: 100%;
       margin-left: 0%; }
-      .post hr:last-child, .post h1:last-child, .post h2:last-child, .post h3:last-child, .post .block-1 p:last-child, .block-1 .post p:last-child, .post h4:last-child, .post h5:last-child, .post h6:last-child, .post figcaption:last-child, .post .contact p:last-child:first-child, .contact .post p:last-child:first-child, .post .contact label:last-child, .contact .post label:last-child, .post article header:last-child, .post article p:last-child, .post article ul:last-child, .post article ul ol:last-child {
+      .post hr:last-child, .post h1:last-child, .post h2:last-child, .post h3:last-child, .post .block-1 p:last-child, .block-1 .post p:last-child, .post h4:last-child, .post h5:last-child, .post h6:last-child, .post figcaption:last-child, .post .contact p:last-child:first-child, .contact .post p:last-child:first-child, .post .contact label:last-child, .contact .post label:last-child, .post article header:last-child, .post article p:last-child, .post article ul:last-child, .post article ul ol:last-child, .post-width:last-child {
         margin-right: 0; } }
 
 /* Casing
@@ -1286,8 +1301,7 @@ body {
   padding: 0 0 9em;
   background: #ffffff;
   font-family: "Nitti Grotesk", "Neuzeit Grotesk", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
-  text-size-adjust: 100%;
-  overflow-x: hidden !important; }
+  text-size-adjust: 100%; }
 
 a {
   text-decoration: none; }
@@ -1339,10 +1353,8 @@ a[data="disabled"] {
     display: table;
     clear: both; }
 
-.wrap {
-  overflow-x: hidden !important; }
-  .wrap article > header {
-    margin-top: 3em; }
+.wrap article > header {
+  margin-top: 3em; }
 
 header[role="main-header"] {
   font-family: "Nitti Grotesk", "Neuzeit Grotesk", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
@@ -1733,6 +1745,35 @@ section[class*="block-"] {
     display: block;
     height: auto;
     margin: 1.5em auto; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5 / 1), only screen and (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+      .post article video {
+        max-width: 100%;
+        float: left;
+        display: block;
+        margin-right: 1.69492%;
+        width: 66.10169%;
+        margin-left: 16.94915%;
+        float: none;
+        position: relative; }
+        .post article video:last-child {
+          margin-right: 0; } }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 640px), only screen and (min--moz-device-pixel-ratio: 1.5) and (max-width: 640px), only screen and (-o-min-device-pixel-ratio: 1.5 / 1) and (max-width: 640px), only screen and (min-resolution: 144dpi) and (max-width: 640px), only screen and (min-resolution: 1.5dppx) and (max-width: 640px) {
+    .post article video {
+      float: left;
+      display: block;
+      margin-right: 1.69492%;
+      width: 100%;
+      margin-left: 0%; }
+      .post article video:last-child {
+        margin-right: 0; } }
+
+  .post article .full-width {
+    width: 100vw;
+    position: relative;
+    left: -50vw;
+    margin-left: 50%; }
+    .post article .full-width img {
+      max-height: none; }
   .post article figure {
     margin: 1.5em auto; }
     .post article figure figcaption {
@@ -1861,6 +1902,9 @@ section[class*="block-"] {
       left: -1.5em;
       height: 1px;
       background: #EC6F66; }
+      @media screen and (max-width: 640px) {
+        .post article blockquote:after {
+          display: none; } }
     .post article blockquote:before {
       content: '';
       position: absolute;
@@ -1874,6 +1918,9 @@ section[class*="block-"] {
       left: -1.5em;
       height: 1px;
       background: #EC6F66; }
+      @media screen and (max-width: 640px) {
+        .post article blockquote:before {
+          display: none; } }
   .post article ul {
     list-style-type: disc;
     left: 1rem;

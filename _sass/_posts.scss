@@ -107,6 +107,26 @@
       display: block;
       height: auto;
       margin: $base-line-height auto;
+      @include hidpi(1.5) {
+        max-width: 100%;
+        @include span-columns(8 of 12);
+        @include shift(2);
+        float: none;
+        position: relative;
+        @include media($small) {
+          @include span-columns(12 of 12);
+          @include shift(0);
+        }
+      }
+    }
+    .full-width {
+      width: 100vw;
+      position: relative;
+      left: -50vw;
+      margin-left: 50%;
+      img {
+        max-height: none;
+      }
     }
     figure {
       margin: $base-line-height auto;
@@ -221,6 +241,9 @@
         left: -$base-line-height;
         height: 1px;
         background: $base-accent-color;
+        @include media($small) {
+          display: none;
+        }
       }
       &:before {
         content: '';
@@ -231,6 +254,9 @@
         left: -$base-line-height;
         height: 1px;
         background: $base-accent-color;
+        @include media($small) {
+          display: none;
+        }
       }
     }
     ul {

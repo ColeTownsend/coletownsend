@@ -32,7 +32,6 @@ body {
     letter-spacing: -0.02em;
   }
   text-size-adjust: 100%;
-  overflow-x: hidden !important;
 }
 
 // Basic Elemental Styling
@@ -94,7 +93,6 @@ a[data="disabled"] {
 
 .wrap {
   @extend %container;
-  overflow-x: hidden !important;
   article > header {
     margin-top: 3em;
   }

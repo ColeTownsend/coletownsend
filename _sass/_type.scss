@@ -134,6 +134,12 @@ blockquote , .post article blockquote {
   @include shift(.5);
   font-size: $fs5;
   z-index: 100;
+  @include media($small) {
+    margin-left: 0;
+    padding: $base-line-height/4;
+    @include span-columns(8);
+    @include shift(0);
+  }
   p {
     width: 100%;
     float: none;
@@ -141,6 +147,10 @@ blockquote , .post article blockquote {
     padding-left: $base-line-height;
     margin: 0;
     margin-top: $base-line-height;
+    @include media($small) {
+      padding-left: 0;
+      margin-left: 0;
+    }
     &:first-of-type {
       margin-top: 0;
     }
@@ -255,7 +265,7 @@ div.highlight {
 
 
 // widths
-%post-width {
+%post-width, .post-width {
   @include span-columns(8 of 12);
   @include shift(2);
   float: none;
