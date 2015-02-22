@@ -16,9 +16,9 @@ Panda Network is the bootstrapped co-founding duo of Ahmet Sulek and William Cha
 
 ## Getting Stuff Done
 
-After mulling over 3 different layouts, Ahmet, Williams and I decided on a simple and straightforward list. It speaks to their style of work. They're quick to reply, keep things moving, and stay organized. They also have a ton of projects off the ground. They're body of work really speaks for them, all they need is a place to invoke the various brands under the Panda Network umbrella.
+After mulling over 3 different layouts, Ahmet, Williams and I decided on a simple and straightforward list. It speaks to their style of work. They're quick to reply, keep things moving, and stay organized. They also have a ton of projects off the ground. Their body of work really speaks for them, all they need is a place to invoke the various brands under the Panda Network umbrella.
 
-This is a more basic but eye catching approach. It's straightforward and speaks directly to dev and designers. They have likely heard of what Panda Networks has done. The apps here can continually be added and instead tells a story of Panda's work.
+This is a more basic but eye catching approach. It's straightforward and speaks directly to developers and designers who have likely heard of what Panda Networks has created. Panda can continually add new works as well without destroying the design and it will only further reinforce their identity.
 
 
 {% include _fullwidth.html url="/panda-mocks/imac/panda-network.jpg"  %}
@@ -45,7 +45,7 @@ I was impressed with Ahmet's execution on the part of the click and scale animat
 
 ## Mobile
 
-The website also comes in a mobile flavor. It's styled according to work per medium — so for mobile appears their latest apps available in the App Store.
+The website also comes in a mobile flavor. It's styled according to work per medium — when accessed on a mobile device, their latest apps available in the App Store appear.
 
 {% include _fullwidth.html url="/panda-mocks/panda-mock-iphone.jpg"  %}
 
