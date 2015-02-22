@@ -47,5 +47,6 @@ I was impressed with Ahmet's execution on the part of the click and scale animat
 
 The website also comes in a mobile flavor. It's styled according to work per medium — so for mobile appears their latest apps available in the App Store.
 
-<img src="{{ site.url }}/images/inline/panda-mocks/panda-mock.jpg" alt="Panda Networks Mobile">
+{% include _fullwidth.html url="/panda-mocks/panda-mock-iphone.jpg"  %}
 
+Currently the website is optimized for a generic width starting at a minimum of 320px, and looks best on slightly larger more powerful devices due to the slightly resource intensive animation. 
