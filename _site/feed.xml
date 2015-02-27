@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Twnsnd Co.</title>
+		<description>I&#39;m just happy to be here.</description>		
+		<link>http://twnsnd.co</link>
+		<atom:link href="http://twnsnd.co/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Fifty Shades of Greige</title>
+				<description>&lt;p&gt;Sass Functions&amp;nbsp;Rock.&lt;/p&gt;
+</description>
+				<pubDate>Mon, 16 Feb 2015 11:20:22 -0500</pubDate>
+				<link>http://twnsnd.co/links/fifty-shades</link>
+				<guid isPermaLink="true">http://twnsnd.co/links/fifty-shades</guid>
+			</item>
+		
+			<item>
+				<title>Panda Network</title>
+				<description>&lt;p&gt;Panda Network is the bootstrapped co-founding duo of Ahmet Sulek and William Channer. They simply get things done. They work in collaboration with many different developers and designers to ship apps you may be familiar with. I was lucky enough to work through them on &lt;a href=&quot;/work/thenews&quot;&gt;TheNews&lt;/a&gt;, designing both the i&lt;span class=&quot;caps&quot;&gt;OS&lt;/span&gt; app, i&lt;span class=&quot;caps&quot;&gt;OS&lt;/span&gt; app landing page, and redesigning the web&amp;nbsp;app.&lt;/p&gt;
+
+&lt;h2&gt;Getting Stuff&amp;nbsp;Done&lt;/h2&gt;
+
+&lt;p&gt;After mulling over 3 different layouts, Ahmet, Williams and I decided on a simple and straightforward list. It speaks to their style of work. They&amp;#8217;re quick to reply, keep things moving, and stay organized. They also have a ton of projects off the ground. Their body of work really speaks for them, all they need is a place to invoke the various brands under the Panda Network&amp;nbsp;umbrella.&lt;/p&gt;
+
+&lt;p&gt;This is a more basic but eye catching approach. It&amp;#8217;s straightforward and speaks directly to developers and designers who have likely heard of what Panda Networks has created. Panda can continually add new works as well without destroying the design and it will only further reinforce their&amp;nbsp;identity.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure class=&quot;full-width&quot;&gt;
+  &lt;img src=&quot;http://twnsnd.co/images/inline//panda-mocks/imac/panda-network.jpg&quot; alt=&quot;&quot; title=&quot;&quot;&gt;&lt;/a&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h2&gt;Copywriting&lt;/h2&gt;
+
+&lt;p&gt;After stumbling across the portfolios of a few copywriters, I noted how the ones I liked best and the ones that seemed the most effective were short and punchy. They were descriptive, but not&amp;nbsp;flowery.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Panda Network is a collaborative think tank created by Ahmet Sulek and William Channer. In the past they&amp;#8217;ve worked with many talented developers and designers including Cole Townsend, Yagiz Nizipli, and Tosin&amp;nbsp;Afolabi.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h2&gt;Executing the&amp;nbsp;Animation&lt;/h2&gt;
+
+&lt;p&gt;I was impressed with Ahmet&amp;#8217;s execution on the part of the click and scale animation that I gave him a set of rudimentary keyframes for. He also added the springiness to the underlines, atmospheric bubbles, and the animated letters. The added animations were certainly welcome to the design. You can seem them at the live site — &lt;a href=&quot;http://panda.network&quot;&gt;panda.network&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;div&gt;
+&lt;video controls=&quot;false&quot; autoplay=&quot;autoplay&quot;&gt;
+  &lt;source src=&quot;http://twnsnd.co/images/inline/panda-screen.mp4&quot; type=&quot;video/mp4&quot;&gt;
+  &lt;div&gt;
+&lt;figure class=&quot;grid-full&quot; &gt;
+  
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/panda-networks.jpg&quot; title=&quot;Panda Networks landing page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/panda-networks.jpg&quot; alt=&quot;Panda Networks landing page&quot; title=&quot;Panda Networks landing page&quot;&gt;&lt;/a&gt;
+  
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;/video&gt;
+&lt;/div&gt;
+
+
+&lt;h2&gt;Mobile&lt;/h2&gt;
+
+&lt;p&gt;The website also comes in a mobile flavor. It&amp;#8217;s styled according to work per medium — when accessed on a mobile device, their latest apps available in the App Store&amp;nbsp;appear.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure class=&quot;full-width&quot;&gt;
+  &lt;img src=&quot;http://twnsnd.co/images/inline//panda-mocks/panda-mock-iphone.jpg&quot; alt=&quot;&quot; title=&quot;&quot;&gt;&lt;/a&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Currently the website is optimized for a generic width starting at a minimum of 320px, and looks best on slightly larger more powerful devices due to the slightly resource intensive&amp;nbsp;animation.&lt;/p&gt;
+</description>
+				<pubDate>Mon, 16 Feb 2015 00:00:00 -0500</pubDate>
+				<link>http://twnsnd.co/work/panda-network</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/panda-network</guid>
+			</item>
+		
+			<item>
+				<title>Nomad CLI</title>
+				<description>&lt;p&gt;&lt;a href=&quot;http://nomad.cool&quot;&gt;Nomad&lt;/a&gt; package manager for Arduino. In three commands, you can get your device up and running within minutes using the most popular libraries on the internet. You can also easily package and share your own&amp;nbsp;setup.&lt;/p&gt;
+
+&lt;h2&gt;Logo&lt;/h2&gt;
+
+&lt;p&gt;The logo is an asymmetric tent with bright red hues with a deep purple stroke. It&amp;#8217;s meant to evoke the hunter-gatherer lifestyle of its namesake: fire, warmth, safety, mobility, and&amp;nbsp;flexibility.&lt;/p&gt;
+
+&lt;p&gt;Initially, I played with the idea of camels, horses, and wood fires. I thought about working on a way to simplify the nomadic lifestyle: yurts, tents, constellations, rock paintings. What resonated the most with the name I felt was the tent. In just over an hour I had a working&amp;nbsp;piece.&lt;/p&gt;
+
+&lt;p&gt;I sketched out several pages and found the most appealing to be the assymetric skewed towards the right. I didn&amp;#8217;t do any fancy golden ratio circles or grid setup for&amp;nbsp;this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;display: block; margin: 0 auto; width: 100%; border: 1px solid #f9f9f9;&quot; src=&quot;http://twnsnd.co/images/inline/nomadpm-logos.svg&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Web&lt;/h2&gt;
+
+&lt;p&gt;The website needed to communicate both how to work Nomad while showing how easy the service is to use. The goal in mind was lightweight modularity — just how great code should be. It also needs approachability. While many users will be familiar with command line, they may not be familiar with package managers. I tried to differentiate this site from most code based sites, looking to simplify information and aesthetic flourishes. The result is a clear hierarchy, minimal copywriting, and ample whitespace as to not overwhelm&amp;nbsp;visitors.&lt;/p&gt;
+
+&lt;p&gt;You can see the full website at &lt;a href=&quot;http://nomad.cool&quot;&gt;nomad.cool&lt;/a&gt; or&amp;nbsp;below.
+&lt;br&gt;
+&lt;figure class=&quot;web&quot;&gt;
+  &lt;img class=&quot;land-img&quot; src=&quot;http://twnsnd.co/images/inline/nomad-desktop.png&quot;&gt;
+&lt;/figure&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sat, 31 Jan 2015 00:00:00 -0500</pubDate>
+				<link>http://twnsnd.co/work/nomadpm</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/nomadpm</guid>
+			</item>
+		
+			<item>
+				<title>Fresh Install Yosemite to Development: The Easy Way</title>
+				<description>&lt;h4&gt;Disclaimer&lt;/h4&gt;
+
+&lt;p&gt;This requires being comfortable in the command line. You&amp;#8217;ve been warned. This is also opinionated to a degree. It sets you up with the&amp;nbsp;following:
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt;&amp;nbsp;Yosemite&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;zsh as default in command&amp;nbsp;line&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;numerous other settings from &lt;a href=&quot;http://thoughtbot.com&quot;&gt;thoughtbot&lt;/a&gt; &lt;a href=&quot;https://github.com/thoughtbot/laptop&quot;&gt;laptop&lt;/a&gt; and &lt;a href=&quot;https://github.com/thoughtbot/dotfiles&quot;&gt;dotfiles&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;all the apps that I use that are listed in the &lt;code&gt;cask-install.sh&lt;/code&gt;. You can add different ones available via &lt;a href=&quot;http://caskroom.io&quot;&gt;caskroom.io&lt;/a&gt;.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Don&amp;#8217;t install any Appstore apps yet, except for the &lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt; Yosemite&amp;nbsp;Installer.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Here&amp;#8217;s the game&amp;nbsp;plan:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Backup your laptop, perhaps twice. Sync everything that you can. Also upload your Sublime Text preferences to Dropbox or make it a gist so you can copy it all&amp;nbsp;back.&lt;/li&gt;
+&lt;li&gt;Download &lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt; Yosemite from the App&amp;nbsp;Store.&lt;/li&gt;
+&lt;li&gt;Format jump drive &amp;#8220;Untitled&amp;#8221; of 8gb or&amp;nbsp;more.&lt;/li&gt;
+&lt;li&gt;Run a terminal command to format the install for use off of the &amp;#8220;Untitled&amp;#8221; jum&amp;nbsp;drive.&lt;/li&gt;
+&lt;li&gt;Set your startup disk as the jump&amp;nbsp;drive&lt;/li&gt;
+&lt;li&gt;Restart&lt;/li&gt;
+&lt;li&gt;Format your hard drive so it&amp;#8217;s clean. There&amp;#8217;s a little bug with hidden files and&amp;nbsp;node_modules.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;Making the Bootable&amp;nbsp;&lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;Download &lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt; Yosemite from the App Store. It installs to your Applications&amp;nbsp;folder.&lt;/p&gt;
+
+&lt;h4&gt;The&amp;nbsp;&lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt;&lt;/h4&gt;
+
+&lt;p&gt;Find an &lt;span class=&quot;caps&quot;&gt;8GB&lt;/span&gt; &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; drive. You can use a larger one but this only requires about &lt;span class=&quot;caps&quot;&gt;6GB&lt;/span&gt; of space. Open disk utility and erase it. The default settings are just what we&amp;nbsp;need.&lt;/p&gt;
+
+&lt;h4&gt;The Terminal&amp;nbsp;Command&lt;/h4&gt;
+
+&lt;p&gt;Once you have it formatted run copy and paste the code below into your terminal window. This will prompt you for your password. Give your password and wait for a while. This process takes between 30-45 minutes&amp;nbsp;usually.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Yosemite.app --nointeraction
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Once the task is done, you&amp;#8217;ll have a bootable &lt;span class=&quot;caps&quot;&gt;USB.&lt;/span&gt; In Spotlight, type in &amp;#8220;Startup Disk&amp;#8221;. This is a system preference and you should select your &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; which is now titled &amp;#8220;Install &lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt;&amp;nbsp;Yosemite&amp;#8221;.&lt;/p&gt;
+
+&lt;h3&gt;Dev Envi Comes&amp;nbsp;First&lt;/h3&gt;
+
+&lt;h4&gt;Laptop&amp;nbsp;Script&lt;/h4&gt;
+
+&lt;p&gt;First create a file&amp;nbsp;&lt;code&gt;nano ~/.laptop.local&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then copy and paste the following (adjusted for your&amp;nbsp;preferences:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;sh&quot;&gt;# Install native apps
+# Usage: `./cask-install.sh`
+
+brew install caskroom/cask/brew-cask
+brew tap caskroom/versions
+
+brew cask install github
+brew cask install dropbox
+brew cask install slack
+brew cask install google-chrome
+brew cask install imagealpha
+brew cask install imageoptim
+brew cask install the-unarchiver
+brew cask install keka
+brew cask install transmission
+brew cask install vlc
+brew cask install alfred
+brew cask install macdown
+brew cask install quickcast
+brew cask install monotype-skyfonts
+brew cask install google-drive
+brew cask install caffeine
+brew cask install java
+brew cask install flash
+brew cask install mailbox
+brew cask install eve
+brew cask install whiskey
+brew cask install coconutbattery
+brew cask install plug
+
+# dev specific tools
+brew cask install mamp
+brew cask install codekit
+brew cask install transmit
+brew cask install integrity
+# brew cask install sublime-text (this is version 2)
+
+# random design tools
+brew cask install glueprint
+brew cask install pixel-winch
+brew cask install dash
+brew cask install gifrocket
+brew cask install cactus
+brew cask install glueprint
+brew cask install flux
+brew cask install inboard
+brew cask install sketch-toolbox
+
+# Add Cask to Alfred search scope
+brew cask alfred link
+
+brew install npm
+
+npm install yo -g
+npm install generator-jekyllized
+npm install grunt-cli -g
+npm install gulp -g
+npm install ember -g
+
+gem install sass
+gem install jekyll
+rbenv rehash
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This sets you up with an install script that is run at the end of thoughtbot&amp;#8217;s &lt;a href=&quot;https://github.com/thoughtbot/laptop&quot;&gt;laptop&lt;/a&gt; script. Then simply follow their instructions. It&amp;#8217;s a curl command and a couple others that you should copy and paste into terminal. The &lt;code&gt;less mac&lt;/code&gt; is really just a prompt and doesn&amp;#8217;t do anything you need to worry about. After quitting that prompt, run the third line. It logs everything to laptop.log as&amp;nbsp;well.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
+less mac
+bash mac 2&amp;gt;&amp;amp;1 | tee ~/laptop.log
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After this you should have most of your apps install and be ready to rock and roll. Sometimes you may run into an issue when re-running this if you haven&amp;#8217;t declared an Alfred preferences&amp;nbsp;file.&lt;/p&gt;
+
+&lt;h4&gt;Dotfiles&amp;nbsp;Script&lt;/h4&gt;
+
+&lt;p&gt;Per thoughtbot&amp;#8217;s instructions, run &lt;code&gt;chsh -s $(which zsh)&lt;/code&gt; to set zsh as your login shell. Then run &lt;code&gt;git clone git://github.com/thoughtbot/dotfiles.git
+&lt;/code&gt; from terminal which will clone the files into your repo. Finally install rcm by&amp;nbsp;running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew tap thoughtbot/formulae
+brew install rcm
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then bust out this little command in the terminal: &lt;code&gt;env RCRC=$HOME/dotfiles/rcrc rcup&lt;/code&gt;. Then to update all you need to do is &lt;code&gt;rcup&lt;/code&gt;&amp;nbsp;it.&lt;/p&gt;
+
+&lt;h4&gt;Minor Errors and Issues with&amp;nbsp;Dotfiles&lt;/h4&gt;
+
+&lt;p&gt;I needed to reinstall xCode command line tools and agree to their user agreements because I didn&amp;#8217;t completely follow the instructions of laptop. Follow the script blindly. &lt;em&gt;Once the script is finished be sure to check for the dotfiles-local directory.&lt;/em&gt; When I ran the script it didn&amp;#8217;t create this folder and I needed to kind of infer what I needed to do. This messed up my gitconfig stuff etc. This rcup deal can be run multiple times as well! Pretty neat. What it does is create aliases for all of these files which is&amp;nbsp;cool.&lt;/p&gt;
+
+&lt;h3&gt;Finishing&amp;nbsp;Touches&lt;/h3&gt;
+
+&lt;p&gt;I ran this script below that changes &lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt; preferences, but it requires a&amp;nbsp;restart.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;sh&quot;&gt;#!/usr/bin/env bash
+
+# ~/.osx — https://mths.be/osx
+
+# Ask for the administrator password upfront
+sudo -v
+
+# Keep-alive: update existing `sudo` time stamp until `.osx` has finished
+while true; do sudo -n true; sleep 60; kill -0 &quot;$$&quot; || exit; done 2&amp;gt;/dev/null &amp;amp;
+
+###############################################################################
+# General UI/UX                                                               #
+###############################################################################
+
+# Set computer name (as done via System Preferences → Sharing)
+#sudo scutil --set ComputerName &quot;0x6D746873&quot;
+#sudo scutil --set HostName &quot;0x6D746873&quot;
+#sudo scutil --set LocalHostName &quot;0x6D746873&quot;
+#sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string &quot;0x6D746873&quot;
+
+# Set standby delay to 24 hours (default is 1 hour)
+sudo pmset -a standbydelay 86400
+
+# Disable the sound effects on boot
+sudo nvram SystemAudioVolume=&quot; &quot;
+
+# Set highlight color to green
+defaults write NSGlobalDomain AppleHighlightColor -string &quot;0.764700 0.976500 0.568600&quot;
+
+# Expand save panel by default
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
+
+# Expand print panel by default
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
+
+# Save to disk (not to iCloud) by default
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+
+# Automatically quit printer app once the print jobs complete
+defaults write com.apple.print.PrintingPrefs &quot;Quit When Finished&quot; -bool true
+
+# Disable the “Are you sure you want to open this application?” dialog
+defaults write com.apple.LaunchServices LSQuarantine -bool false
+
+# Remove duplicates in the “Open With” menu (also see `lscleanup` alias)
+/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user
+
+# Display ASCII control characters using caret notation in standard text views
+# Try e.g. `cd /tmp; unidecode &quot;\x{0000}&quot; &amp;gt; cc.txt; open -e cc.txt`
+defaults write NSGlobalDomain NSTextShowsControlCharacters -bool true
+
+# Disable Resume system-wide
+defaults write com.apple.systempreferences NSQuitAlwaysKeepsWindows -bool false
+
+# Disable automatic termination of inactive apps
+defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
+
+# Disable the crash reporter
+#defaults write com.apple.CrashReporter DialogType -string &quot;none&quot;
+
+# Set Help Viewer windows to non-floating mode
+defaults write com.apple.helpviewer DevMode -bool true
+
+# Fix for the ancient UTF-8 bug in QuickLook (https://mths.be/bbo)
+# Commented out, as this is known to cause problems in various Adobe apps :(
+# See https://github.com/mathiasbynens/dotfiles/issues/237
+#echo &quot;0x08000100:0&quot; &amp;gt; ~/.CFUserTextEncoding
+
+# Reveal IP address, hostname, OS version, etc. when clicking the clock
+# in the login window
+sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+
+# Restart automatically if the computer freezes
+sudo systemsetup -setrestartfreeze on
+
+# Check for software updates daily, not just once per week
+defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
+
+# Disable smart quotes as they’re annoying when typing code
+defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+
+# Disable smart dashes as they’re annoying when typing code
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
+# Enable the dark mode toggle of control-option-command-T
+sudo defaults write /Library/Preferences/.GlobalPreferences.plist _HIEnableThemeSwitchHotKey -bool true
+
+
+###############################################################################
+# Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
+###############################################################################
+
+# Trackpad: enable tap to click for this user and for the login screen
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+
+# Increase sound quality for Bluetooth headphones/headsets
+defaults write com.apple.BluetoothAudioAgent &quot;Apple Bitpool Min (editable)&quot; -int 40
+
+# Enable full keyboard access for all controls
+# (e.g. enable Tab in modal dialogs)
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+
+# Use scroll gesture with the Ctrl (^) modifier key to zoom
+defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
+defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
+# Follow the keyboard focus while zoomed in
+defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
+
+# Disable press-and-hold for keys in favor of key repeat
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+
+
+###############################################################################
+# Screen                                                                      #
+###############################################################################
+
+# Require password immediately after sleep or screen saver begins
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 0
+
+# Save screenshots to the desktop
+defaults write com.apple.screencapture location -string &quot;${HOME}/Desktop&quot;
+
+# Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
+defaults write com.apple.screencapture type -string &quot;png&quot;
+
+# Disable shadow in screenshots
+defaults write com.apple.screencapture disable-shadow -bool true
+
+# Enable subpixel font rendering on non-Apple LCDs
+defaults write NSGlobalDomain AppleFontSmoothing -int 2
+
+# Enable HiDPI display modes (requires restart)
+sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true
+
+###############################################################################
+# Finder                                                                      #
+###############################################################################
+
+# Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
+defaults write com.apple.finder QuitMenuItem -bool true
+
+# Finder: disable window animations and Get Info animations
+defaults write com.apple.finder DisableAllAnimations -bool true
+
+# Set Desktop as the default location for new Finder windows
+# For other paths, use `PfLo` and `file:///full/path/here/`
+defaults write com.apple.finder NewWindowTarget -string &quot;PfDe&quot;
+defaults write com.apple.finder NewWindowTargetPath -string &quot;file://${HOME}/Desktop/&quot;
+
+# Show icons for hard drives, servers, and removable media on the desktop
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+
+# Finder: show hidden files by default
+#defaults write com.apple.finder AppleShowAllFiles -bool true
+
+# Finder: show all filename extensions
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# Finder: show status bar
+defaults write com.apple.finder ShowStatusBar -bool true
+
+# Finder: show path bar
+defaults write com.apple.finder ShowPathbar -bool true
+
+# Finder: allow text selection in Quick Look
+defaults write com.apple.finder QLEnableTextSelection -bool true
+
+# Display full POSIX path as Finder window title
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+
+# When performing a search, search the current folder by default
+defaults write com.apple.finder FXDefaultSearchScope -string &quot;SCcf&quot;
+
+# Disable the warning when changing a file extension
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
+# Enable spring loading for directories
+defaults write NSGlobalDomain com.apple.springing.enabled -bool true
+
+# Remove the spring loading delay for directories
+defaults write NSGlobalDomain com.apple.springing.delay -float 0
+
+# Avoid creating .DS_Store files on network volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+
+# Disable disk image verification
+defaults write com.apple.frameworks.diskimages skip-verify -bool true
+defaults write com.apple.frameworks.diskimages skip-verify-locked -bool true
+defaults write com.apple.frameworks.diskimages skip-verify-remote -bool true
+
+# Automatically open a new Finder window when a volume is mounted
+defaults write com.apple.frameworks.diskimages auto-open-ro-root -bool true
+defaults write com.apple.frameworks.diskimages auto-open-rw-root -bool true
+defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
+
+# Use list view in all Finder windows by default
+# Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
+defaults write com.apple.finder FXPreferredViewStyle -string &quot;Nlsv&quot;
+
+# Disable the warning before emptying the Trash
+defaults write com.apple.finder WarnOnEmptyTrash -bool false
+
+# Empty Trash securely by default
+defaults write com.apple.finder EmptyTrashSecurely -bool true
+
+# Enable AirDrop over Ethernet and on unsupported Macs running Lion
+defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
+
+# Enable the MacBook Air SuperDrive on any Mac
+sudo nvram boot-args=&quot;mbasd=1&quot;
+
+# Show the ~/Library folder
+chflags nohidden ~/Library
+
+# Remove Dropbox’s green checkmark icons in Finder
+file=/Applications/Dropbox.app/Contents/Resources/emblem-dropbox-uptodate.icns
+[ -e &quot;${file}&quot; ] &amp;amp;&amp;amp; mv -f &quot;${file}&quot; &quot;${file}.bak&quot;
+
+# Expand the following File Info panes:
+# “General”, “Open with”, and “Sharing &amp;amp; Permissions”
+defaults write com.apple.finder FXInfoPanesExpanded -dict \
+    General -bool true \
+    OpenWith -bool true \
+    Privileges -bool true
+
+###############################################################################
+# Dock, Dashboard, and hot corners                                            #
+###############################################################################
+
+# Enable spring loading for all Dock items
+defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true
+
+# Show indicator lights for open applications in the Dock
+defaults write com.apple.dock show-process-indicators -bool true
+
+# Wipe all (default) app icons from the Dock
+# This is only really useful when setting up a new Mac, or if you don’t use
+# the Dock to launch apps.
+#defaults write com.apple.dock persistent-apps -array
+
+# Don’t animate opening applications from the Dock
+defaults write com.apple.dock launchanim -bool false
+
+# Speed up Mission Control animations
+defaults write com.apple.dock expose-animation-duration -float 0.1
+
+# Don’t group windows by application in Mission Control
+# (i.e. use the old Exposé behavior instead)
+defaults write com.apple.dock expose-group-by-app -bool false
+
+# Disable Dashboard
+defaults write com.apple.dashboard mcx-disabled -bool true
+
+# Don’t show Dashboard as a Space
+defaults write com.apple.dock dashboard-in-overlay -bool true
+
+# Don’t automatically rearrange Spaces based on most recent use
+defaults write com.apple.dock mru-spaces -bool false
+
+# Make Dock icons of hidden applications translucent
+defaults write com.apple.dock showhidden -bool true
+
+
+###############################################################################
+# Safari &amp;amp; WebKit                                                             #
+###############################################################################
+
+# Privacy: don’t send search queries to Apple
+defaults write com.apple.Safari UniversalSearchEnabled -bool false
+defaults write com.apple.Safari SuppressSearchSuggestions -bool true
+
+# Press Tab to highlight each item on a web page
+defaults write com.apple.Safari WebKitTabToLinksPreferenceKey -bool true
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2TabsToLinks -bool true
+
+# Show the full URL in the address bar (note: this still hides the scheme)
+defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
+
+# Set Safari’s home page to `about:blank` for faster loading
+defaults write com.apple.Safari HomePage -string &quot;about:blank&quot;
+
+# Prevent Safari from opening ‘safe’ files automatically after downloading
+defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
+
+# Allow hitting the Backspace key to go to the previous page in history
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
+
+# Hide Safari’s bookmarks bar by default
+defaults write com.apple.Safari ShowFavoritesBar -bool false
+
+# Hide Safari’s sidebar in Top Sites
+defaults write com.apple.Safari ShowSidebarInTopSites -bool false
+
+# Disable Safari’s thumbnail cache for History and Top Sites
+defaults write com.apple.Safari DebugSnapshotsUpdatePolicy -int 2
+
+# Enable Safari’s debug menu
+defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
+
+# Make Safari’s search banners default to Contains instead of Starts With
+defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false
+
+# Remove useless icons from Safari’s bookmarks bar
+defaults write com.apple.Safari ProxiesInBookmarksBar &quot;()&quot;
+
+# Enable the Develop menu and the Web Inspector in Safari
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
+defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
+
+# Add a context menu item for showing the Web Inspector in web views
+defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+
+###############################################################################
+# Activity Monitor                                                            #
+###############################################################################
+
+# Show the main window when launching Activity Monitor
+defaults write com.apple.ActivityMonitor OpenMainWindow -bool true
+
+# Visualize CPU usage in the Activity Monitor Dock icon
+defaults write com.apple.ActivityMonitor IconType -int 5
+
+# Show all processes in Activity Monitor
+defaults write com.apple.ActivityMonitor ShowCategory -int 0
+
+# Sort Activity Monitor results by CPU usage
+defaults write com.apple.ActivityMonitor SortColumn -string &quot;CPUUsage&quot;
+defaults write com.apple.ActivityMonitor SortDirection -int 0
+
+###############################################################################
+# Address Book, Dashboard, iCal, TextEdit, and Disk Utility                   #
+###############################################################################
+
+# Enable the debug menu in Address Book
+defaults write com.apple.addressbook ABShowDebugMenu -bool true
+
+# Enable Dashboard dev mode (allows keeping widgets on the desktop)
+defaults write com.apple.dashboard devmode -bool true
+
+# Enable the debug menu in iCal (pre-10.8)
+defaults write com.apple.iCal IncludeDebugMenu -bool true
+
+# Use plain text mode for new TextEdit documents
+defaults write com.apple.TextEdit RichText -int 0
+# Open and save files as UTF-8 in TextEdit
+defaults write com.apple.TextEdit PlainTextEncoding -int 4
+defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
+
+# Enable the debug menu in Disk Utility
+defaults write com.apple.DiskUtility DUDebugMenuEnabled -bool true
+defaults write com.apple.DiskUtility advanced-image-options -bool true
+
+###############################################################################
+# Mac App Store                                                               #
+###############################################################################
+
+# Enable the WebKit Developer Tools in the Mac App Store
+defaults write com.apple.appstore WebKitDeveloperExtras -bool true
+
+# Enable Debug Menu in the Mac App Store
+defaults write com.apple.appstore ShowDebugMenu -bool true
+
+###############################################################################
+# Messages                                                                    #
+###############################################################################
+
+# Disable smart quotes as it’s annoying for messages that contain code
+defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add &quot;automaticQuoteSubstitutionEnabled&quot; -bool false
+
+###############################################################################
+# Google Chrome &amp;amp; Google Chrome Canary                                        #
+###############################################################################
+
+# Allow installing user scripts via GitHub Gist or Userscripts.org
+defaults write com.google.Chrome ExtensionInstallSources -array &quot;https://gist.githubusercontent.com/&quot; &quot;http://userscripts.org/*&quot;
+
+# Disable the all too sensitive backswipe
+defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
+defaults write com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls -bool false
+
+# Use the system-native print preview dialog
+defaults write com.google.Chrome DisablePrintPreview -bool true
+defaults write com.google.Chrome.canary DisablePrintPreview -bool true
+
+
+###############################################################################
+# Sublime Text                                                                #
+###############################################################################
+
+# Install Sublime Text settings
+cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2&amp;gt; /dev/null
+
+###############################################################################
+# Transmission.app                                                            #
+###############################################################################
+
+# Use `~/Documents/Torrents` to store incomplete downloads
+defaults write org.m0k.transmission UseIncompleteDownloadFolder -bool true
+defaults write org.m0k.transmission IncompleteDownloadFolder -string &quot;${HOME}/Documents/Incomplete&quot;
+
+# Don’t prompt for confirmation before downloading
+defaults write org.m0k.transmission DownloadAsk -bool false
+
+# Trash original torrent files
+defaults write org.m0k.transmission DeleteOriginalTorrent -bool true
+
+# Hide the donate message
+defaults write org.m0k.transmission WarningDonate -bool false
+# Hide the legal disclaimer
+defaults write org.m0k.transmission WarningLegal -bool false
+
+###############################################################################
+# Twitter.app                                                                 #
+###############################################################################
+
+# Disable smart quotes as it’s annoying for code tweets
+defaults write com.twitter.twitter-mac AutomaticQuoteSubstitutionEnabled -bool false
+
+# Show the app window when clicking the menu bar icon
+defaults write com.twitter.twitter-mac MenuItemBehavior -int 1
+
+# Enable the hidden ‘Develop’ menu
+defaults write com.twitter.twitter-mac ShowDevelopMenu -bool true
+
+# Open links in the background
+defaults write com.twitter.twitter-mac openLinksInBackground -bool true
+
+# Allow closing the ‘new tweet’ window by pressing `Esc`
+defaults write com.twitter.twitter-mac ESCClosesComposeWindow -bool true
+
+# Show full names rather than Twitter handles
+defaults write com.twitter.twitter-mac ShowFullNames -bool true
+
+# Hide the app in the background if it’s not the front-most window
+defaults write com.twitter.twitter-mac HideInBackground -bool true
+
+###############################################################################
+# Kill affected applications                                                  #
+###############################################################################
+
+for app in &quot;Activity Monitor&quot; &quot;Address Book&quot; &quot;Calendar&quot; &quot;Contacts&quot; &quot;cfprefsd&quot; \
+    &quot;Dock&quot; &quot;Finder&quot; &quot;Mail&quot; &quot;Messages&quot; &quot;Safari&quot; &quot;SizeUp&quot; &quot;SystemUIServer&quot; \
+    &quot;Terminal&quot; &quot;Transmission&quot; &quot;Twitter&quot; &quot;iCal&quot;; do
+    killall &quot;${app}&quot; &amp;gt; /dev/null 2&amp;gt;&amp;amp;1
+done
+echo &quot;Done. Note that some of these changes require a logout/restart to take effect.&quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+				<pubDate>Sun, 21 Dec 2014 13:06:34 -0500</pubDate>
+				<link>http://twnsnd.co/journal/fresh-install-yosemite</link>
+				<guid isPermaLink="true">http://twnsnd.co/journal/fresh-install-yosemite</guid>
+			</item>
+		
+			<item>
+				<title>Pretty Common</title>
+				<description>&lt;p&gt;Pretty Common is a collaboration between Noah Buscher and me that produces accessible digital projects. We look to make simple resources for the web that &lt;strong&gt;just work&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This website was built with plain old static html via &lt;a href=&quot;http://mrmrs.io/&quot;&gt;@mrmrs&amp;#8217;&lt;/a&gt; &lt;a href=&quot;http://tachyons.io/&quot;&gt;tachyons&lt;/a&gt; template which is a development environment and css &amp;#8220;framework.&amp;#8221; I put this in quotes because it is really just a comprehensive collection of single use, object oriented global&amp;nbsp;classes.&lt;/p&gt;
+
+&lt;p&gt;Live: &lt;a href=&quot;http://prettycommon.com&quot;&gt;prettycommon.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;div&gt;
+&lt;img style=&quot;width: 100%; height: auto; max-height: 9999px; border: 1px solid #000&quot; src=&quot;http://twnsnd.co/images/inline/pretty-common-1.jpg&quot;&gt;
+&lt;br&gt;
+&lt;img style=&quot;width: 100%; height: auto; max-height: 9999px; border: 1px solid #000&quot; src=&quot;http://twnsnd.co/images/inline/pretty-common-2.jpg&quot;&gt;
+&lt;/div&gt;
+
+
+
+</description>
+				<pubDate>Mon, 01 Dec 2014 00:00:00 -0500</pubDate>
+				<link>http://twnsnd.co/work/pretty-common</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/pretty-common</guid>
+			</item>
+		
+			<item>
+				<title>Two Dribbble Invites</title>
+				<description>&lt;p&gt;Two invites up for&amp;nbsp;grabs!&lt;/p&gt;
+</description>
+				<pubDate>Sat, 21 Jun 2014 20:42:53 -0400</pubDate>
+				<link>http://twnsnd.co/links/two-dribbble-invites</link>
+				<guid isPermaLink="true">http://twnsnd.co/links/two-dribbble-invites</guid>
+			</item>
+		
+			<item>
+				<title>TheNews</title>
+				<description>&lt;p&gt;TheNews is a website and app that combines Hacker and Designer News. It&amp;#8217;s simple to quickly browse both, checking on the latest links, resources, and updates in the tech and web&amp;nbsp;community.&lt;/p&gt;
+
+&lt;h2&gt;Now for&amp;nbsp;i&lt;span class=&quot;caps&quot;&gt;OS&lt;/span&gt;&lt;/h2&gt;
+
+&lt;p&gt;Inspired by &lt;a href=&quot;thenews.im&quot;&gt;thenews.im&lt;/a&gt; by &lt;a href=&quot;twitter.com/ahmetsulek&quot;&gt;Ahmet Sulek&lt;/a&gt;, &lt;a href=&quot;twitter.com/tosinaf&quot;&gt;Tosin Afolabi&lt;/a&gt;, and I decided to bring it over to i&lt;span class=&quot;caps&quot;&gt;OS.&lt;/span&gt; It takes advantage of native gestures, as well as conditioned gestures to make for a clean, natural feeling experience. I was lucky enough to have a target user base that is experienced with gestures. Swiping the navigation bar at the top switches between Designer and Hacker News. Swiping a post from right to left takes the user to the comment thread. Swiping from left to right &amp;#8220;up votes&amp;#8221; the&amp;nbsp;post.&lt;/p&gt;
+
+&lt;p&gt;You can see the app landing page here: &lt;a href=&quot;http://thenewsapp.co&quot;&gt;TheNews App&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div&gt;
+
+&lt;figure class=&quot;grid-4&quot; &gt;
+  &lt;figcaption&gt;Commenting&lt;/figcaption&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/thenews-comment.png&quot; title=&quot;TheNews App Comment View&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/thenews-comment.png&quot; alt=&quot;TheNews App Comment View&quot; title=&quot;TheNews App Comment View&quot;&gt;&lt;/a&gt;
+  
+&lt;/figure&gt;
+
+
+&lt;figure class=&quot;grid-4&quot; &gt;
+  &lt;figcaption&gt;The Menu&lt;/figcaption&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/thenews-menu.png&quot; title=&quot;TheNews App Menu&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/thenews-menu.png&quot; alt=&quot;TheNews App Menu&quot; title=&quot;TheNews App Menu&quot;&gt;&lt;/a&gt;
+  
+&lt;/figure&gt;
+
+
+
+&lt;figure class=&quot;grid-4&quot; &gt;
+  &lt;figcaption&gt;&lt;span class=&quot;caps&quot;&gt;MOTD&lt;/span&gt;&lt;/figcaption&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/thenews-hacker.png&quot; title=&quot;Message of the Day&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/thenews-hacker.png&quot; alt=&quot;Message of the Day&quot; title=&quot;Message of the Day&quot;&gt;&lt;/a&gt;
+  
+&lt;/figure&gt;
+
+
+&lt;figure class=&quot;grid-4&quot; &gt;
+  &lt;figcaption&gt;Hacker News&lt;/figcaption&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/thenews-hacker.png&quot; title=&quot;TheNews Hacker View&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/thenews-hacker.png&quot; alt=&quot;TheNews Hacker View&quot; title=&quot;TheNews Hacker View&quot;&gt;&lt;/a&gt;
+  
+&lt;/figure&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+&lt;div&gt;
+
+&lt;figure class=&quot;grid-full&quot; &gt;
+  
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/thenews-app-site.png&quot; title=&quot;TheNews App Landing Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/thenews-app-site.png&quot; alt=&quot;TheNews App Landing Page&quot; title=&quot;TheNews App Landing Page&quot;&gt;&lt;/a&gt;
+  &lt;figcaption&gt;TheNews App Site&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;/div&gt;
+
+
+
+</description>
+				<pubDate>Thu, 12 Jun 2014 16:53:04 -0400</pubDate>
+				<link>http://twnsnd.co/work/thenews</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/thenews</guid>
+			</item>
+		
+			<item>
+				<title>Purple Valley Coffee Club</title>
+				<description>&lt;p&gt;&lt;a href=&quot;http://pvcc.twnsnd.co&quot;&gt;Purple Valley Coffee&lt;/a&gt; is a school club I started to expose students, both familiar and unfamiliar to coffee and brewing, to new methods of production, different styles of beans, and some basic chemistry related to production. Students will learn how to make their own coffe, and will no longer rely on&amp;nbsp;cafes.&lt;/p&gt;
+
+&lt;p&gt;I created this microsite as a way of organizing member sign up so I can update the constitution to reflect the current members as well as apply to Williams College Council for the appropriate ammount of&amp;nbsp;funding.&lt;/p&gt;
+
+&lt;p&gt;It also serves as a base for information to increase transparency and drive membership and a place to document the experiences of the&amp;nbsp;group.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This site is only accessible on Williams College wifi as it has student names. Better safe than&amp;nbsp;sorry.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h6&gt;Details&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;typeset in &lt;span class=&quot;caps&quot;&gt;GT&lt;/span&gt; Walsheim and&amp;nbsp;Inconsolata&lt;/li&gt;
+&lt;li&gt;Served via&amp;nbsp;Jekyll&lt;/li&gt;
+&lt;li&gt;styled with&amp;nbsp;&lt;span class=&quot;caps&quot;&gt;SCSS&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Hosted by&amp;nbsp;BlueHost&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div&gt;
+
+&lt;figure class=&quot;grid-2&quot; &gt;&lt;figcaption&gt;Landing Page&lt;/figcaption&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/pvcc-home.png&quot; title=&quot;Home Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline//thumbs/pvcc-home.png&quot; alt=&quot;Home Page&quot; title=&quot;Home Page&quot;&gt;&lt;/a&gt;
+  
+&lt;/figure&gt;
+
+
+
+
+&lt;figure class=&quot;grid-2&quot; &gt;
+  &lt;figcaption&gt;Sign Up&lt;/figcaption&gt;
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/pvcc-sign-up.png&quot; title=&quot;Home Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/pvcc-sign-up.png&quot; alt=&quot;Home Page&quot; title=&quot;Home Page&quot;&gt;&lt;/a&gt;
+  
+&lt;/figure&gt;
+
+
+&lt;/div&gt;
+
+</description>
+				<pubDate>Thu, 29 May 2014 15:10:14 -0400</pubDate>
+				<link>http://twnsnd.co/work/purple-valley-coffee-club</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/purple-valley-coffee-club</guid>
+			</item>
+		
+			<item>
+				<title>Meeet</title>
+				<description>&lt;p&gt;Side projects are gaining popularity in the web community. Volunteered to bulk up your résumé? Open source projects are volunteering in the web community. And they make a difference both seen and unseen. They&amp;#8217;re launching careers. They&amp;#8217;re expanding beyond mere side projects for some. Chances are that you have heard of Animate.css (Dan Eden). Perhaps you haven’t heard of Jake Kelly, but I’m sure you’re familiar with one of his projects: Behave.js, Snap.js, or Mention.js. You may have read Typoguide by Benedikt Lehnert, or used Anchor&lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; developed by Visual&amp;nbsp;Idiot.&lt;/p&gt;
+
+&lt;p&gt;Sometimes these projects were small enough for one, but often there is a second pair of eyes and hands, a second mind, helping implement. Finding the right person to fill this role is often difficult. You can’t always find a perfect match for skills. your mentions on Twitter fell on silent ears. Designer News lacked a response. There’s &lt;a href=&quot;http://programmermeetdesigner.com/&quot;&gt;Programmer Meet Designer&lt;/a&gt;, but everyone there is looking for a long term partner. It’s centered around money and location. It’s too much&amp;nbsp;commitment.&lt;/p&gt;
+
+&lt;p&gt;For a side project, you just need someone to help you launch. You need to get a working product on the table with someone as skilled as you are, someone that complements your talents and mindset. Give your project a name, describe its purpose, and put down a few tags marking skills you need to finish it. You’ll have access to an awesome pool of other designers and developers, filtered by best match to your project. Instead of soliciting help on Twitter or cold emailing friends of friends, you can contact a fellow member of&amp;nbsp;Meeet.&lt;/p&gt;
+
+&lt;p&gt;We’re hoping that this will help more people launch their side projects and develop a community of developers and designers who love working collaboratively to make the web a better&amp;nbsp;place.&lt;/p&gt;
+
+&lt;p&gt;You can check out the site and sign up for updates: &lt;a href=&quot;http://meeet.co&quot;&gt;Meeet Co&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We’d love to hear from you at us@meeet.co, or on Twitter &lt;a href=&quot;http://twitter.com/meeetco&quot;&gt;@meeetco&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 27 May 2014 00:00:00 -0400</pubDate>
+				<link>http://twnsnd.co/work/meeet</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/meeet</guid>
+			</item>
+		
+			<item>
+				<title>Tuchuang</title>
+				<description>&lt;h2&gt;Logo&lt;/h2&gt;
+
+&lt;p&gt;I developed the logo as well as business cards for the company. In the logo, I aimed to communicate trustworthiness, stability, and approachability. After many different sketches, I chose an off centered, three dimensional &amp;#8220;T&amp;#8221;. A flat &amp;#8220;T&amp;#8221; seemed a bit boring, interchangeable, unapproachable. It didn&amp;#8217;t communicate the close relationship that Tuchuang aims to develop with clients. Adding a dimension and separating the sides gave it a bit of visual interest, while still communicating Tuchuang&amp;#8217;s professionalism, effectiveness, and strength. The end result is easily reproduced, visually consistent in all media, and scales&amp;nbsp;perfectly.&lt;/p&gt;
+
+&lt;h2&gt;Business&amp;nbsp;Cards&lt;/h2&gt;
+
+&lt;p&gt;With a template already in mind, I created a slightly more unique business card that would look great in both Chinese and&amp;nbsp;English.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/tuch-biz-front.png&quot;&gt;
+&lt;img src=&quot;http://twnsnd.co/images/inline/tuch-biz-back.png&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Website&lt;/h2&gt;
+
+&lt;p&gt;I provided the layout, illustrations, as well as &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; for various&amp;nbsp;elements.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/tuch-illust.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure class=&quot;web&quot;&gt;
+&lt;img class=&quot;land-img&quot; src=&quot;http://twnsnd.co/images/inline/tuch-small-land.jpg&quot;&gt;
+&lt;/figure&gt;&lt;/p&gt;
+</description>
+				<pubDate>Mon, 26 May 2014 17:01:50 -0400</pubDate>
+				<link>http://twnsnd.co/work/tuchuang</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/tuchuang</guid>
+			</item>
+		
+	</channel>
+</rss>
