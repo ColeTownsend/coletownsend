@@ -22,6 +22,6 @@ I bridged the remaining space with two lines, one continuing from the mountains,
 
 I applied the logo in several different branding schemes to give an idea of how it might be used.
 
-{% include _fluidbox.html grid="full" class="" alt="Home Page" url="WOC-stationary.jpg" loweres="" cap="Business Cards" %}
-{% include _fluidbox.html grid="full" class="" alt="Home Page" url="WOC-poster.jpg" loweres="" cap="Branding Posters" %}
+{% include _fluidbox.html grid="full" class="" alt="Home Page" url="WOC-stationary.jpg" cap="Business Cards" %}
+{% include _fluidbox.html grid="full" class="" alt="Home Page" url="WOC-poster.jpg" cap="Branding Posters" %}
 

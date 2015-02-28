@@ -31,5 +31,5 @@ The Jekyll version was a bit more tricky. I was unfamiliar with Liquid, which is
 Jekyll doesn't use any backend. There is no admin panel or SQL database. It stores all the files in folders. That means the content is static, and caches really well. Instead of loading each page differently for every visitor, it just loads the static file. That takes an enormous load off the servers if there is a lot of traffic.   
 
 <div>
-{% include _fluidbox.html grid="full" class="" alt="Home Page" url="balzac-theme-1.jpg" loweres="" cap="Balzac Hero" %}{% include _fluidbox.html grid="full" class="" alt="Home Page" url="balzac-theme-2.png" loweres="" cap="Balzac Longform" %}
+{% include _fluidbox.html grid="full" class="" alt="Home Page" url="balzac-theme-1.jpg" cap="Balzac Hero" %}{% include _fluidbox.html grid="full" class="" alt="Home Page" url="balzac-theme-2.png" cap="Balzac Longform" %}
 </div>
