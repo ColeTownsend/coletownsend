@@ -39,6 +39,13 @@
         position: relative;
         text-transform: capitalize;
       }
+      .cross {
+        position: relative;
+        right: .5em;
+        top: 1.5em;
+        @include cross(top, 1em, $light-gray);
+        @include transition(opacity .2s $ease-in-out-quad);
+      }
     }
     h1 {
       font-size: $fs1;
@@ -54,6 +61,7 @@
       opacity: .33;
       font-family: $mono;
       font-weight: bold;
+      text-align: center;
       @extend %caps-lock;
       letter-spacing: 0.08em;
       margin-top: $base-line-height;
@@ -77,6 +85,11 @@
         @include transition(all .2s $ease-in-out-quad);
         small {
           opacity: .75;
+          @include transition(opacity .2s $ease-in-out-quad);
+        }
+        .cross {
+          opacity: 0;
+          @include transition(opacity .2s $ease-in-out-quad);
         }
       }
     }

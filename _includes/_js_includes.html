@@ -4,14 +4,20 @@
 <script type="text/javascript" src="{{ site.url }}/javascripts/no-src.js"></script>
 <script data-no-instant src="{{ site.url }}/javascripts/velocity.min.js"></script>
 <script data-no-instant src="{{ site.url }}/javascripts/velocity.ui.min.js"></script>
-<script data-no-instant src="{{ site.url }}/javascripts/smooth-scroll.min.js"></script>
+<script src="{{ site.url }}/javascripts/smooth-scroll.min.js"></script>
 
 <script>
  $(document).ready(function() {
   $('a').smoothScroll({offset: -20});
   $('#work').smoothScroll({offset: -60});
-  $('#top').smoothScroll({offset: 120});
  });
+</script>
+
+<script>
+$('.top').click(function() {
+$('html, body').animate({ scrollTop: 0 }, "slow");
+  return false;
+});
 </script>
 
 <script data-no-instant>

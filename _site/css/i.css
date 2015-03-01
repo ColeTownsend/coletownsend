@@ -1356,6 +1356,11 @@ a[data="disabled"] {
 .wrap article > header {
   margin-top: 3em; }
 
+.cleafix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 header[role="main-header"] {
   font-family: "Nitti Grotesk", "Neuzeit Grotesk", "Futura PT", "Futura", "Helvetica Neue", sans-serif;
   width: 100%;
@@ -2060,6 +2065,43 @@ section[class*="block-"] {
         padding: 3em;
         position: relative;
         text-transform: capitalize; }
+      .listing .work-listing li .cross {
+        position: relative;
+        right: .5em;
+        top: 1.5em;
+        -webkit-transition: opacity 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        -moz-transition: opacity 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        transition: opacity 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+        .listing .work-listing li .cross:after {
+          content: '';
+          position: absolute;
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+          width: 1em;
+          top: 50%;
+          height: 1px;
+          background: #e6e6e8; }
+          @media screen and (max-width: 640px) {
+            .listing .work-listing li .cross:after {
+              display: none; } }
+        .listing .work-listing li .cross:before {
+          content: '';
+          position: absolute;
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+          width: 1em;
+          top: 50%;
+          height: 1px;
+          background: #e6e6e8; }
+          @media screen and (max-width: 640px) {
+            .listing .work-listing li .cross:before {
+              display: none; } }
     .listing .work-listing h1 {
       font-size: 2.25em;
       text-transform: capitalize;
@@ -2072,6 +2114,7 @@ section[class*="block-"] {
       opacity: .33;
       font-family: "Inconsolata", "Menlo";
       font-weight: bold;
+      text-align: center;
       letter-spacing: 0.08em;
       margin-top: 1.5em; }
     .listing .work-listing a {
@@ -2095,7 +2138,15 @@ section[class*="block-"] {
         -moz-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
         .listing .work-listing a:hover small {
-          opacity: .75; }
+          opacity: .75;
+          -webkit-transition: opacity 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          -moz-transition: opacity 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          transition: opacity 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+        .listing .work-listing a:hover .cross {
+          opacity: 0;
+          -webkit-transition: opacity 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          -moz-transition: opacity 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          transition: opacity 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
 
 footer {
   position: absolute;
@@ -2165,6 +2216,9 @@ footer {
         .about .buffalo:hover {
           background-image: url("../images/assets/buffalo-red_2x.png");
           background-size: 2rem 2rem; } }
+      @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5 / 1), only screen and (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+        .about .buffalo:hover {
+          background-size: 1.5rem 1.5rem; } }
       .about .buffalo:hover:before {
         text-align: center;
         font-family: "Nitti Grotesk", "Neuzeit Grotesk", "Futura PT", "Futura", "Helvetica Neue", sans-serif !important;

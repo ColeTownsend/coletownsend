@@ -1,5 +1,5 @@
-<!DOCTYPE html> 
-<html lang="en"> 
+<!DOCTYPE html>
+<html lang="en">
   {% include _head.html %}
   <body class="listing">
     {% include _navigation_main.html %}
@@ -7,7 +7,7 @@
       <article class="full">
           <ul class="work-listing">
             <li class="list-head">
-              <h1>Thoughts & Tidbits</h1>
+              <h1>Thoughts &amp; Tidbits</h1>
             </li>
           {% for post in site.posts %}
             {% if post.categories contains 'journal' %}
@@ -15,6 +15,7 @@
                 <a href="{{ site.url }}{{ post.url }}">
                   <h2>{{ post.title }}</h2>
                   <small>{{ post.date | date: "%-d %B %Y" }}</small>
+                  <span class="cross"></span>
                 </a>
               </li>
             {% elsif post.categories contains 'links' %}
@@ -26,6 +27,7 @@
                 <a data-no-instant href="{{ post.custom_url }}" target="_blank">
                   <h2>Link: {{ postTitleTruncate }}</h2>
                   <small>{{ postContentTrunctate }}</small>
+                  <span class="cross"></span>
                 </a>
               </li>
             {% endif %}

@@ -12,7 +12,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
 
-	<link data-no-instant rel="stylesheet" href="http://twnsnd.co/css/i.css?v=60">
+	<link data-no-instant rel="stylesheet" href="http://twnsnd.co/css/i.css?v=61">
   <link data-no-instant rel="stylesheet" href="http://twnsnd.co/css/devices.min.css">
   <link data-no-instant href="//cloud.webtype.com/css/7006acc2-c25b-45bc-83fe-ee20be162e4c.css" rel="stylesheet" type="text/css" />
 
@@ -25,11 +25,11 @@
   </script>
 
   <!-- Favicons and Touch Device Icons -->
-  <link rel="shortcut icon" href="http://twnsnd.co/images/assets/favicon.ico?v=60">
-  <link data-no-instant rel="apple-touch-icon" href="http://twnsnd.co/assets/favicon-128x128.png?v=60">
-  <link data-no-instant rel="apple-touch-icon" sizes="72x72"   href="http://twnsnd.co/images/assets/favicon-76x76.png?v=60">
-  <link data-no-instant rel="apple-touch-icon" sizes="114x114" href="http://twnsnd.co/images/assets/favicon-128x128.png?v=60">
-  <link data-no-instant rel="apple-touch-icon" sizes="144x144" href="http://twnsnd.co/images/assets/favicon-256x256.png?v=60">
+  <link rel="shortcut icon" href="http://twnsnd.co/images/assets/favicon.ico?v=61">
+  <link data-no-instant rel="apple-touch-icon" href="http://twnsnd.co/assets/favicon-128x128.png?v=61">
+  <link data-no-instant rel="apple-touch-icon" sizes="72x72"   href="http://twnsnd.co/images/assets/favicon-76x76.png?v=61">
+  <link data-no-instant rel="apple-touch-icon" sizes="114x114" href="http://twnsnd.co/images/assets/favicon-128x128.png?v=61">
+  <link data-no-instant rel="apple-touch-icon" sizes="144x144" href="http://twnsnd.co/images/assets/favicon-256x256.png?v=61">
 </head>
 
   <body class="post">
@@ -63,22 +63,12 @@
 
 <ul>
 <li>The&nbsp;Waterfront</li>
-<li>The Japanese&nbsp;Garden</li>
-<li>Allentown</li>
 <li>Elmwood&nbsp;Village</li>
+<li>The Hotel&nbsp;Lafayette</li>
+<li>Downtown</li>
+<li>The Japanese&nbsp;Gardens</li>
+<li>Albright&nbsp;Knox</li>
 </ul>
-
-
-<div>
-
-<figure class="grid-full" >
-  
-  <a role="fluidbox" class="" href="http://twnsnd.co/images/inline/buffalo-skyline.jpg" title="TheNews App Landing Page"><img src="http://twnsnd.co/images/inline/buffalo-skyline.jpg" alt="TheNews App Landing Page" title="TheNews App Landing Page"></a>
-  
-</figure>
-
- 
-</div>
 
 
 <h6>Cafés</h6>
@@ -86,8 +76,13 @@
 <ul>
 <li>Spot,&nbsp;Elmwood</li>
 <li>Café&nbsp;Aroma</li>
+<li>Public Coffee at Hotel&nbsp;Lafeyette</li>
 </ul>
 
+
+<p><figure class="full-width">
+  <img src="http://twnsnd.co/images/inline/public-espresso.jpg" alt="" title=""></a>
+</figure></p>
 
 <h6>Restaurants</h6>
 
@@ -121,14 +116,20 @@
 <script type="text/javascript" src="http://twnsnd.co/javascripts/no-src.js"></script>
 <script data-no-instant src="http://twnsnd.co/javascripts/velocity.min.js"></script>
 <script data-no-instant src="http://twnsnd.co/javascripts/velocity.ui.min.js"></script>
-<script data-no-instant src="http://twnsnd.co/javascripts/smooth-scroll.min.js"></script>
+<script src="http://twnsnd.co/javascripts/smooth-scroll.min.js"></script>
 
 <script>
  $(document).ready(function() {
   $('a').smoothScroll({offset: -20});
   $('#work').smoothScroll({offset: -60});
-  $('#top').smoothScroll({offset: 120});
  });
+</script>
+
+<script>
+$('.top').click(function() {
+$('html, body').animate({ scrollTop: 0 }, "slow");
+  return false;
+});
 </script>
 
 <script data-no-instant>
@@ -180,7 +181,9 @@ $(".buffalo").velocity("transition.bounceIn");
 </script>
 
   <small>
-    <a href="#top">To Top</a> <br>
+    
+    <a href="http://twnsnd.co/about">About Me</a> <br>
+    
     <img class="buffalo-icon" src="/images/assets/buffalo-blue.svg"> Made in Buffalo <br> © 2015 Cole Townsend
   </small>
 </footer>

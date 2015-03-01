@@ -1,7 +1,11 @@
 <footer>
   {% include _js_includes.html %}
   <small>
-    <a href="#top">To Top</a> <br>
+    {% if page.category %}
+    <a href="{{ site.url }}/{{ page.category }}">More</a> <br>
+    {% else %}
+    <a href="{{ site.url }}/about">About Me</a> <br>
+    {% endif %}
     <img class="buffalo-icon" src="/images/assets/buffalo-blue.svg"> Made in Buffalo <br> © 2015 Cole Townsend
   </small>
 </footer>

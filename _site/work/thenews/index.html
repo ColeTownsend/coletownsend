@@ -12,7 +12,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
 
-	<link data-no-instant rel="stylesheet" href="http://twnsnd.co/css/i.css?v=60">
+	<link data-no-instant rel="stylesheet" href="http://twnsnd.co/css/i.css?v=61">
   <link data-no-instant rel="stylesheet" href="http://twnsnd.co/css/devices.min.css">
   <link data-no-instant href="//cloud.webtype.com/css/7006acc2-c25b-45bc-83fe-ee20be162e4c.css" rel="stylesheet" type="text/css" />
 
@@ -25,11 +25,11 @@
   </script>
 
   <!-- Favicons and Touch Device Icons -->
-  <link rel="shortcut icon" href="http://twnsnd.co/images/assets/favicon.ico?v=60">
-  <link data-no-instant rel="apple-touch-icon" href="http://twnsnd.co/assets/favicon-128x128.png?v=60">
-  <link data-no-instant rel="apple-touch-icon" sizes="72x72"   href="http://twnsnd.co/images/assets/favicon-76x76.png?v=60">
-  <link data-no-instant rel="apple-touch-icon" sizes="114x114" href="http://twnsnd.co/images/assets/favicon-128x128.png?v=60">
-  <link data-no-instant rel="apple-touch-icon" sizes="144x144" href="http://twnsnd.co/images/assets/favicon-256x256.png?v=60">
+  <link rel="shortcut icon" href="http://twnsnd.co/images/assets/favicon.ico?v=61">
+  <link data-no-instant rel="apple-touch-icon" href="http://twnsnd.co/assets/favicon-128x128.png?v=61">
+  <link data-no-instant rel="apple-touch-icon" sizes="72x72"   href="http://twnsnd.co/images/assets/favicon-76x76.png?v=61">
+  <link data-no-instant rel="apple-touch-icon" sizes="114x114" href="http://twnsnd.co/images/assets/favicon-128x128.png?v=61">
+  <link data-no-instant rel="apple-touch-icon" sizes="144x144" href="http://twnsnd.co/images/assets/favicon-256x256.png?v=61">
 </head>
 
   <body class="post">
@@ -71,9 +71,7 @@
 
 <p>Inspired by <a href="thenews.im">thenews.im</a> by <a href="twitter.com/ahmetsulek">Ahmet Sulek</a>, <a href="twitter.com/tosinaf">Tosin Afolabi</a>, and I decided to bring it over to i<span class="caps">OS.</span> It takes advantage of native gestures, as well as conditioned gestures to make for a clean, natural feeling experience. I was lucky enough to have a target user base that is experienced with gestures. Swiping the navigation bar at the top switches between Designer and Hacker News. Swiping a post from right to left takes the user to the comment thread. Swiping from left to right &#8220;up votes&#8221; the&nbsp;post.</p>
 
-<p>You can see the app landing page here: <a href="http://thenewsapp.co">TheNews App</a>.</p>
-
-<div>
+<div class="clearfix">
 
 <figure class="grid-4" >
   <figcaption>Commenting</figcaption>
@@ -107,21 +105,11 @@
 </div>
 
 
+<p>You can see the app landing page here: <a href="http://thenewsapp.co">TheNews App</a>. It is built with Unslider and Bourbon Neat, hosted on Github&nbsp;Pages.</p>
 
-
-<div>
-
-<figure class="grid-full" >
-  
-  <a role="fluidbox" class="" href="http://twnsnd.co/images/inline/thenews-app-site.png" title="TheNews App Landing Page"><img src="http://twnsnd.co/images/inline/thenews-app-site.png" alt="TheNews App Landing Page" title="TheNews App Landing Page"></a>
-  <figcaption>TheNews App Site</figcaption>
-</figure>
-
-
-</div>
-
-
-
+<p><figure class="full-width">
+  <img src="http://twnsnd.co/images/inline//thenews-mocks/thenews.jpg" alt="" title=""></a>
+</figure></p>
 
       </article>
     </section>
@@ -134,14 +122,20 @@
 <script type="text/javascript" src="http://twnsnd.co/javascripts/no-src.js"></script>
 <script data-no-instant src="http://twnsnd.co/javascripts/velocity.min.js"></script>
 <script data-no-instant src="http://twnsnd.co/javascripts/velocity.ui.min.js"></script>
-<script data-no-instant src="http://twnsnd.co/javascripts/smooth-scroll.min.js"></script>
+<script src="http://twnsnd.co/javascripts/smooth-scroll.min.js"></script>
 
 <script>
  $(document).ready(function() {
   $('a').smoothScroll({offset: -20});
   $('#work').smoothScroll({offset: -60});
-  $('#top').smoothScroll({offset: 120});
  });
+</script>
+
+<script>
+$('.top').click(function() {
+$('html, body').animate({ scrollTop: 0 }, "slow");
+  return false;
+});
 </script>
 
 <script data-no-instant>
@@ -193,7 +187,9 @@ $(".buffalo").velocity("transition.bounceIn");
 </script>
 
   <small>
-    <a href="#top">To Top</a> <br>
+    
+    <a href="http://twnsnd.co/work">More</a> <br>
+    
     <img class="buffalo-icon" src="/images/assets/buffalo-blue.svg"> Made in Buffalo <br> © 2015 Cole Townsend
   </small>
 </footer>

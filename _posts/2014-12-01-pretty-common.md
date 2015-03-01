@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: Pretty Common
-date: 2014-12-01
+date: 2014-10-01
 category: "work"
 accent_color: "#000000"
 role: Designer and Developer

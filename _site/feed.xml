@@ -73,7 +73,7 @@
 		
 			<item>
 				<title>Nomad CLI</title>
-				<description>&lt;p&gt;&lt;a href=&quot;http://nomad.cool&quot;&gt;Nomad&lt;/a&gt; package manager for Arduino. In three commands, you can get your device up and running within minutes using the most popular libraries on the internet. You can also easily package and share your own&amp;nbsp;setup.&lt;/p&gt;
+				<description>&lt;p&gt;Nomad package manager for Arduino. In three commands, you can get your device up and running within minutes using the most popular libraries on the internet. You can also easily package and share your own&amp;nbsp;setup.&lt;/p&gt;
 
 &lt;h2&gt;Logo&lt;/h2&gt;
 
@@ -727,9 +727,54 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 
 
 </description>
-				<pubDate>Mon, 01 Dec 2014 00:00:00 -0500</pubDate>
+				<pubDate>Wed, 01 Oct 2014 00:00:00 -0400</pubDate>
 				<link>http://twnsnd.co/work/pretty-common</link>
 				<guid isPermaLink="true">http://twnsnd.co/work/pretty-common</guid>
+			</item>
+		
+			<item>
+				<title>Williams Outing Club</title>
+				<description>&lt;p&gt;The Williams Outing Club is responsible for connecting students with beautiful mountains, forests, and trail systems we have in the Purple Valley. They organize hikes, ski trips, lend equipment, and keep otherwise library bound students active. &lt;span class=&quot;caps&quot;&gt;WOC&lt;/span&gt; highlights during the academic year include &lt;span class=&quot;caps&quot;&gt;WOOLF&lt;/span&gt; (backpacking trips for incoming Frosh), Friday morning hikes, and Mountain Day. These all revolve around the surrounding Berkshire Mountains. In the current logo, &lt;span class=&quot;caps&quot;&gt;WOC&lt;/span&gt; is juxtaposed against trees, but it doesn&amp;#8217;t quite seem unified nor emphasize the mountainous&amp;nbsp;locale.&lt;/p&gt;
+
+&lt;p&gt;I was inspired to start working on this logo while procrastinating. I had an architecture project due in a few days, and wanted to be productive, but couldn&amp;#8217;t focus on the actual building. I set out to create a logotype that incorporated the environment and attitude of&amp;nbsp;&lt;span class=&quot;caps&quot;&gt;WOC.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;I recently purchased &lt;a href=&quot;http://www.ultratypes.com/product/sifonn-pro&quot;&gt;Sifonn&lt;/a&gt;, a beautiful display face with a ton of glyphs. The &amp;#8220;W&amp;#8221; of Sifonn is staggered, just like the mountains that overlap on the Purple Valley horizon.  I found a great balance between balanced geometric shapes that unified the outing club with the&amp;nbsp;mountains.&lt;/p&gt;
+
+&lt;p&gt;I bridged the remaining space with two lines, one continuing from the mountains, the other slightly cut off. These unify the logo, but don&amp;#8217;t serve any symbolic purpose. The real idea was to balance it, without detracting from the play of the W and the&amp;nbsp;mountains.&lt;/p&gt;
+
+&lt;p&gt;I applied the logo in several different branding schemes to give an idea of how it might be&amp;nbsp;used.&lt;/p&gt;
+
+&lt;div class=&quot;clearfix&quot;&gt;
+
+&lt;figure class=&quot;grid-full&quot; &gt;
+  
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/WOC-stationary.jpg&quot; title=&quot;Home Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/WOC-stationary.jpg&quot; alt=&quot;Home Page&quot; title=&quot;Home Page&quot;&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Business Cards&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;clearfix&quot;&gt;
+
+&lt;figure class=&quot;grid-full&quot; &gt;
+  
+  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/WOC-poster.png&quot; title=&quot;Home Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/WOC-poster.png&quot; alt=&quot;Home Page&quot; title=&quot;Home Page&quot;&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Branding Posters&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;/div&gt;
+
+
+
+</description>
+				<pubDate>Mon, 25 Aug 2014 13:01:12 -0400</pubDate>
+				<link>http://twnsnd.co/work/williams-outing-club</link>
+				<guid isPermaLink="true">http://twnsnd.co/work/williams-outing-club</guid>
 			</item>
 		
 			<item>
@@ -749,9 +794,7 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 
 &lt;p&gt;Inspired by &lt;a href=&quot;thenews.im&quot;&gt;thenews.im&lt;/a&gt; by &lt;a href=&quot;twitter.com/ahmetsulek&quot;&gt;Ahmet Sulek&lt;/a&gt;, &lt;a href=&quot;twitter.com/tosinaf&quot;&gt;Tosin Afolabi&lt;/a&gt;, and I decided to bring it over to i&lt;span class=&quot;caps&quot;&gt;OS.&lt;/span&gt; It takes advantage of native gestures, as well as conditioned gestures to make for a clean, natural feeling experience. I was lucky enough to have a target user base that is experienced with gestures. Swiping the navigation bar at the top switches between Designer and Hacker News. Swiping a post from right to left takes the user to the comment thread. Swiping from left to right &amp;#8220;up votes&amp;#8221; the&amp;nbsp;post.&lt;/p&gt;
 
-&lt;p&gt;You can see the app landing page here: &lt;a href=&quot;http://thenewsapp.co&quot;&gt;TheNews App&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div&gt;
+&lt;div class=&quot;clearfix&quot;&gt;
 
 &lt;figure class=&quot;grid-4&quot; &gt;
   &lt;figcaption&gt;Commenting&lt;/figcaption&gt;
@@ -785,21 +828,11 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 &lt;/div&gt;
 
 
+&lt;p&gt;You can see the app landing page here: &lt;a href=&quot;http://thenewsapp.co&quot;&gt;TheNews App&lt;/a&gt;. It is built with Unslider and Bourbon Neat, hosted on Github&amp;nbsp;Pages.&lt;/p&gt;
 
-
-&lt;div&gt;
-
-&lt;figure class=&quot;grid-full&quot; &gt;
-  
-  &lt;a role=&quot;fluidbox&quot; class=&quot;&quot; href=&quot;http://twnsnd.co/images/inline/thenews-app-site.png&quot; title=&quot;TheNews App Landing Page&quot;&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/thenews-app-site.png&quot; alt=&quot;TheNews App Landing Page&quot; title=&quot;TheNews App Landing Page&quot;&gt;&lt;/a&gt;
-  &lt;figcaption&gt;TheNews App Site&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-
-&lt;/div&gt;
-
-
-
+&lt;p&gt;&lt;figure class=&quot;full-width&quot;&gt;
+  &lt;img src=&quot;http://twnsnd.co/images/inline//thenews-mocks/thenews.jpg&quot; alt=&quot;&quot; title=&quot;&quot;&gt;&lt;/a&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
 				<pubDate>Thu, 12 Jun 2014 16:53:04 -0400</pubDate>
 				<link>http://twnsnd.co/work/thenews</link>
@@ -868,36 +901,6 @@ echo &quot;Done. Note that some of these changes require a logout/restart to tak
 				<pubDate>Tue, 27 May 2014 00:00:00 -0400</pubDate>
 				<link>http://twnsnd.co/work/meeet</link>
 				<guid isPermaLink="true">http://twnsnd.co/work/meeet</guid>
-			</item>
-		
-			<item>
-				<title>Tuchuang</title>
-				<description>&lt;h2&gt;Logo&lt;/h2&gt;
-
-&lt;p&gt;I developed the logo as well as business cards for the company. In the logo, I aimed to communicate trustworthiness, stability, and approachability. After many different sketches, I chose an off centered, three dimensional &amp;#8220;T&amp;#8221;. A flat &amp;#8220;T&amp;#8221; seemed a bit boring, interchangeable, unapproachable. It didn&amp;#8217;t communicate the close relationship that Tuchuang aims to develop with clients. Adding a dimension and separating the sides gave it a bit of visual interest, while still communicating Tuchuang&amp;#8217;s professionalism, effectiveness, and strength. The end result is easily reproduced, visually consistent in all media, and scales&amp;nbsp;perfectly.&lt;/p&gt;
-
-&lt;h2&gt;Business&amp;nbsp;Cards&lt;/h2&gt;
-
-&lt;p&gt;With a template already in mind, I created a slightly more unique business card that would look great in both Chinese and&amp;nbsp;English.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/tuch-biz-front.png&quot;&gt;
-&lt;img src=&quot;http://twnsnd.co/images/inline/tuch-biz-back.png&quot;&gt;&lt;/p&gt;
-
-&lt;h2&gt;Website&lt;/h2&gt;
-
-&lt;p&gt;I provided the layout, illustrations, as well as &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; for various&amp;nbsp;elements.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://twnsnd.co/images/inline/tuch-illust.png&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure class=&quot;web&quot;&gt;
-&lt;img class=&quot;land-img&quot; src=&quot;http://twnsnd.co/images/inline/tuch-small-land.jpg&quot;&gt;
-&lt;/figure&gt;&lt;/p&gt;
-</description>
-				<pubDate>Mon, 26 May 2014 17:01:50 -0400</pubDate>
-				<link>http://twnsnd.co/work/tuchuang</link>
-				<guid isPermaLink="true">http://twnsnd.co/work/tuchuang</guid>
 			</item>
 		
 	</channel>

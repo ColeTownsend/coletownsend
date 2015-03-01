@@ -2,7 +2,7 @@
 layout: portfolio
 
 title: Williams Outing Club
-date: "2014-02-25 13:01:12"
+date: "2014-08-25 13:01:12"
 category: work
 accent_color: "#383838"
 title-color: ""
@@ -22,6 +22,11 @@ I bridged the remaining space with two lines, one continuing from the mountains,
 
 I applied the logo in several different branding schemes to give an idea of how it might be used.
 
+<div class="clearfix">
 {% include _fluidbox.html grid="full" class="" alt="Home Page" url="WOC-stationary.jpg" cap="Business Cards" %}
-{% include _fluidbox.html grid="full" class="" alt="Home Page" url="WOC-poster.jpg" cap="Branding Posters" %}
+</div>
+
+<div class="clearfix">
+{% include _fluidbox.html grid="full" class="" alt="Home Page" url="WOC-poster.png" cap="Branding Posters" %}
+</div>
 

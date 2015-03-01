@@ -98,6 +98,10 @@ a[data="disabled"] {
   }
 }
 
+.cleafix {
+  @include clearfix();
+}
+
 @import "navigation";
 @import "home-page";
 @import "posts";

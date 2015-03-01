@@ -7,17 +7,19 @@ Buffalo is the second largest city in New York State. It has its own subway. It 
 
 ###### Locations
 * The Waterfront
-* The Japanese Garden
-* Allentown
 * Elmwood Village
+* The Hotel Lafayette
+* Downtown
+* The Japanese Gardens
+* Albright Knox
 
-<div>
-{% include _fluidbox.html grid="full" class="" alt="TheNews App Landing Page" url="buffalo-skyline.jpg" loweres="" %} 
-</div>
 
 ###### Cafés
 - Spot, Elmwood
 - Café Aroma
+- Public Coffee at Hotel Lafeyette
+
+{% include _fullwidth.html url="public-espresso.jpg"  %}
 
 ###### Restaurants
 - Amy's Place

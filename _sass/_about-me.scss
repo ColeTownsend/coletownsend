@@ -22,6 +22,9 @@
     &:hover {
       opacity: 1;
       @include retina-image("../images/assets/buffalo-red", 2rem 2rem);
+      @include hidpi(1.5) {
+        background-size: 1.5rem 1.5rem;
+      }
       // @include background(url("../images/assets/buffalo-red.svg"), center center no-repeat);
       background-repeat: no-repeat;
       @include transition(background .3s $base-transition-timing);

@@ -9,3 +9,32 @@
     color: darken($line-color, 5%);
   }
 }
+
+@mixin cross($direction: left, $length: $base-line-height, $color: $base-accent-color) {
+  &:after {
+    content: '';
+    position: absolute;
+    @include transform(rotate(-45deg));
+    width: $length;
+    top: 50%;
+    $direction: -$length;
+    height: 1px;
+    background: $color;
+    @include media($small) {
+      display: none;
+    }
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    @include transform(rotate(45deg));
+    width: $length;
+    top: 50%;
+    $direction: -$length;
+    height: 1px;
+    background: $color;
+    @include media($small) {
+      display: none;
+    }
+  }
+}
