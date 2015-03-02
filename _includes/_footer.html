@@ -3,9 +3,10 @@
   <small>
     {% if page.category %}
     <a href="{{ site.url }}/{{ page.category }}">More</a> <br>
+    {% elsif page.layout == 'about' %}
     {% else %}
     <a href="{{ site.url }}/about">About Me</a> <br>
     {% endif %}
-    <img class="buffalo-icon" src="/images/assets/buffalo-blue.svg"> Made in Buffalo <br> © 2015 Cole Townsend
+    <img class="buffalo-icon" src="/images/assets/buffalo-blue.svg"> Made in Buffalo <br> © {{ site.time | date: '%Y' }} Cole Townsend
   </small>
 </footer>
